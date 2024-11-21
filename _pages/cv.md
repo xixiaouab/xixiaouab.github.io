@@ -22,6 +22,9 @@ Work Experience
 * Fall 2023: Research Assistant
   * Zhejiang University/University of Missouri
 
+* Fall 2022: Computer Vision Intership
+  * Institute of Disaster Prevention and Mitigation, Southwest Jiaotong University
+  * 
 * Fall 2021: Algorithm Intership
   * JD Technology
   
