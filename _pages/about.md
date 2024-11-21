@@ -1,18 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm a first year Ph.D student from the [Department of Computer Science](https://www.uab.edu/cas/computerscience/), [University of Alabama at Birmingham](https://www.uab.edu/home/). My research interest includes Computer Vision, Natural Language Processing, Large Foundation Models and Prompt Engineering.																				          	
-I am very fortunate to be advised by [Prof. Min Xu](https://xulabs.github.io/min-xu/) of Xu Lab from [School of Computer Science](https://www.cs.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/) and [Prof. Tianyang Wang](https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en) from [University of Alabama at Birmingham](https://www.uab.edu/home/), working with [Dr.Xingjian Li] from [Carnegie Mellon University](https://www.cmu.edu/).
+I'm a first year Ph.D student from the [Department of Computer Science](https://www.uab.edu/cas/computerscience/), [University of Alabama at Birmingham](https://www.uab.edu/home/). I am very fortunate to be advised by [Prof. Min Xu](https://xulabs.github.io/min-xu/) of Xu Lab from [School of Computer Science](https://www.cs.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/) and [Prof. Tianyang Wang](https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en) from [University of Alabama at Birmingham](https://www.uab.edu/home/), working with [Dr.Xingjian Li](https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en) from [Carnegie Mellon University](https://www.cmu.edu/).
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+My research interest includes Computer Vision, Natural Language Processing, Large Foundation Models and Prompt Engineering.	
 
-A data-driven personal website
+You can find my CV here: [XiXiao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+
+News🔥
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
