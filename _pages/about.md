@@ -18,7 +18,7 @@ Selected Publications
 M
 
 Professional Service
-------
+======
 IEEE TCSVT Reviewer
 
 ECCV 2024 Reviewer
