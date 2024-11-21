@@ -11,7 +11,6 @@ Hi👋! I'm Xi Xiao, a first year Ph.D student from the [Department of Computer 
 
 My research interest includes Computer Vision, Natural Language Processing, Large Foundation Models and Prompt Engineering.	
 
-You can find my CV here: [XiXiao's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 Selected Publications
 ======
