@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first year Ph.D student from the [Department of Computer Science](https://www.uab.edu/cas/computerscience/), [University of Alabama at Birmingham](https://www.uab.edu/home/). I am very fortunate to be advised by [Prof. Min Xu](https://xulabs.github.io/min-xu/) of Xu Lab from [School of Computer Science](https://www.cs.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/) and [Prof. Tianyang Wang](https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en) from [University of Alabama at Birmingham](https://www.uab.edu/home/), working with [Dr.Xingjian Li](https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en) from [Carnegie Mellon University](https://www.cmu.edu/).
+Hi👋! I'm Xi Xiao, a first year Ph.D student from the [Department of Computer Science](https://www.uab.edu/cas/computerscience/), [University of Alabama at Birmingham](https://www.uab.edu/home/). I am very fortunate to be advised by [Prof. Min Xu](https://xulabs.github.io/min-xu/) of Xu Lab from [School of Computer Science](https://www.cs.cmu.edu/), [Carnegie Mellon University](https://www.cmu.edu/) and [Prof. Tianyang Wang](https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en) from [University of Alabama at Birmingham](https://www.uab.edu/home/), working with [Dr.Xingjian Li](https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en) from [Carnegie Mellon University](https://www.cmu.edu/).
 
 My research interest includes Computer Vision, Natural Language Processing, Large Foundation Models and Prompt Engineering.	
 
@@ -19,7 +19,7 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
