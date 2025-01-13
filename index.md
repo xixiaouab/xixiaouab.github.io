@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi👋, I am Xi Xiao, a second-year Ph.D student at the Department of Computer Science, University of Alabama at Birmingham, co-supervised by Dr. Min Xu from CMU and Dr. Tianyang Wang from UAB, working with Dr. Xingjian Li from CMU.
+Hi👋, I am Xi Xiao, a second-year Ph.D student at the Department of Computer Science, University of Alabama at Birmingham, co-supervised by <strong><a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a></strong> from <strong> CMU</strong> and Dr. Tianyang Wang from UAB, working with Dr. Xingjian Li from CMU.
 
 ## Research Interests
 
