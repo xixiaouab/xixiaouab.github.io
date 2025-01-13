@@ -1,5 +1,7 @@
 ## Services
 <h4 style="margin:0 10px 0;">Conference Session Chair</h4>
+
+<ul style="margin:0 0 5px;">
   <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE International Conference on Pattern Recognition and Artificial Intelligence (PRAI) 2022</autocolor></a></li>
 </ul>
 
