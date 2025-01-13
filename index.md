@@ -13,12 +13,12 @@ My research interests span Computer Vision and Natural Language Processing, curr
 ## News
 
 - **[Dec. 2024]** I became a reviewer for IJCNN 2025!
-- **[Dec. 2020]** Our work(first-authored) is accepted by ICASSP 2025!
-- **[Sept. 2019]** Our work(first-authored) is accepted by ICTAI 2024!
-- **[Aug. 2019]** Our work(first-authored) is accepted by ICONIP 2024!
-- **[Jul. 2019]** I became a reviewer for ICONIP 2024!
-- **[Jul. 2019]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
-- **[Mar. 2019]** I became a reviewer for IEEE TCSVT!
+- **[Dec. 2024]** Our work(first-authored) is accepted by ICASSP 2025!
+- **[Sept. 2024]** Our work(first-authored) is accepted by ICTAI 2024!
+- **[Aug. 2024]** Our work(first-authored) is accepted by ICONIP 2024!
+- **[Jul. 2024]** I became a reviewer for ICONIP 2024!
+- **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
+- **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
 
 {% include_relative _includes/publications.md %}
 
