@@ -4,19 +4,21 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+Hi👋, I am Xi Xiao, a second-year Ph.D student at the Department of Computer Science, University of Alabama at Birmingham, co-supervised by Dr. Min Xu from CMU and Dr. Tianyang Wang from UAB, working with Dr. Xingjian Li from CMU.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+I have a broad interest in Computer Vision and Natural Language Processing, with a recent focus on LVMs, Prompt Engineering, and exploring applications involving MLLMs.
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Dec. 2024]** I became a reviewer for IJCNN 2025!
+- **[Dec. 2020]** Our work(first-authored) is accepted by ICASSP 2025!
+- **[Sept. 2019]** Our work(first-authored) is accepted by ICTAI 2024!
+- **[Aug. 2019]** Our work(first-authored) is accepted by ICONIP 2024!
+- **[Jul. 2019]** I became a reviewer for ICONIP 2024!
+- **[Jul. 2019]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
+- **[Mar. 2019]** I became a reviewer for IEEE TCSVT!
 
 {% include_relative _includes/publications.md %}
 
