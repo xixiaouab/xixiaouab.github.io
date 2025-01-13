@@ -8,7 +8,7 @@ Hi👋, I am Xi Xiao, a second-year Ph.D student at the Department of Computer S
 
 ## Research Interests
 
-My research interests span Computer Vision and Natural Language Processing, currently focusing on Large Vision Models (LVMs), Prompt Engineering, and innovative applications of Multimodal Large Language Models (MLLMs).
+My research interests include Computer Vision and Natural Language Processing, currently focusing on Large Vision Models (LVMs), Prompt Engineering, and innovative applications of Multimodal Large Language Models (MLLMs).
 
 ## News
 
