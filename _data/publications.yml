@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/abs/2406.17697
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/architecture.png
+    image: ./assets/img/iconip.png
     notes: Accept
 
   - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
@@ -27,7 +27,7 @@ main:
     pdf: https://arxiv.org/abs/2405.12328
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/architecture.png
+    image: ./assets/img/ICTAI.png
     notes: Accept (* equal contribution)
 
 
