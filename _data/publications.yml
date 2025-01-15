@@ -4,11 +4,33 @@ main:
     authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
     conference_short: ICASSP
     conference: IEEE International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    # pdf: https://arxiv.org/pdf/2306.00988.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/architecture.png
     notes: Accept
+
+  - title: "HGTDP-DTA: Hybrid Graph-Transformer with Dynamic Prompt for Drug-Target Binding Affinity Prediction"
+    authors: <strong>Xi Xiao</strong>, Wentao Wang, Jiacheng Xie, Lijing Zhu, Gaofei Chen, Zhengji Li, Tianyang Wang, Min Xu
+    conference_short: ICONIP
+    conference: International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2406.17697
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/architecture.png
+    notes: Accept
+
+  - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
+    authors: Wentao Wang*, <strong>Xi Xiao*</strong>, Mingjie Liu, Qing Tian, Xuanyao Huang, Qizhen Lan, Swalpa Kumar Roy, Tianyang Wang
+    conference_short: ICTAI
+    conference: IEEE International Conference on Tools with Artificial Intelligence <strong>(ICTAI)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2405.12328
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/architecture.png
+    notes: Accept (* equal contribution)
+
+
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
