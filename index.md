@@ -12,10 +12,11 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 ## News
 
+- **[Dec. 2024]** &#x1F389 I will be joining the Computational Sciences and Engineering Division at Oak Ridge National Laboratory(ORNL) as a research intern in the summer of 2025, looking forward to contributing great work!
 - **[Dec. 2024]** I became a reviewer for IJCNN 2025!
-- **[Dec. 2024]** Our work(first-authored) is accepted by ICASSP 2025!
-- **[Sept. 2024]** Our work(first-authored) is accepted by ICTAI 2024!
-- **[Aug. 2024]** Our work(first-authored) is accepted by ICONIP 2024!
+- **[Dec. 2024]** &#x1F389 Our work(first-authored) is accepted by ICASSP 2025!
+- **[Sept. 2024]** &#x1F389 Our work(first-authored) is accepted by ICTAI 2024!
+- **[Aug. 2024]** &#x1F389 Our work(first-authored) is accepted by ICONIP 2024!
 - **[Jul. 2024]** I became a reviewer for ICONIP 2024!
 - **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
 - **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
