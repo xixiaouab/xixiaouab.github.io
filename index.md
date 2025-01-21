@@ -22,9 +22,24 @@ My research interests include Computer Vision and Natural Language Processing, c
 - **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
 - **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
 
-{% include_relative _includes/publications.md %}
+## Experience
 
-{% include_relative _includes/services.md %}
+### Oak Ridge National Laboratory
+- **2025.05 ~ present**
+- **Location:** Oak Ridge, TN, USA
+- **Role:** Research Intern  
+- **Supervisor:** <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>
+
+### University of Alabama at Birmingham
+- **2024.01 ~ present**
+- **Location:** Birmingham, AL, USA 
+- **Degree:** Ph.D. in Computer Science
+- **Supervisor:** <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a>
+
+### Sichuan University Jincheng College
+- **2019.09 ~ 2023.06**
+- **Location:** Chengdu, Sichuan, China 
+- **Degree:** B.Eng. in Artificial Intelligence
 
 ## Global Visitors Map
 
