@@ -53,7 +53,7 @@ My research interests include Computer Vision and Natural Language Processing, c
     <p><strong>2019.09 ~ 2023.06</strong></p>
     <p>Location: Chengdu, Sichuan, China</p>
     <p>Degree: B.Eng. in Artificial Intelligence</p>
-    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=wGzmb8oAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Zhengji Li</a></p>
+    <p>Supervisor: <a href="https://www.nae.edu/27926/Dr-Steve-S-Chen" target="_blank">Dr. Steve Chen</a></p> and <a href="https://scholar.google.com/citations?hl=en&user=wGzmb8oAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Zhengji Li</a></p>
   </div>
 </div>
 
