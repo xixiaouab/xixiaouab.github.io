@@ -24,22 +24,37 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 ## Experience
 
-### Oak Ridge National Laboratory
-- **2025.05 ~ present**
-- **Location:** Oak Ridge, TN, USA
-- **Role:** Research Intern  
-- **Supervisor:** <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>
+<div class="experience-item">
+  <img src="path/to/ornl-logo.png" alt="ORNL Logo" class="experience-logo">
+  <div>
+    <h4>Oak Ridge National Laboratory</h4>
+    <p><strong>2025.05 ~ present</strong></p>
+    <p>Location: Oak Ridge, TN, USA</p>
+    <p>Role: Research Intern</p>
+    <p>Supervisor: <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a></p>
+  </div>
+</div>
 
-### University of Alabama at Birmingham
-- **2024.01 ~ present**
-- **Location:** Birmingham, AL, USA 
-- **Degree:** Ph.D. in Computer Science
-- **Supervisor:** <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a>
+<div class="experience-item">
+  <img src="path/to/uab-logo.png" alt="UAB Logo" class="experience-logo">
+  <div>
+    <h4>University of Alabama at Birmingham</h4>
+    <p><strong>2024.01 ~ present</strong></p>
+    <p>Location: Birmingham, AL, USA</p>
+    <p>Degree: Ph.D. in Computer Science</p>
+    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a></p>
+  </div>
+</div>
 
-### Sichuan University Jincheng College
-- **2019.09 ~ 2023.06**
-- **Location:** Chengdu, Sichuan, China 
-- **Degree:** B.Eng. in Artificial Intelligence
+<div class="experience-item">
+  <img src="path/to/scu-logo.png" alt="SCU Logo" class="experience-logo">
+  <div>
+    <h4>Sichuan University Jincheng College</h4>
+    <p><strong>2019.09 ~ 2023.06</strong></p>
+    <p>Location: Chengdu, Sichuan, China</p>
+    <p>Degree: B.Eng. in Artificial Intelligence</p>
+  </div>
+</div>
 
 ## Global Visitors Map
 
