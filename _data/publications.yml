@@ -1,5 +1,21 @@
 main:
 
+
+
+
+
+
+  - title: "Prompting Vision Foundation Models with Cascaded Semantics"
+    authors: <strong>Xi Xiao</strong>, Xingjian Li, Guosheng Hu, Tianyang Wang, Min Xu
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    image: ./assets/img/cvpr.png
+
   - title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
     authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
     conference_short: ICASSP
@@ -9,7 +25,6 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/architecture.png
     notes: Accept
-
 
 
 
