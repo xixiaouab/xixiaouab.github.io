@@ -1,6 +1,3 @@
----
----
-
 @import "minimal-light";
 
 .experience-item {
@@ -10,8 +7,9 @@
 }
 
 .experience-logo {
-  width: 100px; /* 图片宽度 */
-  height: auto; /* 图片按比例缩放 */
+  width: 80px !important; /* 图片宽度，调整为更合适的大小，确保优先级 */
+  height: auto !important; /* 图片按比例缩放，确保不失真 */
+  max-height: 80px; /* 限制最大高度，避免图片过高 */
   margin-right: 20px; /* 图片和文字间距 */
 }
 
