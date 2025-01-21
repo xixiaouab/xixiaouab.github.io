@@ -26,7 +26,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 <div class="experience-item">
   <img src="assets/img/oak.png" alt="ORNL Logo" class="experience-logo">
-  <div>
+  <div class="experience-text">
     <h4>Oak Ridge National Laboratory</h4>
     <p><strong>2025.05 ~ present</strong></p>
     <p>Location: Oak Ridge, TN, USA</p>
@@ -37,7 +37,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 <div class="experience-item">
   <img src="assets/img/uab.png" alt="UAB Logo" class="experience-logo">
-  <div>
+  <div class="experience-text">
     <h4>University of Alabama at Birmingham</h4>
     <p><strong>2024.01 ~ present</strong></p>
     <p>Location: Birmingham, AL, USA</p>
@@ -47,8 +47,8 @@ My research interests include Computer Vision and Natural Language Processing, c
 </div>
 
 <div class="experience-item">
-  <img src="assets/img/sichuan_.png" alt="SCU Logo" class="experience-logo">
-  <div>
+  <img src="assets/img/sichuan.png" alt="SCU Logo" class="experience-logo">
+  <div class="experience-text">
     <h4>Sichuan University Jincheng College</h4>
     <p><strong>2019.09 ~ 2023.06</strong></p>
     <p>Location: Chengdu, Sichuan, China</p>
