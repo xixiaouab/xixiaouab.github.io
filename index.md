@@ -47,7 +47,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 </div>
 
 <div class="experience-item">
-  <img src="assets/img/sichuan.png" alt="SCU Logo" class="experience-logo">
+  <img src="assets/img/sichuan_.png" alt="SCU Logo" class="experience-logo">
   <div>
     <h4>Sichuan University Jincheng College</h4>
     <p><strong>2019.09 ~ 2023.06</strong></p>
