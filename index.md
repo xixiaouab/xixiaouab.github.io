@@ -25,3 +25,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+## Global Visitors Map
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=NBSwJ18qj5d7-eevKHYk0hX3PRgsAZBzDSD2uMKZuY0&c=ffffff&w=a"></script>
