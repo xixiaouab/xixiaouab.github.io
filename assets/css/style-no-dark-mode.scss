@@ -2,3 +2,39 @@
 ---
 
 @import "minimal-light-no-dark-mode";
+
+.experience-item {
+  display: flex;
+  align-items: center; /* 图片和文字垂直居中 */
+  margin-bottom: 20px; /* 每个经验条目的间距 */
+}
+
+.experience-logo {
+  width: 80px !important; /* 图片宽度，调整为更合适的大小，确保优先级 */
+  height: auto !important; /* 图片按比例缩放，确保不失真 */
+  max-height: 80px; /* 限制最大高度，避免图片过高 */
+  margin-right: 20px; /* 图片和文字间距 */
+}
+
+.experience-text {
+  flex-grow: 1; /* 确保文字占用剩余空间 */
+}
+
+.experience-item h4 {
+  font-size: 1.2em; /* 标题字体大小 */
+  margin: 0;
+}
+
+.experience-item p {
+  margin: 4px 0; /* 调整段落间距 */
+  color: #555; /* 文字颜色 */
+}
+
+.experience-item a {
+  color: #6c63ff; /* 链接颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+.experience-item a:hover {
+  text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
