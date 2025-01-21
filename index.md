@@ -31,7 +31,7 @@ My research interests include Computer Vision and Natural Language Processing, c
     <p><strong>2025.05 ~ present</strong></p>
     <p>Location: Oak Ridge, TN, USA</p>
     <p>Role: Research Intern</p>
-    <p>Supervisor: <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a></p>
+    <p>Supervisor: <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> and <a href="https://www.ornl.gov/staff-profile/isaac-r-lyngaas" target="_blank">Dr. Isaac R Lyngaas</a> </p>
   </div>
 </div>
 
@@ -42,7 +42,7 @@ My research interests include Computer Vision and Natural Language Processing, c
     <p><strong>2024.01 ~ present</strong></p>
     <p>Location: Birmingham, AL, USA</p>
     <p>Degree: Ph.D. in Computer Science</p>
-    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a></p>
+    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a> and <a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a> </p>
   </div>
 </div>
 
