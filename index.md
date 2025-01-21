@@ -22,6 +22,9 @@ My research interests include Computer Vision and Natural Language Processing, c
 - **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
 - **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
 
+
+{% include_relative _includes/publications.md %}
+
 ## Experience
 
 <div class="experience-item">
@@ -62,7 +65,7 @@ My research interests include Computer Vision and Natural Language Processing, c
   </div>
 </div>
 
-{% include_relative _includes/publications.md %}
+
 
 {% include_relative _includes/services.md %}
 
