@@ -36,7 +36,7 @@ My research interests include Computer Vision and Natural Language Processing, c
     <p><strong>2024.01 ~ present</strong></p>
     <p>Location: Birmingham, AL, USA</p>
     <p>Degree: Ph.D. in Computer Science</p>
-    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a> and <a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a> </p>
+    <p>Supervisor: <a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a> and <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a> </p>
   </div>
 </div>
 
