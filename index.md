@@ -12,7 +12,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 ## News
 
-- **[Feb. 2025]** 🌟 Exciting news! I will be joining the Computational Sciences and Engineering Division at <strong> Oak Ridge National Laboratory (ORNL)</strong> as a research intern in the summer of 2025. My work will focus on large vision models and high-performance computing, I’m thrilled for the opportunity to contribute cutting-edge research at one of the world’s leading scientific institutions! 🚀
+- **[Feb. 2025]** 🌟 I will be joining the Computational Sciences and Engineering Division at <strong> Oak Ridge National Laboratory (ORNL)</strong> as a research intern in the summer of 2025. My work will focus on large vision models and high-performance computing, I’m thrilled for the opportunity to contribute cutting-edge research at one of the world’s leading scientific institutions! 🚀
 - **[Jan. 2025]** 🎉 Our work is accepted by Nature Scientific Reports!
 - **[Dec. 2024]** I became a reviewer for IJCNN 2025!
 - **[Dec. 2024]** 🎉 Our work(first-authored) is accepted by ICASSP 2025!
