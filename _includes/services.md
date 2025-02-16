@@ -1,5 +1,5 @@
 ## Services
-<h4 style="margin:0 10px 0;">Conference Session Chair</h4>
+<h4 style="margin:0 10px 0;">Conference Area Chair</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://www.prai.net/prai2022.html"><autocolor>IEEE International Conference on Pattern Recognition and Artificial Intelligence (PRAI) 2022</autocolor></a></li>
