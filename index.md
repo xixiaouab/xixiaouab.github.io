@@ -41,6 +41,17 @@ My research interests include Computer Vision and Natural Language Processing, c
 </div>
 
 <div class="experience-item">
+  <img src="assets/img/cmu.png" alt="CMU Logo" class="experience-logo">
+  <div class="experience-text">
+    <h4>Carnegie Mellon University</h4>
+    <p><strong>2023.09 ~ present</strong></p>
+    <p>Location: Remote</p>
+    <p>Role: Student Researcher</p>
+    <p>Supervisor: <a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a> and <a href="https://scholar.google.com/citations?hl=en&user=QbTV0r0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Dr. Tianyang Wang</a> </p>
+  </div>
+</div>
+
+<div class="experience-item">
   <img src="assets/img/sichuan_.png" alt="SCU Logo" class="experience-logo">
   <div class="experience-text">
     <h4>Sichuan University Jincheng College</h4>
