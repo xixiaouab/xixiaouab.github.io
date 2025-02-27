@@ -3,7 +3,7 @@ main:
 
 
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Guosheng Hu, Xiao Wang, Tianyang Wang, Min Xu
+    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
