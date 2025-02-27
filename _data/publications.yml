@@ -5,7 +5,7 @@ main:
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
     authors: <strong>Xi Xiao</strong>, Xingjian Li, Guosheng Hu, Xiao Wang, Tianyang Wang, Min Xu
     conference_short: ArXiv
-    conference: ArXiv</strong>, 2025.
+    conference: <strong>ArXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
