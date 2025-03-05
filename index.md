@@ -6,6 +6,8 @@ layout: homepage
 
 Hi👋, I am Xi Xiao, a second-year Ph.D student at the Department of Computer Science, University of Alabama at Birmingham, co-supervised by <strong><a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a></strong> from <strong> CMU</strong> and <strong><a href="https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en">Dr. Tianyang Wang</a></strong> from <strong> UAB</strong>, working with <strong><a href="https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en">Dr. Xingjian Li</a></strong> from <strong> CMU</strong>.
 
+Currently, I am a Research Intern at <strong>Oak Ridge National Laboratory</strong>, supervised by <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao Wang</a></strong>.
+
 ## Research Interests
 
 My research interests include Computer Vision and Natural Language Processing, currently focusing on Large Vision Models (LVMs), Prompt Engineering, and innovative applications of Multimodal Large Language Models (MLLMs).
