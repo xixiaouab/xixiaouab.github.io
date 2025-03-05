@@ -15,7 +15,7 @@ main:
 
 
   # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Guosheng Hu, Tianyang Wang, Min Xu
+  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
   #   conference_short: CVPR
   #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
   #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
