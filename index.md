@@ -27,7 +27,16 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 ## Experience
 
-
+<div class="experience-item">
+  <img src="assets/img/oak.png" alt="ORNL Logo" class="experience-logo">
+  <div class="experience-text">
+    <h4>Oak Ridge National Laboratory</h4>
+    <p><strong>2025.05 ~ present</strong></p>
+    <p>Location: Oak Ridge, TN, USA</p>
+    <p>Role: Research Intern</p>
+    <p>Supervisor: <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> and <a href="https://www.ornl.gov/staff-profile/isaac-r-lyngaas" target="_blank">Dr. Isaac R Lyngaas</a> </p>
+  </div>
+</div>
 
 <div class="experience-item">
   <img src="assets/img/uab.png" alt="UAB Logo" class="experience-logo">
