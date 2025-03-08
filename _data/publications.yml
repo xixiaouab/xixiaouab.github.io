@@ -42,7 +42,7 @@ main:
   - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
     authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
     conference_short: arXiv
-    conference:<strong>arXiv</strong>, 2025.
+    conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
