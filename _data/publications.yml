@@ -2,28 +2,28 @@ main:
 
 
 
-  # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Min Xu
-  #   conference_short: arXiv
-  #   conference: <strong>arXiv</strong>, 2025.
-  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Under Review
-  #   image: ./assets/img/cvpr.png
-
-
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
     authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+    conference_short: arXiv
+    conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
     image: ./assets/img/cvpr.png
+
+
+  # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
+  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/cvpr.png
 
 
 
