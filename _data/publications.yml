@@ -2,10 +2,22 @@ main:
 
 
 
+  # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
+  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Min Xu
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/cvpr.png
+
+
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
+    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
+    conference_short: CVPR
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
@@ -14,16 +26,30 @@ main:
     image: ./assets/img/cvpr.png
 
 
-  # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-  #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
-  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Under Review
-  #   image: ./assets/img/cvpr.png
+
+  - title: "MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization"
+    authors: Hengjia Li*, Lifan Jiang*, <strong>Xi Xiao*</strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai
+    conference_short: arXiv
+    conference:<strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    image: ./assets/img/magic.png
+
+
+  - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
+    authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
+    conference_short: arXiv
+    conference:<strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    image: ./assets/img/cad.png
+
 
   - title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
     authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
