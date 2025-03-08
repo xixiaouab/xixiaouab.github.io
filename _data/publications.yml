@@ -30,7 +30,7 @@ main:
   - title: "MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization"
     authors: Hengjia Li*, Lifan Jiang*, <strong>Xi Xiao*</strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai
     conference_short: arXiv
-    conference:<strong>arXiv</strong>, 2025.
+    conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
