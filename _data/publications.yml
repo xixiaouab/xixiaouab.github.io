@@ -2,6 +2,17 @@ main:
 
 
 
+  - title: "Visual Variational Autoencoder Prompt Tuning"
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
+    conference_short: arXiv
+    conference: <strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    image: ./assets/img/main.jpg
+
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
     authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
     conference_short: arXiv
@@ -31,9 +42,9 @@ main:
     authors: Hengjia Li*, Lifan Jiang*, <strong>Xi Xiao*</strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    pdf: https://arxiv.org/abs/2503.12689
+    code: https://github.com/EchoPluto/MagicID
+    page: https://echopluto.github.io/MagicID-project/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
     image: ./assets/img/magic.png
@@ -43,8 +54,8 @@ main:
     authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    pdf: https://arxiv.org/abs/2503.07938
+    code: https://anonymous.4open.science/r/CAD-VAE-8D9D/README.md
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
@@ -55,7 +66,7 @@ main:
     authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
     conference_short: ICASSP
     conference: IEEE International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2306.00988.pdf
+    pdf: https://arxiv.org/abs/2501.14302
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/architecture.png
