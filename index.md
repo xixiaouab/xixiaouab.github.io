@@ -6,14 +6,14 @@ layout: homepage
 
 Hi~ 👋 I'm **Xi Xiao (肖熙)**! I'm a 🎓 **second-year Ph.D. student** in the Department of Computer Science at **University of Alabama at Birmingham (UAB)**. I'm fortunate to be co-supervised by <strong><a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a></strong> from <strong> Carnegie Mellon University</strong> and <strong><a href="https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en">Dr. Tianyang Wang</a></strong> from <strong> University of Alabama at Birmingham</strong>, working closely with <strong><a href="https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en">Dr. Xingjian Li</a></strong> from <strong> Carnegie Mellon University</strong>.
 
-Currently, I'm a Graduate Student Researcher at **Oak Ridge National Laboratory (ORNL)**, working with [**Dr. Xiao Wang**](https://www.ornl.gov/staff-profile/xiao-wang) and [**Dr. Isaac R Lyngaas**](https://www.ornl.gov/staff-profile/isaac-r-lyngaas).
+Currently, I'm a Graduate Student Researcher at **Oak Ridge National Laboratory (ORNL)**, working with <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao</a></strong> Wang and <strong><a href="https://www.ornl.gov/staff-profile/isaac-r-lyngaas">Dr. Isaac R Lyngaas</a></strong>.
 
 ## 💬 A Little More…
-• 🏞️ I enjoy outdoor adventures — hiking, nature, and fresh air 🌲
-• 📸 Photography enthusiast — capturing little moments of beauty ✨
-• 🍜 Food lover — always down for discovering new tastes!
-• 🐶 Dog person 🐾
-• 💡 Life-long learner — curious about everything and always exploring 🌟
+- 🏞️ I enjoy outdoor adventures — hiking, nature, and fresh air 🌲
+- 📸 Photography enthusiast — capturing little moments of beauty ✨
+- 🍜 Food lover — always down for discovering new tastes!
+- 🐶 Dog person 🐾
+- 💡 Life-long learner — curious about everything and always exploring 🌟
 
 ## 🌱 Research Interests
 
