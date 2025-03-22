@@ -19,11 +19,11 @@ working with [**Dr. Xiao Wang**](https://www.ornl.gov/staff-profile/xiao-wang) a
 	•	🐶 Dog person 🐾
 	•	💡 Life-long learner — curious about everything and always exploring 🌟
 
-## Research Interests
+## 🌱 Research Interests
 
 My research interests include Computer Vision and Natural Language Processing, currently focusing on Large Vision Models (LVMs) and innovative applications of Multimodal Large Language Models (MLLMs).
 
-## News
+## 🚀 News
 
 - **[Feb. 2025]** 🌟 I will be joining the Computational Sciences and Engineering Division at <strong> Oak Ridge National Laboratory (ORNL)</strong> as a student researcher in the summer of 2025.
 - **[Jan. 2025]** 🎉 Our work is accepted by Nature Scientific Reports!
@@ -38,7 +38,7 @@ My research interests include Computer Vision and Natural Language Processing, c
 
 {% include_relative _includes/publications.md %}
 
-## Experience
+## 🧑‍🏫 Experience
 
 <div class="experience-item">
   <img src="assets/img/oak.png" alt="ORNL Logo" class="experience-logo">
