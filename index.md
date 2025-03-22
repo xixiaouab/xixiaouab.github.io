@@ -2,11 +2,22 @@
 layout: homepage
 ---
 
-## About Me
+<img src="https://i.imgur.com/YOUR_IMAGE_ID.png" width="150" style="border-radius: 50%; margin-bottom: 10px;" alt="profile-pic"/>
 
-Hi👋, I am Xi Xiao (肖熙), a second-year Ph.D student at the Department of Computer Science, <strong>University of Alabama at Birmingham</strong>, co-supervised by <strong><a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a></strong> from <strong> Carnegie Mellon University</strong> and <strong><a href="https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en">Dr. Tianyang Wang</a></strong> from <strong> University of Alabama at Birmingham</strong>, working closely with <strong><a href="https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en">Dr. Xingjian Li</a></strong> from <strong> Carnegie Mellon University</strong>.
+## 👩‍💻 About Me
 
-Currently, I am a Graduate Student Researcher at <strong>Oak Ridge National Laboratory</strong>, co-supervised by <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao Wang</a></strong> and <strong><a href="https://www.ornl.gov/staff-profile/isaac-r-lyngaas" target="_blank">Dr. Isaac R Lyngaas</a></strong>.
+Hi~ 👋 I'm **Xi Xiao (肖熙)**!  
+I'm a 🎓 **second-year Ph.D. student** in the Department of Computer Science at **University of Alabama at Birmingham (UAB)**.  
+
+I'm fortunate to be co-supervised by:  
+🧠 [**Dr. Min Xu**](https://xulabs.github.io/min-xu/) (Carnegie Mellon University)  
+🧑‍🏫 [**Dr. Tianyang Wang**](https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en) (UAB)  
+🤖 [**Dr. Xingjian Li**](https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en) (CMU)
+
+Currently, I'm a Graduate Student Researcher at 🧪 **Oak Ridge National Laboratory (ORNL)**,  
+working with [**Dr. Xiao Wang**](https://www.ornl.gov/staff-profile/xiao-wang) and [**Dr. Isaac R Lyngaas**](https://www.ornl.gov/staff-profile/isaac-r-lyngaas).
+
+
 
 ## Research Interests
 
