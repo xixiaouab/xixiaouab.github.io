@@ -11,7 +11,7 @@ Currently, I'm a Graduate Student Researcher at **Oak Ridge National Laboratory 
 
 ## 🌱 Research Interests
 
-My research interests include Computer Vision and Natural Language Processing, currently focusing on:
+I have a broad interest in Computer Vision and Natural Language Processing, currently focusing on:
 -	⚙️ Exploring innovative PEFT methods and training paradigms for scalable and efficient LLMs/LVMs/MLLMs
 -	🧠 Innovative applications of LLMs/LVMs/MLLMs
 
