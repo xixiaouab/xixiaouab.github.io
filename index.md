@@ -8,6 +8,14 @@ Hi~ 👋 I'm **Xi Xiao (肖熙)**! I'm a 🎓 **second-year Ph.D. student** in t
 
 Currently, I'm a Graduate Student Researcher at **Oak Ridge National Laboratory (ORNL)**, working with <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao</a></strong> Wang and <strong><a href="https://www.ornl.gov/staff-profile/isaac-r-lyngaas">Dr. Isaac R Lyngaas</a></strong>.
 
+
+## 🌱 Research Interests
+
+My research interests include Computer Vision and Natural Language Processing, currently focusing on:
+-	⚙️ Exploring innovative PEFT methods and training paradigms for scalable and efficient LLMs/LVMs/MLLMs
+-	🧠 Innovative applications of LLMs/LVMs/MLLMs
+
+
 ## 💬 A Little More…
 - 🏞️ I enjoy outdoor adventures — hiking, nature, and fresh air 🌲
 - 📸 Photography enthusiast — capturing little moments of beauty ✨
@@ -15,9 +23,7 @@ Currently, I'm a Graduate Student Researcher at **Oak Ridge National Laboratory 
 - 🐶 Dog person 🐾
 - 💡 Life-long learner — curious about everything and always exploring 🌟
 
-## 🌱 Research Interests
 
-My research interests include Computer Vision and Natural Language Processing, currently focusing on Large Vision Models (LVMs) and innovative applications of Multimodal Large Language Models (MLLMs).
 
 ## 🚀 News
 
