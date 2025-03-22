@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-<img src="https://i.imgur.com/YOUR_IMAGE_ID.png" width="150" style="border-radius: 50%; margin-bottom: 10px;" alt="profile-pic"/>
-
 ## 👩‍💻 About Me
 
 Hi~ 👋 I'm **Xi Xiao (肖熙)**!  
