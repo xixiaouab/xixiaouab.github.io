@@ -50,6 +50,18 @@ main:
     image: ./assets/img/magic.png
 
 
+  - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
+    authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
+    conference_short: arXiv
+    conference: <strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2002.10211.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    image: ./assets/img/1.pdf
+
+
   - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
     authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
     conference_short: arXiv
