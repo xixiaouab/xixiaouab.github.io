@@ -36,7 +36,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 - **[Jul. 2024]** I became a reviewer for ICONIP 2024!
 - **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
 - **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
-- **[Jan. 2024]** 🌟 Embarking on an exciting new journey! I officially started my Ph.D. studies at the University of Alabama at Birmingham.
+- **[Jan. 2024]** 🌟 Embarking on an exciting new journey! I officially started my Ph.D. studies at the <strong> University of Alabama at Birmingham</strong>.
 
 {% include_relative _includes/publications.md %}
 
