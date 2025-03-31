@@ -27,7 +27,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 ## 🚀 News
 
-- **[Feb. 2025]** 🌟 I will be joining the Computational Sciences and Engineering Division at <strong> Oak Ridge National Laboratory (ORNL)</strong> as a student researcher in the summer of 2025.
+- **[Apr. 2025]** 🎉 One paper accepted by IJCNN 2025!
 - **[Jan. 2025]** 🎉 One paper accepted by Nature Scientific Reports!
 - **[Dec. 2024]** I became a reviewer for IJCNN 2025!
 - **[Dec. 2024]** 🎉 One paper accepted by ICASSP 2025!
