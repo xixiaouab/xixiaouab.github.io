@@ -27,6 +27,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 ## 🚀 News
 
+- **[Apr. 2025]** I became a reviewer for ICANN 2025!
 - **[Apr. 2025]** 🎉 One paper accepted by IJCNN 2025!
 - **[Jan. 2025]** 🎉 One paper accepted by Nature Scientific Reports!
 - **[Dec. 2024]** I became a reviewer for IJCNN 2025!
