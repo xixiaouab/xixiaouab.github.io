@@ -2,6 +2,34 @@ main:
 
 
 
+
+
+
+
+  - title: "Instance-driven Visual Prompt Tuning"
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
+    conference_short: arXiv
+    conference: <strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2503.17650
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    # image: ./assets/img/main.jpg
+
+
+    
+  - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Yuxiang Wei, Xinyuan Song, Yanshu Li, Chenrui Ma, Xiao Wang, Hao Xu, Tianyang Wang
+    conference_short: arXiv
+    conference: <strong>arXiv</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2503.17650
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Under Review
+    # image: ./assets/img/main.jpg
+
   - title: "Visual Variational Autoencoder Prompt Tuning"
     authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
     conference_short: arXiv
