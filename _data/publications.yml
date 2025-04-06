@@ -28,7 +28,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
-    # image: ./assets/img/main.jpg
+    image: ./assets/img/total.png
 
   - title: "Visual Variational Autoencoder Prompt Tuning"
     authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
