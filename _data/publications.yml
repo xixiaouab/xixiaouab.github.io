@@ -20,7 +20,7 @@ main:
 
     
   - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Yuxiang Wei, Xinyuan Song, Hengjia Li, Gaofei Chen, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Yuxiang Wei, Xinyuan Song, Hengjia Li, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2503.17650
