@@ -6,7 +6,7 @@ main:
 
 
 
-  - title: "Instance-driven Visual Prompt Tuning"
+  - title: "Visual Instance-aware Prompt Tuning"
     authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
@@ -15,12 +15,12 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
-    image: ./assets/img/idvptoverall.png
+    image: ./assets/img/overall.png
 
 
     
   - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Yuxiang Wei, Xinyuan Song, Hengjia Li, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2503.17650
