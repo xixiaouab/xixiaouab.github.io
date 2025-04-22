@@ -8,6 +8,8 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
+  <li><a href="https://sites.google.com/view/mm25-spatial/home"><autocolor>ACM Multimedia (The 1st International Workshop on
+Multimodal Foundation Models for Spatial Intelligence) (MFMSI@ACM MM) 2025</autocolor></a></li>
   <li><a href="https://e-nns.org/icann2025/"><autocolor>International Conference on Artificial Neural Networks (ICANN) 2025</autocolor></a></li>
   <li><a href="https://2025.ijcnn.org/"><autocolor>International Joint Conference on Neural Networks (IJCNN) 2025</autocolor></a></li>
   <li><a href="https://iconip2024.org/"><autocolor>International Conference on Neural Information Processing (ICONIP) 2024</autocolor></a></li>
