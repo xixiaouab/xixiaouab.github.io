@@ -27,6 +27,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 ## 🚀 News
 
+- **[Apr. 2025]** I became a reviewer for MFMSI@ACM MM 2025!
 - **[Apr. 2025]** I became a reviewer for ICANN 2025!
 - **[Apr. 2025]** 🎉 One paper accepted by IJCNN 2025!
 - **[Jan. 2025]** 🎉 One paper accepted by Nature Scientific Reports!
@@ -35,7 +36,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 - **[Sept. 2024]** 🎉 One paper accepted by ICTAI 2024!
 - **[Aug. 2024]** 🎉 One paper accepted by ICONIP 2024!
 - **[Jul. 2024]** I became a reviewer for ICONIP 2024!
-- **[Jul. 2024]** I became a reviewer for Women in Computer Vision Workshop at ECCV 2024!
+- **[Jul. 2024]** I became a reviewer for WiCV@ECCV 2024!
 - **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
 - **[Jan. 2024]** 🌟 Embarking on an exciting new journey! I officially started my Ph.D. studies at the <strong> University of Alabama at Birmingham</strong>.
 
