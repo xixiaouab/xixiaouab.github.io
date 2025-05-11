@@ -32,8 +32,8 @@ main:
 
   - title: "Visual Variational Autoencoder Prompt Tuning"
     authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
+    conference_short: CVPRW 25
+    conference: <strong>FGVC@CVPR</strong>, 2025.
     pdf: https://arxiv.org/pdf/2503.17650
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
@@ -104,7 +104,7 @@ main:
 
   - title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
     authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
-    conference_short: ICASSP
+    conference_short: ICASSP 25
     conference: IEEE International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>, 2025.
     pdf: https://arxiv.org/abs/2501.14302
     # code: https://github.com/MrGiovanni/ContinualLearning
