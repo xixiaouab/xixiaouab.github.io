@@ -38,7 +38,7 @@ main:
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
+    notes: Accept
     image: ./assets/img/main.jpg
 
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
