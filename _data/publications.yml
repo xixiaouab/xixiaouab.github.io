@@ -2,67 +2,58 @@ main:
 
 
 
-
-
-
-
-  - title: "Visual Instance-aware Prompt Tuning"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
+  - title: "Describe Anything in Medical Images"
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2503.17650
+    pdf: https://www.arxiv.org/abs/2505.05804
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
-    image: ./assets/img/overall.png
+    image: ./assets/img/maindam.png
+
+
+
+  # - title: "Visual Instance-aware Prompt Tuning"
+  #   authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2503.17650
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/overall.png
 
 
     
-  - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2503.17650
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/total.png
+  # - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
+  #   authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2503.17650
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/total.png
 
-  - title: "Visual Variational Autoencoder Prompt Tuning"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
-    conference_short: CVPRW'25
-    conference: <strong>2025 IEEE CVPR 12th Workshop on Fine-Grained Visual Categorization</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2503.17650
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Accept
-    image: ./assets/img/main.jpg
-
-  - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/cvpr.png
 
 
   # - title: "Prompting Vision Foundation Models with Cascaded Semantics"
   #   authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
   #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
   #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
   #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
   #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
   #   notes: Under Review
   #   image: ./assets/img/cvpr.png
+
+
+
 
 
 
@@ -78,16 +69,16 @@ main:
     image: ./assets/img/magic.png
 
 
-  - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
-    authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/geo.png
+  # - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
+  #   authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/geo.png
 
 
   - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
@@ -100,6 +91,22 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Under Review
     image: ./assets/img/cad.png
+
+
+
+
+  - title: "Visual Variational Autoencoder Prompt Tuning"
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
+    conference_short: CVPRW'25
+    conference: <strong>2025 IEEE CVPR 12th Workshop on Fine-Grained Visual Categorization</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2503.17650
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Accept
+    image: ./assets/img/main.jpg
+
+
 
 
   - title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
