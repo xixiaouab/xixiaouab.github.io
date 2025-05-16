@@ -42,7 +42,7 @@ main:
 
 
   - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
+    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Runmin Jiang, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
@@ -54,7 +54,7 @@ main:
 
 
   - title: "DARTS-Prompt: Layer-Specific Prompt Interaction Discovery in Vision Transformers via Differentiable Search"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Yunbei Zhang, Tianyang Wang, Jihun Hamm, Xiao Wang, Tianming Liu, Min Xu
+    authors: <strong>Xi Xiao</strong>, Xingjian Li, Yunbei Zhang, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Tianming Liu, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2002.10211.pdf
