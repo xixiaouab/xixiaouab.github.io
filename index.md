@@ -27,8 +27,8 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 ## 🚀 News
 
-
-- **[May. 2025]** 🎉 One paper accepted by the 12th Workshop on Fine-Grained Visual Categorization@CVPR 2025
+- **[May. 2025]** 🎉 One paper accepted by ACL 2025 Workshop on MAGMaR! (Oral)
+- **[May. 2025]** 🎉 One paper accepted by CVPR 2025 Workshop on FGVC!
 - **[May. 2025]** I became a reviewer for ICONIP 2025!
 - **[Apr. 2025]** I became a reviewer for MFMSI@ACM MM 2025!
 - **[Apr. 2025]** I became a reviewer for ICANN 2025!
