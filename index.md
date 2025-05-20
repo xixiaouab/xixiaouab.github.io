@@ -12,9 +12,12 @@ Since May 2025, I have been a Graduate Student Researcher at the **Computational
 
 ## 🌱 Research Interests
 
+
 I have a broad interest in Computer Vision and Natural Language Processing, currently focusing on:
--	⚙️ Exploring innovative PEFT methods and training paradigms for scalable and efficient LLMs/LVMs/MLLMs
--	🧠 Innovative applications of LLMs/LVMs/MLLMs
+- ⚙️ Efficient and scalable Parameter-Efficient Fine-Tuning for LLMs, LVMs, and MLLMs
+- 🧠 Novel applications of large foundation models in scientific domains, including Climate Modeling, Medical Imaging, and Infrastructure Analysis
+- 🎥 Video Generation, Image/Video Understanding
+
 
 
 ## 💬 A Little More…
