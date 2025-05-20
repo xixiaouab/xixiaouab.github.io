@@ -31,21 +31,26 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 ## 🚀 News
 
-- **[May. 2025]** 🎉 One paper accepted by ACL 2025 Workshop on MAGMaR! (Oral)
-- **[May. 2025]** 🎉 One paper accepted by CVPR 2025 Workshop on FGVC!
-- **[May. 2025]** I became a reviewer for ICONIP 2025!
-- **[Apr. 2025]** I became a reviewer for MFMSI@ACM MM 2025!
-- **[Apr. 2025]** I became a reviewer for ICANN 2025!
-- **[Apr. 2025]** 🎉 One paper accepted by IJCNN 2025!
-- **[Jan. 2025]** 🎉 One paper accepted by Nature Scientific Reports!
-- **[Dec. 2024]** I became a reviewer for IJCNN 2025!
-- **[Dec. 2024]** 🎉 One paper accepted by ICASSP 2025!
-- **[Sept. 2024]** 🎉 One paper accepted by ICTAI 2024!
-- **[Aug. 2024]** 🎉 One paper accepted by ICONIP 2024!
-- **[Jul. 2024]** I became a reviewer for ICONIP 2024!
-- **[Jul. 2024]** I became a reviewer for WiCV@ECCV 2024!
-- **[Mar. 2024]** I became a reviewer for IEEE TCSVT!
-- **[Jan. 2024]** 🌟 Embarking on an exciting new journey! I officially started my Ph.D. studies at the <strong> University of Alabama at Birmingham</strong>.
+<div style="max-height: 200px; overflow-y: auto; padding-right: 10px; border: 1px solid #ddd; border-radius: 6px; background-color: #f9f9f9;">
+  <ul style="list-style: none; padding-left: 1em;">
+    <li><strong>[May. 2025]</strong> 🎉 One paper accepted by ACL 2025 Workshop on MAGMaR! (Oral)</li>
+    <li><strong>[May. 2025]</strong> 🎉 One paper accepted by CVPR 2025 Workshop on FGVC!</li>
+    <li><strong>[May. 2025]</strong> I became a reviewer for ICONIP 2025!</li>
+    <li><strong>[Apr. 2025]</strong> I became a reviewer for MFMSI@ACM MM 2025!</li>
+    <li><strong>[Apr. 2025]</strong> I became a reviewer for ICANN 2025!</li>
+    <li><strong>[Apr. 2025]</strong> 🎉 One paper accepted by IJCNN 2025!</li>
+    <li><strong>[Jan. 2025]</strong> 🎉 One paper accepted by Nature Scientific Reports!</li>
+    <li><strong>[Dec. 2024]</strong> I became a reviewer for IJCNN 2025!</li>
+    <li><strong>[Dec. 2024]</strong> 🎉 One paper accepted by ICASSP 2025!</li>
+    <li><strong>[Sept. 2024]</strong> 🎉 One paper accepted by ICTAI 2024!</li>
+    <li><strong>[Aug. 2024]</strong> 🎉 One paper accepted by ICONIP 2024!</li>
+    <li><strong>[Jul. 2024]</strong> I became a reviewer for ICONIP 2024!</li>
+    <li><strong>[Jul. 2024]</strong> I became a reviewer for WiCV@ECCV 2024!</li>
+    <li><strong>[Mar. 2024]</strong> I became a reviewer for IEEE TCSVT!</li>
+    <li><strong>[Jan. 2024]</strong> 🌟 Embarking on an exciting new journey! I officially started my Ph.D. studies at the <strong>University of Alabama at Birmingham</strong>.</li>
+  </ul>
+</div>
+
 
 {% include_relative _includes/publications.md %}
 
