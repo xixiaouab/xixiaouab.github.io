@@ -14,7 +14,7 @@ Since May 2025, I have been a Graduate Student Researcher at the **Computational
 
 
 I have a broad interest in Computer Vision and Natural Language Processing, currently focusing on:
-- ⚙️ Efficient and scalable Parameter-Efficient Fine-Tuning/Accelerating for LLMs, LVMs, and MLLMs
+- ⚙️ Efficient and scalable Parameter-Efficient Fine-Tuning for LLMs, LVMs, and MLLMs
 - 🧠 Novel applications of large foundation models in scientific domains, including Climate Modeling, Medical Imaging, and Infrastructure Analysis
 - 🎥 Video Generation, Image/Video Understanding
 
