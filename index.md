@@ -6,7 +6,8 @@ layout: homepage
 
 Hi~ 👋 I'm **Xi Xiao (肖熙)**! I'm a 🎓 **second-year Ph.D. student** in the Department of Computer Science at **University of Alabama at Birmingham (UAB)**. I'm fortunate to be co-supervised by <strong><a href="https://xulabs.github.io/min-xu/">Dr. Min Xu</a></strong> from <strong> Carnegie Mellon University</strong>, and <strong><a href="https://scholar.google.com/citations?user=QbTV0r0AAAAJ&hl=en">Dr. Tianyang Wang</a></strong> from <strong> University of Alabama at Birmingham</strong>, working closely with <strong><a href="https://scholar.google.com/citations?user=f9V0NZkAAAAJ&hl=en">Dr. Xingjian Li</a></strong> from <strong> Carnegie Mellon University</strong> and <strong><a href="https://swalpa.github.io/">Dr. Swalpa Kumar Roy</a></strong> from <strong> Indian Academy of Sciences</strong>.
 
-Since May 2025, I have been a Graduate Student Researcher at the **Computational Sciences and Engineering Division** of **Oak Ridge National Laboratory (ORNL)**, working with <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao Wang</a></strong>. My research focuses on <em>accelerating LVMs/MLLMs</em> on the Frontier supercomputer and contributing to the development of the <em>Oak Ridge Base Foundation Model for Earth System Predictability (ORBIT)</em>.
+Since May 2025, I have been conducting a long-term research internship at the **Computational Sciences and Engineering Division** of **Oak Ridge National Laboratory (ORNL)**, working with <strong><a href="https://www.ornl.gov/staff-profile/xiao-wang">Dr. Xiao Wang</a></strong>. My work focuses on <em>accelerating large vision and multimodal models (LVMs/MLLMs)</em> on the Frontier supercomputer and contributing to the fine-tuning and deployment of the <em>Oak Ridge Base Foundation Model for Earth System Predictability (ORBIT)</em>.
+
 
 
 
@@ -62,7 +63,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
     <h4>Oak Ridge National Laboratory</h4>
     <p><strong>2025.05 ~ present</strong></p>
     <p>Location: Oak Ridge, TN, USA</p>
-    <p>Role: Graduate Student Researcher</p>
+    <p>Role: Research Intern</p>
     <p>Supervisor: <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>  </p>
   </div>
 </div>
