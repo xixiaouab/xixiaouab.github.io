@@ -140,7 +140,7 @@ main:
     image: ./assets/img/iconip.png
     notes: Accept
 
-      - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
+    - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
     authors: Wentao Wang*, <strong>Xi Xiao*</strong>, Mingjie Liu, Qizhen Lan, Xuanyao Huang, Qing Tian, Swalpa Kumar Roy, Tianyang Wang
     conference_short: ICTAI'24
     conference: IEEE International Conference on Tools with Artificial Intelligence <strong>(ICTAI)</strong>, 2024.
