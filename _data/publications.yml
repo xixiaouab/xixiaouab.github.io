@@ -3,7 +3,7 @@ main:
 
 
   - title: "Describe Anything in Medical Images"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu
+    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Lin Zhao, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
     pdf: https://www.arxiv.org/abs/2505.05804
@@ -28,7 +28,7 @@ main:
 
 
     
-  - title: "RoadDiseasePrior: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
+  - title: "RoadBench: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
     authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
     conference_short: arXiv
     conference: <strong>arXiv</strong>, 2025.
@@ -79,28 +79,28 @@ main:
     image: ./assets/img/magic.png
 
 
-  - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
-    authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/geo.png
+  # - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
+  #   authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/geo.png
 
 
-  - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
-    authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    pdf: https://arxiv.org/abs/2503.07938
-    code: https://anonymous.4open.science/r/CAD-VAE-8D9D/README.md
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/cad.png
+  # - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
+  #   authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
+  #   conference_short: arXiv
+  #   conference: <strong>arXiv</strong>, 2025.
+  #   pdf: https://arxiv.org/abs/2503.07938
+  #   code: https://anonymous.4open.science/r/CAD-VAE-8D9D/README.md
+  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Under Review
+  #   image: ./assets/img/cad.png
 
 
 
