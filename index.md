@@ -100,7 +100,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 ## 🏆 Awards
 
 <ul>
-  <li><strong>National Merit Award</strong>, 15th Student Innovation and Entrepreneurship Competition & 7th China International “Internet+” Competition (Intra-school Selection)</li>
+  <li><strong>National Merit Award</strong>, 15th Student Innovation and Entrepreneurship Competition & 7th China International “Internet+” Competition</li>
 
   <li><strong>First Prize (Ranked 1st out of 500)</strong>, 6th Sichuan University Robotics Competition – Intelligent Waste Sorting Challenge</li>
 
