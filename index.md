@@ -100,9 +100,19 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 ## 🏆 Awards
 
 <ul>
-  <li><strong>Outstanding Undergraduate Thesis Award (Top 1%)</strong>, Sichuan University Jincheng College, <em>June 2023</em></li>
-  <li><strong>National Scholarship (Top 2%)</strong>, Ministry of Education, China, <em>Nov 2022</em></li>
+  <li><strong>National Merit Award</strong>, 15th Student Innovation and Entrepreneurship Competition & 7th China International “Internet+” Competition (Intra-school Selection)</li>
+
+  <li><strong>First Prize (Ranked 1st out of 500)</strong>, 6th Sichuan University Robotics Competition – Intelligent Waste Sorting Challenge</li>
+
+  <li><strong>National Bronze Award</strong>, 8th China International “Internet+” Innovation and Entrepreneurship Competition</li>
+
+  <li><strong>Special Prize (Top 80 out of 22,000+ participants)</strong>, 16th National College Student Computer Design Competition – Sichuan Province</li>
+
+  <li><strong>National Second Prize</strong>, 2023 National College Student AI Embedded Design Competition</li>
+
+  <li><strong>Outstanding Undergraduate Thesis Award (Top 10 out of 8,000+)</strong>, Sichuan University Jincheng College</li>
 </ul>
+
 
 
 {% include_relative _includes/services.md %}
