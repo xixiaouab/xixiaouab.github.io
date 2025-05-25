@@ -130,6 +130,26 @@ main:
     notes: Accept
 
 
+  - title: "HGTDP-DTA: Hybrid Graph-Transformer with Dynamic Prompt for Drug-Target Binding Affinity Prediction"
+    authors: <strong>Xi Xiao</strong>, Wentao Wang, Jiacheng Xie, Lijing Zhu, Gaofei Chen, Zhengji Li, Tianyang Wang, Min Xu
+    conference_short: ICONIP'24
+    conference: International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2406.17697?
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/iconip.png
+    notes: Accept
+
+      - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
+    authors: Wentao Wang*, <strong>Xi Xiao*</strong>, Mingjie Liu, Qizhen Lan, Xuanyao Huang, Qing Tian, Swalpa Kumar Roy, Tianyang Wang
+    conference_short: ICTAI'24
+    conference: IEEE International Conference on Tools with Artificial Intelligence <strong>(ICTAI)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2405.12328
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/ICTAI.png
+    notes: Accept
+
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
   #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
