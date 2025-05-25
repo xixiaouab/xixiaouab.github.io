@@ -97,6 +97,13 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 </div>
 
 
+## 🏆 Awards
+
+<ul>
+  <li><strong>Outstanding Undergraduate Thesis Award (Top 1%)</strong>, Sichuan University Jincheng College, <em>June 2023</em></li>
+  <li><strong>National Scholarship (Top 2%)</strong>, Ministry of Education, China, <em>Nov 2022</em></li>
+</ul>
+
 
 {% include_relative _includes/services.md %}
 
