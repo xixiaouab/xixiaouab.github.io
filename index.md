@@ -34,6 +34,7 @@ I have a broad interest in Computer Vision and Natural Language Processing, curr
 
 <div style="max-height: 200px; overflow-y: auto; padding-right: 10px; border: 1px solid #ddd; border-radius: 6px; background-color: #f9f9f9;">
   <ul style="list-style: none; padding-left: 1em;">
+    <li><strong>[May. 2025]</strong> 🎉 One paper accepted by ECML PKDD 2025! (Oral)</li>
     <li><strong>[May. 2025]</strong> 🎉 One paper accepted by ACL 2025 Workshop on MAGMaR! (Oral)</li>
     <li><strong>[May. 2025]</strong> 🎉 One paper accepted by CVPR 2025 Workshop on FGVC!</li>
     <li><strong>[May. 2025]</strong> I became a reviewer for ICONIP 2025!</li>
