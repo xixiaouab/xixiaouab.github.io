@@ -3,7 +3,8 @@
 <div class="publications">
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.publications %}
+
 
 <li>
   <div class="pub-row" style="display: flex; flex-wrap: wrap; margin-bottom: 15px;">
