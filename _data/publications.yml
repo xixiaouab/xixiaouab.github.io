@@ -60,6 +60,14 @@
   image: ./assets/img/architecture.png
   notes: Accepted
 
+- title: "CIBR: Cross-modal Information Bottleneck Regularization for Robust CLIP Generalization"
+  authors: Yingrui Ji, <strong>Xi Xiao*</strong>, Gaofei Chen, Hao Xu, Chenrui Ma, Lijing Zhu, Aokun Liang, Jiansheng Chen
+  conference_short: ICANN'25
+  conference: <strong>International Conference on Artificial Neural Networks (ICANN)</strong>, 2025.
+  pdf: https://arxiv.org/abs/2501.14302
+  image: ./assets/img/icann.png
+  notes: Accepted
+
 - title: "HGTDP-DTA: Hybrid Graph-Transformer with Dynamic Prompt for Drug-Target Binding Affinity Prediction"
   authors: <strong>Xi Xiao</strong>, Wentao Wang, Jiacheng Xie, Lijing Zhu, Gaofei Chen, Zhengji Li, Tianyang Wang, Min Xu
   conference_short: ICONIP'24
