@@ -1,163 +1,77 @@
-main:
+- title: "Describe Anything in Medical Images"
+  authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Lin Zhao, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  pdf: https://www.arxiv.org/abs/2505.05804
+  notes: Under review
+  image: ./assets/img/maindam.png
 
+- title: "Visual Instance-Aware Prompt Tuning"
+  authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  notes: Under review
+  image: ./assets/img/overall.png
 
+- title: "RoadBench: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
+  authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  notes: Under review
+  image: ./assets/img/total.png
 
-  - title: "Describe Anything in Medical Images"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Lin Zhao, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    pdf: https://www.arxiv.org/abs/2505.05804
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/maindam.png
+- title: "Prompting Vision Foundation Models with Cascaded Semantics"
+  authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Runmin Jiang, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  notes: Under review
+  image: ./assets/img/cvpr.png
 
+- title: "DARTS-Prompt: Layer-Specific Prompt Interaction Discovery in Vision Transformers via Differentiable Search"
+  authors: <strong>Xi Xiao</strong>, Xingjian Li, Yunbei Zhang, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Tianming Liu, Min Xu
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  notes: Under review
+  image: ./assets/img/dartsmain1.png
 
+- title: "MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization"
+  authors: Hengjia Li*, Lifan Jiang*, <strong>Xi Xiao*</strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai
+  conference_short: arXiv
+  conference: <strong>arXiv</strong>, 2025.
+  pdf: https://arxiv.org/abs/2503.12689
+  code: https://github.com/EchoPluto/MagicID
+  page: https://echopluto.github.io/MagicID-project/
+  notes: Under review
+  image: ./assets/img/magic.png
 
-  - title: "Visual Instance-aware Prompt Tuning"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Yuxiang Wei, Xiao Wang, Jihun Hamm, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2503.17650
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/overall.png
+- title: "Visual Variational Autoencoder Prompt Tuning"
+  authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
+  conference_short: CVPRW'25
+  conference: <strong>CVPR 2025 Workshop on Fine-Grained Visual Categorization (FGVC)</strong>
+  pdf: https://arxiv.org/pdf/2503.17650
+  notes: Accepted
+  image: ./assets/img/main.jpg
 
+- title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
+  authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
+  conference_short: ICASSP'25
+  conference: <strong>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</strong>, 2025.
+  pdf: https://arxiv.org/abs/2501.14302
+  image: ./assets/img/architecture.png
+  notes: Accepted
 
-    
-  - title: "RoadBench: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Janet Wang, Xinyuan Song, Hengjia Li, Gaofei Chen, Yuxiang Wei, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2503.17650
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/total.png
+- title: "HGTDP-DTA: Hybrid Graph-Transformer with Dynamic Prompt for Drug-Target Binding Affinity Prediction"
+  authors: <strong>Xi Xiao</strong>, Wentao Wang, Jiacheng Xie, Lijing Zhu, Gaofei Chen, Zhengji Li, Tianyang Wang, Min Xu
+  conference_short: ICONIP'24
+  conference: <strong>International Conference on Neural Information Processing (ICONIP)</strong>, 2024.
+  pdf: https://arxiv.org/pdf/2406.17697?
+  image: ./assets/img/iconip.png
+  notes: Accepted
 
-
-
-  - title: "Prompting Vision Foundation Models with Cascaded Semantics"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Tianyang Wang, Guosheng Hu, Runmin Jiang, Xiao Wang, Chengrui Ma, Xi Li, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/cvpr.png
-
-
-  - title: "DARTS-Prompt: Layer-Specific Prompt Interaction Discovery in Vision Transformers via Differentiable Search"
-    authors: <strong>Xi Xiao</strong>, Xingjian Li, Yunbei Zhang, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Tianming Liu, Min Xu
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/dartsmain1.png
-
-
-
-
-  - title: "MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization"
-    authors: Hengjia Li*, Lifan Jiang*, <strong>Xi Xiao*</strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai
-    conference_short: arXiv
-    conference: <strong>arXiv</strong>, 2025.
-    pdf: https://arxiv.org/abs/2503.12689
-    code: https://github.com/EchoPluto/MagicID
-    page: https://echopluto.github.io/MagicID-project/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/magic.png
-
-
-  # - title: "GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors"
-  #   authors: Aokun Liang, <strong>Xi Xiao</strong>, Xiangyun Hu, Zekun Zhang, Xiao Wang, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Tao Ke
-  #   conference_short: arXiv
-  #   conference: <strong>arXiv</strong>, 2025.
-  #   # pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Under Review
-  #   image: ./assets/img/geo.png
-
-
-  # - title: "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
-  #   authors: Chenrui Ma*, Rongchang Zhao*, <strong>Xi Xiao</strong>, Hongyang Xie, Tianyang Wang, Xiao Wang, Hao Zhang, Yanning Shen
-  #   conference_short: arXiv
-  #   conference: <strong>arXiv</strong>, 2025.
-  #   pdf: https://arxiv.org/abs/2503.07938
-  #   code: https://anonymous.4open.science/r/CAD-VAE-8D9D/README.md
-  #   # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Under Review
-  #   image: ./assets/img/cad.png
-
-
-
-
-  - title: "Visual Variational Autoencoder Prompt Tuning"
-    authors: <strong>Xi Xiao</strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu
-    conference_short: CVPRW'25
-    conference: <strong>2025 IEEE CVPR 12th Workshop on Fine-Grained Visual Categorization</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2503.17650
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Accept
-    image: ./assets/img/main.jpg
-
-
-
-
-  - title: "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
-    authors: <strong>Xi Xiao</strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu
-    conference_short: ICASSP'25
-    conference: IEEE International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>, 2025.
-    pdf: https://arxiv.org/abs/2501.14302
-    # code: https://github.com/MrGiovanni/ContinualLearning
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/architecture.png
-    notes: Accept
-
-
-  # - title: "HGTDP-DTA: Hybrid Graph-Transformer with Dynamic Prompt for Drug-Target Binding Affinity Prediction"
-  #   authors: <strong>Xi Xiao</strong>, Wentao Wang, Jiacheng Xie, Lijing Zhu, Gaofei Chen, Zhengji Li, Tianyang Wang, Min Xu
-  #   conference_short: ICONIP'24
-  #   conference: International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2024.
-  #   pdf: https://arxiv.org/pdf/2406.17697?
-  #   # code: https://github.com/MrGiovanni/ContinualLearning
-  #   # bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   image: ./assets/img/iconip.png
-  #   notes: Accept
-
-  #   - title: "Multi-dimension Transformer with Attention-based Filtering for Medical Image Segmentation"
-  #   authors: Wentao Wang*, <strong>Xi Xiao*</strong>, Mingjie Liu, Qizhen Lan, Xuanyao Huang, Qing Tian, Swalpa Kumar Roy, Tianyang Wang
-  #   conference_short: ICTAI'24
-  #   conference: IEEE International Conference on Tools with Artificial Intelligence <strong>(ICTAI)</strong>, 2024.
-  #   pdf: https://arxiv.org/pdf/2405.12328
-  #   # code: https://github.com/MrGiovanni/ContinualLearning
-  #   # bibtex: https://bib.yliu.me/MICCAI23.txt
-  #   image: ./assets/img/ICTAI.png
-  #   notes: Accept
-
-
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+- title: "Multi-Dimension Transformer with Attention-Based Filtering for Medical Image Segmentation"
+  authors: Wentao Wang*, <strong>Xi Xiao*</strong>, Mingjie Liu, Qizhen Lan, Xuanyao Huang, Qing Tian, Swalpa Kumar Roy, Tianyang Wang
+  conference_short: ICTAI'24
+  conference: <strong>IEEE International Conference on Tools with Artificial Intelligence (ICTAI)</strong>, 2024.
+  pdf: https://arxiv.org/pdf/2405.12328
+  image: ./assets/img/ICTAI.png
+  notes: Accepted
