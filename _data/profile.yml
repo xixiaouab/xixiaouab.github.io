@@ -32,7 +32,8 @@ short_bio: >-
     My research interests include:
   </p>
   <ul>
-    <li>Parameter-Efficient Fine-Tuning (PEFT) for Large Language Models / Vision-Language Models</li>
+    <li>Parameter-Efficient Fine-Tuning for Large Language Models / Vision-Language Models</li>
+    <li>Image / Video Understanding</li>
     <li>Image / Video Generation</li>
   </ul>
 
