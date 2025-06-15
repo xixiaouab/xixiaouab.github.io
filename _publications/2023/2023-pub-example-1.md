@@ -5,13 +5,22 @@ selected:       true
 pub:            "Nature Communications"
 pub_date:       "2023"
 abstract: >-
-  Cover image is a photo by Thomas Renaud on Unsplash. The abstract of the publication is meant to be a TLDR (very brief summary with 1~2 sentences) of your paper.
-cover:          /assets/images/covers/cover1.jpg
+  Localized image captioning has made significant progress with models like the Describe Anything Model (DAM), which can generate detailed region-specific descriptions without explicit region-text supervision. However, such capabilities have yet to be widely applied to specialized domains like medical imaging, where diagnostic interpretation relies on subtle regional findings rather than global understanding. To mitigate this gap, we propose MedDAM, the first comprehensive framework leveraging large vision-language models for region-specific captioning in medical images.
+cover:          /assets/images/covers/medam.jpg
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+- Xi Xiao*
+- Yunbei Zhang*
+- Thanh-Huy Nguyen*
+- Ba-Thinh Lam
+- Janet Wang
+- Lin Zhao
+- Jihun Hamm
+- Tianyang Wang
+- Xingjian Li
+- Xiao Wang
+- Hao Xu
+- Tianming Liu
+- Min Xu
 links:
-  Paper: https://www.cell.com
+  Paper: https://arxiv.org/pdf/2505.05804
 ---
