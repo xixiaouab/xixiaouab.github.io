@@ -3,9 +3,9 @@ secondary_name: "肖熙"
 navbar_name: "Xi Xiao"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/UAB.png  # Logo is optional
   name: Ph.D. Student @ UAB
-- logo: /assets/images/badges/MIT_Social_circle.png
+- logo: /assets/images/badges/ornl.png
   name: Research Intern @ ORNL
 
 
@@ -43,17 +43,17 @@ portrait_caption: >-
 
 education:
 - name: University of Alabama at Birmingham
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/UAB.png
   position: Ph.D. in Computer Science
   date: Jan. 2024 - present
 - name: Sichuan University Jincheng College
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/scu.png
   position: B.S. in Artificial Intelligence
   date: Sep. 2019 - Jun. 2023
 
 experience:
 - name: Oak Ridge National Laboratory
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/ornl.png
   position: Research Intern
   date: May. 2025 - present
 
