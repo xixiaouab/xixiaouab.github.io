@@ -54,13 +54,13 @@ education:
 experience:
 - name: Oak Ridge National Laboratory
   logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
+  position: Research Intern (long-term)
   date: May. 2025 - present
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
