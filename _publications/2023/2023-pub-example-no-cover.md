@@ -1,22 +1,26 @@
 ---
-title:          "Publication without cover image"
-date:           2023-01-1 00:01:00 +0800
-selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
+title:          "TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection"
+date:           2024-12-20 00:01:00 +0800
+selected:       true
+pub:            "<strong>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</strong>"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2023"
+pub_date:       "2024"
 
 abstract: >-
-  When the cover image is not provided, it will generate a random colorful bubble images as the cover image using the <code>bubble_visual_hash.js</code> script.
-# cover:          /assets/images/covers/cover3.jpg
+  Object detection has witnessed remarkable advancements over the past decade, largely driven by breakthroughs in deep learning and the proliferation of large scale datasets. However, the domain of road damage detection remains relatively under explored, despite its critical significance for applications such as infrastructure maintenance and road safety. This paper addresses this gap by introducing a novel top down benchmark that offers a complementary perspective to existing datasets, specifically tailored for road damage detection. Additionally, we present a novel real time object detection framework, TDYOLOV10, designed to handle the unique challenges posed by the TDRD dataset.
+cover:          /assets/images/covers/tdrd.png
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Xi Xiao
+  - Zhengji Li
+  - Wentao Wang
+  - Jiacheng Xie
+  - Houjie Lin
+  - Swalpa Kumar Roy
+  - Tianyang Wang
+  - Min Xu
 links:
-  Code: https://github.com/luost26/bubble-visual-hash
-  Demo: https://luost26.github.io/bubble-visual-hash
+  PDF: https://arxiv.org/pdf/2501.14302
+  # Demo: https://luost26.github.io/bubble-visual-hash
 ---
