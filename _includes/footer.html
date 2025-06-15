@@ -1,4 +1,4 @@
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         <div class="row my-3">
             <div class="col-6">
@@ -14,3 +14,51 @@
         </div>
     </div>
 </footer>
+ -->
+ <footer class="footer">
+  <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
+    <div class="row my-3">
+      <div class="col-6">
+        <div class="text-muted">
+          <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="text-right text-muted">
+          {{ site.data.display.footer_text }}
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- 自动滚动 News 区块的脚本 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const box = document.getElementById("news-scroll-box");
+    const content = document.getElementById("news-scroll-content");
+
+    if (box && content) {
+      let scrollY = 0;
+      let intervalId = null;
+
+      function startScroll() {
+        intervalId = setInterval(() => {
+          scrollY += 1;
+          if (scrollY >= content.offsetHeight - box.offsetHeight) {
+            scrollY = 0;
+          }
+          box.scrollTo({ top: scrollY, behavior: "smooth" });
+        }, 80);
+      }
+
+      function stopScroll() {
+        clearInterval(intervalId);
+      }
+
+      startScroll();
+      box.addEventListener("mouseenter", stopScroll);
+      box.addEventListener("mouseleave", startScroll);
+    }
+  });
+</script>
