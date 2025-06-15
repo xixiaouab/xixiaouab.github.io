@@ -51,11 +51,11 @@ education:
   position: B.S. in Artificial Intelligence
   date: Sep. 2019 - Jun. 2023
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Oak Ridge National Laboratory
+  logo: /assets/images/badges/PKU_red.png
+  position: Research Intern
+  date: May. 2025 - present
 
 awards:
 - name: Award Name 2
