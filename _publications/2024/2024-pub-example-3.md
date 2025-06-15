@@ -12,9 +12,9 @@ abstract: >-
   Video identity customization seeks to produce high-fidelity videos that maintain consistent identity and exhibit significant dynamics based on users' reference images. However, existing approaches face two key challenges: identity degradation over extended video length and reduced dynamics during training, primarily due to their reliance on traditional self-reconstruction training with static images. To address these issues, we introduce MagicID, a novel framework designed to directly promote the generation of identity-consistent and dynamically rich videos tailored to user preferences.
 cover:          /assets/images/covers/magic.png
 authors:
-  - Hengjia Li
-  - Lifan Jiang
-  - Xi Xiao
+  - Hengjia Li*
+  - Lifan Jiang*
+  - Xi Xiao*
   - Tianyang Wang
   - Hongwei Yi
   - Boxi Wu
