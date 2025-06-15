@@ -13,7 +13,7 @@ abstract: >-
 cover:          /assets/images/covers/magic.png
 authors:
   - Hengjia Li
-  - Lifan JIang
+  - Lifan Jiang
   - Xi Xiao
   - Tianyang Wang
   - Hongwei Yi
