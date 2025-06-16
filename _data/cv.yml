@@ -1,0 +1,59 @@
+basics:
+  name: Xi Xiao
+  position: Ph.D. Student, University of Alabama at Birmingham
+  email: xixiao@uab.edu
+  interests:
+    - Vision-Language Models
+    - Parameter-Efficient Fine-Tuning (PEFT)
+    - Video Generation
+
+education:
+  - school: University of Alabama at Birmingham
+    degree: Ph.D. in Computer Science
+    time: 2024 – Present
+    location: Birmingham, USA
+    logo: /assets/images/logos/uab.png
+
+  - school: Sichuan University Jincheng College
+    degree: B.S. in Artificial Intelligence
+    time: 2019 – 2023
+    location: Chengdu, China
+    logo: /assets/images/logos/scu.png
+
+experience:
+  - company: Oak Ridge National Laboratory
+    title: Research Intern
+    time: 2025.05 – Present
+    location: Oak Ridge, TN, USA
+    logo: /assets/images/logos/ornl.png
+
+  - company: UAB Vision Lab
+    title: Ph.D. Research Assistant
+    time: 2024.01 – Present
+    location: Birmingham, AL, USA
+    logo: /assets/images/logos/uab.png
+
+services:
+  - type: Conference Reviewer
+    items:
+      - name: ICML
+        year: 2025
+        logo: /assets/images/logos/icml.png
+      - name: ICLR
+        year: 2025
+        logo: /assets/images/logos/iclr.png
+      - name: ECCV
+        year: 2024
+        logo: /assets/images/logos/eccv.png
+
+  - type: Journal Reviewer
+    items:
+      - name: IEEE TCSVT
+        year: 2024
+        logo: /assets/images/logos/ieee.png
+
+  - type: Volunteer / Program Committee
+    items:
+      - name: NeurIPS Outreach Program
+        year: 2023
+        logo: /assets/images/logos/neurips.png
