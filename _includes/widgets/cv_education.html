@@ -4,12 +4,21 @@
   {% assign education = site.data.cv.education %}
   <ul class="list-unstyled mb-0">
     {% for edu in education %}
-      <li class="mb-3">
-        <h5 class="mb-1 text-primary">{{ edu.school }}</h5>
-        <div class="text-muted">{{ edu.degree }}</div>
-        <div class="small d-flex justify-content-between">
-          <span>{{ edu.location }}</span>
-          <span><em>{{ edu.time }}</em></span>
+      <li class="mb-3 d-flex align-items-start">
+        {% if edu.logo %}
+          <img src="{{ edu.logo | relative_url }}" alt="{{ edu.school }}" class="mr-3" style="height: 40px; width: auto;">
+        {% endif %}
+        <div class="flex-grow-1">
+          <div class="d-flex justify-content-between">
+            <div>
+              <strong class="text-primary">{{ edu.school }}</strong>
+              <div class="text-muted small">{{ edu.degree }}</div>
+            </div>
+            <div class="text-right small text-muted">
+              <div>{{ edu.time }}</div>
+              <div><i class="fas fa-map-marker-alt"></i> {{ edu.location }}</div>
+            </div>
+          </div>
         </div>
       </li>
     {% endfor %}
