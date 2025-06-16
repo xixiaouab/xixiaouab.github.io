@@ -1,0 +1,26 @@
+<a id="experience"></a>
+<div class="card my-3 p-3 shadow-sm">
+  <h3>Experiences</h3>
+  {% assign exp = site.data.cv.experience %}
+  <ul class="list-unstyled mb-0">
+    {% for item in exp %}
+      <li class="mb-3 d-flex align-items-start">
+        {% if item.logo %}
+          <img src="{{ item.logo | relative_url }}" alt="{{ item.company }}" class="mr-3" style="height: 40px; width: auto;">
+        {% endif %}
+        <div class="flex-grow-1">
+          <div class="d-flex justify-content-between">
+            <div>
+              <strong class="text-primary">{{ item.company }}</strong>
+              <div class="text-muted small">{{ item.title }}</div>
+            </div>
+            <div class="text-right small text-muted">
+              <div>{{ item.time }}</div>
+              <div><i class="fas fa-map-marker-alt"></i> {{ item.location }}</div>
+            </div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
