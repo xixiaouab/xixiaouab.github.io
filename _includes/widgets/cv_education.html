@@ -1,0 +1,17 @@
+<a id="education"></a>
+<div class="card my-3 p-3 shadow-sm">
+  <h3>Education</h3>
+  {% assign education = site.data.cv.education %}
+  <ul class="list-unstyled mb-0">
+    {% for edu in education %}
+      <li class="mb-3">
+        <h5 class="mb-1 text-primary">{{ edu.school }}</h5>
+        <div class="text-muted">{{ edu.degree }}</div>
+        <div class="small d-flex justify-content-between">
+          <span>{{ edu.location }}</span>
+          <span><em>{{ edu.time }}</em></span>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
