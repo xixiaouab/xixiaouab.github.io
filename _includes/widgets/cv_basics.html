@@ -1,0 +1,27 @@
+<a id="basics"></a>
+<div class="card my-3 p-3 shadow-sm">
+  <h3>Basics</h3>
+  {% assign b = site.data.cv.basics %}
+  <table class="table table-borderless mb-0">
+    <tr>
+      <th style="width: 150px;">Name</th>
+      <td>{{ b.name }}</td>
+    </tr>
+    <tr>
+      <th>Position</th>
+      <td>{{ b.position }}</td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td><a href="mailto:{{ b.email }}">{{ b.email }}</a></td>
+    </tr>
+    <tr>
+      <th>Interests</th>
+      <td>
+        {% for item in b.interests %}
+          {{ item }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </td>
+    </tr>
+  </table>
+</div>
