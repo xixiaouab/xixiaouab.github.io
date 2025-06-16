@@ -10,7 +10,7 @@
 pages:
   - name: Home
     url: /
-  - name: Curriculum Vitae
-    url: /assets/Xi_Xiao_s_CV__.pdf
+  - name: CV
+    url: /cv
   - name: Showcase
     url: /showcase
