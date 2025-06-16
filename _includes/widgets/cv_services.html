@@ -1,0 +1,25 @@
+<a id="services"></a>
+<div class="card my-3 p-3 shadow-sm">
+  <h3>Academic Services</h3>
+  {% assign services = site.data.cv.services %}
+  <ul class="list-unstyled mb-0">
+    {% for group in services %}
+      <li class="mb-3">
+        <h5 class="mb-2 text-primary">{{ group.type }}</h5>
+        <ul class="list-unstyled mb-0">
+          {% for item in group.items %}
+            <li class="d-flex align-items-center mb-2">
+              {% if item.logo %}
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" class="mr-2" style="height: 28px; width: auto;">
+              {% endif %}
+              <div class="flex-grow-1">
+                <strong>{{ item.name }}</strong>
+                {% if item.year %}<span class="text-muted small ml-2">({{ item.year }})</span>{% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
