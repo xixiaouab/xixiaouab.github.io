@@ -2,7 +2,7 @@
 title:          "MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization"
 date:           2025-06-25 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Computer Vision (ICCV)"
+pub:            "<strong>International Conference on Computer Vision (ICCV)</strong>"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
