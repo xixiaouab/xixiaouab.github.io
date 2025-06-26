@@ -20,30 +20,3 @@
     </div>
 </div>
 
-<!--  {% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
-
-<div class="my-3 bg-white shadow-sm rounded-sm">
-  <h6 class="p-3 mb-0 border-bottom border-gray">
-    <i class="fas fa-rss"></i> News
-  </h6>
-  <!-- 滚动容器 -->
-  <div id="news-scroll-box" style="height: 250px; overflow: hidden; position: relative;">
-    <div id="news-scroll-content" class="px-3 py-2">
-      {% for year in news_by_year %}
-        <div class="mb-2">
-          <div class="text-muted font-weight-bold">{{ year.name }}</div>
-          {% for item in year.items %}
-            <div class="my-1 d-flex border-bottom pb-1">
-              <div>{{ item.title }}</div>
-              <div class="ml-auto mt-auto text-muted no-break">
-                <i>{{ item.date | date: "%b %d" }}</i>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div> -->
-
-
