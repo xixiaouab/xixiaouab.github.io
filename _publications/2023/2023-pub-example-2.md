@@ -1,7 +1,7 @@
 ---
 title:          "Visual Instance-aware Prompt Tuning"
 date:           2025-07-06 00:01:00 +0800
-selected:       true
+selected:       false
 # pub:            "International Conference on Learning Representations (ICLR)"
 pub_post:       'Under review.'
 pub_date:       "2025"
