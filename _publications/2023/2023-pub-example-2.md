@@ -2,7 +2,7 @@
 title:          "Visual Instance-aware Prompt Tuning"
 date:           2025-07-05 00:01:00 +0800
 selected:       true
-pub:            "<strong>ACM Multimedia (ACM MM)</strong>"
+pub:            "<strong>ACM International Conference on Multimedia (ACM MM)</strong>"
 # pub_post:       'Under review.'
 pub_date:       "2025"
 abstract: >-
