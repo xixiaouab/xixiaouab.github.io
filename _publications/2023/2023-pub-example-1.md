@@ -22,5 +22,5 @@ authors:
 - Tianming Liu
 - Min Xu
 links:
-  Paper: https://arxiv.org/pdf/2505.05804
+  PDF: https://arxiv.org/pdf/2505.05804
 ---
