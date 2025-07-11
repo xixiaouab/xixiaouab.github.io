@@ -19,7 +19,7 @@ authors:
   - Jihun Hamm
   - Min Xu
 links:
-  # Paper: https://www.biorxiv.org
+    PDF: https://arxiv.org/pdf/2507.07796
   # Code: https://github.com
   # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
