@@ -33,7 +33,7 @@ authors:
 
 
 links:
-  PDF: PDF: https://raw.githubusercontent.com/xixiaouab/xixiaouab.github.io/main/assets/images/covers/GB_Climate_2025.pdf
+  PDF: https://raw.githubusercontent.com/xixiaouab/xixiaouab.github.io/main/assets/images/covers/GB_Climate_2025.pdf
 #  Code: https://github.com/ORNL/GB-Climate
 #  Demo: https://ornl.github.io/GB-Climate-Demo/
 ---
