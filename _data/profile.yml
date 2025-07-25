@@ -26,17 +26,16 @@ short_bio: >-
   Hi, everyone! I am Xi Xiao, a second-year Ph.D. student in the <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Department of Computer Science</a> at the <a href="https://www.uab.edu/home/" target="_blank">University of Alabama at Birmingham</a>, advised by <a href="https://wangt0716.github.io/index.html" target="_blank">Dr. Tianyang Wang</a>, and co-advised by <a href="https://xulabs.github.io/min-xu/" target="_blank">Dr. Min Xu</a> from <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.
   </p>
   <p>
-    I am currently conducting a long-term research internship at the <a href="https://www.ornl.gov/division/csed" target="_blank">Computational Sciences and Engineering Division</a> of <a href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a>, supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>.
+    I am currently conducting a long-term research internship at the <a href="https://www.ornl.gov/division/csed" target="_blank">Computational Sciences and Engineering Division</a> of <a href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a>, supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>. I am a <strong><span style="color:red">Finalist of the 2025 Gordon Bell Prize</span></strong>.
   </p>
   <p>
     My research interests include:
   </p>
   <ul>
     <li>Parameter-Efficient Fine-Tuning and Pretraining for Large Foundation Models <span style="color:gray;">(<strong>SC’25</strong>, <strong>ACM MM’25</strong>, <strong>COLM’25</strong>, <strong>CVPRW’25</strong>)</span></li>
-    <li>Model Efficienfy / Acceleration <span style="color:gray;">(<strong>SC’25</strong>, <strong>ICASSP’25</strong>, <strong>ECML-PKDD’25</strong>)</span></li>
+    <li>Model Efficiency / Acceleration <span style="color:gray;">(<strong>SC’25</strong>, <strong>ICASSP’25</strong>, <strong>ECML-PKDD’25</strong>)</span></li>
     <li>Image / Video Generation / Understanding <span style="color:gray;">(<strong>ICCV’25</strong>, <strong>ICMLW’25</strong>)</span></li>
   </ul>
-
 
 
 portrait_url: /assets/images/assets/images/photos/xixiao.jpg
@@ -60,8 +59,12 @@ experience:
   date: May. 2025 - present
 
 awards:
-- name: SC <strong>Best Paper Nomination</strong>
+- name: SC 2025 <strong><span style="color:red">Gordon Bell Prize Finalist</span></strong>
   date: 2025
+- name: SC 2025 <strong><span style="color:red">Best Paper Finalist</span></strong>
+  date: 2025
+
+
 # - name: Award Name 1 
 #   date: 2021
 # - name: A quick brown fox jumps over the lazy dog and runs away award
