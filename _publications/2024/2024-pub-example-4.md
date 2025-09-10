@@ -1,6 +1,6 @@
 ---
 title:          "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling"
-date:           2025-07-22 00:01:00 +0800
+date:           2025-06-22 00:01:00 +0800
 selected:       true
 pub:            "<strong>International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)</strong>"
 pub_date:       "2025"
