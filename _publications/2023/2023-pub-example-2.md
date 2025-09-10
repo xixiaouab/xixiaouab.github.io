@@ -10,8 +10,8 @@ pub_date:       "2025"
 
 cover:          /assets/images/covers/viapt.png
 authors:
-  - Xi Xiao*
-  - Yunbei Zhang*
+  - Xi Xiao
+  - Yunbei Zhang
   - Xingjian Li
   - Tianyang Wang
   - Xiao Wang
