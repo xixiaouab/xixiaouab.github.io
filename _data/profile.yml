@@ -3,75 +3,78 @@ secondary_name: "肖熙"
 navbar_name: "Xi Xiao"
 
 positions:
-- logo: /assets/images/badges/UAB.png  # Logo is optional
-  name: Ph.D. Student @ UAB
-- logo: /assets/images/badges/ornl.png
-  name: Research Intern @ ORNL
-
+  - logo: /assets/images/badges/UAB.png
+    name: Ph.D. Student @ UAB
+  - logo: /assets/images/badges/ornl.png
+    name: Research Intern @ ORNL
 
 email: "xxiao[at]uab.edu"
-# cv_link: link-to-your-cv-file
-gscholar: https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en  # This is an example, replace it with your own Google Scholar ID
+gscholar: https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en
 github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+twitter: your_twitter_id
+linkedin: your_linkedin_id
 orcid: 0009-0000-0931-6982
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-  Hi, everyone! I am Xi Xiao, a second-year Ph.D. student in the <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Department of Computer Science</a> at the <a href="https://www.uab.edu/home/" target="_blank">University of Alabama at Birmingham</a>, advised by <a href="https://wangt0716.github.io/index.html" target="_blank">Dr. Tianyang Wang</a>, and co-advised by <a href="https://xulabs.github.io/min-xu/" target="_blank">Dr. Min Xu</a> from <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.
-  </p>
-  <p>
-    I am currently conducting a research internship at the <a href="https://www.ornl.gov/division/csed" target="_blank">Computational Sciences and Engineering Division</a> of <a href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a>, supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>. 
-  </p>
-  <p>
-    I am a finalist for the <a href="https://awards.acm.org/bell" target="_blank">ACM Gordon Bell Prize</a> in 2025.
-  </p>
-  <p>
-    My research interests include:
-  </p>
-  <ul>
-    <li>Efficient Domain Adaptation for LLMs / MLLMs <span style="color:gray;">(<strong>SC’25</strong>, <strong>ACM MM’25</strong>, <strong>COLM’25</strong>, <strong>EMNLP’25</strong>, <strong>CVPRW’25</strong>)</span></li>
-    <li>Image / Video Generation / Understanding <span style="color:gray;">(<strong>ICCV’25</strong>, <strong>NeurIPS’25</strong>, <strong>ICMLW’25</strong>, <strong>WACV’26</strong>)</span></li>
-  </ul>
-
-  <p>
-  <em>I'm always open to collaboration and discussion, if you're interested in my research or have any awesome ideas, please do not hesitate to contact me :)</em>
+  Hi, everyone! I am <strong>Xi Xiao</strong>, a second-year Ph.D. student in the 
+  <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Department of Computer Science</a> 
+  at the 
+  <a href="https://www.uab.edu/home/" target="_blank">University of Alabama at Birmingham</a>, 
+  advised by 
+  <a href="https://wangt0716.github.io/index.html" target="_blank">Dr. Tianyang Wang</a>, 
+  and co-advised by 
+  <a href="https://xulabs.github.io/min-xu/" target="_blank">Dr. Min Xu</a> 
+  from 
+  <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.
   </p>
 
-  
-portrait_url: /assets/images/assets/images/photos/xixiao.jpg
+  <p>
+  I am currently conducting a research internship at the 
+  <a href="https://www.ornl.gov/division/csed" target="_blank">Computational Sciences and Engineering Division</a> 
+  of 
+  <a href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a>, 
+  supervised by 
+  <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>.
+  </p>
+
+  <p>
+  I am a finalist for the 
+  <a href="https://awards.acm.org/bell" target="_blank">ACM Gordon Bell Prize</a> 
+  in 2025.
+  </p>
+
+  <p>
+  I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can operate under extreme conditions of computation, data, and storage. 
+  I believe that achieving true intelligence requires models that are not only powerful but also resource-aware. 
+  Recently, I am working on <strong>Model Quantization</strong> and <strong>Efficient Domain Adaptation</strong> for large language, multimodal, and vision models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
+  aiming to make them <strong>performant, scalable, and sustainable</strong> in real-world environments.
+  </p>
+
+  <p>
+  <em>I'm always open to collaboration and discussion — if you're interested in my research or have any awesome ideas, please do not hesitate to contact me :)</em>
+  </p>
+
+portrait_url: /assets/images/photos/xixiao.jpg
 portrait_caption: >-
   Photo at Great Smoky Mountains National Park, TN 2024.
 
 education:
-- name: University of Alabama at Birmingham
-  # logo: /assets/images/badges/UAB.png
-  position: Ph.D. in Computer Science
-  date: Jan. 2024 - present
-- name: Sichuan University Jincheng College
-  # logo: /assets/images/badges/scu.png
-  position: B.S. in Artificial Intelligence
-  date: Sep. 2019 - Jun. 2023
+  - name: University of Alabama at Birmingham
+    position: Ph.D. in Computer Science
+    date: Jan. 2024 - present
+  - name: Sichuan University Jincheng College
+    position: B.S. in Artificial Intelligence
+    date: Sep. 2019 - Jun. 2023
 
 experience:
-- name: Oak Ridge National Laboratory
-  # logo: /assets/images/badges/ornl.png
-  position: Research Intern
-  date: May. 2025 - present
+  - name: Oak Ridge National Laboratory
+    position: Research Intern
+    date: May. 2025 - present
 
 awards:
-- name: 2025 <strong><span style="color:red">ACM Gordon Bell Prize Finalist</span></strong>
-  date: 2025
-- name: SC 2025 <strong><span style="color:red">Best Paper Finalist</span></strong>
-  date: 2025
-
-
-# - name: Award Name 1 
-#   date: 2021
-# - name: A quick brown fox jumps over the lazy dog and runs away award
-#   date: 2021
+  - name: 2025 <strong><span style="color:red">ACM Gordon Bell Prize Finalist</span></strong>
+    date: 2025
+  - name: SC 2025 <strong><span style="color:red">Best Paper Finalist</span></strong>
+    date: 2025
