@@ -36,9 +36,9 @@ short_bio: >-
   </p>
 
   <p>
-  I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can be deployed under constrained settings of computation, data, and storage. 
+  I am broadly interested in designing efficient and intelligent machine learning systems that can be deployed under constrained settings of computation, data, and storage. 
   Recently, I am working on <strong>Model Quantization</strong> and <strong>Efficient Domain Adaptation</strong> for large language, multimodal, and vision models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
-  aiming to make them <strong>performant, scalable, and sustainable</strong> in real-world environments.
+  aiming to make them performant, scalable, and sustainable in real-world environments.
   </p>
 
   <p>
