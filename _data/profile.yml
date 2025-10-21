@@ -22,9 +22,7 @@ short_bio: >-
   <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Department of Computer Science</a> 
   at the 
   <a href="https://www.uab.edu/home/" target="_blank">University of Alabama at Birmingham</a>, 
-  advised by 
-  <a href="https://wangt0716.github.io/index.html" target="_blank">Dr. Tianyang Wang</a>, 
-  and co-advised by 
+  co-advised by <a href="https://wangt0716.github.io/index.html" target="_blank">Dr. Tianyang Wang</a> and 
   <a href="https://xulabs.github.io/min-xu/" target="_blank">Dr. Min Xu</a> 
   from 
   <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.
@@ -40,14 +38,7 @@ short_bio: >-
   </p>
 
   <p>
-  I am a finalist for the 
-  <a href="https://awards.acm.org/bell" target="_blank">ACM Gordon Bell Prize</a> 
-  in 2025.
-  </p>
-
-  <p>
   I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can operate under extreme conditions of computation, data, and storage. 
-  I believe that achieving true intelligence requires models that are not only powerful but also resource-aware. 
   Recently, I am working on <strong>Model Quantization</strong> and <strong>Efficient Domain Adaptation</strong> for large language, multimodal, and vision models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
   aiming to make them <strong>performant, scalable, and sustainable</strong> in real-world environments.
   </p>
