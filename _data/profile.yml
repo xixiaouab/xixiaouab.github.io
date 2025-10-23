@@ -36,9 +36,9 @@ short_bio: >-
   </p>
 
   <p>
-I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can operate effectively under constrained settings of computation, data, and storage. 
-My research mainly focuses on the <strong>post-training stage</strong> of large-scale models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
-including <strong>(1) Model Quantization</strong> and <strong>(2) Efficient Domain Adaptation</strong>.
+  I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can operate effectively under constrained settings of computation, data, and storage. 
+  My research mainly focuses on the <strong>post-training stage</strong> of large-scale models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
+  including <strong>(1) Model Quantization</strong> and <strong>(2) Efficient Domain Adaptation</strong>.
 </p>
 
 
