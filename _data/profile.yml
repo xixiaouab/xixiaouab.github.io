@@ -37,16 +37,16 @@ short_bio: >-
 
   <p>
   I am broadly interested in designing <strong>efficient and intelligent machine learning systems</strong> that can operate effectively under constrained settings of computation, data, and storage. 
-  My research mainly focuses on the <strong>post-training stage</strong> of large-scale models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
-  including <strong>(1) Model Quantization</strong> and <strong>(2) Efficient Domain Adaptation</strong>.
-</p>
-
+  My research primarily focuses on the <strong>post-training stage</strong> of large-scale models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
+  including <strong>(1) Model Quantization</strong> and <strong>(2) Efficient Domain Adaptation</strong>, 
+  with the goal of making them <strong>performant, scalable, and sustainable</strong> in real-world environments.
+  </p>
 
   <p>
   <em>I'm always open to collaboration and discussion — if you're interested in my research or have any awesome ideas, please do not hesitate to contact me :)</em>
   </p>
 
-portrait_url: /assets/images/assets/images/photos/xixiao.jpg
+portrait_url: "{{ '/assets/images/photos/xixiao.jpg' | relative_url }}"
 portrait_caption: >-
   Photo at Great Smoky Mountains National Park, TN 2024.
 
