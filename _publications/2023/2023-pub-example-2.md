@@ -20,6 +20,6 @@ authors:
   - Min Xu
 links:
     PDF: https://arxiv.org/pdf/2507.07796
-  # Code: https://github.com
+    Code: https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning
   # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
