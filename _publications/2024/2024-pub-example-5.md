@@ -1,7 +1,7 @@
 ---
 title:          "RoadBench: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding"
 date:           2025-06-20 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "<strong>The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</strong>"
 pub_date:       "2026"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Round 1 Acceptance (85/1329 ≈ 6.4%)</span>'
