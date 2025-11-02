@@ -35,13 +35,13 @@ short_bio: >-
   <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a>.
   </p>
 
-  <p style="color:#6C63FF;">
+  <p>
   I am broadly interested in designing efficient and intelligent machine learning systems that can deploy effectively under constrained settings of computation, data, and storage. 
   My research primarily focuses on the <strong>post-training stage</strong> of large-scale models (<strong>LLMs</strong>, <strong>MLLMs</strong>, and <strong>LVMs</strong>), 
   including <strong>(1) Efficient Domain Adaptation</strong> and <strong>(2) Model Quantization</strong>.
   </p>
 
-  <p style="color:#4A90E2;">
+  <p style="color:#6C63FF;">
   <em>I'm always open to collaboration and discussion — if you're interested in my research or have any awesome ideas, please do not hesitate to contact me :)</em>
   </p>
 
