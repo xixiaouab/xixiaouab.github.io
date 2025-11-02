@@ -1,7 +1,7 @@
 ---
 title:          "Describe Anything in Medical Images"
 date:           2025-05-05 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "<strong>ICML 2025 Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences</strong>"
 pub_date:       "2025"
 # abstract: >-
