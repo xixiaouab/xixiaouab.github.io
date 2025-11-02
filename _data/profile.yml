@@ -18,7 +18,7 @@ orcid: 0009-0000-0931-6982
 short_bio_text_justify: false
 short_bio: >-
   <p>
-  Hi, everyone! I am Xi Xiao, a second-year Ph.D. student in the 
+  Hi, everyone! I am <strong>Xi Xiao</strong>, a second-year Ph.D. student in the 
   <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Department of Computer Science</a> 
   at the 
   <a href="https://www.uab.edu/home/" target="_blank">University of Alabama at Birmingham</a>, 
@@ -41,9 +41,10 @@ short_bio: >-
   including <strong>(1) Efficient Domain Adaptation</strong> and <strong>(2) Model Quantization</strong>.
   </p>
 
-<p style="color:#4A90E2;">
+  <p style="color:#4A90E2;">
   <em>I'm always open to collaboration and discussion — if you're interested in my research or have any awesome ideas, please do not hesitate to contact me :)</em>
-</p>
+  </p>
+
 
 
 portrait_url: /assets/images/assets/images/photos/xixiao.jpg
