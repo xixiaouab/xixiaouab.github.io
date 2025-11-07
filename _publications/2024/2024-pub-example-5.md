@@ -2,7 +2,7 @@
 title:          "CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement"
 date:           2025-7-01 00:01:00 +0800
 selected:       true
-pub:            "<strong>Annual AAAI Conference on Artificial Intelligence (AAAI)</strong>"
+pub:            "<strong>Association for the Advancement of Artificial Intelligence (AAAI)</strong>"
 pub_date:       "2026"
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Round 1 Acceptance (85/1329 ≈ 6.4%)</span>'
 
