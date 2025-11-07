@@ -21,7 +21,7 @@ authors:
 
 
 links:
-  PDF: https://arxiv.org/pdf/2507.17353
-#  Code: https://github.com/ORNL/GB-Climate
+  PDF: https://arxiv.org/pdf/2503.07938
+  Code: https://github.com/merry7cherry/CAD-VAE
 #  Demo: https://ornl.github.io/GB-Climate-Demo/
 ---
