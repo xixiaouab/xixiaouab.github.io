@@ -90,11 +90,15 @@ strong {
 }
 
 h2 {
-  margin: 0;
-  font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 30px;     
+  font-weight: 700;     
+  color: #e86e4d;          
+  margin-top: 40px;        
+  margin-bottom: 18px;     
+  letter-spacing: 0.5px;   
 }
+
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
