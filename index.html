@@ -7,7 +7,7 @@
 
     <!-- Last Updated -->
     <div style="color:#555; font-size:15px; margin-bottom:18px;">
-      Last updated @ February 10, 2026
+      Last updated @ February 20, 2026
     </div>
 
     <meta name="author" content="Xi Xiao">
@@ -232,31 +232,6 @@
           <!-- ================= PAPERS ================= -->
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <!-- ORBIT-2 -->
-            <tr bgcolor="#ffffd0">
-              <td style="padding:16px;width:28%;vertical-align:middle">
-                <img src="images/orbit2.jpg"
-                     alt="ORBIT-2"
-                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
-              </td>
-              <td style="padding:8px;width:72%;vertical-align:middle">
-                <span class="papertitle">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</span><br>
-                Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, 
-                David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, 
-                Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu<br>
-                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">SC</span>, 2025
-                &nbsp; <font color="red"><strong>Best Paper Award, Gordon Bell Prize Finalist</strong></font><br>
-
-                <a href="https://dl.acm.org/doi/10.1145/3712285.3771989">paper</a> /
-                <a href="https://github.com/XiaoWang-Github">code</a> /
-                <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html">AMD story</a>
-                <p></p>
-                <p>
-                  An exascale vision transformer for high-resolution climate downscaling on Frontier, enabling accurate and efficient prediction of regional weather and climate extremes.
-                </p>
-              </td>
-            </tr>
-
             <!-- Prompt-based Adaptation Survey -->
             <tr bgcolor="#ffffd0">
               <td style="padding:16px;width:28%;vertical-align:middle">
@@ -277,6 +252,72 @@
                 </p>
               </td>
             </tr>
+
+
+
+            <!-- Learning Straight Flows (S-VFM) -->
+            <tr>
+              <td style="padding:16px;width:28%;vertical-align:middle">
+                <img src="images/svfm.jpg"
+                     alt="S-VFM"
+                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
+              </td>
+              <td style="padding:8px;width:72%;vertical-align:middle">
+                <span class="papertitle">Learning Straight Flows: Variational Flow Matching for Efficient Generation</span><br>
+                Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen<br>
+                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">CVPR</span>, 2026
+                &nbsp; <font color="red"><strong>Accepted</strong></font><br>
+                <a href="https://arxiv.org/abs/2511.17583">paper</a> /
+                <a href="#">code</a>
+                <p></p>
+                <p>
+                  We propose Straight Variational Flow Matching (S-VFM), introducing a variational “generation overview” latent to explicitly encourage straight trajectories in flow matching, improving both training stability and inference efficiency.
+                </p>
+              </td>
+            </tr>
+
+            <!-- fMRI-LM -->
+            <tr>
+              <td style="padding:16px;width:28%;vertical-align:middle">
+                <img src="images/fmri_lm.jpg"
+                     alt="fMRI-LM"
+                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
+              </td>
+              <td style="padding:8px;width:72%;vertical-align:middle">
+                <span class="papertitle">fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding</span><br>
+                Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Chengxuan Qian, Tianyang Wang, Vince D. Calhoun<br>
+                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">CVPR</span>, 2026
+                &nbsp; <font color="red"><strong>Accepted</strong></font><br>
+                <a href="https://arxiv.org/abs/2511.21760">paper</a> /
+                <a href="https://github.com/yuxiangwei0808/fMRI-LM">code</a>
+                <p></p>
+                <p>
+                  An LLM-aligned fMRI foundation model with a neural tokenizer and multi-stage training (synthetic descriptive corpus + instruction tuning), enabling strong zero-/few-shot transfer across diverse fMRI understanding tasks.
+                </p>
+              </td>
+            </tr>
+
+
+                        <!-- CAD-VAE -->
+            <tr>
+              <td style="padding:16px;width:28%;vertical-align:middle">
+                <img src="images/cadvae.jpg"
+                     alt="CAD-VAE"
+                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
+              </td>
+              <td style="padding:8px;width:72%;vertical-align:middle">
+                <span class="papertitle">CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement</span><br>
+                Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen<br>
+                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">AAAI</span>, 2026<br>
+                <a href="https://arxiv.org/abs/2503.07938">paper</a> /
+                <a href="https://github.com/merry7cherry/CAD-VAE">code</a>
+                <p></p>
+                <p>
+                  A correlation-aware latent space that jointly improves disentanglement and fairness in generative models through causal regularization.
+                </p>
+              </td>
+            </tr>
+
 
             <!-- Visual Instance-aware Prompt Tuning -->
             <tr bgcolor="#ffffd0">
@@ -320,26 +361,6 @@
               </td>
             </tr>
 
-            <!-- CAD-VAE -->
-            <tr>
-              <td style="padding:16px;width:28%;vertical-align:middle">
-                <img src="images/cadvae.jpg"
-                     alt="CAD-VAE"
-                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
-              </td>
-              <td style="padding:8px;width:72%;vertical-align:middle">
-                <span class="papertitle">CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement</span><br>
-                Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen<br>
-                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">AAAI</span>, 2026<br>
-                <a href="https://arxiv.org/abs/2503.07938">paper</a> /
-                <a href="https://github.com/merry7cherry/CAD-VAE">code</a>
-                <p></p>
-                <p>
-                  A correlation-aware latent space that jointly improves disentanglement and fairness in generative models through causal regularization.
-                </p>
-              </td>
-            </tr>
-
             <!-- MoRE-Brain -->
             <tr>
               <td style="padding:16px;width:28%;vertical-align:middle">
@@ -360,7 +381,30 @@
               </td>
             </tr>
 
+                        <!-- ORBIT-2 -->
+            <tr bgcolor="#ffffd0">
+              <td style="padding:16px;width:28%;vertical-align:middle">
+                <img src="images/orbit2.jpg"
+                     alt="ORBIT-2"
+                     style="width:100%;max-height:160px;object-fit:cover;border-radius:8px;">
+              </td>
+              <td style="padding:8px;width:72%;vertical-align:middle">
+                <span class="papertitle">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</span><br>
+                Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, 
+                David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, 
+                Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu<br>
+                <span style="color:#6a1b9a; font-weight:700; font-style:italic;">SC</span>, 2025
+                &nbsp; <font color="red"><strong>Best Paper Award, Gordon Bell Prize Finalist</strong></font><br>
 
+                <a href="https://dl.acm.org/doi/10.1145/3712285.3771989">paper</a> /
+                <a href="https://github.com/XiaoWang-Github">code</a> /
+                <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html">AMD story</a>
+                <p></p>
+                <p>
+                  An exascale vision transformer for high-resolution climate downscaling on Frontier, enabling accurate and efficient prediction of regional weather and climate extremes.
+                </p>
+              </td>
+            </tr>
 
             <!-- Sensitivity-lora -->
             <tr>
@@ -382,8 +426,6 @@
               </td>
             </tr>
 
-
-
             <!-- MI2V -->
             <tr>
               <td style="padding:16px;width:28%;vertical-align:middle">
@@ -404,6 +446,7 @@
               </td>
             </tr>
 
+          </tbody></table>
 
 
 
