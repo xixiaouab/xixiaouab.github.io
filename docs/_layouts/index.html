@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Google Analytics: replace with your own ID if needed -->
+
+	<!-- Show more content -->
+	<script type="text/javascript">
+		function toggle_vis(id) {
+	    // var e = document.getElementById(id);
+	    var e = document.getElementsByClassName(id);
+			var showText = document.getElementById("showText");
+			for (var i = 0; i < e.length; i++) {
+		    	if (e[i].style.display == "none") {
+		        	e[i].style.display = "inline";
+	    			showText.innerHTML = "[Show less]";
+		    	} else {
+		    		e[i].style.display = "none";
+		    		showText.innerHTML = "[Show more]";
+		    	}
+		    }
+	    }
+	</script>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- https://fontawesome.com/cheatsheet -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="static/styles.css">
+	<!-- Custom styles for this template -->
+	<link href="files/jumbotron.css" rel="stylesheet">
+	<script src="js/main.js"></script>
+  <script src="js/scroll.js"></script>
+
+  <style>
+    .navbar-custom {
+      background-color: #81b135;
+    }
+  </style>
+</head>
+
+<title>Xi Xiao</title>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom" id="Home">
+	    <div class="container">
+		<a class="navbar-brand" href="#Home" style="font-size:20px">Xi Xiao</a>
+
+		<div class="collapse navbar-collapse" id="navbarToggle">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#About" style="font-size:18px; color:white">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#News" style="font-size:18px; color:white">News</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Research" style="font-size:18px; color:white">Research</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Publications" style="font-size:18px; color:white">Publications</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Experience" style="font-size:18px; color:white">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Awards" style="font-size:18px; color:white">Awards</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Miscellanea" style="font-size:18px; color:white">Miscellanea</a>
+				</li>
+			</ul>
+		</div>
+	    </div>
+	</nav>
+
+	<div class="container" style="padding-top: 80px; font-size: 17px" id="About">
+		<div class="row">
+			<div class="col-md-3" style="padding-right: 40px">
+				<br>
+				<img class="img-responsive img-rounded" src="images/XiXiao.jpg" alt="Xi Xiao" style="max-width: 100%; border:1px solid #ddd; border-radius: 50%;"><br>
+			</div>
+
+			<div class="col-md-9">
+			<br>
+			<p style="text-align: justify;">Hi👋 I'm Xi Xiao, a third-year Ph.D. student in <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Computer Science at the University of Alabama at Birmingham</a>, co-advised by
+				<a href="https://wangt0716.github.io/index.html" target="_blank">Prof. Tianyang Wang</a> and <a href="https://xulabs.github.io/min-xu/" target="_blank">Prof. Min Xu</a> from <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>. I'm also a student researcher at
+				<a href="https://www.ornl.gov" target="_blank">Oak Ridge National Laboratory</a> working with
+				<a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> since May 2025.
+			</p>
+			<p style="text-align: justify;">I am a core contributor to <b>ORBIT-2</b>, an exascale climate foundation model trained on the Frontier supercomputer. The work received the <b>Best Paper Award</b> at SC 2025 and is a <b>ACM Gordon Bell Prize finalist</b>. ORBIT-2 has since been integrated into NVIDIA's enterprise climate AI stack, powering large-scale forecasting services that reach millions of users worldwide.</p>
+
+			<p style="text-align:center">
+				<a href="mailto:xxiao@uab.edu">Email</a> &nbsp;/&nbsp;
+				<a href="assets/Xi_Xiao_s_CV.pdf">CV</a> &nbsp;/&nbsp;
+				<a target="_blank" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en"><i class="ai ai-google-scholar ai-lg"></i> Scholar</a> &nbsp;/&nbsp;
+				<a target="_blank" href="https://github.com/xixiaouab"><i class="fab fa-github fa-lg"></i> GitHub</a> &nbsp;/&nbsp;
+				<a target="_blank" href="https://www.linkedin.com/in/xi-xiao-4800272a5"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+			</p>
+
+			</div>
+		</div>
+	</div><br>
+
+
+   <!-- Research -->
+	<div class="container">
+		<h3 id="Research" style="padding-top: 100px; margin-top: -80px;">Research</h3><hr>
+		<p style="text-align: justify;">
+			I have broad interests in computer vision and language models. My recent work focuses on the <b>post-training stage</b> of large-scale models (LLMs/MLLMs/LVMs). I aim to build efficient and robust intelligent systems that can perform reliably in extreme scenarios with <i>limited data, limited compute, and limited storage resources</i>. Some representative papers are <span style="background-color: #ffffd0;">highlighted</span>.
+		</p>
+	</div><br><br>
+
+
+  <!-- News -->
+	<div class="container">
+		<h3 id="News" style="padding-top: 70px; margin-top: -80px;">News</h3><hr>
+		<ul>
+			<li><tt>[02/2026]</tt> Three papers accepted by <b>CVPR 2026</b>! See you in Denver!</li>
+			<li><tt>[02/2026]</tt> I will join <span style="color:#4B0082;"><b>Amazon</b></span> as an Applied Scientist Intern this summer! See you in Seattle!</li>
+			<li><tt>[01/2026]</tt> One paper accepted by <b>Transactions on Machine Learning Research</b>!</li>
+			<li><tt>[01/2026]</tt> Two papers accepted by <b>ICASSP 2026</b>!</li>
+			<li><tt>[12/2025]</tt> 🎉 Received a <b>Tinker Research Grant ($5,000)</b> from <a href="https://thinkingmachines.ai/" target="_blank">Thinking Machines Lab</a> to support my post-training related research!</li>
+			<li><tt>[11/2025]</tt> One paper accepted by <span style="color:#d00;"><b>SC 2025 — Best Paper Award 🏆</b></span> Deeply honored to be the only student author.</li>
+			<li><tt>[11/2025]</tt> 🎉 <b>Big News: Our Work Was Featured by AMD!</b> <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">Read the story</a></li>
+			<li><tt>[11/2025]</tt> Two papers accepted by <b>WACV 2026</b>!</li>
+			<li><tt>[11/2025]</tt> One paper accepted by <b>AAAI 2026</b>!</li>
+			<li><tt>[10/2025]</tt> Our new survey <i>Prompt-based Adaptation in Large-scale Vision Models: A Survey 🚀</i> is released on arXiv.</li>
+			<li><tt>[09/2025]</tt> One paper accepted by <b>NeurIPS 2025</b>! See you in San Diego!</li>
+			<li><tt>[09/2025]</tt> One paper accepted by <b>WACV 2026</b>! <span style="color:#d00;"><b>Round 1 Acceptance (85/1329 ≈ 6.4%)</b></span></li>
+			<li><tt>[08/2025]</tt> One paper accepted by <b>Findings of EMNLP 2025</b>!</li>
+			<li><tt>[07/2025]</tt> Our work selected as a finalist for the <span style="color:#d00;"><b>ACM Gordon Bell Prize 🏆</b></span></li>
+			<li><tt>[07/2025]</tt> One paper accepted by <b>COLM 2025</b>!</li>
+			<li><tt>[07/2025]</tt> One paper accepted by <b>ACM MM 2025</b>!</li>
+			<li><tt>[06/2025]</tt> One paper accepted by <b>ICCV 2025</b>!</li>
+			<li><tt>[05/2025]</tt> One paper accepted by <b>ECML-PKDD 2025</b>!</li>
+			<li><tt>[05/2025]</tt> Join <b><span style="color:#0b6623;">Oak Ridge National Laboratory</span></b> as a Research Scientist Intern!</li>
+			<li><tt>[12/2024]</tt> One paper accepted by <b>ICASSP 2025</b>!</li>
+			<li><tt>[03/2024]</tt> Serving as a Reviewer for <b>IEEE Transactions on Circuits and Systems for Video Technology</b>!</li>
+			<li><tt>[01/2024]</tt> Started Ph.D. in Computer Science at the <b>University of Alabama at Birmingham</b>!</li>
+		</ul>
+	</div><br><br>
+
+
+
+	<!-- Publications -->
+	<div class="container">
+		<h3 id="Publications" style="padding-top: 70px; margin-top: -80px;">
+			Selected Publications
+			<small><small> (<i>see full list <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target='_blank'>here</a>; * indicates equal contribution</i>)
+			</small></small><br>
+			<!-- <small><small>
+			(<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+			 <a href="" id="select1" onclick="showPubs(1); return false;">show by date</a> /
+       			 <a href="" id="select2" onclick="showPubs(2); return false;">show by topic</a>)
+			</small></small><br> -->
+
+			<!-- <small><small>
+		  	<font color="black">Research Topics:
+				<a href="#dynam" onclick="showPubs(2)">Robotic Manipulation</a> /
+				<a href="#phys" onclick="showPubs(2)">Physical Scene Understanding</a> /
+				<a href="#multi" onclick="showPubs(2)">Multi-Modal Perception</a> /
+				<a href="#imi" onclick="showPubs(2)">Imitation Learning</a>
+			</font><br>
+			</small></small> -->
+		</h3>
+
+		<div id="pubs"></div>
+
+    <!-- <script id="pubs_selected" language="text"> -->
+		<div id="pubs_selected" language="text" style="padding-top: 20px">
+			<div class="row" style="background-color:#ffffd0;">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/loramain.png" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					<strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Zhuxuanzi Wang, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu<br>
+					<b><font color="black">Not All Directions Matter: Toward Structured and Task-Aware Low-Rank Adaptation</font></b><br>
+					<b>arXiv</b>, 2026 &nbsp; <small><a href="https://arxiv.org/abs/2510.13219" target="_blank">[Paper]</a></small><br>
+					<p>A framework that addresses both limitations through a principled, dual-component design: (1) an Information Bottleneck-guided filter that prunes task-irrelevant directions to mitigate semantic drift, and (2) a lightweight, training-only graph-based coordinator that enforces inter-layer consistency to resolve structural incoherence.</p>
+				</div>
+			</div><hr>
+
+			<div class="row" style="background-color:#ffffd0;">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/prompt_survey.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					<strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, et al.<br>
+					<b><font color="black">Prompt-based Adaptation in Large-scale Vision Models: A Survey</font></b><br>
+					<b>TMLR</b>, 2026 &nbsp; <small><a href="https://arxiv.org/abs/2510.13219" target="_blank">[Paper]</a></small> <small><a href="https://github.com/yunbeizhang/Awesome-Visual-Prompt-Tuning" target="_blank">[Resources]</a></small><br>
+					<p>A comprehensive taxonomy and survey of visual prompt tuning and prompting for large vision models, covering learnable, generative, and non-learnable prompts across diverse tasks.</p>
+				</div>
+			</div><hr>
+
+			<div class="row" style="background-color:#ffffd0;">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/vipt.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					<strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu<br>
+					<b><font color="black">Visual Instance-aware Prompt Tuning</font></b><br>
+					<b>ACM MM</b>, 2025 &nbsp; <small><a href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">[Paper]</a></small> <small><a href="https://github.com/xixiaouab?tab=repositories" target="_blank">[Code]</a></small><br>
+					<p>Instance-aware visual prompts that adapt to each image, mitigating overfitting and improving transferability of ViT-based classifiers under distribution shift.</p>
+				</div>
+			</div><hr>
+
+			<div class="row" style="background-color:#ffffd0;">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/magicid.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai &nbsp; <strong>(* equal contribution)</strong><br>
+					<b><font color="black">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</font></b><br>
+					<b>ICCV</b>, 2025 &nbsp; <small><a href="https://echopluto.github.io/MagicID-project/" target="_blank">[Project]</a></small> <small><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">[Paper]</a></small> <small><a href="https://github.com/EchoPluto/MagicID" target="_blank">[Code]</a></small><br>
+					<p>A hybrid preference optimization framework that jointly preserves identity and motion dynamics for personalized text-to-video generation.</p>
+				</div>
+			</div><hr>
+
+			<div class="row" style="background-color:#ffffd0;">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/svfm.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen<br>
+					<b><font color="black">Learning Straight Flows: Variational Flow Matching for Efficient Generation</font></b><br>
+					<b>CVPR</b>, 2026 &nbsp; <small><a href="https://arxiv.org/abs/2511.17583" target="_blank">[Paper]</a></small> <small><a href="#" target="_blank">[Code]</a></small><br>
+					<p>We propose Straight Variational Flow Matching (S-VFM), introducing a variational "generation overview" latent to explicitly encourage straight trajectories in flow matching, improving both training stability and inference efficiency.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/fmrilm.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Chengxuan Qian, Tianyang Wang, Vince D. Calhoun<br>
+					<b><font color="black">fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding</font></b><br>
+					<b>CVPR</b>, 2026 &nbsp; <small><a href="https://arxiv.org/abs/2511.21760" target="_blank">[Paper]</a></small> <small><a href="https://github.com/yuxiangwei0808/fMRI-LM" target="_blank">[Code]</a></small><br>
+					<p>An LLM-aligned fMRI foundation model with a neural tokenizer and multi-stage training (synthetic descriptive corpus + instruction tuning), enabling strong zero-/few-shot transfer across diverse fMRI understanding tasks.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/Hi.png" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Lin Zhao, Xinru Jiang, <strong><u>Xi Xiao</u></strong>, Qihui Fan, Lei Lu, Yanzhi Wang, Xue Lin, Octavia Camps, Pu Zhao, Jianyang Gu<br>
+					<b><font color="black">HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation</font></b><br>
+					<b>CVPR</b>, 2026 &nbsp; <small><a href="#" target="_blank">[Paper]</a></small> <small><a href="#" target="_blank">[Code]</a></small><br>
+					<p>This work investigates the contributions of hierarchical semantics to effective distilled data. We leverage the vision autoregressive (VAR) model whose coarse-to-fine generation mirrors this hierarchy and propose HIERAMP to amplify semantics at different levels.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/cadvae.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen<br>
+					<b><font color="black">CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement</font></b><br>
+					<b>AAAI</b>, 2026 &nbsp; <small><a href="https://arxiv.org/abs/2503.07938" target="_blank">[Paper]</a></small> <small><a href="https://github.com/merry7cherry/CAD-VAE" target="_blank">[Code]</a></small><br>
+					<p>A correlation-aware latent space that jointly improves disentanglement and fairness in generative models through causal regularization.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/morebrain.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Vince D. Calhoun<br>
+					<b><font color="black">MoRE-Brain: Routed Mixture of Experts for Interpretable and Generalizable Cross-Subject fMRI Visual Decoding</font></b><br>
+					<b>NeurIPS</b>, 2025 &nbsp; <small><a href="https://openreview.net/forum?id=fYSPRGmS6l" target="_blank">[Paper]</a></small> <small><a href="https://github.com/yuxiangwei0808/MoRE-Brain" target="_blank">[Code]</a></small><br>
+					<p>A routed mixture-of-experts architecture for diffusion-based fMRI-to-image reconstruction, achieving strong cross-subject generalization and interpretable brain–model alignment.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/orbit2.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu<br>
+					<b><font color="black">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</font></b><br>
+					<b>SC</b>, 2025 &nbsp; <font color="red"><strong>Best Paper Award, Gordon Bell Prize Finalist</strong></font><br>
+					<small><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">[Paper]</a></small> <small><a href="https://github.com/XiaoWang-Github" target="_blank">[Code]</a></small> <small><a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">[AMD story]</a></small><br>
+					<p>An exascale vision transformer for high-resolution climate downscaling on Frontier, enabling accurate and efficient prediction of regional weather and climate extremes.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/slora.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Hao Zhang, Bo Huang, Zhenjia Li, <strong><u>Xi Xiao</u></strong>, Hui Yi Leong, Zumeng Zhang, Xinwei Long, Tianyang Wang, Hao Xu<br>
+					<b><font color="black">Sensitivity-LoRA: Low-Load Sensitivity-Based Fine-Tuning for Large Language Models</font></b><br>
+					<b>Findings of EMNLP</b>, 2025 &nbsp; <small><a href="https://aclanthology.org/2025.findings-emnlp.709.pdf" target="_blank">[Paper]</a></small><br>
+					<p>An efficient fine-tuning method that dynamically allocates ranks to weight matrices based on both their global and local sensitivities, leveraging the second-order derivatives (Hessian Matrix) of the loss function to effectively capture weight sensitivity.</p>
+				</div>
+			</div><hr>
+
+			<div class="row">
+				<div class="col-md-2.5">
+					<img class="img-fluid img-rounded" src="images/mi2v.jpg" style="width:200px; border:0px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+					Yanshu Li, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Ruixiang Tang<br>
+					<b><font color="black">M²IV: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering</font></b><br>
+					<b>COLM</b>, 2025 &nbsp; <small><a href="https://openreview.net/forum?id=9ffYcEiNw9#discussion" target="_blank">[Paper]</a></small><br>
+					<p>A novel representation engineering approach that replaces explicit token-level demonstrations with a set of learnable Multimodal In-context Vectors directly injected into the residual streams of LVLMs.</p>
+				</div>
+			</div><hr>
+
+		</div>
+    <!-- </script> -->
+
+	</div>
+	
+	
+	<br><br>
+
+
+
+
+    <!-- Education removed for Xi Xiao: use Experience section only -->
+
+  <div class="container" style="display:none;">
+    <h3 id="Education" style="padding-top: 70px; margin-top: -80px;">Education</h3>
+    <hr>
+    <ul>
+      <li>
+        Ph.D. Student advised by <a href="https://eiclab.scs.gatech.edu/pages/team.html" target='_blank'>Dr. Yingyan (Celine) Lin</a>, Jan. 2023 - May 2025<br> 
+        <i>School of Computer Science, Georgia Institute of Technology</i>
+      </li>
+      <li>
+        Ph.D. Student advised by <a href="https://eiclab.scs.gatech.edu/pages/team.html" target='_blank'>Dr. Yingyan (Celine) Lin</a>, Aug. 2019 - Dec. 2022<br> 
+        <i>Department of Electrical and Computer Engineering, Rice University</i>
+      </li>
+      <li>
+        Bachelor’s Degree in Applied Physics & Computer Science, Aug. 2015 - Jun. 2019<br> 
+        <i>School of the Gifted Young, University of Science and Technology of China</i>
+      </li>
+    </ul>
+  </div><br><br>
+
+
+
+	<!-- Experience -->
+	<div class="container">
+		<h3 id="Experience" style="padding-top: 70px; margin-top: -80px;">Professional Experience</h3>
+		<hr>
+		<div class="row mb-4">
+			<div class="col-md-2">
+				<img src="images/ornl_logo.png" alt="ORNL" style="height:80px; max-width:90px; object-fit:contain;">
+			</div>
+			<div class="col-md-10">
+				<b>Research Intern</b>, Oak Ridge National Laboratory (ORNL)<br>
+				<i>05/2025 – Present</i><br>
+				<i>Knoxville, Tennessee, USA</i><br>
+				Working with <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> on large-scale climate models (e.g., ORBIT-2), efficient post-training, and exascale distributed training.
+			</div>
+		</div>
+		<div class="row mb-4">
+			<div class="col-md-2">
+				<img src="images/uab_logo.png" alt="UAB" style="height:80px; max-width:90px; object-fit:contain;">
+			</div>
+			<div class="col-md-10">
+				<b>Ph.D. Student</b>, University of Alabama at Birmingham (UAB)<br>
+				<i>01/2024 – Present</i><br>
+				<i>Birmingham, Alabama, USA</i><br>
+				Advised by <a href="https://wangt0716.github.io/index.html" target="_blank">Prof. Tianyang Wang</a>; research in efficient adaptation of large-scale models.
+			</div>
+		</div>
+	</div><br><br>
+
+  
+	<!-- Awards -->
+	<div class="container">
+		<h3 id="Awards" style="padding-top: 70px; margin-top: -80px;">Awards &amp; Honors</h3>
+		<hr>
+		<ul>
+			<li><tt>[2025]</tt> Best Paper Award, <b>SC 2025</b> for ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling.</li>
+			<li><tt>[2025]</tt> Finalist, <b>ACM Gordon Bell Prize</b> (team award) for exascale climate foundation modeling on Frontier.</li>
+			<li><tt>[2025]</tt> 🎉 <b>Tinker Research Grant</b> ($5,000) from Thinking Machines Lab to support research on efficient post-training of large-scale models.</li>
+		</ul>
+	</div><br><br>
+
+	<!-- Miscellanea -->
+	<div class="container">
+		<h3 id="Miscellanea" style="padding-top: 70px; margin-top: -80px;">Miscellanea</h3>
+		<hr>
+		<p><strong>Talks &amp; Media</strong></p>
+		<ul>
+			<li><a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">AMD story on ORBIT-2 and Frontier exascale climate modeling</a></li>
+			<li><a href="https://www.uab.edu/news/people-of-uab/uab-students-research-wins-best-paper-award-at-an-international-computing-conference" target="_blank">UAB News: UAB students' research wins Best Paper Award at an international computing conference</a></li>
+			<li>More invited talks and interviews coming soon.</li>
+		</ul>
+		<p><strong>Academic Service</strong></p>
+		<p>Reviewer for MICCAI 2026, ICML 2026, CVPR 2026, ECCV 2026, AAAI 2026, NeurIPS 2025, ACM MM 2025, TMLR, IEEE TCSVT, npj Digital Medicine.</p>
+	</div><br><br>
+
+	<div class="container">
+		<hr>
+		<center>
+			<footer>
+				<p>&copy; Xi Xiao 2026. Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron's template</a>. Page template from <a href="https://yunzhuli.github.io/" target="_blank">Yunzhu Li</a>.</p>
+			</footer>
+		</center>
+	</div>
+	<!-- /container -->
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script>showPubs(1);</script>
+	<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+</html>
