@@ -37,11 +37,6 @@
 	<script src="js/main.js"></script>
   <script src="js/scroll.js"></script>
 
-  <style>
-    .navbar-custom {
-      background-color: #0b6623;
-    }
-  </style>
 </head>
 
 <title>Xi Xiao</title>
@@ -49,30 +44,36 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom" id="Home">
 	    <div class="container">
-		<a class="navbar-brand" href="#Home" style="font-size:20px">Xi Xiao</a>
+		<a class="navbar-brand" href="#Home">Xi Xiao</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
 		<div class="collapse navbar-collapse" id="navbarToggle">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#About" style="font-size:18px; color:white">About</a>
+					<a class="nav-link" href="#About">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#News" style="font-size:18px; color:white">News</a>
+					<a class="nav-link" href="#News">News</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#Research" style="font-size:18px; color:white">Research</a>
+					<a class="nav-link" href="#Research">Research</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#Publications" style="font-size:18px; color:white">Publications</a>
+					<a class="nav-link" href="#Publications">Publications</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#Experience" style="font-size:18px; color:white">Experience</a>
+					<a class="nav-link" href="#Education">Education</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#Awards" style="font-size:18px; color:white">Awards</a>
+					<a class="nav-link" href="#Experience">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#Miscellanea" style="font-size:18px; color:white">Miscellanea</a>
+					<a class="nav-link" href="#Awards">Awards</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Miscellanea">Miscellanea</a>
 				</li>
 			</ul>
 		</div>
@@ -88,6 +89,7 @@
 
 			<div class="col-md-9">
 			<br>
+			<p class="research-tagline">Efficient adaptation, vision-language foundation models, and robust AI systems for resource-constrained real-world settings.</p>
 			<p style="text-align: justify;">Hi👋 I'm Xi Xiao, a third-year Ph.D. student in <a href="https://www.uab.edu/cas/computerscience/" target="_blank">Computer Science at the University of Alabama at Birmingham</a>, co-advised by
 				<a href="https://wangt0716.github.io/index.html" target="_blank">Prof. Tianyang Wang</a> and <a href="https://xulabs.github.io/min-xu/" target="_blank">Prof. Min Xu</a>. I'm also a student researcher at
 				<a href="https://www.ornl.gov" target="_blank">Oak Ridge National Laboratory</a> working with
@@ -96,7 +98,7 @@
 			<p style="text-align: justify;">I am a core contributor to <b>ORBIT-2</b>, an exascale climate foundation model pretrained on the Frontier supercomputer. The work received the <b>Best Paper Award</b> at SC 2025 and is a <b>ACM Gordon Bell Prize finalist</b>. ORBIT-2 has since been integrated into <b>NVIDIA's</b> enterprise climate AI stack, powering large-scale forecasting services that reach millions of users worldwide.</p>
 			<div style="background-color: #eef7ff; padding: 16px 20px; border-radius: 12px; margin-top: 14px; margin-bottom: 10px; color: #2f2f2f; line-height: 1.7;">
 				<span style="font-weight: 700;">Open to research internships, visiting opportunities, and collaborations.</span>
-				If my work align with your interests or just want to say Hi, I'd be delighted to connect:)
+				If my work aligns with your interests or you just want to say Hi, I'd be delighted to connect:)
 			</div>
 			<p style="text-align:center">
 				<a target="_blank" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en"><i class="ai ai-google-scholar ai-lg"></i> Scholar</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
@@ -146,32 +148,45 @@
   <!-- News -->
 	<div class="container">
 		<h3 id="News" style="padding-top: 70px; margin-top: -80px;">News</h3><hr>
-		<ul>
-			<li><tt>[05/2026]</tt> One paper accepted by <b>MICCAI 2026</b>!</li>
-			<li><tt>[05/2026]</tt> Join <span style="color:#4B0082;"><b>Amazon</b></span> as an Applied Scientist Intern!</li>
-			<li><tt>[04/2026]</tt> One paper accepted by <b>ICML 2026</b>!</li>
-			<li><tt>[04/2026]</tt> Two papers accepted by <b>ACL 2026</b> (one Main conference, one Findings)! See you in San Diego!</li>
-			<li><tt>[03/2026]</tt> One paper accepted by <b>ICME 2026</b>!</li>
-			<li><tt>[02/2026]</tt> Three papers accepted by <b>CVPR 2026</b>! See you in Denver!</li>
-			<li><tt>[01/2026]</tt> One paper accepted by <b>Transactions on Machine Learning Research</b>!</li>
-			<li><tt>[01/2026]</tt> Two papers accepted by <b>ICASSP 2026 Oral 🏆</b>!</li>
-			<li class="news-year-start"><tt>[12/2025]</tt> 🎉 Received a <b>Tinker Research Grant ($5,000)</b> from <a href="https://thinkingmachines.ai/" target="_blank">Thinking Machines Lab</a> to support my post-training related research!</li>
-			<li><tt>[11/2025]</tt> One paper accepted by <span style="color:#d00;"><b>SC 2025 — Best Paper Award 🏆</b></span> Deeply honored to be the only student author.</li>
-			<li><tt>[11/2025]</tt> 🎉 <b>Big News: Our Work Was Featured by AMD!</b> <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">Read the story</a></li>
-			<li><tt>[11/2025]</tt> Two papers accepted by <b>WACV 2026</b>!</li>
-			<li><tt>[11/2025]</tt> One paper accepted by <b>AAAI 2026</b>!</li>
-			<li><tt>[09/2025]</tt> One paper accepted by <b>NeurIPS 2025</b>! See you in San Diego!</li>
-			<li><tt>[09/2025]</tt> One paper accepted by <b>WACV 2026</b>! <span style="color:#d00;"><b>Round 1 Acceptance (85/1329 ≈ 6.4%)</b></span></li>
-			<li><tt>[08/2025]</tt> One paper accepted by <b>EMNLP 2025</b> (Findings)!</li>
-			<li><tt>[07/2025]</tt> Our work selected as a finalist for the <span style="color:#d00;"><b>ACM Gordon Bell Prize 🏆</b></span></li>
-			<li><tt>[07/2025]</tt> One paper accepted by <b>COLM 2025</b>!</li>
-			<li><tt>[07/2025]</tt> One paper accepted by <b>ACM MM 2025</b>!</li>
-			<li><tt>[06/2025]</tt> One paper accepted by <b>ICCV 2025</b>!</li>
-			<li><tt>[05/2025]</tt> One paper accepted by <b>ECML-PKDD 2025</b>!</li>
-			<li><tt>[05/2025]</tt> Join <b><span style="color:#0b6623;">Oak Ridge National Laboratory</span></b> as a Research Scientist Intern!</li>
-			<li class="news-year-start"><tt>[12/2024]</tt> One paper accepted by <b>ICASSP 2025</b>!</li>
-			<li><tt>[01/2024]</tt> Started Ph.D. in Computer Science at the <b>University of Alabama at Birmingham</b>!</li>
-		</ul>
+		<div class="news-group">
+			<div class="news-year">2026</div>
+			<ul class="news-list">
+				<li><tt>[05]</tt> One paper accepted by <b>MICCAI 2026</b>!</li>
+				<li><tt>[05]</tt> Join <span style="color:#4B0082;"><b>Amazon</b></span> as an Applied Scientist Intern!</li>
+				<li><tt>[04]</tt> One paper accepted by <b>ICML 2026</b>!</li>
+				<li><tt>[04]</tt> Two papers accepted by <b>ACL 2026</b> (one Main conference, one Findings)! See you in San Diego!</li>
+				<li><tt>[03]</tt> One paper accepted by <b>ICME 2026</b>!</li>
+				<li><tt>[02]</tt> Three papers accepted by <b>CVPR 2026</b>! See you in Denver!</li>
+				<li><tt>[01]</tt> One paper accepted by <b>Transactions on Machine Learning Research</b>!</li>
+				<li><tt>[01]</tt> Two papers accepted by <b>ICASSP 2026 Oral 🏆</b>!</li>
+			</ul>
+		</div>
+		<div class="news-group">
+			<div class="news-year">2025</div>
+			<ul class="news-list">
+				<li><tt>[12]</tt> 🎉 Received a <b>Tinker Research Grant ($5,000)</b> from <a href="https://thinkingmachines.ai/" target="_blank">Thinking Machines Lab</a> to support my post-training related research!</li>
+				<li><tt>[11]</tt> One paper accepted by <span style="color:#d00;"><b>SC 2025 — Best Paper Award 🏆</b></span> Deeply honored to be the only student author.</li>
+				<li><tt>[11]</tt> 🎉 <b>Big News: Our Work Was Featured by AMD!</b> <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">Read the story</a></li>
+				<li><tt>[11]</tt> Two papers accepted by <b>WACV 2026</b>!</li>
+				<li><tt>[11]</tt> One paper accepted by <b>AAAI 2026</b>!</li>
+				<li><tt>[09]</tt> One paper accepted by <b>NeurIPS 2025</b>! See you in San Diego!</li>
+				<li><tt>[09]</tt> One paper accepted by <b>WACV 2026</b>! <span style="color:#d00;"><b>Round 1 Acceptance (85/1329 ≈ 6.4%)</b></span></li>
+				<li><tt>[08]</tt> One paper accepted by <b>EMNLP 2025</b> (Findings)!</li>
+				<li><tt>[07]</tt> Our work selected as a finalist for the <span style="color:#d00;"><b>ACM Gordon Bell Prize 🏆</b></span></li>
+				<li><tt>[07]</tt> One paper accepted by <b>COLM 2025</b>!</li>
+				<li><tt>[07]</tt> One paper accepted by <b>ACM MM 2025</b>!</li>
+				<li><tt>[06]</tt> One paper accepted by <b>ICCV 2025</b>!</li>
+				<li><tt>[05]</tt> One paper accepted by <b>ECML-PKDD 2025</b>!</li>
+				<li><tt>[05]</tt> Join <b><span style="color:#0b6623;">Oak Ridge National Laboratory</span></b> as a Research Scientist Intern!</li>
+			</ul>
+		</div>
+		<div class="news-group">
+			<div class="news-year">2024</div>
+			<ul class="news-list">
+				<li><tt>[12]</tt> One paper accepted by <b>ICASSP 2025</b>!</li>
+				<li><tt>[01]</tt> Started Ph.D. in Computer Science at the <b>University of Alabama at Birmingham</b>!</li>
+			</ul>
+		</div>
 	</div><br><br>
 
 
@@ -435,35 +450,9 @@
 		</ol>
 	</div><br><br>
 
-
-
-
-	    <!-- Education -->
-
-  <div class="container" style="display:none;">
-    <h3 id="Education" style="padding-top: 70px; margin-top: -80px;">Education</h3>
-    <hr>
-    <ul>
-      <li>
-        Ph.D. Student advised by <a href="https://eiclab.scs.gatech.edu/pages/team.html" target='_blank'>Dr. Yingyan (Celine) Lin</a>, Jan. 2023 - May 2025<br> 
-        <i>School of Computer Science, Georgia Institute of Technology</i>
-      </li>
-      <li>
-        Ph.D. Student advised by <a href="https://eiclab.scs.gatech.edu/pages/team.html" target='_blank'>Dr. Yingyan (Celine) Lin</a>, Aug. 2019 - Dec. 2022<br> 
-        <i>Department of Electrical and Computer Engineering, Rice University</i>
-      </li>
-      <li>
-        Bachelor’s Degree in Applied Physics & Computer Science, Aug. 2015 - Jun. 2019<br> 
-        <i>School of the Gifted Young, University of Science and Technology of China</i>
-      </li>
-    </ul>
-  </div><br><br>
-
-
-
-	<!-- Experience -->
+	<!-- Education -->
 	<div class="container">
-		<h3 id="Experience" style="padding-top: 70px; margin-top: -80px;">Education</h3>
+		<h3 id="Education" style="padding-top: 70px; margin-top: -80px;">Education</h3>
 		<hr>
 		<div class="row mb-4">
 			<div class="col-md-2">
@@ -477,7 +466,7 @@
 		</div>
 		<div class="row mb-4">
 			<div class="col-md-2">
-				<img src="images/scujcc.png" alt="UAB" style="height:80px; max-width:90px; object-fit:contain;">
+				<img src="images/scujcc.png" alt="Sichuan University Jincheng College" style="height:80px; max-width:90px; object-fit:contain;">
 			</div>
 			<div class="col-md-10">
 				Bachelor’s Degree in Artificial Intelligence, <b>Sichuan University Jincheng College</b><br>
