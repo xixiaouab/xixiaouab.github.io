@@ -20,14 +20,6 @@
   color: #d8f0dd;
 }
 
-.research-tagline {
-  color: #0b6623;
-  font-size: 1.02rem;
-  font-weight: 700;
-  line-height: 1.45;
-  margin-bottom: 10px;
-}
-
 .news-group {
   display: grid;
   grid-template-columns: 72px 1fr;
