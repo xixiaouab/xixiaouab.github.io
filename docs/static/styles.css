@@ -1,1 +1,21 @@
 /* Custom styles - add your overrides here */
+
+.news-year-start {
+  margin-top: 12px;
+}
+
+.publication-category {
+  color: #0b6623;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+.other-publications {
+  padding-left: 22px;
+}
+
+.other-publications li {
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
