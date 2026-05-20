@@ -322,28 +322,109 @@ h3[id] small {
 }
 
 .publication-category {
+  align-items: center;
   color: var(--primary);
+  display: flex;
   font-size: 1.08rem;
   font-weight: 800;
-  margin: 24px 0 10px;
+  gap: 12px;
+  letter-spacing: 0;
+  margin: 26px 0 12px;
+}
+
+.publication-category::after {
+  background: var(--line);
+  content: "";
+  flex: 1;
+  height: 1px;
 }
 
 .other-publications {
-  padding-left: 22px;
+  counter-reset: other-publication;
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin-bottom: 4px;
+  padding-left: 0;
 }
 
 .other-publications li {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
+  counter-increment: other-publication;
   line-height: 1.55;
-  margin-bottom: 12px;
-  padding: 13px 16px;
+  margin-bottom: 0;
+  padding: 13px 16px 13px 54px;
+  position: relative;
 }
 
-.other-publications li::marker {
+.other-publications li::before {
+  align-items: center;
+  background: var(--primary-soft);
+  border: 1px solid #c8dccf;
+  border-radius: 7px;
   color: var(--primary);
+  content: counter(other-publication);
+  display: flex;
+  font-size: 0.82rem;
   font-weight: 800;
+  height: 26px;
+  justify-content: center;
+  left: 16px;
+  line-height: 1;
+  position: absolute;
+  top: 16px;
+  width: 26px;
+}
+
+.other-authors {
+  color: var(--muted);
+}
+
+.other-title {
+  color: var(--ink);
+  font-size: 1.01rem;
+  font-weight: 800;
+  line-height: 1.45;
+  margin: 3px 0;
+}
+
+.other-meta-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.other-venue {
+  color: var(--primary);
+}
+
+.other-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pub-link {
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--primary);
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 1px 7px;
+}
+
+.pub-link:hover,
+.pub-link:focus {
+  background: var(--primary-soft);
+  border-color: #bfd7c7;
+  color: var(--primary-dark);
+  text-decoration: none;
 }
 
 .timeline-entry {
@@ -450,6 +531,25 @@ footer {
 
   .pub-thumb {
     max-width: 220px;
+  }
+
+  .other-publications li {
+    padding: 12px 13px 12px 48px;
+  }
+
+  .other-publications li::before {
+    left: 13px;
+    top: 15px;
+  }
+
+  .other-meta-row {
+    align-items: flex-start;
+    display: block;
+  }
+
+  .other-links {
+    display: flex;
+    margin-top: 5px;
   }
 
   .logo-column {
