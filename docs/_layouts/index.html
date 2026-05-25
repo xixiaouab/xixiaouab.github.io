@@ -32,10 +32,10 @@
 	<!-- https://fontawesome.com/cheatsheet -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-  <link rel="stylesheet" href="static/styles.css?v=20260520">
+  <link rel="stylesheet" href="static/styles.css?v=20260524">
 	<!-- Custom styles for this template -->
 	<link href="files/jumbotron.css" rel="stylesheet">
-	<script src="js/main.js"></script>
+	<script src="js/main.js?v=20260524"></script>
   <script src="js/scroll.js"></script>
 
 </head>
@@ -52,29 +52,20 @@
 
 		<div class="collapse navbar-collapse" id="navbarToggle">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#About">About</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#Publications" id="publicationsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="publicationsMenu">
+						<a class="dropdown-item" href="#Publications">Selected Publications</a>
+						<a class="dropdown-item" href="other-publications.html">Other Publications</a>
+					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#News">News</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Research">Research</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Publications">Publications</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Education">Education</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Experience">Experience</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Awards">Awards</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Miscellanea">Miscellanea</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#CV" id="cvMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="cvMenu">
+						<a class="dropdown-item" href="#CV">Experience &amp; Education</a>
+						<a class="dropdown-item" href="#Awards">Awards &amp; Honors</a>
+						<a class="dropdown-item" href="#Miscellanea">Service &amp; Media</a>
+					</div>
 				</li>
 			</ul>
 		</div>
@@ -110,6 +101,53 @@
 			</div>
 		</div>
 	</div><br>
+
+	<!-- CV Overview -->
+	<div class="container cv-overview" id="CV">
+		<h3 style="padding-top: 90px; margin-top: -80px;">CV <small>Experience &amp; Education</small></h3><hr>
+		<div class="cv-grid">
+			<div class="cv-panel">
+				<div class="cv-panel-heading">Experience</div>
+				<div class="cv-card">
+					<div class="cv-logo"><img src="images/amazon_wordmark.svg" alt="Amazon" style="width:150px; max-width:100%; height:auto; object-fit:contain;"></div>
+					<div class="cv-card-body">
+						<div class="cv-role">Applied Scientist Intern</div>
+						<div class="cv-org">Amazon AGI</div>
+						<div class="cv-meta">05/2026 – Present · Seattle, Washington, USA</div>
+						<div class="cv-detail">Supervised by <a href="https://scholar.google.com/citations?user=-uCJznsAAAAJ&hl=zh-CN" target="_blank">Dr. Eric Zhao</a>, <a href="https://shownx.github.io/" target="_blank">Dr. Xiang Xu</a>, and <a href="https://lotusroot-kim.github.io/research_homepage/" target="_blank">Dr. Youngeun Kim</a> on MLLM Reasoning / Understanding.</div>
+					</div>
+				</div>
+				<div class="cv-card">
+					<div class="cv-logo"><img src="images/ornl_logo.png" alt="ORNL" style="height:72px; max-width:90px; object-fit:contain;"></div>
+					<div class="cv-card-body">
+						<div class="cv-role">Research Scientist Intern</div>
+						<div class="cv-org">Oak Ridge National Laboratory</div>
+						<div class="cv-meta">05/2025 – 05/2026 · Knoxville, Tennessee, USA</div>
+						<div class="cv-detail">Supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> on MLLM post-training and exascale distributed pretraining.</div>
+					</div>
+				</div>
+			</div>
+			<div class="cv-panel">
+				<div class="cv-panel-heading">Education</div>
+				<div class="cv-card">
+					<div class="cv-logo"><img src="images/uab_logo.png" alt="UAB" style="height:72px; max-width:84px; object-fit:contain;"></div>
+					<div class="cv-card-body">
+						<div class="cv-role">Ph.D. in Computer Science</div>
+						<div class="cv-org">University of Alabama at Birmingham</div>
+						<div class="cv-meta">01/2024 – 05/2028 (Expected) · Birmingham, Alabama, USA</div>
+					</div>
+				</div>
+				<div class="cv-card">
+					<div class="cv-logo"><img src="images/scujcc.png" alt="Sichuan University Jincheng College" style="height:72px; max-width:84px; object-fit:contain;"></div>
+					<div class="cv-card-body">
+						<div class="cv-role">Bachelor's Degree in Artificial Intelligence</div>
+						<div class="cv-org">Sichuan University Jincheng College</div>
+						<div class="cv-meta">09/2019 – 06/2023 · Chengdu, Sichuan, China</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><br><br>
 
 
    <!-- Research Interest -->
@@ -302,260 +340,13 @@
 
 
 		</div>
-    <!-- </script> -->
-
+		<div class="publication-more-link">
+			<a href="other-publications.html">View Other Publications</a>
 		</div>
+		</div><br><br>
 
 
-		<br><br>
 
-
-	<!-- Other Publications -->
-	<div class="container">
-		<h3 id="OtherPublications" style="padding-top: 70px; margin-top: -80px;">Other Publications</h3>
-		<hr>
-
-		<div class="publication-category">2026</div>
-		<ol class="other-publications">
-			<li>
-				<div class="other-authors">Junjie Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang*, Chen Liu*, Lin Zhao, Xiaoying Liao, Yingrui Ji, Janet Wang, Jianyang Gu, Yingqiang Ge, Weijie Xu, Xi Fang, Xiang Xu, Tianchen (Eric) Zhao, Youngeun Kim, Tianyang Wang, Jihun Hamm, Smita Krishnaswamy, Jun (Luke) Huan, Chandan Reddy</div>
-				<div class="other-title">Agent Harness Engineering: A Survey</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://picrew.github.io/LLM-Harness/" target="_blank">2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://openreview.net/pdf?id=eONq7FdiHa" target="_blank">Paper</a><a class="pub-link" href="https://github.com/Picrew/awesome-agent-harness" target="_blank">Code</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Mengchen Fan, Baocheng Geng, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Siyuan Mei, Pulin Che, Xiaoqian Jiang, Qizhen Lan</div>
-				<div class="other-title">Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation</div>
-				<div class="other-meta-row"><b><a class="other-venue" href="https://conferences.miccai.org/2026/" target="_blank">MICCAI 2026 Early Accept (Top 9%)</a></b></div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Aristeidis Tsaris, Anika Tabassum, John Lagergren, Larry M. York, Tianyang Wang, Xiao Wang</div>
-				<div class="other-title">FOCUS: Fused Observation of Channels for Unveiling Spectra</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2026.ieeeicme.org/" target="_blank">ICME 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2507.14787" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Hao Zhang, Zhenjia Li, Runfeng Bao, <strong><u>Xi Xiao</u></strong>, Yifan Gao, Heng Zhang, Shuyang Zhang, Bo Huang, Yuhang Wu, Tianyang Wang, Hao Xu</div>
-				<div class="other-title">HyperAdaLoRA: Accelerating LoRA Rank Allocation During Training via Hypernetworks without Sacrificing Performance</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2026.aclweb.org/" target="_blank">ACL Findings 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2510.02630" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Chengxuan Qian, Tianyang Wang, Vince D. Calhoun</div>
-				<div class="other-title">fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2511.21760" target="_blank">Paper</a><a class="pub-link" href="https://github.com/yuxiangwei0808/fMRI-LM" target="_blank">Code</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen</div>
-				<div class="other-title">Learning Straight Flows: Variational Flow Matching for Efficient Generation</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2511.17583" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Lin Zhao, Xinru Jiang, <strong><u>Xi Xiao</u></strong>, Qihui Fan, Lei Lu, Yanzhi Wang, Xue Lin, Octavia Camps, Pu Zhao, Jianyang Gu</div>
-				<div class="other-title">HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2603.06932" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Yu Li, Da Chang, <strong><u>Xi Xiao</u></strong></div>
-				<div class="other-title">KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2026.ieeeicassp.org/" target="_blank">ICASSP 2026 Oral</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2509.21750" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Zhuxuanzi Wang, Mingqiao Mo, <strong><u>Xi Xiao</u></strong>, Chen Liu, Chenrui Ma, Yunbei Zhang, Xiao Wang, Smita Krishnaswamy, Tianyang Wang</div>
-				<div class="other-title">CTR-LoRA: Curvature-Aware and Trust-Region Guided Low-Rank Adaptation for Large Language Models</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2026.ieeeicassp.org/" target="_blank">ICASSP 2026 Oral</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2510.15962" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Chenrui Ma, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Yanning Shen</div>
-				<div class="other-title">CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">AAAI 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2503.07938" target="_blank">Paper</a><a class="pub-link" href="https://github.com/merry7cherry/CAD-VAE" target="_blank">Code</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Janet Wang, Lin Zhao, Yuxiang Wei, Hengjia Li, Yanshu Li, Xiao Wang, Swalpa Kumar Roy, Hao Xu, Tianyang Wang</div>
-				<div class="other-title">RoadBench: A Vision-Language Foundation Model and Benchmark for Road Damage Understanding</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://wacv.thecvf.com/virtual/2026" target="_blank">WACV 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2026/papers/Xiao_RoadBench_A_Vision-Language_Foundation_Model_and_Benchmark_for_Road_Damage_WACV_2026_paper.pdf" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Zhuxuanzi Wang, Mingqiao Mo, Chen Liu, Chenrui Ma, Yanshu Li, Smita Krishnaswamy, Xiao Wang, Tianyang Wang</div>
-				<div class="other-title">Self-Supervised Visual Prompting for Cross-Domain Road Damage Detection</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://wacv.thecvf.com/virtual/2026" target="_blank">WACV 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2026/papers/Xiao_Self-Supervised_Visual_Prompting_for_Cross-Domain_Road_Damage_Detection_WACV_2026_paper.pdf" target="_blank">Paper</a><a class="pub-link" href="https://github.com/xixiaouab/PROBE" target="_blank">Code</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Vince D. Calhoun</div>
-				<div class="other-title">4D Multimodal Co-Attention Fusion Network with Latent Contrastive Alignment for Alzheimer's Diagnosis</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://wacv.thecvf.com/virtual/2026" target="_blank">WACV 2026</a></b>
-					<span class="other-links"><a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2026/papers/Wei_4D_Multimodal_Co-attention_Fusion_Network_with_Latent_Contrastive_Alignment_for_WACV_2026_paper.pdf" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Aokun Liang, <strong><u>Xi Xiao</u></strong>, Xiangyun Hu, Tao Ke, Tianyang Wang, Yibing Xiong, Huiwei Jiang, Xiao Wang</div>
-				<div class="other-title">GeoPriorCLIP: A Foundational Remote Sensing Vision-Language Model Enhanced with Cascaded Geographic Information Priors</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://www.tandfonline.com/journals/tgsi20" target="_blank">Geo-spatial Information Science</a></b>
-					<span class="other-links"><a class="pub-link" href="https://www.tandfonline.com/doi/full/10.1080/10095020.2026.2619233" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Shunlei Li, Longsen Gao, Jin Wang, Chang Che, <strong><u>Xi Xiao</u></strong>, Jiuwen Cao, Yingbai Hu, Hamid Reza Karimi</div>
-				<div class="other-title">Information-Theoretic Graph Fusion with Vision-Language-Action Model for Policy Reasoning and Dual Robotic Control</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://www.sciencedirect.com/journal/information-fusion" target="_blank">Information Fusion</a></b>
-					<span class="other-links"><a class="pub-link" href="https://www.sciencedirect.com/science/article/pii/S1566253526000722" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Chenshen Huang*, Haoyun Xia*, <strong><u>Xi Xiao*</u></strong>, Hong Chen, Yiqing Jiang, Yahui Lyu, Zhizhan Ni, Tianyang Wang, Ning Wang, Qi Huang</div>
-				<div class="other-title">Geometric Multi-Instance Learning for Weakly Supervised Gastric Cancer Segmentation</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://www.nature.com/npjdigitalmed/" target="_blank">npj Digital Medicine</a></b>
-					<span class="other-links"><a class="pub-link" href="https://www.nature.com/articles/s41746-025-02287-6" target="_blank">Paper</a></span>
-				</div>
-			</li>
-		</ol>
-
-		<div class="publication-category">2025</div>
-		<ol class="other-publications">
-			<li>
-				<div class="other-authors">Yuxiang Wei, Yanteng Zhang, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Xiao Wang, Vince D. Calhoun</div>
-				<div class="other-title">MoRE-Brain: Routed Mixture of Experts for Interpretable and Generalizable Cross-Subject fMRI Visual Decoding</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://neurips.cc/Conferences/2025" target="_blank">NeurIPS 2025</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2505.15946" target="_blank">Paper</a><a class="pub-link" href="https://github.com/yuxiangwei0808/MoRE-Brain" target="_blank">Code</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Hao Zhang, Bo Huang, Zhenjia Li, <strong><u>Xi Xiao</u></strong>, Hui Yi Leong, Zumeng Zhang, Xinwei Long, Tianyang Wang, Hao Xu</div>
-				<div class="other-title">Sensitivity-LoRA: Low-Load Sensitivity-Based Fine-Tuning for Large Language Models</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2025.emnlp.org/" target="_blank">EMNLP Findings 2025</a></b>
-					<span class="other-links"><a class="pub-link" href="https://aclanthology.org/2025.findings-emnlp.709/" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Zhengji Li, Wentao Wang, Jiacheng Xie, Houjie Lin, Swalpa Kumar Roy, Tianyang Wang, Min Xu</div>
-				<div class="other-title">TD-RD: A Top-Down Benchmark with Real-Time Framework for Road Damage Detection</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://2025.ieeeicassp.org/" target="_blank">ICASSP 2025</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2501.14302" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors">Yanshu Li, Yi Cao, Hongyang He, Qisen Cheng, Xiang Fu, <strong><u>Xi Xiao</u></strong>, Tianyang Wang, Ruixiang Tang</div>
-				<div class="other-title">M²IV: Towards Efficient and Fine-Grained Multimodal In-Context Learning via Representation Engineering</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://colmweb.org/2025/" target="_blank">COLM 2025</a></b>
-					<span class="other-links"><a class="pub-link" href="https://openreview.net/forum?id=9ffYcEiNw9" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Thanh-Huy Nguyen, Ba-Thinh Lam, Janet Wang, Lin Zhao, Jihun Hamm, Tianyang Wang, Xingjian Li, Xiao Wang, Hao Xu, Tianming Liu, Min Xu</div>
-				<div class="other-title">Describe Anything in Medical Images</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://fm4ls.github.io/index.html" target="_blank">ICML 2025 Workshop on FM4LS</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2505.05804" target="_blank">Paper</a></span>
-				</div>
-			</li>
-			<li>
-				<div class="other-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Yanshu Li, Xingjian Li, Tianyang Wang, Jihun Hamm, Xiao Wang, Min Xu</div>
-				<div class="other-title">Visual Variational Autoencoder Prompt Tuning</div>
-				<div class="other-meta-row">
-					<b><a class="other-venue" href="https://cvpr.thecvf.com/virtual/2025/workshop/32343" target="_blank">CVPR 2025 Workshop on FGVC</a></b>
-					<span class="other-links"><a class="pub-link" href="https://arxiv.org/abs/2503.17650" target="_blank">Paper</a></span>
-				</div>
-			</li>
-		</ol>
-	</div><br><br>
-
-	<!-- Education -->
-	<div class="container">
-		<h3 id="Education" style="padding-top: 70px; margin-top: -80px;">Education</h3>
-		<hr>
-		<div class="row mb-4 timeline-entry">
-			<div class="col-md-2 logo-column">
-				<img src="images/uab_logo.png" alt="UAB" style="height:80px; max-width:90px; object-fit:contain;">
-			</div>
-			<div class="col-md-10">
-				Ph.D. in Computer Science, <b>University of Alabama at Birmingham</b><br>
-				<i>01/2024 – 05/2028 (Expected)</i><br>
-				<i>Birmingham, Alabama, USA</i><br>
-			</div>
-		</div>
-		<div class="row mb-4 timeline-entry">
-			<div class="col-md-2 logo-column">
-				<img src="images/scujcc.png" alt="Sichuan University Jincheng College" style="height:80px; max-width:90px; object-fit:contain;">
-			</div>
-			<div class="col-md-10">
-				Bachelor’s Degree in Artificial Intelligence, <b>Sichuan University Jincheng College</b><br>
-				<i>09/2019 – 06/2023</i><br>
-				<i>Chengdu, Sichuan, China</i><br>
-			</div>
-		</div>
-	</div><br><br>
-
-<!-- Experience -->
-<div class="container">
-	<h3 id="Experience" style="padding-top: 70px; margin-top: -80px;">Experience</h3>
-	<hr>
-
-	<div class="row mb-4 timeline-entry">
-		<div class="col-md-2 logo-column">
-			<img src="images/amazon_wordmark.svg" alt="Amazon" style="width:150px; max-width:100%; height:auto; object-fit:contain;">
-		</div>
-		<div class="col-md-10">
-			Applied Scientist Intern, <b>Amazon AGI</b><br>
-			<i>05/2026 – Present</i><br>
-			<i>Seattle, Washington, USA</i><br>
-			Supervised by <a href="https://scholar.google.com/citations?user=-uCJznsAAAAJ&hl=zh-CN" target="_blank">Dr. Eric Zhao</a>, <a href="https://shownx.github.io/" target="_blank">Dr. Xiang Xu</a>, and <a href="https://lotusroot-kim.github.io/research_homepage/" target="_blank">Dr. Youngeun Kim</a> on MLLM Reasoning / Understanding.
-
-		</div>
-	</div>
-
-	<div class="row mb-4 timeline-entry">
-		<div class="col-md-2 logo-column">
-			<img src="images/ornl_logo.png" alt="ORNL" style="height:80px; max-width:90px; object-fit:contain;">
-		</div>
-		<div class="col-md-10">
-			Research Scientist Intern, <b>Oak Ridge National Laboratory</b><br>
-			<i>05/2025 – 05/2026</i><br>
-			<i>Knoxville, Tennessee, USA</i><br>
-			Supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> on MLLM's post-training, and exascale distributed pretraining.
-		</div>
-	</div>
-</div><br><br>
-	
-
-  
 	<!-- Awards -->
 	<div class="container">
 		<h3 id="Awards" style="padding-top: 70px; margin-top: -80px;">Awards &amp; Honors</h3>
