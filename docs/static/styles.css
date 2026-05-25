@@ -637,30 +637,6 @@ footer {
   padding-bottom: 20px;
 }
 
-.visitor-map {
-  margin: 30px 0;
-  text-align: center;
-}
-
-.visitor-map h5 {
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 800;
-  margin-bottom: 14px;
-}
-
-.visitor-map-frame {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 0;
-}
-
-.visitor-map p {
-  font-size: 0.9rem;
-  margin: 8px 0 0;
-}
-
 @media (max-width: 991.98px) {
   .cv-grid {
     grid-template-columns: 1fr;
