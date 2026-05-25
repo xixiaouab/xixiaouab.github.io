@@ -32,10 +32,10 @@
 	<!-- https://fontawesome.com/cheatsheet -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-  <link rel="stylesheet" href="static/styles.css?v=20260524">
+  <link rel="stylesheet" href="static/styles.css?v=20260525">
 	<!-- Custom styles for this template -->
 	<link href="files/jumbotron.css" rel="stylesheet">
-	<script src="js/main.js?v=20260524"></script>
+	<script src="js/main.js?v=20260525"></script>
   <script src="js/scroll.js"></script>
 
 </head>
@@ -50,25 +50,26 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarToggle">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#Publications" id="publicationsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="publicationsMenu">
-						<a class="dropdown-item" href="#Publications">Selected Publications</a>
-						<a class="dropdown-item" href="other-publications.html">Other Publications</a>
-					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#CV" id="cvMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="cvMenu">
-						<a class="dropdown-item" href="#CV">Experience &amp; Education</a>
-						<a class="dropdown-item" href="#Awards">Awards &amp; Honors</a>
-						<a class="dropdown-item" href="#Miscellanea">Service &amp; Media</a>
-					</div>
-				</li>
-			</ul>
-		</div>
+			<div class="collapse navbar-collapse" id="navbarToggle">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#Publications" id="publicationsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="publicationsMenu">
+							<a class="dropdown-item" href="#Publications">Selected Publications</a>
+							<a class="dropdown-item" href="other-publications.html">Other Publications</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#CV" id="cvMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="cvMenu">
+							<a class="dropdown-item" href="#Experience">Experience</a>
+							<a class="dropdown-item" href="#Education">Education</a>
+							<a class="dropdown-item" href="#Awards">Awards &amp; Honors</a>
+							<a class="dropdown-item" href="#Miscellanea">Service &amp; Media</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 	    </div>
 	</nav>
 
@@ -104,45 +105,42 @@
 
 	<!-- CV Overview -->
 	<div class="container cv-overview" id="CV">
-		<h3 style="padding-top: 90px; margin-top: -80px;">CV <small>Experience &amp; Education</small></h3><hr>
 		<div class="cv-grid">
-			<div class="cv-panel">
-				<div class="cv-panel-heading">Experience</div>
-				<div class="cv-card">
-					<div class="cv-logo"><img src="images/amazon_wordmark.svg" alt="Amazon" style="width:150px; max-width:100%; height:auto; object-fit:contain;"></div>
-					<div class="cv-card-body">
-						<div class="cv-role">Applied Scientist Intern</div>
-						<div class="cv-org">Amazon AGI</div>
-						<div class="cv-meta">05/2026 – Present · Seattle, Washington, USA</div>
+			<div class="cv-panel" id="Experience">
+				<h3 style="padding-top: 90px; margin-top: -80px;">Experience</h3><hr>
+				<div class="cv-entry">
+					<div class="cv-entry-date">05/2026 - Present</div>
+					<div class="cv-entry-body">
+						<div class="cv-role">Applied Scientist Intern @ Amazon AGI</div>
+						<div class="cv-meta">Seattle, Washington, USA</div>
 						<div class="cv-detail">Supervised by <a href="https://scholar.google.com/citations?user=-uCJznsAAAAJ&hl=zh-CN" target="_blank">Dr. Eric Zhao</a>, <a href="https://shownx.github.io/" target="_blank">Dr. Xiang Xu</a>, and <a href="https://lotusroot-kim.github.io/research_homepage/" target="_blank">Dr. Youngeun Kim</a> on MLLM Reasoning / Understanding.</div>
 					</div>
 				</div>
-				<div class="cv-card">
-					<div class="cv-logo"><img src="images/ornl_logo.png" alt="ORNL" style="height:72px; max-width:90px; object-fit:contain;"></div>
-					<div class="cv-card-body">
-						<div class="cv-role">Research Scientist Intern</div>
-						<div class="cv-org">Oak Ridge National Laboratory</div>
-						<div class="cv-meta">05/2025 – 05/2026 · Knoxville, Tennessee, USA</div>
+				<div class="cv-entry">
+					<div class="cv-entry-date">05/2025 - 05/2026</div>
+					<div class="cv-entry-body">
+						<div class="cv-role">Research Scientist Intern @ Oak Ridge National Laboratory</div>
+						<div class="cv-meta">Knoxville, Tennessee, USA</div>
 						<div class="cv-detail">Supervised by <a href="https://www.ornl.gov/staff-profile/xiao-wang" target="_blank">Dr. Xiao Wang</a> on MLLM post-training and exascale distributed pretraining.</div>
 					</div>
 				</div>
 			</div>
-			<div class="cv-panel">
-				<div class="cv-panel-heading">Education</div>
-				<div class="cv-card">
-					<div class="cv-logo"><img src="images/uab_logo.png" alt="UAB" style="height:72px; max-width:84px; object-fit:contain;"></div>
-					<div class="cv-card-body">
+			<div class="cv-panel" id="Education">
+				<h3 style="padding-top: 90px; margin-top: -80px;">Education</h3><hr>
+				<div class="cv-entry">
+					<div class="cv-entry-date">01/2024 - 05/2028</div>
+					<div class="cv-entry-body">
 						<div class="cv-role">Ph.D. in Computer Science</div>
 						<div class="cv-org">University of Alabama at Birmingham</div>
-						<div class="cv-meta">01/2024 – 05/2028 (Expected) · Birmingham, Alabama, USA</div>
+						<div class="cv-meta">Birmingham, Alabama, USA · Expected 2028</div>
 					</div>
 				</div>
-				<div class="cv-card">
-					<div class="cv-logo"><img src="images/scujcc.png" alt="Sichuan University Jincheng College" style="height:72px; max-width:84px; object-fit:contain;"></div>
-					<div class="cv-card-body">
+				<div class="cv-entry">
+					<div class="cv-entry-date">09/2019 - 06/2023</div>
+					<div class="cv-entry-body">
 						<div class="cv-role">Bachelor's Degree in Artificial Intelligence</div>
 						<div class="cv-org">Sichuan University Jincheng College</div>
-						<div class="cv-meta">09/2019 – 06/2023 · Chengdu, Sichuan, China</div>
+						<div class="cv-meta">Chengdu, Sichuan, China</div>
 					</div>
 				</div>
 			</div>
@@ -192,7 +190,7 @@
 				<li><tt>[05]</tt> New preprint is out: <a href="https://picrew.github.io/LLM-Harness/" target="_blank"><b>Agent Harness Engineering: A Survey</b></a>.</li>
 				<li><tt>[05]</tt> Recognized as an <b>ICML 2026 Silver Reviewer</b>.</li>
 				<li><tt>[05]</tt> One paper accepted by <b>MICCAI 2026</b>!</li>
-				<li><tt>[05]</tt> Join <span style="color:#4B0082;"><b>Amazon</b></span> as an Applied Scientist Intern!</li>
+				<li><tt>[05]</tt> Join <span style="color:#111111;"><b>Amazon</b></span> as an Applied Scientist Intern!</li>
 				<li><tt>[04]</tt> One paper accepted by <b>ICML 2026</b>!</li>
 				<li><tt>[04]</tt> Two papers accepted by <b>ACL 2026</b> (one Main conference, one Findings)! See you in San Diego!</li>
 				<li><tt>[03]</tt> One paper accepted by <b>ICME 2026</b>!</li>
@@ -217,7 +215,7 @@
 				<li><tt>[07]</tt> One paper accepted by <b>ACM MM 2025</b>!</li>
 				<li><tt>[06]</tt> One paper accepted by <b>ICCV 2025</b>!</li>
 				<li><tt>[05]</tt> One paper accepted by <b>ECML-PKDD 2025</b>!</li>
-				<li><tt>[05]</tt> Join <b><span style="color:#0b6623;">Oak Ridge National Laboratory</span></b> as a Research Scientist Intern!</li>
+				<li><tt>[05]</tt> Join <b><span style="color:#111111;">Oak Ridge National Laboratory</span></b> as a Research Scientist Intern!</li>
 			</ul>
 		</div>
 		<div class="news-group">

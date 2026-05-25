@@ -1,17 +1,17 @@
 /* Custom styles for Xi Xiao's academic homepage */
 
 :root {
-  --bg: #fbfcfb;
+  --bg: #fbfbfb;
   --surface: #ffffff;
-  --surface-soft: #f5f8f6;
-  --ink: #172033;
-  --muted: #5f6b7a;
-  --line: #e2e8e4;
-  --primary: #0a5c36;
-  --primary-dark: #073d29;
-  --primary-soft: #e8f3ec;
-  --accent: #9a6a1f;
-  --accent-soft: #f8f1e3;
+  --surface-soft: #f5f5f5;
+  --ink: #161616;
+  --muted: #5f6368;
+  --line: #e5e5e5;
+  --primary: #111111;
+  --primary-dark: #000000;
+  --primary-soft: #f1f1f1;
+  --accent: #686868;
+  --accent-soft: #f4f4f4;
   --shadow: 0 14px 36px rgba(23, 32, 51, 0.08);
 }
 
@@ -57,9 +57,9 @@ hr {
 }
 
 .navbar-custom {
-  background-color: rgba(7, 61, 41, 0.97);
+  background-color: rgba(12, 12, 12, 0.98);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 10px 30px rgba(7, 61, 41, 0.18);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
 }
 
 .navbar-custom .navbar-brand {
@@ -83,7 +83,7 @@ hr {
 
 .navbar-custom .dropdown-menu {
   background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(7, 61, 41, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   box-shadow: 0 16px 34px rgba(23, 32, 51, 0.16);
   margin-top: 9px;
@@ -173,7 +173,7 @@ hr {
   background: var(--primary-soft);
   border-left: 4px solid var(--primary);
   border-radius: 8px;
-  color: #243329;
+  color: var(--ink);
   line-height: 1.7;
   margin: 16px 0 12px;
   padding: 14px 18px;
@@ -263,54 +263,54 @@ h3[id] small {
 
 .cv-grid {
   display: grid;
-  gap: 18px;
+  gap: 28px;
   grid-template-columns: minmax(0, 1fr) minmax(0, 0.86fr);
 }
 
 .cv-panel {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 248, 246, 0.9));
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  box-shadow: 0 12px 28px rgba(23, 32, 51, 0.06);
-  padding: 16px;
+  min-width: 0;
 }
 
-.cv-panel-heading {
-  color: var(--primary-dark);
-  font-size: 0.92rem;
-  font-weight: 800;
-  margin-bottom: 12px;
-  text-transform: uppercase;
+.cv-panel h3 + hr {
+  margin-bottom: 18px;
 }
 
-.cv-card {
-  align-items: center;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+.cv-entry {
+  border-left: 2px solid var(--line);
   display: grid;
   gap: 16px;
-  grid-template-columns: 132px 1fr;
-  margin-bottom: 12px;
-  padding: 15px;
+  grid-template-columns: 128px 1fr;
+  margin-bottom: 18px;
+  padding-left: 18px;
+  position: relative;
 }
 
-.cv-card:last-child {
+.cv-entry:last-child {
   margin-bottom: 0;
 }
 
-.cv-logo {
-  align-items: center;
-  background: var(--surface-soft);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  display: flex;
-  height: 92px;
-  justify-content: center;
-  padding: 12px;
+.cv-entry::before {
+  background: var(--surface);
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: -6px;
+  position: absolute;
+  top: 8px;
+  width: 10px;
 }
 
-.cv-card-body {
+.cv-entry-date {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 750;
+  line-height: 1.45;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.cv-entry-body {
   min-width: 0;
 }
 
@@ -411,7 +411,7 @@ h3[id] small {
 }
 
 .pub-card:hover {
-  border-color: #c9d9cf;
+  border-color: #cfcfcf;
   box-shadow: var(--shadow);
 }
 
@@ -457,7 +457,7 @@ h3[id] small {
 .pub-content small a:hover,
 .pub-content small a:focus {
   background: var(--primary-soft);
-  border-color: #bfd7c7;
+  border-color: #cfcfcf;
 }
 
 .pub-content font[color="firebrick"] {
@@ -507,7 +507,7 @@ h3[id] small {
 .other-publications li::before {
   align-items: center;
   background: var(--primary-soft);
-  border: 1px solid #c8dccf;
+  border: 1px solid #d7d7d7;
   border-radius: 7px;
   color: var(--primary);
   content: counter(other-publication);
@@ -567,7 +567,7 @@ h3[id] small {
 .pub-link:hover,
 .pub-link:focus {
   background: var(--primary-soft);
-  border-color: #bfd7c7;
+  border-color: #cfcfcf;
   color: var(--primary-dark);
   text-decoration: none;
 }
@@ -685,17 +685,13 @@ footer {
   }
 
   .cv-panel {
-    padding: 13px;
+    padding: 0;
   }
 
-  .cv-card {
+  .cv-entry {
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-
-  .cv-logo {
-    height: 82px;
-    justify-content: flex-start;
+    padding-left: 16px;
   }
 
   .profile-column {
