@@ -624,11 +624,49 @@ h3[id] small {
   padding: 2px 0 2px 14px;
 }
 
-.service-list {
-  background: var(--accent-soft);
-  border-left: 4px solid var(--accent);
+.service-block {
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 14px 18px;
+  box-shadow: 0 8px 22px rgba(18, 58, 99, 0.05);
+  padding: 18px 22px 12px;
+}
+
+.service-heading {
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 12px 0 8px;
+}
+
+.service-heading:first-child {
+  margin-top: 0;
+}
+
+.service-list {
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 1.55;
+  margin-bottom: 16px;
+  padding-left: 26px;
+}
+
+.service-list li {
+  margin-bottom: 7px;
+  padding-left: 2px;
+}
+
+.service-note {
+  background: var(--primary-soft);
+  border: 1px solid #cbd9e8;
+  border-radius: 6px;
+  color: var(--primary-dark);
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin-left: 8px;
+  padding: 0 7px;
+  vertical-align: 1px;
 }
 
 footer {
