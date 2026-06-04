@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Visitor Map</title>
+  <desc id="desc">A clean fallback world map graphic for the visitor map section.</desc>
+  <rect width="920" height="420" rx="24" fill="#f8fbff"/>
+  <rect x="24" y="24" width="872" height="372" rx="20" fill="#ffffff" stroke="#dfe7f0" stroke-width="2"/>
+  <g fill="#dce9f7">
+    <ellipse cx="210" cy="150" rx="102" ry="44"/>
+    <ellipse cx="285" cy="205" rx="88" ry="34"/>
+    <ellipse cx="445" cy="158" rx="112" ry="42"/>
+    <ellipse cx="570" cy="210" rx="130" ry="46"/>
+    <ellipse cx="710" cy="265" rx="76" ry="32"/>
+    <ellipse cx="470" cy="285" rx="58" ry="24"/>
+  </g>
+  <g fill="#1f66b3" opacity="0.88">
+    <circle cx="174" cy="139" r="7"/>
+    <circle cx="246" cy="167" r="6"/>
+    <circle cx="314" cy="221" r="6"/>
+    <circle cx="420" cy="148" r="7"/>
+    <circle cx="510" cy="176" r="6"/>
+    <circle cx="594" cy="216" r="7"/>
+    <circle cx="670" cy="194" r="6"/>
+    <circle cx="730" cy="270" r="7"/>
+    <circle cx="474" cy="286" r="6"/>
+  </g>
+  <g fill="none" stroke="#8fb6e6" stroke-width="2" opacity="0.65">
+    <path d="M174 139 C260 98, 340 112, 420 148"/>
+    <path d="M420 148 C492 166, 540 188, 594 216"/>
+    <path d="M594 216 C642 224, 690 242, 730 270"/>
+    <path d="M314 221 C374 250, 420 270, 474 286"/>
+  </g>
+  <text x="460" y="350" fill="#123a63" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" text-anchor="middle">Visitor Map</text>
+  <text x="460" y="376" fill="#5f6f82" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Live ClustrMaps preview will appear when the service is available.</text>
+</svg>

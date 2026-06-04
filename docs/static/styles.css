@@ -321,6 +321,11 @@ h3[id] small {
   line-height: 1.35;
 }
 
+.cv-unit {
+  color: #1f66b3;
+  font-weight: 900;
+}
+
 .cv-org {
   color: var(--primary);
   font-weight: 750;
@@ -454,6 +459,21 @@ h3[id] small {
   padding: 1px 7px;
 }
 
+.pub-venue,
+.pub-venue:visited,
+.pub-content b a,
+.pub-content b a:visited {
+  color: #2f80ff !important;
+  font-weight: 800;
+}
+
+.pub-venue:hover,
+.pub-venue:focus,
+.pub-content b a:hover,
+.pub-content b a:focus {
+  color: #1766df !important;
+}
+
 .pub-content small a:hover,
 .pub-content small a:focus {
   background: var(--primary-soft);
@@ -542,8 +562,15 @@ h3[id] small {
   gap: 8px;
 }
 
-.other-venue {
-  color: var(--primary);
+.other-venue,
+.other-venue:visited {
+  color: #2f80ff !important;
+  font-weight: 800;
+}
+
+.other-venue:hover,
+.other-venue:focus {
+  color: #1766df !important;
 }
 
 .other-links {
@@ -593,6 +620,34 @@ h3[id] small {
   background: var(--primary);
   border-color: var(--primary);
   color: #ffffff;
+}
+
+.visitor-map-card {
+  margin: 30px auto;
+  max-width: 520px;
+  text-align: center;
+}
+
+.visitor-map-card h5 {
+  color: var(--primary);
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.visitor-map-link {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 26px rgba(23, 32, 51, 0.07);
+  display: block;
+  padding: 12px;
+}
+
+.visitor-map-image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .timeline-entry {
