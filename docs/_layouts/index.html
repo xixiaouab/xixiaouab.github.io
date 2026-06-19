@@ -55,6 +55,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#Publications" id="publicationsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="publicationsMenu">
+							<a class="dropdown-item" href="#Preprints">Preprints</a>
 							<a class="dropdown-item" href="#Publications">Selected Publications</a>
 							<a class="dropdown-item" href="other-publications.html">Other Publications</a>
 						</div>
@@ -234,30 +235,12 @@
 
 	<!-- Publications -->
 	<div class="container">
-		<h3 id="Publications" style="padding-top: 70px; margin-top: -80px;">
-			Selected Publications
-			<small><small> (<i>see full list <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target='_blank'>here</a>; * indicates equal contribution</i>)
-			</small></small><br>
-			<!-- <small><small>
-			(<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
-			 <a href="" id="select1" onclick="showPubs(1); return false;">show by date</a> /
-       			 <a href="" id="select2" onclick="showPubs(2); return false;">show by topic</a>)
-			</small></small><br> -->
-
-			<!-- <small><small>
-		  	<font color="black">Research Topics:
-				<a href="#dynam" onclick="showPubs(2)">Robotic Manipulation</a> /
-				<a href="#phys" onclick="showPubs(2)">Physical Scene Understanding</a> /
-				<a href="#multi" onclick="showPubs(2)">Multi-Modal Perception</a> /
-				<a href="#imi" onclick="showPubs(2)">Imitation Learning</a>
-			</font><br>
-			</small></small> -->
+		<h3 id="Preprints" style="padding-top: 70px; margin-top: -80px;">
+			Preprints
+			<small><small> (<i>* indicates equal contribution</i>)</small></small><br>
 		</h3>
 
-		<div id="pubs"></div>
-
-    <!-- <script id="pubs_selected" language="text"> -->
-		<div id="pubs_selected" class="selected-publications" language="text">
+		<div id="pubs_preprints" class="selected-publications" language="text">
 			<div class="row pub-card">
 				<div class="col-md-3 pub-image-col">
 					<img class="img-fluid pub-thumb" src="images/agent-harness-timeline.jpg" alt="Agent Harness Engineering preprint">
@@ -284,6 +267,32 @@
 					<font color="firebrick"><b>In collaboration with ORNL</b></font><br>
 				</div>
 			</div><hr>
+		</div><br><br>
+
+		<h3 id="Publications" style="padding-top: 70px; margin-top: -80px;">
+			Selected Publications
+			<small><small> (<i>see full list <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target='_blank'>here</a>; * indicates equal contribution</i>)
+			</small></small><br>
+			<!-- <small><small>
+			(<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+			 <a href="" id="select1" onclick="showPubs(1); return false;">show by date</a> /
+				 <a href="" id="select2" onclick="showPubs(2); return false;">show by topic</a>)
+			</small></small><br> -->
+
+			<!-- <small><small>
+				<font color="black">Research Topics:
+				<a href="#dynam" onclick="showPubs(2)">Robotic Manipulation</a> /
+				<a href="#phys" onclick="showPubs(2)">Physical Scene Understanding</a> /
+				<a href="#multi" onclick="showPubs(2)">Multi-Modal Perception</a> /
+				<a href="#imi" onclick="showPubs(2)">Imitation Learning</a>
+			</font><br>
+			</small></small> -->
+		</h3>
+
+		<div id="pubs"></div>
+
+    <!-- <script id="pubs_selected" language="text"> -->
+		<div id="pubs_selected" class="selected-publications" language="text">
 
 			<div class="row pub-card">
 				<div class="col-md-3 pub-image-col">
