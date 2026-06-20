@@ -7,12 +7,12 @@
   --ink: #102033;
   --muted: #5f6f82;
   --line: #dfe7f0;
-  --primary: #123a63;
-  --primary-dark: #08233f;
+  --primary: #1f5f8f;
+  --primary-dark: #174b73;
   --primary-soft: #eaf2fb;
-  --accent: #5d7592;
+  --accent: #6b8fad;
   --accent-soft: #eef4fa;
-  --shadow: 0 14px 36px rgba(18, 58, 99, 0.08);
+  --shadow: 0 14px 36px rgba(31, 95, 143, 0.08);
 }
 
 * {
@@ -57,9 +57,9 @@ hr {
 }
 
 .navbar-custom {
-  background-color: rgba(8, 35, 63, 0.98);
+  background-color: rgba(23, 75, 115, 0.98);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 10px 30px rgba(8, 35, 63, 0.26);
+  box-shadow: 0 10px 30px rgba(23, 75, 115, 0.24);
 }
 
 .navbar-custom .navbar-brand {
@@ -83,7 +83,7 @@ hr {
 
 .navbar-custom .dropdown-menu {
   background: rgba(255, 255, 255, 0.98);
-  border: 1px solid rgba(8, 35, 63, 0.14);
+  border: 1px solid rgba(23, 75, 115, 0.14);
   border-radius: 8px;
   box-shadow: 0 16px 34px rgba(23, 32, 51, 0.16);
   margin-top: 9px;
@@ -406,7 +406,7 @@ h3[id] small {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: 0 12px 30px rgba(18, 58, 99, 0.07);
+  box-shadow: 0 12px 30px rgba(31, 95, 143, 0.07);
   overflow: hidden;
   padding: 16px 8px 16px 18px;
   position: relative;
@@ -483,7 +483,7 @@ h3[id] small {
 }
 
 .news-list li:hover {
-  background: linear-gradient(90deg, rgba(18, 58, 99, 0.035), rgba(18, 58, 99, 0));
+  background: linear-gradient(90deg, rgba(31, 95, 143, 0.035), rgba(31, 95, 143, 0));
   border-left-color: var(--primary);
 }
 
@@ -789,7 +789,7 @@ h3[id] small {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: 0 8px 22px rgba(18, 58, 99, 0.05);
+  box-shadow: 0 8px 22px rgba(31, 95, 143, 0.05);
   padding: 18px 22px 12px;
 }
 
