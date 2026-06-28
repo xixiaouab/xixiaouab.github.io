@@ -383,19 +383,67 @@ h3[id] small {
 
 .research-topics {
   display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  list-style: none;
-  margin-top: 18px;
-  padding-left: 0;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 20px;
 }
 
-.research-topics li {
+.research-card {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: 0 8px 22px rgba(23, 32, 51, 0.05);
-  padding: 14px 16px;
+  min-width: 0;
+  padding: 17px 18px 18px;
+}
+
+.research-card h4 {
+  color: var(--ink);
+  font-size: 1.02rem;
+  font-weight: 800;
+  line-height: 1.32;
+  margin: 0 0 7px;
+}
+
+.research-card p {
+  color: var(--muted);
+  font-size: 0.91rem;
+  line-height: 1.5;
+  margin: 0 0 13px;
+}
+
+.research-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.research-chip {
+  align-items: center;
+  background: var(--accent-soft);
+  border: 1px solid #d8e3ef;
+  border-radius: 999px;
+  color: var(--primary-dark);
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.25;
+  min-height: 31px;
+  padding: 6px 10px;
+}
+
+.research-chip span {
+  color: var(--primary);
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+.research-chip:hover,
+.research-chip:focus {
+  background: var(--primary-soft);
+  border-color: #c3d4e5;
+  color: var(--primary-dark);
+  text-decoration: none;
 }
 
 .news-section {
