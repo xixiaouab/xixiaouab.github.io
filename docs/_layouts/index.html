@@ -32,10 +32,10 @@
 	<!-- https://fontawesome.com/cheatsheet -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-  <link rel="stylesheet" href="../static/styles.css?v=20260619-news">
+  <link rel="stylesheet" href="../static/styles.css?v=20260708-citations">
 	<!-- Custom styles for this template -->
 	<link href="../files/jumbotron.css" rel="stylesheet">
-	<script src="../js/main.js?v=20260604"></script>
+	<script src="../js/main.js?v=20260708-citations"></script>
   <script src="../js/scroll.js"></script>
 
 </head>
@@ -525,14 +525,41 @@
 			</div>
 
 			<div class="footer-widget-card citation-tracker-card">
-				<h5>Paper Citation Tracker</h5>
-				<div class="citation-tracker-link">
-					<span class="citation-tracker-kicker">Hugging Face Space</span>
-					<span class="citation-tracker-title">Daily citation snapshots, embeddable charts, and Google Scholar badges.</span>
-					<span class="citation-tracker-actions">
-						<a href="https://huggingface.co/spaces/WNJXYK/paper-citation-tracker" target="_blank" rel="noopener noreferrer">Open Tracker</a>
+				<h5>Google Scholar Impact</h5>
+				<div class="citation-tracker-panel" data-scholar-tracker>
+					<div class="citation-tracker-topline">
+						<span>Updated daily</span>
+						<span data-scholar-updated>Loading</span>
+					</div>
+					<div class="citation-tracker-total">
+						<span data-scholar-total>--</span>
+						<small>Total citations</small>
+					</div>
+					<div class="citation-stat-grid">
+						<div>
+							<strong data-scholar-hindex>--</strong>
+							<span>h-index</span>
+						</div>
+						<div>
+							<strong data-scholar-i10>--</strong>
+							<span>i10-index</span>
+						</div>
+						<div>
+							<strong data-scholar-papers>--</strong>
+							<span>Indexed papers</span>
+						</div>
+					</div>
+					<div class="citation-chart-shell">
+						<canvas id="scholarCitationChart" width="640" height="180" aria-label="Google Scholar citation history"></canvas>
+					</div>
+					<a class="citation-top-paper" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" data-scholar-top-paper>
+						<span>Top cited paper</span>
+						<strong>Loading Scholar data</strong>
+					</a>
+					<div class="citation-tracker-actions">
 						<a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-					</span>
+						<a href="data/scholar_citations.json" target="_blank" rel="noopener noreferrer">Citation JSON</a>
+					</div>
 				</div>
 			</div>
 		</div>
