@@ -132,13 +132,14 @@ hr {
 
 .profile-quote {
   color: var(--muted);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.94rem;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-size: 1.02rem;
   font-style: italic;
-  line-height: 1.45;
-  margin: 14px auto 0;
-  max-width: 240px;
-  padding: 0 6px;
+  font-weight: 500;
+  line-height: 1.42;
+  margin: 16px auto 0;
+  max-width: 250px;
+  padding: 0 8px;
   text-align: center;
 }
 
@@ -146,13 +147,17 @@ hr {
   color: var(--primary-dark);
   display: block;
   font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .profile-quote cite {
   color: var(--accent);
   display: block;
-  font-size: 0.82rem;
-  margin-top: 5px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 6px;
 }
 
 .intro-copy p {
