@@ -130,6 +130,31 @@ hr {
   width: 100%;
 }
 
+.profile-quote {
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.94rem;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 14px auto 0;
+  max-width: 240px;
+  padding: 0 6px;
+  text-align: center;
+}
+
+.profile-quote span {
+  color: var(--primary-dark);
+  display: block;
+  font-weight: 600;
+}
+
+.profile-quote cite {
+  color: var(--accent);
+  display: block;
+  font-size: 0.82rem;
+  margin-top: 5px;
+}
+
 .intro-copy p {
   margin-bottom: 12px;
   text-align: left;
