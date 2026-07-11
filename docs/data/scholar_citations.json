@@ -2,17 +2,17 @@
   "profile": {
     "name": "Xi Xiao",
     "scholar_id": "Q4DnRVgAAAAJ",
-    "scholar_url": "https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en",
+    "scholar_url": "https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en&pagesize=100",
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 499,
-    "h_index": 12,
+    "total_citations": 508,
+    "h_index": 13,
     "i10_index": 17,
-    "paper_count": 54,
+    "paper_count": 55,
     "updated": "2026-07-10",
-    "updated_at_utc": "2026-07-10T13:19:44+00:00",
-    "source": "serpapi"
+    "updated_at_utc": "2026-07-11T03:53:19+00:00",
+    "source": "google_scholar_direct"
   },
   "history": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "date": "2026-07-10",
-      "total_citations": 499
+      "total_citations": 508
     }
   ],
   "top_papers": [
@@ -33,14 +33,14 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 46,
+      "citations": 47,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -54,22 +54,29 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR, 2026",
-      "citations": 29,
+      "citations": 31,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
       "year": "2025",
       "venue": "ICCV 2025, 2025",
-      "citations": 25,
+      "citations": 26,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
+    },
+    {
+      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
+      "year": "2024",
+      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
+      "citations": 25,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
@@ -77,13 +84,6 @@
       "venue": "EMNLP Findings 2025, 2025",
       "citations": 24,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
-    },
-    {
-      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
-      "year": "2024",
-      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 24,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     }
   ]
 }

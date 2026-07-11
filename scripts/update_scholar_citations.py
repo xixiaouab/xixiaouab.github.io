@@ -22,7 +22,7 @@ from typing import Any
 
 
 AUTHOR_ID = os.environ.get("SCHOLAR_AUTHOR_ID", "Q4DnRVgAAAAJ")
-SCHOLAR_URL = f"https://scholar.google.com/citations?user={AUTHOR_ID}&hl=en"
+SCHOLAR_URL = f"https://scholar.google.com/citations?user={AUTHOR_ID}&hl=en&pagesize=100"
 OUTPUT_PATH = Path("docs/data/scholar_citations.json")
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -91,6 +91,12 @@ def parse_serpapi(data: dict[str, Any]) -> dict[str, Any]:
 
 def parse_direct_scholar(page: str) -> dict[str, Any]:
     meta_match = re.search(r"Cited by\s+([\d,]+)", page)
+    description_match = re.search(r'<meta name="description" content="([^"]+)"', page)
+    affiliation = ""
+    if description_match:
+        description = html.unescape(description_match.group(1))
+        description = re.sub(r"[\u202a-\u202e]", "", description)
+        affiliation = description.split(" - ")[0].strip()
     stat_values = [
         int_or_none(html.unescape(value))
         for value in re.findall(r'<td class="gsc_rsb_std">([^<]+)</td>', page)
@@ -133,7 +139,7 @@ def parse_direct_scholar(page: str) -> dict[str, Any]:
 
     return {
         "name": "Xi Xiao",
-        "affiliation": "",
+        "affiliation": affiliation,
         "total_citations": total,
         "h_index": stat_values[2] if len(stat_values) > 2 else None,
         "i10_index": stat_values[4] if len(stat_values) > 4 else None,
@@ -150,6 +156,7 @@ def fetch_snapshot() -> dict[str, Any]:
             "author_id": AUTHOR_ID,
             "hl": "en",
             "num": "100",
+            "no_cache": "true",
             "api_key": serpapi_key,
         }
         url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
@@ -172,6 +179,7 @@ def build_document(snapshot: dict[str, Any], existing: dict[str, Any]) -> dict[s
     total = snapshot.get("total_citations")
     if total is None:
         raise RuntimeError("Could not read total citation count.")
+    existing_profile = existing.get("profile") or {}
 
     history = list(existing.get("history") or [])
     history = [entry for entry in history if entry.get("date") != today]
@@ -184,7 +192,7 @@ def build_document(snapshot: dict[str, Any], existing: dict[str, Any]) -> dict[s
             "name": snapshot.get("name") or "Xi Xiao",
             "scholar_id": AUTHOR_ID,
             "scholar_url": SCHOLAR_URL,
-            "affiliation": snapshot.get("affiliation") or "",
+            "affiliation": snapshot.get("affiliation") or existing_profile.get("affiliation") or "",
         },
         "summary": {
             "total_citations": total,
