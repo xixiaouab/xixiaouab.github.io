@@ -6,12 +6,12 @@
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 511,
+    "total_citations": 515,
     "h_index": 13,
     "i10_index": 17,
     "paper_count": 55,
-    "updated": "2026-07-13",
-    "updated_at_utc": "2026-07-13T13:30:33+00:00",
+    "updated": "2026-07-14",
+    "updated_at_utc": "2026-07-14T12:40:38+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -38,6 +38,10 @@
     {
       "date": "2026-07-13",
       "total_citations": 511
+    },
+    {
+      "date": "2026-07-14",
+      "total_citations": 515
     }
   ],
   "top_papers": [
@@ -59,14 +63,14 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 42,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR, 2026",
-      "citations": 31,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
