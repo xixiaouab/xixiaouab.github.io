@@ -10,8 +10,8 @@
     "h_index": 13,
     "i10_index": 17,
     "paper_count": 55,
-    "updated": "2026-07-15",
-    "updated_at_utc": "2026-07-15T12:43:14+00:00",
+    "updated": "2026-07-16",
+    "updated_at_utc": "2026-07-16T12:52:08+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -45,6 +45,10 @@
     },
     {
       "date": "2026-07-15",
+      "total_citations": 515
+    },
+    {
+      "date": "2026-07-16",
       "total_citations": 515
     }
   ],
