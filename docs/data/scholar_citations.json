@@ -6,12 +6,12 @@
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 515,
+    "total_citations": 514,
     "h_index": 13,
     "i10_index": 17,
     "paper_count": 55,
-    "updated": "2026-07-16",
-    "updated_at_utc": "2026-07-16T12:52:08+00:00",
+    "updated": "2026-07-17",
+    "updated_at_utc": "2026-07-17T12:36:38+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -50,6 +50,10 @@
     {
       "date": "2026-07-16",
       "total_citations": 515
+    },
+    {
+      "date": "2026-07-17",
+      "total_citations": 514
     }
   ],
   "top_papers": [
@@ -61,18 +65,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
-      "title": "Visual instance-aware prompt tuning",
-      "year": "2025",
-      "venue": "ACM MM 2025, 2025",
-      "citations": 44,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
-    },
-    {
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
       "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
+    },
+    {
+      "title": "Visual instance-aware prompt tuning",
+      "year": "2025",
+      "venue": "ACM MM 2025, 2025",
+      "citations": 43,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
