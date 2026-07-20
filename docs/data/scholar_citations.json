@@ -6,12 +6,12 @@
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 514,
+    "total_citations": 518,
     "h_index": 13,
-    "i10_index": 17,
+    "i10_index": 18,
     "paper_count": 56,
-    "updated": "2026-07-19",
-    "updated_at_utc": "2026-07-19T12:06:54+00:00",
+    "updated": "2026-07-20",
+    "updated_at_utc": "2026-07-20T13:17:35+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -62,6 +62,10 @@
     {
       "date": "2026-07-19",
       "total_citations": 514
+    },
+    {
+      "date": "2026-07-20",
+      "total_citations": 518
     }
   ],
   "top_papers": [
@@ -97,7 +101,7 @@
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
