@@ -6,12 +6,12 @@
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 518,
+    "total_citations": 520,
     "h_index": 13,
-    "i10_index": 18,
+    "i10_index": 19,
     "paper_count": 56,
-    "updated": "2026-07-20",
-    "updated_at_utc": "2026-07-20T13:17:35+00:00",
+    "updated": "2026-07-21",
+    "updated_at_utc": "2026-07-21T12:43:46+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -66,6 +66,10 @@
     {
       "date": "2026-07-20",
       "total_citations": 518
+    },
+    {
+      "date": "2026-07-21",
+      "total_citations": 520
     }
   ],
   "top_papers": [
@@ -80,7 +84,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
