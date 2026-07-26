@@ -6,12 +6,12 @@
     "affiliation": "University of Alabama at Birmingham | ORNL"
   },
   "summary": {
-    "total_citations": 520,
+    "total_citations": 523,
     "h_index": 13,
     "i10_index": 19,
     "paper_count": 56,
-    "updated": "2026-07-25",
-    "updated_at_utc": "2026-07-25T12:09:55+00:00",
+    "updated": "2026-07-26",
+    "updated_at_utc": "2026-07-26T12:17:16+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -86,6 +86,10 @@
     {
       "date": "2026-07-25",
       "total_citations": 520
+    },
+    {
+      "date": "2026-07-26",
+      "total_citations": 523
     }
   ],
   "top_papers": [
@@ -107,14 +111,14 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR, 2026",
-      "citations": 32,
+      "citations": 33,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
