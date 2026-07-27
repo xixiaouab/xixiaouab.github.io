@@ -3,15 +3,15 @@
     "name": "Xi Xiao",
     "scholar_id": "Q4DnRVgAAAAJ",
     "scholar_url": "https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en&pagesize=100",
-    "affiliation": "University of Alabama at Birmingham | ORNL"
+    "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 523,
+    "total_citations": 518,
     "h_index": 13,
     "i10_index": 19,
     "paper_count": 56,
-    "updated": "2026-07-26",
-    "updated_at_utc": "2026-07-26T12:17:16+00:00",
+    "updated": "2026-07-27",
+    "updated_at_utc": "2026-07-27T13:44:36+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -90,6 +90,10 @@
     {
       "date": "2026-07-26",
       "total_citations": 523
+    },
+    {
+      "date": "2026-07-27",
+      "total_citations": 518
     }
   ],
   "top_papers": [
@@ -111,14 +115,14 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 44,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR, 2026",
-      "citations": 33,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
@@ -132,7 +136,7 @@
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
       "year": "2025",
       "venue": "ICCV 2025, 2025",
-      "citations": 26,
+      "citations": 25,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
     },
     {
