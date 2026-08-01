@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 518,
+    "total_citations": 490,
     "h_index": 13,
-    "i10_index": 19,
+    "i10_index": 17,
     "paper_count": 56,
     "updated": "2026-08-01",
-    "updated_at_utc": "2026-08-01T12:13:00+00:00",
+    "updated_at_utc": "2026-08-01T20:19:40+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -113,15 +113,15 @@
     },
     {
       "date": "2026-08-01",
-      "total_citations": 518
+      "total_citations": 490
     }
   ],
-  "top_papers": [
+  "all_papers": [
     {
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 47,
+      "citations": 49,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -135,35 +135,429 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
-      "venue": "TMLR, 2026",
-      "citations": 32,
+      "venue": "TMLR 2026, 2026",
+      "citations": 35,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 29,
+      "citations": 30,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
       "year": "2025",
       "venue": "ICCV 2025, 2025",
-      "citations": 25,
+      "citations": 26,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
       "year": "2024",
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 25,
+      "citations": 26,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
+    },
+    {
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "year": "2025",
+      "venue": "EMNLP Findings 2025, 2025",
+      "citations": 24,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
+    },
+    {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 20,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
+    },
+    {
+      "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
+      "year": "2024",
+      "venue": "2024 IEEE 36th International Conference on Tools with Artificial …, 2024",
+      "citations": 19,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
+    },
+    {
+      "title": "Visual Variational Autoencoder Prompt Tuning",
+      "year": "2025",
+      "venue": "CVPR 2025 Workshop on FGVC, 2025",
+      "citations": 15,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
+    },
+    {
+      "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
+      "year": "2025",
+      "venue": "ICASSP 2025, 2025",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
+    },
+    {
+      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "year": "2025",
+      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
+    },
+    {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
+      "title": "Agent Harness Engineering: A Survey",
+      "year": "2026",
+      "venue": "OpenReview preprint, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "An image data augmentation algorithm based on yolov5s-da for pavement distress detection",
+      "year": "2022",
+      "venue": "2022 5th International Conference on Pattern Recognition and Artificial …, 2022",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
+    },
+    {
+      "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
+      "year": "2025",
+      "venue": "Scientific Reports 15 (1), 10790, 2025",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
+      "year": "2025",
+      "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
+      "title": "Focus: Fused observation of channels for unveiling spectra",
+      "year": "2025",
+      "venue": "ICME 2026, 2025",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
+    },
+    {
+      "title": "Cycle-YOLO: A efficient and robust framework for pavement damage detection",
+      "year": "2024",
+      "venue": "arXiv preprint arXiv:2405.17905, 2024",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
+    },
+    {
+      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
+    },
+    {
+      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+      "year": "2025",
+      "venue": "ECML PKDD 2025, 2025",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
+    },
+    {
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
+      "title": "Stochastic interpolants via conditional dependent coupling",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2509.23122, 2025",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
+    },
+    {
+      "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2505.19352, 2025",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
+    },
+    {
+      "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
+      "year": "2026",
+      "venue": "ICML 2026, 2026",
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
+    },
+    {
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "year": "2026",
+      "venue": "npj Digital Medicine, 2026",
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
+    },
+    {
+      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kRWSkSYxWN8C"
+    },
+    {
+      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
+    },
+    {
+      "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2505.23444, 2025",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:mB3voiENLucC"
+    },
+    {
+      "title": "Transition flow matching",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2603.15689, 2026",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
+    },
+    {
+      "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2601.04060, 2026",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:Tiz5es2fbqcC"
+    },
+    {
+      "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
+      "year": "2025",
+      "venue": "2025 International Joint Conference on Neural Networks (IJCNN), 1-10, 2025",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WbkHhVStYXYC"
+    },
+    {
+      "title": "TWIG: Two-Step Image Generation Using Segmentation Masks as an Intermediary in Diffusion Models to Prevent Copyright Infringement",
+      "year": "2024",
+      "venue": "IFIP International Summer School on Privacy and Identity Management, 78-93, 2024",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
+    },
+    {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
+    },
+    {
+      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
+      "year": "2026",
+      "venue": "MICCAI 2026, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
+    },
+    {
+      "title": "Leveraging Latent Visual Reasoning in Silence",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2605.18641, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
+    },
+    {
+      "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
+      "year": "2025",
+      "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:OU6Ihb5iCvQC"
+    },
+    {
+      "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2509.24311, 2025",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
+    },
+    {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
+      "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tkaPQYYpVKoC"
+    },
+    {
+      "title": "HyperAdaLoRA: Accelerating LoRA Rank Allocation During Training via Hypernetworks without Sacrificing Performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:vV6vV6tmYwMC"
+    },
+    {
+      "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2605.28277, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:V3AGJWp-ZtQC"
+    },
+    {
+      "title": "Drift Flow Matching",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2605.17244, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
+    },
+    {
+      "title": "KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields",
+      "year": "2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SP6oXDckpogC"
+    },
+    {
+      "title": "CTR-LoRA: Curvature-Aware and Trust-Region Guided Low-Rank Adaptation for Large Language Models",
+      "year": "2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:2P1L_qKh6hAC"
+    },
+    {
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+      "year": "2026",
+      "venue": "AAAI 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tOudhMTPpwUC"
+    },
+    {
+      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tS2w5q8j5-wC"
+    },
+    {
+      "title": "4D Multimodal Co-attention Fusion Network with Latent Contrastive Alignment for Alzheimer's Diagnosis",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:vRqMK49ujn8C"
+    },
+    {
+      "title": "Self-Supervised Visual Prompting for Cross-Domain Road Damage Detection",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:08ZZubdj9fEC"
+    },
+    {
+      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
+      "year": "2026",
+      "venue": "Geo-spatial Information Science, 1-24, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
+    },
+    {
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "year": "2025",
+      "venue": "NeurIPS 2025, 2025",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:sSrBHYA8nusC"
+    },
+    {
+      "title": "Boosting Active Learning with Knowledge Transfer",
+      "year": "2025",
+      "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:UxriW0iASnsC"
+    },
+    {
+      "title": "Dispersing Embeddings in Transformer Layers Improves Generalization of Language Models",
+      "year": "",
+      "venue": "Topology, Algebra, and Geometry in Data Science, 0",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:u9iWguZQMMsC"
+    }
+  ],
+  "top_papers": [
+    {
+      "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
+      "year": "2025",
+      "venue": "COLM 2025, 2025",
+      "citations": 49,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
+    },
+    {
+      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
+      "year": "2026",
+      "venue": "Information Fusion, 104193, 2026",
+      "citations": 44,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
+    },
+    {
+      "title": "Visual instance-aware prompt tuning",
+      "year": "2025",
+      "venue": "ACM MM 2025, 2025",
+      "citations": 44,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
+    },
+    {
+      "title": "Prompt-based adaptation in large-scale vision models: A survey",
+      "year": "2026",
+      "venue": "TMLR 2026, 2026",
+      "citations": 35,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
+    },
+    {
+      "title": "Describe Anything in Medical Images",
+      "year": "2025",
+      "venue": "ICML 2025 Workshop on FM4LS, 2025",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
+      "year": "2025",
+      "venue": "ICCV 2025, 2025",
+      "citations": 26,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
+    },
+    {
+      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
+      "year": "2024",
+      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
+      "citations": 26,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
