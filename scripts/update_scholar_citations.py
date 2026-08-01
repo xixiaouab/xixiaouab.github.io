@@ -204,6 +204,7 @@ def build_document(snapshot: dict[str, Any], existing: dict[str, Any]) -> dict[s
             "source": snapshot.get("source"),
         },
         "history": history,
+        "all_papers": papers,
         "top_papers": papers[:8],
     }
 
