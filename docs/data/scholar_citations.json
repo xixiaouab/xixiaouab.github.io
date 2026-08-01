@@ -9,9 +9,9 @@
     "total_citations": 518,
     "h_index": 13,
     "i10_index": 19,
-    "paper_count": 55,
-    "updated": "2026-07-31",
-    "updated_at_utc": "2026-07-31T13:06:00+00:00",
+    "paper_count": 56,
+    "updated": "2026-08-01",
+    "updated_at_utc": "2026-08-01T12:13:00+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -109,6 +109,10 @@
     },
     {
       "date": "2026-07-31",
+      "total_citations": 518
+    },
+    {
+      "date": "2026-08-01",
       "total_citations": 518
     }
   ],
