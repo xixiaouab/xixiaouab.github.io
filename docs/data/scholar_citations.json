@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 490,
+    "total_citations": 550,
     "h_index": 13,
-    "i10_index": 17,
-    "paper_count": 56,
-    "updated": "2026-08-01",
-    "updated_at_utc": "2026-08-01T20:19:40+00:00",
+    "i10_index": 20,
+    "paper_count": 57,
+    "updated": "2026-08-02",
+    "updated_at_utc": "2026-08-02T12:15:52+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -114,6 +114,10 @@
     {
       "date": "2026-08-01",
       "total_citations": 490
+    },
+    {
+      "date": "2026-08-02",
+      "total_citations": 550
     }
   ],
   "all_papers": [
@@ -202,11 +206,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
+    },
+    {
       "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
       "year": "2025",
       "venue": "🏆 SC 2025 (Best Paper Award), 2025",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
+    },
+    {
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "year": "2026",
+      "venue": "NeurIPS 2025, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
       "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
@@ -228,6 +246,13 @@
       "venue": "OpenReview preprint, 2026",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
     },
     {
       "title": "An image data augmentation algorithm based on yolov5s-da for pavement distress detection",
@@ -265,6 +290,27 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+      "year": "2026",
+      "venue": "AAAI 2026, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
+    },
+    {
+      "title": "Self-supervised visual prompting for cross-domain road damage detection",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -284,6 +330,13 @@
       "venue": "CVPR 2026, 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
+      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
+      "year": "2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 1396-1400, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
     },
     {
       "title": "Stochastic interpolants via conditional dependent coupling",
@@ -419,13 +472,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tkaPQYYpVKoC"
     },
     {
-      "title": "HyperAdaLoRA: Accelerating LoRA Rank Allocation During Training via Hypernetworks without Sacrificing Performance",
-      "year": "2026",
-      "venue": "ACL Findings 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:vV6vV6tmYwMC"
-    },
-    {
       "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2605.28277, 2026",
@@ -445,41 +491,6 @@
       "venue": "🏆 ICASSP 2026 (Oral), 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SP6oXDckpogC"
-    },
-    {
-      "title": "CTR-LoRA: Curvature-Aware and Trust-Region Guided Low-Rank Adaptation for Large Language Models",
-      "year": "2026",
-      "venue": "🏆 ICASSP 2026 (Oral), 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:2P1L_qKh6hAC"
-    },
-    {
-      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
-      "year": "2026",
-      "venue": "AAAI 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tOudhMTPpwUC"
-    },
-    {
-      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tS2w5q8j5-wC"
-    },
-    {
-      "title": "4D Multimodal Co-attention Fusion Network with Latent Contrastive Alignment for Alzheimer's Diagnosis",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:vRqMK49ujn8C"
-    },
-    {
-      "title": "Self-Supervised Visual Prompting for Cross-Domain Road Damage Detection",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:08ZZubdj9fEC"
     },
     {
       "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
