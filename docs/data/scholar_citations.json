@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 556,
+    "total_citations": 557,
     "h_index": 13,
     "i10_index": 20,
     "paper_count": 57,
-    "updated": "2026-08-05",
-    "updated_at_utc": "2026-08-05T13:02:52+00:00",
+    "updated": "2026-08-06",
+    "updated_at_utc": "2026-08-06T13:03:14+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -130,6 +130,10 @@
     {
       "date": "2026-08-05",
       "total_citations": 556
+    },
+    {
+      "date": "2026-08-06",
+      "total_citations": 557
     }
   ],
   "all_papers": [
@@ -172,7 +176,7 @@
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
       "year": "2024",
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
@@ -573,7 +577,7 @@
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
       "year": "2024",
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
