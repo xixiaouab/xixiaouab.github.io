@@ -9,9 +9,9 @@
     "total_citations": 557,
     "h_index": 13,
     "i10_index": 20,
-    "paper_count": 57,
-    "updated": "2026-08-06",
-    "updated_at_utc": "2026-08-06T13:03:14+00:00",
+    "paper_count": 55,
+    "updated": "2026-08-07",
+    "updated_at_utc": "2026-08-07T11:57:58+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -133,6 +133,10 @@
     },
     {
       "date": "2026-08-06",
+      "total_citations": 557
+    },
+    {
+      "date": "2026-08-07",
       "total_citations": 557
     }
   ],
@@ -516,25 +520,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
     },
     {
-      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
-      "year": "2025",
-      "venue": "NeurIPS 2025, 2025",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:sSrBHYA8nusC"
-    },
-    {
       "title": "Boosting Active Learning with Knowledge Transfer",
       "year": "2025",
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:UxriW0iASnsC"
-    },
-    {
-      "title": "Dispersing Embeddings in Transformer Layers Improves Generalization of Language Models",
-      "year": "",
-      "venue": "Topology, Algebra, and Geometry in Data Science, 0",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:u9iWguZQMMsC"
     }
   ],
   "top_papers": [
