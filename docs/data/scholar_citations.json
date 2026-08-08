@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 557,
+    "total_citations": 558,
     "h_index": 13,
     "i10_index": 20,
     "paper_count": 55,
-    "updated": "2026-08-07",
-    "updated_at_utc": "2026-08-07T11:57:58+00:00",
+    "updated": "2026-08-08",
+    "updated_at_utc": "2026-08-08T11:43:58+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -138,6 +138,10 @@
     {
       "date": "2026-08-07",
       "total_citations": 557
+    },
+    {
+      "date": "2026-08-08",
+      "total_citations": 558
     }
   ],
   "all_papers": [
@@ -208,7 +212,7 @@
       "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
       "year": "2024",
       "venue": "2024 IEEE 36th International Conference on Tools with Artificial …, 2024",
-      "citations": 19,
+      "citations": 20,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
     },
     {
@@ -452,7 +456,7 @@
     {
       "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
       "year": "2026",
-      "venue": "MICCAI 2026, 2026",
+      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
       "citations": 1,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
