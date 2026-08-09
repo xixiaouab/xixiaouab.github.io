@@ -445,10 +445,25 @@ h3[id] small {
 }
 
 .cv-role {
+  align-items: center;
   color: var(--ink);
+  display: flex;
   font-size: 1.02rem;
   font-weight: 800;
+  gap: 12px;
   line-height: 1.35;
+}
+
+.cv-employer-logo {
+  flex: 0 0 56px;
+  height: 30px;
+  object-fit: contain;
+  object-position: center;
+  width: 56px;
+}
+
+.cv-role-text {
+  min-width: 0;
 }
 
 .cv-unit {
