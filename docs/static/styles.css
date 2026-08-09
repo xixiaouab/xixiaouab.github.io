@@ -444,6 +444,17 @@ h3[id] small {
   min-width: 0;
 }
 
+.cv-employer-block {
+  align-items: center;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 88px minmax(0, 1fr);
+}
+
+.cv-employer-copy {
+  min-width: 0;
+}
+
 .cv-role {
   align-items: center;
   color: var(--ink);
@@ -455,11 +466,10 @@ h3[id] small {
 }
 
 .cv-employer-logo {
-  flex: 0 0 56px;
-  height: 30px;
+  height: 56px;
   object-fit: contain;
   object-position: center;
-  width: 56px;
+  width: 88px;
 }
 
 .cv-role-text {
@@ -1217,6 +1227,16 @@ footer {
     grid-template-columns: 1fr;
     gap: 10px;
     padding-left: 16px;
+  }
+
+  .cv-employer-block {
+    gap: 14px;
+    grid-template-columns: 70px minmax(0, 1fr);
+  }
+
+  .cv-employer-logo {
+    height: 46px;
+    width: 70px;
   }
 
   .profile-column {
