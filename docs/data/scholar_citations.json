@@ -10,8 +10,8 @@
     "h_index": 13,
     "i10_index": 20,
     "paper_count": 56,
-    "updated": "2026-08-10",
-    "updated_at_utc": "2026-08-10T11:59:32+00:00",
+    "updated": "2026-08-11",
+    "updated_at_utc": "2026-08-11T11:57:37+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -149,6 +149,10 @@
     },
     {
       "date": "2026-08-10",
+      "total_citations": 567
+    },
+    {
+      "date": "2026-08-11",
       "total_citations": 567
     }
   ],
@@ -373,7 +377,7 @@
     {
       "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
       "year": "2026",
-      "venue": "🏆 ICASSP 2026 (Oral), 1396-1400, 2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
     },
