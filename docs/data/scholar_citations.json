@@ -9,9 +9,9 @@
     "total_citations": 567,
     "h_index": 13,
     "i10_index": 20,
-    "paper_count": 56,
-    "updated": "2026-08-11",
-    "updated_at_utc": "2026-08-11T11:57:37+00:00",
+    "paper_count": 57,
+    "updated": "2026-08-12",
+    "updated_at_utc": "2026-08-12T11:59:20+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -153,6 +153,10 @@
     },
     {
       "date": "2026-08-11",
+      "total_citations": 567
+    },
+    {
+      "date": "2026-08-12",
       "total_citations": 567
     }
   ],
@@ -548,6 +552,13 @@
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:UxriW0iASnsC"
+    },
+    {
+      "title": "Dispersing Embeddings in Transformer Layers Improves Generalization of Language Models",
+      "year": "",
+      "venue": "Topology, Algebra, and Geometry in Data Science, 0",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:u9iWguZQMMsC"
     }
   ],
   "top_papers": [
