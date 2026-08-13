@@ -234,13 +234,22 @@ hr {
 }
 
 .availability-note {
-  background: var(--primary-soft);
-  border-left: 4px solid var(--primary);
+  background: #fff6f7;
+  border: 1px solid #efc9cf;
+  border-left: 5px solid #b42338;
   border-radius: 8px;
   color: var(--ink);
   line-height: 1.7;
   margin: 16px 0 12px;
   padding: 14px 18px;
+}
+
+.availability-lead {
+  color: #a4162d;
+  display: block;
+  font-weight: 800;
+  line-height: 1.55;
+  margin-bottom: 4px;
 }
 
 .profile-links {
