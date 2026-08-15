@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 578,
+    "total_citations": 581,
     "h_index": 13,
     "i10_index": 20,
     "paper_count": 57,
-    "updated": "2026-08-14",
-    "updated_at_utc": "2026-08-14T11:57:53+00:00",
+    "updated": "2026-08-15",
+    "updated_at_utc": "2026-08-15T11:34:09+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -166,22 +166,26 @@
     {
       "date": "2026-08-14",
       "total_citations": 578
+    },
+    {
+      "date": "2026-08-15",
+      "total_citations": 581
     }
   ],
   "all_papers": [
+    {
+      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
+      "year": "2026",
+      "venue": "Information Fusion, 104193, 2026",
+      "citations": 49,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
+    },
     {
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
       "citations": 49,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
-    },
-    {
-      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
-      "year": "2026",
-      "venue": "Information Fusion, 104193, 2026",
-      "citations": 46,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
       "title": "Visual instance-aware prompt tuning",
@@ -571,18 +575,18 @@
   ],
   "top_papers": [
     {
+      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
+      "year": "2026",
+      "venue": "Information Fusion, 104193, 2026",
+      "citations": 49,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
+    },
+    {
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
       "citations": 49,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
-    },
-    {
-      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
-      "year": "2026",
-      "venue": "Information Fusion, 104193, 2026",
-      "citations": 46,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
       "title": "Visual instance-aware prompt tuning",
