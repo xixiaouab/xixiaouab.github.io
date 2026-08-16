@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 581,
+    "total_citations": 583,
     "h_index": 13,
     "i10_index": 20,
     "paper_count": 57,
-    "updated": "2026-08-15",
-    "updated_at_utc": "2026-08-15T11:34:09+00:00",
+    "updated": "2026-08-16",
+    "updated_at_utc": "2026-08-16T11:34:04+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -170,6 +170,10 @@
     {
       "date": "2026-08-15",
       "total_citations": 581
+    },
+    {
+      "date": "2026-08-16",
+      "total_citations": 583
     }
   ],
   "all_papers": [
@@ -254,7 +258,7 @@
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
       "year": "2025",
       "venue": "ICASSP 2025, 2025",
-      "citations": 14,
+      "citations": 15,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
@@ -370,18 +374,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
+      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+      "year": "2025",
+      "venue": "ECML PKDD 2025, 2025",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
+    },
+    {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
       "year": "2026",
       "venue": "npj Digital Medicine, 2026",
       "citations": 6,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
-    },
-    {
-      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
-      "year": "2025",
-      "venue": "ECML PKDD 2025, 2025",
-      "citations": 6,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
     },
     {
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
