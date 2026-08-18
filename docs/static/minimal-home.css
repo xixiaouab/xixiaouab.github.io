@@ -453,8 +453,8 @@ hr {
 
 .cv-unit,
 .cv-org {
-  color: var(--link-dark);
-  font-weight: 750;
+  color: var(--link);
+  font-weight: 700;
 }
 
 .cv-org {
@@ -589,6 +589,12 @@ hr {
   font-weight: 650;
   margin-right: 9px;
   width: 31px;
+}
+
+.news-list .news-org,
+.news-list .news-org:visited {
+  color: var(--link);
+  font-weight: 700;
 }
 
 .selected-publications {
