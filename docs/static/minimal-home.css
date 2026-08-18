@@ -134,6 +134,10 @@ hr {
   text-decoration: none;
 }
 
+.nav-label-short {
+  display: none;
+}
+
 .intro-panel {
   padding-bottom: 70px;
   padding-top: 82px;
@@ -1283,7 +1287,15 @@ footer p {
   }
 
   .site-nav {
-    gap: 12px;
+    gap: 10px;
+  }
+
+  .nav-label-long {
+    display: none;
+  }
+
+  .nav-label-short {
+    display: inline;
   }
 
   .profile-links {
