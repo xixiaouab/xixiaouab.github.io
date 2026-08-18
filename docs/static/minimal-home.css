@@ -599,9 +599,9 @@ hr {
 }
 
 .pub-thumb {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 4px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
   display: block;
   height: 146px;
   object-fit: contain;
