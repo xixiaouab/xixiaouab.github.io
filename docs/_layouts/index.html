@@ -2,94 +2,42 @@
 <html lang="en">
 
 <head>
-	<!-- Google Analytics: replace with your own ID if needed -->
-
-	<!-- Show more content -->
-	<script type="text/javascript">
-		function toggle_vis(id) {
-	    // var e = document.getElementById(id);
-	    var e = document.getElementsByClassName(id);
-			var showText = document.getElementById("showText");
-			for (var i = 0; i < e.length; i++) {
-		    	if (e[i].style.display == "none") {
-		        	e[i].style.display = "inline";
-	    			showText.innerHTML = "[Show less]";
-		    	} else {
-		    		e[i].style.display = "none";
-		    		showText.innerHTML = "[Show more]";
-		    	}
-		    }
-	    }
-	</script>
-
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Xi Xiao - Ph.D. student in Computer Science at the University of Alabama at Birmingham. Research in language models, computer vision, and robust AI systems.">
-
-	<!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<!-- https://fontawesome.com/cheatsheet -->
+	<title>Xi Xiao</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-  <link rel="stylesheet" href="../static/styles.css?v=20260813-opportunities">
-	<!-- Custom styles for this template -->
-	<link href="../files/jumbotron.css" rel="stylesheet">
+	<link rel="stylesheet" href="../static/minimal-home.css?v=20260818-minimal">
 	<script src="../js/main.js?v=20260708-citations"></script>
-  <script src="../js/scroll.js"></script>
-
+	<script src="../js/scroll.js"></script>
 </head>
 
-<title>Xi Xiao</title>
+<body class="minimal-home">
+	<header class="site-header" id="Home">
+		<div class="container header-inner">
+			<a class="site-name" href="#Home">Xi Xiao</a>
+			<nav class="site-nav" aria-label="Primary navigation">
+				<a href="#News">News</a>
+				<a href="#Publications">Publications</a>
+				<a href="#CV">CV</a>
+			</nav>
+		</div>
+	</header>
+	<main>
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom" id="Home">
-	    <div class="container">
-		<a class="navbar-brand" href="#Home">Xi Xiao</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-			<div class="collapse navbar-collapse" id="navbarToggle">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#Publications" id="publicationsMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="publicationsMenu">
-							<!-- PREPRINTS-NAV-HIDDEN-START 2026-06-19: remove this comment block to restore the Preprints nav item.
-							<a class="dropdown-item" href="#Preprints">Preprints</a>
-							PREPRINTS-NAV-HIDDEN-END -->
-							<a class="dropdown-item" href="#Publications">Selected Publications</a>
-							<a class="dropdown-item" href="other-publications.html">Other Publications</a>
-						</div>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#CV" id="cvMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="cvMenu">
-							<a class="dropdown-item" href="#Experience">Experience</a>
-							<a class="dropdown-item" href="#Education">Education</a>
-							<a class="dropdown-item" href="#Awards">Awards &amp; Honors</a>
-							<a class="dropdown-item" href="#Miscellanea">Service &amp; Media</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-	    </div>
-	</nav>
-
-	<div class="container intro-panel" id="About">
-		<div class="row align-items-center">
-			<div class="col-md-3 profile-column">
-				<br>
-				<img class="img-responsive profile-photo" src="images/XiXiao1.jpg" alt="Xi Xiao"><br>
+	<section class="container intro-panel" id="About">
+		<div class="hero-grid">
+			<div class="profile-column">
+				<img class="profile-photo" src="images/XiXiao1.jpg" alt="Xi Xiao">
 				<blockquote class="profile-quote">
 					<span>&ldquo;Talk is cheap. Show me the code.&rdquo;</span>
 					<cite>&mdash; Linus Torvalds</cite>
 				</blockquote>
 			</div>
 
-			<div class="col-md-9 intro-copy">
-			<br>
-			<h1>Xi Xiao</h1>
+			<div class="intro-copy">
+			<h1>Hello, I'm Xi Xiao.</h1>
 			<p class="intro-identity" aria-label="I am an AI Researcher, an Adventurer, a Chef, and a Sports Enthusiast.">
 				I am <span class="intro-identity-dynamic">an AI Researcher</span><span class="intro-identity-cursor" aria-hidden="true"></span>
 			</p>
@@ -104,7 +52,7 @@
 				If your team is hiring researchers in MLLM / Agentic post-training-related areas, or if you know of relevant opportunities, please feel free to reach out. Thank you!
 			</div>
 			<p class="profile-links">
-				<a target="_blank" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en"><i class="ai ai-google-scholar ai-lg"></i> Scholar</a>
+				<a target="_blank" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en"><i class="ai ai-google-scholar ai-lg"></i> Scholar</a>
 				<a target="_blank" href="https://github.com/xixiaouab"><i class="fab fa-github fa-lg"></i> GitHub</a>
 				<a target="_blank" href="https://www.linkedin.com/in/xi-xiao-4800272a5"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
 				<span class="wechat-link-wrap">
@@ -119,13 +67,13 @@
 
 			</div>
 		</div>
-	</div><br>
+	</section>
 
 	<!-- CV Overview -->
-	<div class="container cv-overview" id="CV">
+	<section class="container cv-overview section-block" id="CV">
 		<div class="cv-grid">
-			<div class="cv-panel" id="Experience">
-				<h3 style="padding-top: 90px; margin-top: -80px;">Experience</h3><hr>
+			<div class="cv-panel">
+				<h2 id="Experience">Experience</h2><hr>
 				<div class="cv-entry">
 					<div class="cv-entry-date">08/2026 - Present</div>
 					<div class="cv-entry-body cv-employer-block">
@@ -144,7 +92,7 @@
 						<div class="cv-employer-copy">
 							<div class="cv-role"><span class="cv-role-text">Applied Scientist Intern @ <a href="https://labs.amazon.science/" target="_blank"><span class="cv-unit">Amazon AGI Foundations</span></a></span></div>
 							<div class="cv-meta">Seattle, Washington, USA</div>
-							<div class="cv-detail">Working with <a href="https://scholar.google.com/citations?user=-uCJznsAAAAJ&hl=zh-CN" target="_blank">Dr. Eric Zhao</a>, <a href="https://shownx.github.io/" target="_blank">Dr. Xiang Xu</a>, and <a href="https://lotusroot-kim.github.io/research_homepage/" target="_blank">Dr. Youngeun Kim</a> on MLLM / Agentic Reasoning / RL.</div>
+							<div class="cv-detail">Working with <a href="https://scholar.google.com/citations?user=-uCJznsAAAAJ&amp;hl=zh-CN" target="_blank">Dr. Eric Zhao</a>, <a href="https://shownx.github.io/" target="_blank">Dr. Xiang Xu</a>, and <a href="https://lotusroot-kim.github.io/research_homepage/" target="_blank">Dr. Youngeun Kim</a> on MLLM / Agentic Reasoning / RL.</div>
 						</div>
 					</div>
 				</div>
@@ -160,8 +108,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="cv-panel" id="Education">
-				<h3 style="padding-top: 90px; margin-top: -80px;">Education</h3><hr>
+			<div class="cv-panel">
+				<h2 id="Education">Education</h2><hr>
 				<div class="cv-entry">
 					<div class="cv-entry-date">01/2024 - Present</div>
 					<div class="cv-entry-body">
@@ -180,13 +128,13 @@
 				</div>
 			</div>
 		</div>
-	</div><br><br>
+	</section>
 
 
    <!-- Research Interest -->
-	<div class="container">
-		<h3 id="Research" style="padding-top: 100px; margin-top: -80px;">Research Interest</h3><hr>
-		<p style="text-align: justify;">
+	<section class="container section-block research-section">
+		<h2 id="Research">Research Interest</h2><hr>
+		<p>
 			My research focuses on <b>post-training techniques</b> (e.g., <b>reinforcement learning</b>) for LLMs and MLLMs. I am currently working on two directions: (i) <b>alignment and reasoning for LLMs and MLLMs</b>, and (ii) <b>long-horizon LLM agents</b> capable of reliable planning, interaction, and adaptation.
 		</p>
 		<div class="research-topics">
@@ -236,13 +184,13 @@
 				</div>
 			</article>
 		</div>
-	</div><br><br>
+	</section>
 
 
 
   <!-- News -->
-		<div class="container news-section">
-			<h3 id="News" style="padding-top: 70px; margin-top: -80px;">News</h3><hr>
+		<section class="container news-section section-block">
+			<h2 id="News">News</h2><hr>
 			<div class="news-panel">
 				<div class="news-scroll" aria-label="News updates">
 					<div class="news-group">
@@ -293,12 +241,12 @@
 					</div>
 				</div>
 			</div>
-		</div><br><br>
+		</section>
 
 
 
 	<!-- Publications -->
-	<div class="container">
+	<section class="container publications-section section-block">
 		<!-- PREPRINTS-HIDDEN-START 2026-06-19: remove this opening comment and the PREPRINTS-HIDDEN-END marker below to restore the Preprints section.
 		<h3 id="Preprints" style="padding-top: 70px; margin-top: -80px;">
 			Preprints
@@ -333,178 +281,143 @@
 				</div>
 			</div><hr>
 
-		</div><br><br>
-		PREPRINTS-HIDDEN-END -->
+			</div><br><br>
+			PREPRINTS-HIDDEN-END -->
 
-		<h3 id="Publications" style="padding-top: 70px; margin-top: -80px;">
-			Selected Publications
-			<small><small> (<i>see full list <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target='_blank'>here</a>; * indicates equal contribution</i>)
-			</small></small><br>
-			<!-- <small><small>
-			(<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
-			 <a href="" id="select1" onclick="showPubs(1); return false;">show by date</a> /
-				 <a href="" id="select2" onclick="showPubs(2); return false;">show by topic</a>)
-			</small></small><br> -->
-
-			<!-- <small><small>
-				<font color="black">Research Topics:
-				<a href="#dynam" onclick="showPubs(2)">Robotic Manipulation</a> /
-				<a href="#phys" onclick="showPubs(2)">Physical Scene Understanding</a> /
-				<a href="#multi" onclick="showPubs(2)">Multi-Modal Perception</a> /
-				<a href="#imi" onclick="showPubs(2)">Imitation Learning</a>
-			</font><br>
-			</small></small> -->
-		</h3>
+			<h2 id="Publications">
+				Selected Publications
+				<small>Selected work; see the <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank">full list on Google Scholar</a>. * indicates equal contribution.</small>
+			</h2>
+			<hr>
 
 		<div id="pubs"></div>
 
 		<!-- <script id="pubs_selected" language="text"> -->
 		<div id="pubs_selected" class="selected-publications" language="text">
 
-			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/cascaded-semantics.jpg" alt="Cascaded Semantics">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Xingjian Li, Cheng Han, Tianyang Wang, Lin Zhao, Yunbei Zhang, Guosheng Hu, Runmin Jiang, Xi Li, Xiao Wang, Min Xu<br>
-					<b><font color="black">Adapting Vision Foundation Models with Cascaded Semantics</font></b><br>
-					<b><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a></b>
-					<small><a href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank">[Paper]</a></small>
-					<small><a href="https://xixiaouab.github.io/Cascaded-Semantics/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+				<div class="row pub-card">
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/cascaded-semantics.jpg" alt="Cascaded Semantics">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Adapting Vision Foundation Models with Cascaded Semantics</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Cheng Han, Tianyang Wang, Lin Zhao, Yunbei Zhang, Guosheng Hu, Runmin Jiang, Xi Li, Xiao Wang, Min Xu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Cascaded-Semantics/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/staying-vigilant.jpg" alt="Staying VIGILant preprint">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu<br>
-					<b><font color="black">Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs</font></b><br>
-					<b><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a></b>
-					<small><a href="https://arxiv.org/pdf/2606.26387" target="_blank">[Paper]</a></small>
-					<small><a href="https://xixiaouab.github.io/VIGIL/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/staying-vigilant.jpg" alt="Staying VIGILant preprint">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26387" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/VIGIL/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/layer-specific-prompt-fusion.jpg" alt="Layer-specific prompt fusion preprint">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu<br>
-					<b><font color="black">Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models</font></b><br>
-					<b><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a></b>
-					<small><a href="https://arxiv.org/pdf/2606.26379" target="_blank">[Paper]</a></small>
-					<small><a href="https://xixiaouab.github.io/Prompt-Fusion-Discovery/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/layer-specific-prompt-fusion.jpg" alt="Layer-specific prompt fusion preprint">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26379" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Prompt-Fusion-Discovery/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/loramain.png" alt="StructLoRA overview">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu<br>
-					<b><font color="black">Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation</font></b><br>
-					<b><a class="pub-venue" href="https://2026.aclweb.org/" target="_blank">ACL 2026</a></b>
-					<small><a href="https://arxiv.org/abs/2603.14228" target="_blank">[Paper]</a></small>
-					<small><a href="https://xixiaouab.github.io/StructLoRA/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/loramain.png" alt="StructLoRA overview">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://2026.aclweb.org/" target="_blank">ACL 2026</a><a class="pub-link" href="https://arxiv.org/abs/2603.14228" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/StructLoRA/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/layer-wise-information-allocation.png" alt="Layer-wise information allocation for vision foundation model adaptation">
-				</div>
-				<div class="col-md-9 pub-content">
-					Yuqi Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang, Lin Zhao, Yu Li, Aiden Zhao, Tianyang Wang, Hao Xu, Yingli Tian<br>
-					<b><font color="black">Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation</font></b><br>
-					<b><a class="pub-venue" href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a></b>
-					<small><a href="https://arxiv.org/abs/2607.21973" target="_blank">[Paper]</a></small>
-					<small><a href="https://github.com/itsnotacie/MM-26-PIB" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/layer-wise-information-allocation.png" alt="Layer-wise information allocation for vision foundation model adaptation">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation</div>
+						<div class="pub-authors">Yuqi Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang, Lin Zhao, Yu Li, Aiden Zhao, Tianyang Wang, Hao Xu, Yingli Tian</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a><a class="pub-link" href="https://arxiv.org/abs/2607.21973" target="_blank">Paper</a><a class="pub-link" href="https://github.com/itsnotacie/MM-26-PIB" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/motivation.png" alt="Dispersion Loss overview">
-				</div>
-				<div class="col-md-9 pub-content">
-					Chen Liu*, Xingzhi Sun*, <strong><u>Xi Xiao*</u></strong>, Alexandre Van Tassel*, Ke Xu, Kristof Reimann, Danqi Liao, Mark Gerstein, Tianyang Wang, Xiao Wang, Smita Krishnaswamy<br>
-					<b><font color="black">Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models</font></b><br>
-					<b><a class="pub-venue" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a></b>
-					<small><a href="https://arxiv.org/pdf/2602.00217" target="_blank">[Paper]</a></small>
-					<small><a href="https://chenliu-1996.github.io/projects/LM-Dispersion/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/motivation.png" alt="Dispersion Loss overview">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models</div>
+						<div class="pub-authors">Chen Liu*, Xingzhi Sun*, <strong><u>Xi Xiao*</u></strong>, Alexandre Van Tassel*, Ke Xu, Kristof Reimann, Danqi Liao, Mark Gerstein, Tianyang Wang, Xiao Wang, Smita Krishnaswamy</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2602.00217" target="_blank">Paper</a><a class="pub-link" href="https://chenliu-1996.github.io/projects/LM-Dispersion/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/prompt_survey.jpg" alt="Prompt-based adaptation survey">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, Xiaoying Liao, Zheda Mai, Xingjian Li, Xiao Wang, Hao Xu, Jihun Hamm, Xue Lin, Min Xu, Qifan Wang, Tianyang Wang, Cheng Han<br>
-					<b><font color="black">Prompt-based Adaptation in Large-scale Vision Models: A Survey</font></b><br>
-					<b><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a></b>
-					<small><a href="https://arxiv.org/abs/2510.13219" target="_blank">[Paper]</a></small> 
-					<small><a href="https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/prompt_survey.jpg" alt="Prompt-based adaptation survey">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Prompt-based Adaptation in Large-scale Vision Models: A Survey</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, Xiaoying Liao, Zheda Mai, Xingjian Li, Xiao Wang, Hao Xu, Jihun Hamm, Xue Lin, Min Xu, Qifan Wang, Tianyang Wang, Cheng Han</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://arxiv.org/abs/2510.13219" target="_blank">Paper</a><a class="pub-link" href="https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/vipt.jpg" alt="Visual Instance-aware Prompt Tuning">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu<br>
-					<b><font color="black">Visual Instance-aware Prompt Tuning</font></b><br>
-					<b><a class="pub-venue" href="https://acmmm2025.org/" target="_blank">ACM MM 2025</a></b>
-					<small><a href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">[Paper]</a></small> 
-					<small><a href="https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/vipt.jpg" alt="Visual Instance-aware Prompt Tuning">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">Visual Instance-aware Prompt Tuning</div>
+						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://acmmm2025.org/" target="_blank">ACM MM 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">Paper</a><a class="pub-link" href="https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/magicid.jpg" alt="MagicID project">
-				</div>
-				<div class="col-md-9 pub-content">
-					Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai<br>
-					<b><font color="black">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</font></b><br>
-					<b><a class="pub-venue" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></b>
-					<small><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">[Paper]</a></small>
-					<small><a href="https://echopluto.github.io/MagicID-project/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/magicid.jpg" alt="MagicID project">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</div>
+						<div class="pub-authors">Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a><a class="pub-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">Paper</a><a class="pub-link" href="https://echopluto.github.io/MagicID-project/" target="_blank">Project</a></div>
+					</div>
+				</div><hr>
 
 			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/orbit2.jpg" alt="ORBIT-2 climate foundation model">
-				</div>
-				<div class="col-md-9 pub-content">
-					Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu<br>
-					<b><font color="black">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</font></b><br>
-					<b><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a></b>
-					<small><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">[Paper]</a></small> <small><a href="https://github.com/XiaoWang-Github" target="_blank">[Project]</a></small> <small><a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">[AMD story]</a></small><br>
-					<font color="firebrick"><b>Best Paper Award, Gordon Bell Prize Finalist</b></font><br>
-					<font color="firebrick"><b>Work conducted during an internship at ORNL</b></font><br>
-					<font color="firebrick"><b>In collaboration with ORNL, RIKEN, AMD, and NVIDIA</b></font><br>
-				</div>
-			</div><hr>
+					<div class="col-md-3 pub-image-col">
+						<img class="img-fluid pub-thumb" src="images/orbit2.jpg" alt="ORBIT-2 climate foundation model">
+					</div>
+					<div class="col-md-9 pub-content">
+						<div class="pub-title">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</div>
+						<div class="pub-authors">Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu</div>
+						<div class="pub-meta"><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">Paper</a><a class="pub-link" href="https://github.com/XiaoWang-Github" target="_blank">Project</a><a class="pub-link" href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">AMD story</a></div>
+						<div class="pub-notes">Best Paper Award, Gordon Bell Prize Finalist<br>Work conducted during an internship at ORNL<br>In collaboration with ORNL, RIKEN, AMD, and NVIDIA</div>
+					</div>
+				</div><hr>
 
 
 		</div>
-		<div class="publication-more-link">
-			<a href="other-publications.html">View Other Publications</a>
-		</div>
-		</div><br><br>
+			<div class="publication-more-link">
+				<a href="other-publications.html">View all publications</a>
+			</div>
+		</section>
 
 
 
 	<!-- Awards -->
-	<div class="container">
-		<h3 id="Awards" style="padding-top: 70px; margin-top: -80px;">Awards &amp; Honors</h3>
+	<section class="container awards-section section-block">
+			<h2 id="Awards">Awards &amp; Honors</h2>
 		<hr>
 		<ul class="honor-list">
 			<li><tt>[2026]</tt> <b>ICML 2026 Silver Reviewer</b>.</li>
@@ -512,11 +425,11 @@
 			<li><tt>[2025]</tt> Finalist, <b>ACM Gordon Bell Prize</b> (team award) for exascale climate foundation modeling on Frontier.</li>
 			<li><tt>[2025]</tt> <b>Tinker Research Grant</b> ($5,000) from Thinking Machines Lab to support research on efficient post-training of large-scale models.</li>
 		</ul>
-	</div><br><br>
+	</section>
 
 	<!-- Miscellanea -->
-	<div class="container">
-		<h3 id="Miscellanea" style="padding-top: 70px; margin-top: -80px;">Miscellanea</h3>
+	<section class="container miscellanea-section section-block">
+			<h2 id="Miscellanea">Miscellanea</h2>
 		<hr>
 		<p><strong>Talks &amp; Media</strong></p>
 		<ul class="media-list">
@@ -552,20 +465,20 @@
 				<li>IEEE Graduate Student Member</li>
 			</ul>
 		</div>
-	</div><br><br>
+	</section>
 
 
-	<div class="container">
+	<section class="container site-footer-section" id="Contact">
 		<hr>
 
 		<div class="footer-widgets">
 			<div class="footer-widget-card visitor-map-card">
 				<h5>Visitor Map</h5>
 				<div class="visitor-map-embed">
-					<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=q4c8Bz_crWXXZWNrThHNrgiyLhcfHzpQxm4MVdXB1os&cl=ffffff&w=a"></script>
+					<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=q4c8Bz_crWXXZWNrThHNrgiyLhcfHzpQxm4MVdXB1os&amp;cl=ffffff&amp;w=a"></script>
 					<noscript>
 						<a class="visitor-map-link" href="https://mapmyvisitors.com/web/1c5dw" title="Visit tracker" target="_blank" rel="noopener noreferrer">
-							<img class="visitor-map-image" src="https://mapmyvisitors.com/map.png?d=q4c8Bz_crWXXZWNrThHNrgiyLhcfHzpQxm4MVdXB1os&cl=ffffff" alt="Visitor map for Xi Xiao's homepage" loading="lazy" referrerpolicy="no-referrer">
+							<img class="visitor-map-image" src="https://mapmyvisitors.com/map.png?d=q4c8Bz_crWXXZWNrThHNrgiyLhcfHzpQxm4MVdXB1os&amp;cl=ffffff" alt="Visitor map for Xi Xiao's homepage" loading="lazy" referrerpolicy="no-referrer">
 						</a>
 					</noscript>
 				</div>
@@ -599,33 +512,26 @@
 					<div class="citation-chart-shell">
 						<canvas id="scholarCitationChart" width="640" height="180" aria-label="Google Scholar citation history"></canvas>
 					</div>
-					<a class="citation-top-paper" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" data-scholar-top-paper>
+					<a class="citation-top-paper" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" data-scholar-top-paper>
 						<span>Top cited paper</span>
 						<strong>Loading Scholar data</strong>
 					</a>
 					<div class="citation-tracker-actions">
-						<a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+						<a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
 						<a href="data/scholar_citations.json" target="_blank" rel="noopener noreferrer">Citation JSON</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<center>
 			<footer>
-				<p>&copy; Xi Xiao 2026. Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron's template</a>. Last update: July 30, 2026.</p>
+				<p>&copy; Xi Xiao 2026. Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron's template</a>. Last update: August 18, 2026.</p>
 			</footer>
-		</center>
-	</div>
-	<!-- /container -->
+	</section>
+	</main>
 
-	<!-- Bootstrap core JavaScript -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script>showPubs(1);</script>
-	<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<script>showPubs(1);</script>
+		<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
 </body>
 
 </html>
