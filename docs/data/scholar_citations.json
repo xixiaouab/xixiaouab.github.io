@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 585,
+    "total_citations": 589,
     "h_index": 13,
-    "i10_index": 20,
+    "i10_index": 21,
     "paper_count": 57,
-    "updated": "2026-08-18",
-    "updated_at_utc": "2026-08-18T11:42:20+00:00",
+    "updated": "2026-08-19",
+    "updated_at_utc": "2026-08-19T11:41:20+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -182,6 +182,10 @@
     {
       "date": "2026-08-18",
       "total_citations": 585
+    },
+    {
+      "date": "2026-08-19",
+      "total_citations": 589
     }
   ],
   "all_papers": [
@@ -312,6 +316,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
+      "title": "Self-supervised visual prompting for cross-domain road damage detection",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
+    },
+    {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -347,13 +358,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
     },
     {
-      "title": "Self-supervised visual prompting for cross-domain road damage detection",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
-    },
-    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
@@ -373,6 +377,13 @@
       "venue": "ACL Findings 2026, 2026",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
+      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
+      "year": "2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
     },
     {
       "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
@@ -408,13 +419,6 @@
       "venue": "CVPR 2026, 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
-    },
-    {
-      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
-      "year": "2026",
-      "venue": "🏆 ICASSP 2026 (Oral), 2026",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
     },
     {
       "title": "Stochastic interpolants via conditional dependent coupling",
