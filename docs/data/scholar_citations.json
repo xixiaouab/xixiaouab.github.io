@@ -6,12 +6,12 @@
     "affiliation": "UAB | ORNL"
   },
   "summary": {
-    "total_citations": 589,
+    "total_citations": 591,
     "h_index": 13,
     "i10_index": 21,
     "paper_count": 57,
-    "updated": "2026-08-19",
-    "updated_at_utc": "2026-08-19T11:41:20+00:00",
+    "updated": "2026-08-20",
+    "updated_at_utc": "2026-08-20T11:43:44+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -186,6 +186,10 @@
     {
       "date": "2026-08-19",
       "total_citations": 589
+    },
+    {
+      "date": "2026-08-20",
+      "total_citations": 591
     }
   ],
   "all_papers": [
@@ -193,7 +197,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 51,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -393,18 +397,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "year": "2026",
+      "venue": "npj Digital Medicine, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
+    },
+    {
       "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
       "year": "2025",
       "venue": "ECML PKDD 2025, 2025",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
-    },
-    {
-      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
-      "year": "2026",
-      "venue": "npj Digital Medicine, 2026",
-      "citations": 6,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
@@ -594,7 +598,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 51,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
