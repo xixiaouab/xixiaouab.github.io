@@ -3,15 +3,15 @@
     "name": "Xi Xiao",
     "scholar_id": "Q4DnRVgAAAAJ",
     "scholar_url": "https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en&pagesize=100",
-    "affiliation": "UAB | ORNL"
+    "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 602,
+    "total_citations": 605,
     "h_index": 13,
     "i10_index": 21,
-    "paper_count": 57,
-    "updated": "2026-08-21",
-    "updated_at_utc": "2026-08-21T11:43:03+00:00",
+    "paper_count": 58,
+    "updated": "2026-08-22",
+    "updated_at_utc": "2026-08-22T11:35:22+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -194,6 +194,10 @@
     {
       "date": "2026-08-21",
       "total_citations": 602
+    },
+    {
+      "date": "2026-08-22",
+      "total_citations": 605
     }
   ],
   "all_papers": [
@@ -289,18 +293,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
     },
     {
+      "title": "Agent Harness Engineering: A Survey",
+      "year": "2026",
+      "venue": "OpenReview preprint, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
       "year": "2026",
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
-      "title": "Agent Harness Engineering: A Survey",
-      "year": "2026",
-      "venue": "OpenReview preprint, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
       "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
@@ -345,6 +349,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
     },
     {
+      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
+    },
+    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
@@ -359,11 +370,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
     },
     {
-      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
       "year": "2026",
-      "venue": "CVPR 2026, 2026",
+      "venue": "npj Digital Medicine, 2026",
       "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
       "title": "Focus: Fused observation of channels for unveiling spectra",
@@ -399,13 +410,6 @@
       "venue": "AAAI 2026, 2026",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
-    },
-    {
-      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
-      "year": "2026",
-      "venue": "npj Digital Medicine, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
       "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
@@ -534,18 +538,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
-      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
-      "year": "2026",
-      "venue": "TMLR 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
-    },
-    {
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
       "year": "2026",
       "venue": "ACM MM 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
+      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
+      "year": "2026",
+      "venue": "TMLR 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
     },
     {
       "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
