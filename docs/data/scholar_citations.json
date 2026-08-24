@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 605,
+    "total_citations": 606,
     "h_index": 13,
     "i10_index": 21,
     "paper_count": 58,
-    "updated": "2026-08-22",
-    "updated_at_utc": "2026-08-22T11:35:22+00:00",
+    "updated": "2026-08-24",
+    "updated_at_utc": "2026-08-24T11:44:16+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -198,6 +198,10 @@
     {
       "date": "2026-08-22",
       "total_citations": 605
+    },
+    {
+      "date": "2026-08-24",
+      "total_citations": 606
     }
   ],
   "all_papers": [
@@ -370,6 +374,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
     },
     {
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
       "year": "2026",
       "venue": "npj Digital Medicine, 2026",
@@ -389,13 +400,6 @@
       "venue": "arXiv preprint arXiv:2405.17905, 2024",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
-    },
-    {
-      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
-      "year": "2026",
-      "venue": "ACL Findings 2026, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
       "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
