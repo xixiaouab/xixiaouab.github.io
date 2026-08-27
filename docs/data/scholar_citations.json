@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 606,
+    "total_citations": 608,
     "h_index": 13,
     "i10_index": 21,
     "paper_count": 58,
-    "updated": "2026-08-26",
-    "updated_at_utc": "2026-08-26T11:45:59+00:00",
+    "updated": "2026-08-27",
+    "updated_at_utc": "2026-08-27T21:02:33+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -210,6 +210,10 @@
     {
       "date": "2026-08-26",
       "total_citations": 606
+    },
+    {
+      "date": "2026-08-27",
+      "total_citations": 608
     }
   ],
   "all_papers": [
@@ -245,7 +249,7 @@
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 30,
+      "citations": 31,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -396,6 +400,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
+      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+      "year": "2025",
+      "venue": "ECML PKDD 2025, 2025",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
+    },
+    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
@@ -422,13 +433,6 @@
       "venue": "AAAI 2026, 2026",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
-    },
-    {
-      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
-      "year": "2025",
-      "venue": "ECML PKDD 2025, 2025",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
     },
     {
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
@@ -653,7 +657,7 @@
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 30,
+      "citations": 31,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
