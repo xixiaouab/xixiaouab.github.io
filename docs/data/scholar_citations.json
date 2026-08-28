@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 608,
-    "h_index": 13,
+    "total_citations": 612,
+    "h_index": 14,
     "i10_index": 21,
     "paper_count": 58,
-    "updated": "2026-08-27",
-    "updated_at_utc": "2026-08-27T21:02:33+00:00",
+    "updated": "2026-08-28",
+    "updated_at_utc": "2026-08-28T21:26:23+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -214,6 +214,10 @@
     {
       "date": "2026-08-27",
       "total_citations": 608
+    },
+    {
+      "date": "2026-08-28",
+      "total_citations": 612
     }
   ],
   "all_papers": [
@@ -270,7 +274,7 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 24,
+      "citations": 25,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
@@ -295,6 +299,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
+      "title": "Agent Harness Engineering: A Survey",
+      "year": "2026",
+      "venue": "OpenReview preprint, 2026",
+      "citations": 15,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
       "year": "2025",
       "venue": "ICASSP 2025, 2025",
@@ -307,13 +318,6 @@
       "venue": "🏆 SC 2025 (Best Paper Award), 2025",
       "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
-    },
-    {
-      "title": "Agent Harness Engineering: A Survey",
-      "year": "2026",
-      "venue": "OpenReview preprint, 2026",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
@@ -365,6 +369,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
     },
     {
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -384,13 +395,6 @@
       "venue": "Scientific Reports 15 (1), 10790, 2025",
       "citations": 9,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
-    },
-    {
-      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
-      "year": "2026",
-      "venue": "ACL Findings 2026, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
@@ -678,7 +682,7 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 24,
+      "citations": 25,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     }
   ]
