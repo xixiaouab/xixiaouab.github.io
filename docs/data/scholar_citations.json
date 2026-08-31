@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 657,
+    "total_citations": 661,
     "h_index": 14,
-    "i10_index": 25,
+    "i10_index": 26,
     "paper_count": 58,
-    "updated": "2026-08-30",
-    "updated_at_utc": "2026-08-30T15:20:50+00:00",
+    "updated": "2026-08-31",
+    "updated_at_utc": "2026-08-31T18:00:49+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -226,6 +226,10 @@
     {
       "date": "2026-08-30",
       "total_citations": 657
+    },
+    {
+      "date": "2026-08-31",
+      "total_citations": 661
     }
   ],
   "all_papers": [
@@ -300,6 +304,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
     },
     {
+      "title": "Agent Harness Engineering: A Survey",
+      "year": "2026",
+      "venue": "OpenReview preprint, 2026",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
       "title": "Visual Variational Autoencoder Prompt Tuning",
       "year": "2025",
       "venue": "CVPR 2025 Workshop on FGVC, 2025",
@@ -307,11 +318,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
-      "title": "Agent Harness Engineering: A Survey",
-      "year": "2026",
-      "venue": "OpenReview preprint, 2026",
+      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "year": "2025",
+      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
       "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
     },
     {
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
@@ -321,18 +332,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
-      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
-      "year": "2025",
-      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
-      "citations": 14,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
-    },
-    {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
       "year": "2026",
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
+    },
+    {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 12,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
       "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
@@ -363,13 +374,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
     },
     {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 11,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
-    },
-    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
@@ -382,6 +386,13 @@
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
       "citations": 11,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
       "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
@@ -403,13 +414,6 @@
       "venue": "2022 5th International Conference on Pattern Recognition and Artificial …, 2022",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
       "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
