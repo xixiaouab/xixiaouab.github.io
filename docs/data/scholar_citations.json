@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 661,
+    "total_citations": 664,
     "h_index": 14,
     "i10_index": 26,
     "paper_count": 58,
-    "updated": "2026-09-02",
-    "updated_at_utc": "2026-09-02T15:06:37+00:00",
+    "updated": "2026-09-03",
+    "updated_at_utc": "2026-09-03T15:00:54+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -238,6 +238,10 @@
     {
       "date": "2026-09-02",
       "total_citations": 661
+    },
+    {
+      "date": "2026-09-03",
+      "total_citations": 664
     }
   ],
   "all_papers": [
@@ -252,7 +256,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 51,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -266,7 +270,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 41,
+      "citations": 42,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
@@ -452,6 +456,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
     },
     {
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
       "year": "2026",
       "venue": "npj Digital Medicine, 2026",
@@ -471,13 +482,6 @@
       "venue": "arXiv preprint arXiv:2405.17905, 2024",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
-    },
-    {
-      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments",
@@ -660,7 +664,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 51,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -674,7 +678,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 41,
+      "citations": 42,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
