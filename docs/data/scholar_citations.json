@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 666,
+    "total_citations": 674,
     "h_index": 14,
     "i10_index": 26,
-    "paper_count": 59,
-    "updated": "2026-09-04",
-    "updated_at_utc": "2026-09-04T14:58:11+00:00",
+    "paper_count": 60,
+    "updated": "2026-09-05",
+    "updated_at_utc": "2026-09-05T13:52:09+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -246,6 +246,10 @@
     {
       "date": "2026-09-04",
       "total_citations": 666
+    },
+    {
+      "date": "2026-09-05",
+      "total_citations": 674
     }
   ],
   "all_papers": [
@@ -288,21 +292,21 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
       "year": "2024",
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
@@ -313,18 +317,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
     },
     {
+      "title": "Agent Harness Engineering: A Survey",
+      "year": "2026",
+      "venue": "OpenReview preprint, 2026",
+      "citations": 20,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
       "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
       "year": "2024",
       "venue": "2024 IEEE 36th International Conference on Tools with Artificial …, 2024",
       "citations": 20,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
-    },
-    {
-      "title": "Agent Harness Engineering: A Survey",
-      "year": "2026",
-      "venue": "OpenReview preprint, 2026",
-      "citations": 16,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
       "title": "Visual Variational Autoencoder Prompt Tuning",
@@ -348,6 +352,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
+    },
+    {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -367,13 +378,6 @@
       "venue": "ACL Findings 2026, 2026",
       "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
-    },
-    {
-      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
     },
     {
       "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
@@ -467,13 +471,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
-      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
-      "year": "2026",
-      "venue": "npj Digital Medicine, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
-    },
-    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
@@ -486,6 +483,13 @@
       "venue": "arXiv preprint arXiv:2405.17905, 2024",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
+    },
+    {
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "year": "2026",
+      "venue": "npj Digital Medicine, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments",
@@ -579,6 +583,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2605.28277, 2026",
@@ -600,11 +611,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
       "year": "2026",
-      "venue": "ACM MM 2026, 2026",
+      "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
     },
     {
       "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
@@ -703,21 +714,21 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
       "year": "2024",
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     }
   ]
