@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 674,
+    "total_citations": 676,
     "h_index": 14,
     "i10_index": 26,
     "paper_count": 60,
-    "updated": "2026-09-05",
-    "updated_at_utc": "2026-09-05T13:52:09+00:00",
+    "updated": "2026-09-06",
+    "updated_at_utc": "2026-09-06T14:11:26+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -250,6 +250,10 @@
     {
       "date": "2026-09-05",
       "total_citations": 674
+    },
+    {
+      "date": "2026-09-06",
+      "total_citations": 676
     }
   ],
   "all_papers": [
@@ -257,7 +261,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 55,
+      "citations": 57,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -679,7 +683,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 55,
+      "citations": 57,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
