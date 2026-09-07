@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 676,
+    "total_citations": 682,
     "h_index": 14,
     "i10_index": 26,
-    "paper_count": 60,
-    "updated": "2026-09-06",
-    "updated_at_utc": "2026-09-06T14:11:26+00:00",
+    "paper_count": 59,
+    "updated": "2026-09-07",
+    "updated_at_utc": "2026-09-07T16:28:21+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -254,6 +254,10 @@
     {
       "date": "2026-09-06",
       "total_citations": 676
+    },
+    {
+      "date": "2026-09-07",
+      "total_citations": 682
     }
   ],
   "all_papers": [
@@ -261,14 +265,14 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 57,
+      "citations": 63,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 52,
+      "citations": 53,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -475,6 +479,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "year": "2026",
+      "venue": "npj Digital Medicine, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
+    },
+    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
@@ -487,13 +498,6 @@
       "venue": "arXiv preprint arXiv:2405.17905, 2024",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
-    },
-    {
-      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
-      "year": "2026",
-      "venue": "npj Digital Medicine, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments",
@@ -564,13 +568,6 @@
       "venue": "EMNLP 2026 Findings, 2026",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:Tiz5es2fbqcC"
-    },
-    {
-      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
-      "year": "2026",
-      "venue": "Information Fusion 131, 1-10, 2026",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ZuybSZzF8UAC"
     },
     {
       "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
@@ -683,14 +680,14 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 57,
+      "citations": 63,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 52,
+      "citations": 53,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
