@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 682,
+    "total_citations": 684,
     "h_index": 14,
     "i10_index": 26,
     "paper_count": 59,
-    "updated": "2026-09-07",
-    "updated_at_utc": "2026-09-07T16:28:21+00:00",
+    "updated": "2026-09-08",
+    "updated_at_utc": "2026-09-08T15:07:36+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -258,6 +258,10 @@
     {
       "date": "2026-09-07",
       "total_citations": 682
+    },
+    {
+      "date": "2026-09-08",
+      "total_citations": 684
     }
   ],
   "all_papers": [
@@ -286,7 +290,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 42,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
@@ -367,6 +371,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
     },
     {
+      "title": "Self-supervised visual prompting for cross-domain road damage detection",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
+    },
+    {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -393,13 +404,6 @@
       "venue": "NeurIPS 2025, 2026",
       "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
-    },
-    {
-      "title": "Self-supervised visual prompting for cross-domain road damage detection",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
     },
     {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
@@ -701,7 +705,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 42,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
