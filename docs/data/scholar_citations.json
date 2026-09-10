@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 684,
+    "total_citations": 694,
     "h_index": 14,
-    "i10_index": 26,
-    "paper_count": 59,
-    "updated": "2026-09-09",
-    "updated_at_utc": "2026-09-09T15:08:07+00:00",
+    "i10_index": 27,
+    "paper_count": 60,
+    "updated": "2026-09-10",
+    "updated_at_utc": "2026-09-10T14:59:17+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -266,6 +266,10 @@
     {
       "date": "2026-09-09",
       "total_citations": 684
+    },
+    {
+      "date": "2026-09-10",
+      "total_citations": 694
     }
   ],
   "all_papers": [
@@ -410,18 +414,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 12,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
       "citations": 11,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
-    },
-    {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 11,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
@@ -443,6 +447,13 @@
       "venue": "WACV 2026, 2026",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
+    },
+    {
+      "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
+      "year": "2025",
+      "venue": "Scientific Reports 15 (1), 10790, 2025",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
     },
     {
       "title": "An image data augmentation algorithm based on yolov5s-da for pavement distress detection",
@@ -473,18 +484,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
     },
     {
-      "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
-      "year": "2025",
-      "venue": "Scientific Reports 15 (1), 10790, 2025",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ULOm3_A8WrAC"
-    },
-    {
       "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
+      "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism",
+      "year": "2026",
+      "venue": "The 1st Workshop on Scaling Post-training for LLMs, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1yQoGdGgb4wC"
     },
     {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
