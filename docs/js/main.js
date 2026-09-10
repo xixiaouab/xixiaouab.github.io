@@ -1,6 +1,58 @@
 // Optional: publication filter (showPubs) - template may call showPubs(1)
 function showPubs(n) { return true; }
 
+function initPublicationFigures() {
+  var dialog = document.getElementById("pub-figure-dialog");
+  if (!dialog || typeof dialog.showModal !== "function") {
+    return;
+  }
+
+  var title = dialog.querySelector("#pub-figure-title");
+  var image = dialog.querySelector("[data-figure-image]");
+  var originalLink = dialog.querySelector("[data-figure-original]");
+  var activeLink;
+  var previousOverflow;
+
+  document.querySelectorAll("[data-pub-figure]").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+        return;
+      }
+
+      event.preventDefault();
+      activeLink = link;
+      title.textContent = link.closest(".pub-card").querySelector(".pub-title").textContent;
+      image.alt = link.querySelector("img").alt;
+      image.src = link.href;
+      originalLink.href = link.href;
+      previousOverflow = document.body.style.overflow;
+      dialog.showModal();
+      document.body.style.overflow = "hidden";
+    });
+  });
+
+  dialog.querySelector("[data-figure-close]").addEventListener("click", function () {
+    dialog.close();
+  });
+
+  dialog.addEventListener("click", function (event) {
+    var bounds = dialog.getBoundingClientRect();
+    if (event.target === dialog &&
+        (event.clientX < bounds.left || event.clientX > bounds.right ||
+         event.clientY < bounds.top || event.clientY > bounds.bottom)) {
+      dialog.close();
+    }
+  });
+
+  dialog.addEventListener("close", function () {
+    document.body.style.overflow = previousOverflow;
+    image.removeAttribute("src");
+    if (activeLink) {
+      activeLink.focus({ preventScroll: true });
+    }
+  });
+}
+
 function initIdentityTyping() {
   var target = document.querySelector(".intro-identity-dynamic");
   if (!target) {
@@ -211,6 +263,7 @@ function initScholarCitationTracker() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  initPublicationFigures();
   initIdentityTyping();
   initScholarCitationTracker();
 
