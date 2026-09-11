@@ -10,8 +10,8 @@
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-10",
-    "updated_at_utc": "2026-09-10T14:59:17+00:00",
+    "updated": "2026-09-11",
+    "updated_at_utc": "2026-09-11T15:02:18+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -270,6 +270,10 @@
     {
       "date": "2026-09-10",
       "total_citations": 694
+    },
+    {
+      "date": "2026-09-11",
+      "total_citations": 694
     }
   ],
   "all_papers": [
@@ -519,11 +523,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
-      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception-Memory Integration in Embodied Environments",
+      "title": "Spamem: Benchmarking dynamic spatial reasoning via perception-memory integration in embodied environments",
       "year": "2026",
-      "venue": "ECCV 2026, 2026",
+      "venue": "arXiv preprint arXiv:2604.22409, 2026",
       "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kRWSkSYxWN8C"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
     },
     {
       "title": "Stochastic interpolants via conditional dependent coupling",
