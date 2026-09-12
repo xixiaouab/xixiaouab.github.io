@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 694,
+    "total_citations": 696,
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-11",
-    "updated_at_utc": "2026-09-11T15:02:18+00:00",
+    "updated": "2026-09-12",
+    "updated_at_utc": "2026-09-12T14:09:20+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -274,6 +274,10 @@
     {
       "date": "2026-09-11",
       "total_citations": 694
+    },
+    {
+      "date": "2026-09-12",
+      "total_citations": 696
     }
   ],
   "all_papers": [
@@ -281,7 +285,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 63,
+      "citations": 64,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -376,6 +380,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -395,13 +406,6 @@
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
       "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
@@ -703,7 +707,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 63,
+      "citations": 64,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
