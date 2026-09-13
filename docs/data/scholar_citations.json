@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 696,
+    "total_citations": 700,
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-12",
-    "updated_at_utc": "2026-09-12T14:09:20+00:00",
+    "updated": "2026-09-13",
+    "updated_at_utc": "2026-09-13T14:55:07+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -278,6 +278,10 @@
     {
       "date": "2026-09-12",
       "total_citations": 696
+    },
+    {
+      "date": "2026-09-13",
+      "total_citations": 700
     }
   ],
   "all_papers": [
@@ -299,7 +303,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 49,
+      "citations": 50,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -387,6 +391,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -406,13 +417,6 @@
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
-      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
-      "year": "2026",
-      "venue": "ACL Findings 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
       "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
@@ -562,6 +566,20 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
     },
     {
+      "title": "Leveraging Latent Visual Reasoning in Silence",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2605.18641, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
+    },
+    {
+      "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
+      "year": "2026",
+      "venue": "EMNLP 2026 Findings, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:Tiz5es2fbqcC"
+    },
+    {
       "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2505.23444, 2025",
@@ -576,25 +594,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
-      "title": "Leveraging Latent Visual Reasoning in Silence",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2605.18641, 2026",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
-    },
-    {
       "title": "Transition flow matching",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2603.15689, 2026",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
-    },
-    {
-      "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
-      "year": "2026",
-      "venue": "EMNLP 2026 Findings, 2026",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:Tiz5es2fbqcC"
     },
     {
       "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
@@ -721,7 +725,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 49,
+      "citations": 50,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
