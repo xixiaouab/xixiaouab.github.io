@@ -3,15 +3,15 @@
     "name": "Xi Xiao",
     "scholar_id": "Q4DnRVgAAAAJ",
     "scholar_url": "https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&hl=en&pagesize=100",
-    "affiliation": "ORNL | UAB"
+    "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 700,
+    "total_citations": 706,
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-13",
-    "updated_at_utc": "2026-09-13T14:55:07+00:00",
+    "updated": "2026-09-14",
+    "updated_at_utc": "2026-09-14T16:58:13+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -282,6 +282,10 @@
     {
       "date": "2026-09-13",
       "total_citations": 700
+    },
+    {
+      "date": "2026-09-14",
+      "total_citations": 706
     }
   ],
   "all_papers": [
@@ -296,7 +300,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 53,
+      "citations": 54,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -387,7 +391,7 @@
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
-      "citations": 13,
+      "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
@@ -405,6 +409,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
     },
     {
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "year": "2026",
+      "venue": "NeurIPS 2025, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
+    },
+    {
       "title": "Self-supervised visual prompting for cross-domain road damage detection",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -417,13 +428,6 @@
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
-      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
-      "year": "2026",
-      "venue": "NeurIPS 2025, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
       "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
@@ -531,6 +535,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
+      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
+    },
+    {
       "title": "Spamem: Benchmarking dynamic spatial reasoning via perception-memory integration in embodied environments",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2604.22409, 2026",
@@ -559,11 +570,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
     },
     {
-      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
+      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
       "year": "2026",
-      "venue": "ECCV 2026, 2026",
+      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
       "citations": 3,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
       "title": "Leveraging Latent Visual Reasoning in Silence",
@@ -585,13 +596,6 @@
       "venue": "arXiv preprint arXiv:2505.23444, 2025",
       "citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:mB3voiENLucC"
-    },
-    {
-      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
-      "year": "2026",
-      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
       "title": "Transition flow matching",
@@ -718,7 +722,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 53,
+      "citations": 54,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
