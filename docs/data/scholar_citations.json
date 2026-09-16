@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 706,
+    "total_citations": 707,
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-15",
-    "updated_at_utc": "2026-09-15T15:34:14+00:00",
+    "updated": "2026-09-16",
+    "updated_at_utc": "2026-09-16T15:25:30+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -290,6 +290,10 @@
     {
       "date": "2026-09-15",
       "total_citations": 706
+    },
+    {
+      "date": "2026-09-16",
+      "total_citations": 707
     }
   ],
   "all_papers": [
@@ -437,7 +441,7 @@
       "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
       "year": "2025",
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 12,
+      "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
