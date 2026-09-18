@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 707,
+    "total_citations": 714,
     "h_index": 14,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-17",
-    "updated_at_utc": "2026-09-17T15:33:03+00:00",
+    "updated": "2026-09-18",
+    "updated_at_utc": "2026-09-18T15:00:08+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -298,6 +298,10 @@
     {
       "date": "2026-09-17",
       "total_citations": 707
+    },
+    {
+      "date": "2026-09-18",
+      "total_citations": 714
     }
   ],
   "all_papers": [
@@ -312,7 +316,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 54,
+      "citations": 55,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -326,7 +330,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
@@ -335,6 +339,13 @@
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
       "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 29,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
@@ -349,13 +360,6 @@
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 28,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
@@ -379,18 +383,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
     },
     {
+      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "year": "2025",
+      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
+    },
+    {
       "title": "Visual Variational Autoencoder Prompt Tuning",
       "year": "2025",
       "venue": "CVPR 2025 Workshop on FGVC, 2025",
       "citations": 16,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
-    },
-    {
-      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
-      "year": "2025",
-      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
     },
     {
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
@@ -442,18 +446,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
-    },
-    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
-      "citations": 11,
+      "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 12,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
@@ -550,13 +554,13 @@
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
-      "citations": 5,
+      "citations": 6,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
     },
     {
-      "title": "Spamem: Benchmarking dynamic spatial reasoning via perception-memory integration in embodied environments",
+      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
       "year": "2026",
-      "venue": "arXiv preprint arXiv:2604.22409, 2026",
+      "venue": "European Conference on Computer Vision, 425-442, 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
     },
@@ -580,6 +584,13 @@
       "venue": "ICML 2026, 2026",
       "citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
+    },
+    {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
@@ -629,13 +640,6 @@
       "venue": "IFIP International Summer School on Privacy and Identity Management, 78-93, 2024",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
-    },
-    {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
@@ -734,7 +738,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 54,
+      "citations": 55,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -748,7 +752,7 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 43,
+      "citations": 44,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
@@ -757,6 +761,13 @@
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
       "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 29,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
@@ -771,13 +782,6 @@
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 28,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     }
   ]
 }
