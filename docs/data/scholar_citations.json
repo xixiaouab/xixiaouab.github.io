@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 718,
+    "total_citations": 722,
     "h_index": 15,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-19",
-    "updated_at_utc": "2026-09-19T14:26:09+00:00",
+    "updated": "2026-09-20",
+    "updated_at_utc": "2026-09-20T14:42:02+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -306,6 +306,10 @@
     {
       "date": "2026-09-19",
       "total_citations": 718
+    },
+    {
+      "date": "2026-09-20",
+      "total_citations": 722
     }
   ],
   "all_papers": [
@@ -313,7 +317,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 64,
+      "citations": 65,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -450,18 +454,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
       "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
-    },
-    {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
@@ -513,11 +517,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "year": "2026",
+      "venue": "npj Digital Medicine, 2026",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
+    },
+    {
       "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
       "year": "2025",
       "venue": "ECML PKDD 2025, 2025",
       "citations": 9,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
+    },
+    {
+      "title": "Cycle-yolo: A efficient and robust framework for pavement damage detection",
+      "year": "2024",
+      "venue": "arXiv preprint arXiv:2405.17905, 2024",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
       "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
@@ -534,25 +552,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1yQoGdGgb4wC"
     },
     {
-      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
-      "year": "2026",
-      "venue": "npj Digital Medicine, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
-    },
-    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
-    },
-    {
-      "title": "Cycle-yolo: A efficient and robust framework for pavement damage detection",
-      "year": "2024",
-      "venue": "arXiv preprint arXiv:2405.17905, 2024",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
@@ -620,7 +624,7 @@
     {
       "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
       "year": "2025",
-      "venue": "arXiv preprint arXiv:2505.23444, 2025",
+      "venue": "TMLR 2026, 2025",
       "citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:mB3voiENLucC"
     },
@@ -735,7 +739,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 64,
+      "citations": 65,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
