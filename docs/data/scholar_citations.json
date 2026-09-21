@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 722,
+    "total_citations": 724,
     "h_index": 15,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-20",
-    "updated_at_utc": "2026-09-20T14:42:02+00:00",
+    "updated": "2026-09-21",
+    "updated_at_utc": "2026-09-21T17:04:15+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -310,6 +310,10 @@
     {
       "date": "2026-09-20",
       "total_citations": 722
+    },
+    {
+      "date": "2026-09-21",
+      "total_citations": 724
     }
   ],
   "all_papers": [
@@ -468,6 +472,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
     },
     {
+      "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
+    },
+    {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -480,13 +491,6 @@
       "venue": "CVPR 2026, 2026",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
-    },
-    {
-      "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 10,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
     },
     {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
@@ -566,6 +570,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -585,13 +596,6 @@
       "venue": "arXiv preprint arXiv:2505.19352, 2025",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 4,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
