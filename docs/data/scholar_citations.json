@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 724,
+    "total_citations": 727,
     "h_index": 15,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-23",
-    "updated_at_utc": "2026-09-23T15:27:14+00:00",
+    "updated": "2026-09-24",
+    "updated_at_utc": "2026-09-24T15:49:16+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -322,6 +322,10 @@
     {
       "date": "2026-09-23",
       "total_citations": 724
+    },
+    {
+      "date": "2026-09-24",
+      "total_citations": 727
     }
   ],
   "all_papers": [
@@ -361,18 +365,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "year": "2025",
+      "venue": "EMNLP Findings 2025, 2025",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
-      "year": "2025",
-      "venue": "EMNLP Findings 2025, 2025",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
@@ -392,7 +396,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 20,
+      "citations": 21,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -466,18 +470,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
+      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
+      "year": "2025",
+      "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
       "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
       "year": "2025",
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
-    },
-    {
-      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
-      "year": "2025",
-      "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
     },
     {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
@@ -783,18 +787,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "year": "2025",
+      "venue": "EMNLP Findings 2025, 2025",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
-      "year": "2025",
-      "venue": "EMNLP Findings 2025, 2025",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
