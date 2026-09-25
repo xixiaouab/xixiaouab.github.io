@@ -10,8 +10,8 @@
     "h_index": 15,
     "i10_index": 27,
     "paper_count": 60,
-    "updated": "2026-09-24",
-    "updated_at_utc": "2026-09-24T15:49:16+00:00",
+    "updated": "2026-09-25",
+    "updated_at_utc": "2026-09-25T15:49:43+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -326,6 +326,10 @@
     {
       "date": "2026-09-24",
       "total_citations": 727
+    },
+    {
+      "date": "2026-09-25",
+      "total_citations": 727
     }
   ],
   "all_papers": [
@@ -582,6 +586,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
     },
     {
+      "title": "Stochastic interpolants via conditional dependent coupling",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
+    },
+    {
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
       "year": "2026",
       "venue": "ACM MM 2026, 2026",
@@ -594,13 +605,6 @@
       "venue": "ECCV 2026, 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
-    },
-    {
-      "title": "Stochastic interpolants via conditional dependent coupling",
-      "year": "2025",
-      "venue": "arXiv preprint arXiv:2509.23122, 2025",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
     },
     {
       "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
@@ -617,18 +621,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
     },
     {
+      "title": "Leveraging Latent Visual Reasoning in Silence",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
+    },
+    {
       "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
       "year": "2026",
       "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
       "citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
-    },
-    {
-      "title": "Leveraging Latent Visual Reasoning in Silence",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2605.18641, 2026",
-      "citations": 3,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
     },
     {
       "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
@@ -687,6 +691,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
+      "title": "Drift Flow Matching",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
+    },
+    {
       "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
       "year": "2026",
       "venue": "EMNLP Findings 2026, 2026",
@@ -713,13 +724,6 @@
       "venue": "ECCV 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tkaPQYYpVKoC"
-    },
-    {
-      "title": "Drift Flow Matching",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2605.17244, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
     },
     {
       "title": "KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields",
