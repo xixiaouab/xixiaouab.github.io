@@ -5,9 +5,9 @@
   <title>ReaLVR — Grounding Latent Reasoning in Visual Evidence</title>
   <meta name="description" content="ReaLVR grounds multimodal latent reasoning in visual evidence through visual contrast and answer-conditioned credit assignment.">
   <meta name="theme-color" content="#ff9900">
-  <link rel="icon" href="assets/favicon.svg?v=20260927-amazon" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.svg?v=20260927-story-v4" type="image/svg+xml">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
-  <link rel="stylesheet" href="style.css?v=20260927-amazon">
+  <link rel="stylesheet" href="style.css?v=20260927-story-v4">
   <script src="links.js" defer></script><script src="script.js" defer></script>
 </head>
 <body>
@@ -29,10 +29,21 @@
 <main id="top">
 <section class="hero wrap">
   <div class="hero-meta"><span class="eyebrow">LATENT VISUAL REASONING</span><span class="meta-divider"></span><span class="preprint">Research project · 2026</span></div>
-  <p class="project-name">Rea<span>LVR</span><span class="wordmark-dot">.</span></p>
-  <h1>Rethinking Latent Visual Reasoning:<br><span>Grounding Latent Reasoning<br class="wide-break"> in Visual Evidence</span></h1>
+  <h1 class="publication-title">Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence</h1>
   <div class="authors">
-    <a href="https://openreview.net/profile?id=~Xi_Xiao2">Xi Xiao<sup>1,2,*</sup></a><a href="https://openreview.net/profile?id=~Tianchen_Zhao1">Tianchen Zhao<sup>2</sup></a><a href="https://openreview.net/profile?id=~Youngeun_Kim1">Youngeun Kim<sup>2</sup></a><a href="https://openreview.net/profile?id=~Zhuowei_Li1">Zhuowei Li<sup>2</sup></a><a href="https://openreview.net/profile?id=~Linghan_Xu3">Linghan Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Jiaye_Wu1">Jiaye Wu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Zheng_Zhang50">Zheng Zhang<sup>2</sup></a><a href="https://openreview.net/profile?id=~Xiang_Xu3">Xiang Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Xuanbai_Chen1">Xuanbai Chen<sup>2</sup></a><a href="https://openreview.net/profile?id=~Farhan_Tejani1">Farhan Tejani<sup>2</sup></a><a href="https://openreview.net/profile?id=~Jakub_Zablocki1">Jakub Zablocki<sup>2</sup></a><a href="https://openreview.net/profile?id=~Julia_Xu2">Julia Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Yifan_Xing1">Yifan Xing<sup>2</sup></a>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Xi_Xiao2"><strong>Xi Xiao</strong></a><sup>1,2,*</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Tianchen_Zhao1">Tianchen Zhao</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Youngeun_Kim1">Youngeun Kim</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Zhuowei_Li1">Zhuowei Li</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Linghan_Xu3">Linghan Xu</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Jiaye_Wu1">Jiaye Wu</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Zheng_Zhang50">Zheng Zhang</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Xiang_Xu3">Xiang Xu</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Xuanbai_Chen1">Xuanbai Chen</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Farhan_Tejani1">Farhan Tejani</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Jakub_Zablocki1">Jakub Zablocki</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Julia_Xu2">Julia Xu</a><sup>2</sup></span>
+    <span class="author-block"><a href="https://openreview.net/profile?id=~Yifan_Xing1">Yifan Xing</a><sup>2</sup></span>
   </div>
   <div class="affiliations"><span><sup>1</sup> University of Alabama at Birmingham</span><span class="amazon-affiliation"><sup>2</sup> Amazon AGI</span></div>
   <a class="email" href="mailto:xxiao@uab.edu"><svg><use href="#i-mail"/></svg>xxiao@uab.edu</a>
@@ -46,8 +57,8 @@
 </section>
 <section class="animation-section wrap" aria-labelledby="animation-title">
   <div class="animation-heading"><div><span class="eyebrow">THE IDEA, IN MOTION</span><h2 id="animation-title">Give latent tokens a visual learning signal.</h2></div><button id="motion-toggle" class="motion-button js-only" aria-pressed="false" disabled><span aria-hidden="true">Ⅱ</span> Pause</button></div>
-  <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg?v=20260927-amazon" type="image/svg+xml" aria-label="Conceptual animation: visual evidence and answer contrast supervise one differentiable latent trajectory"><img src="assets/evidence-credit.gif?v=20260927-amazon" alt="Visual evidence and answer contrast supervise one differentiable latent trajectory."></object></div><p class="mobile-hint">Swipe the diagram to explore the full training flow →</p>
-  <div class="animation-caption"><p>Visual contrast defines <strong>what</strong> to preserve. Answer contrast determines <strong>where</strong> to supervise.</p><a href="assets/evidence-credit.gif?v=20260927-amazon" download><svg><use href="#i-download"/></svg>Download GIF</a></div>
+  <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg?v=20260927-story-v4" type="image/svg+xml" aria-label="Conceptual animation: visual evidence and answer contrast supervise one differentiable latent trajectory"><img src="assets/evidence-credit.gif?v=20260927-story-v4" alt="Visual evidence and answer contrast supervise one differentiable latent trajectory."></object></div><p class="mobile-hint">Swipe the diagram to explore the full training flow →</p>
+  <div class="animation-caption"><p>Visual contrast defines <strong>what</strong> to preserve. Answer contrast determines <strong>where</strong> to supervise.</p><a href="assets/evidence-credit.gif?v=20260927-story-v4" download><svg><use href="#i-download"/></svg>Download GIF</a></div>
   <div class="signal-strip"><span><i class="dot orange"></i>Direct visual supervision</span><span><i class="dot gold"></i>Answer-conditioned credit</span><span><i class="dot gray"></i>Unchanged inference</span></div>
 </section>
 <section id="overview" class="overview wrap section">
