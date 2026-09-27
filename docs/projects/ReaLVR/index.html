@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ReaLVR — Grounding Latent Reasoning in Visual Evidence</title>
+  <meta name="description" content="ReaLVR grounds multimodal latent reasoning in visual evidence through visual contrast and answer-conditioned credit assignment.">
+  <meta name="theme-color" content="#047a70">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="links.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-paper" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8Zm0 0v5h5M8 12h8M8 16h6"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></symbol>
+<symbol id="i-model" viewBox="0 0 24 24"><path d="m12 2 9 5v10l-9 5-9-5V7Zm0 10v10M3 7l9 5 9-5M8 5l9 5"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 6H4v7h6v5H4m16-12h-6v7h6v5h-6"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+</defs></svg>
+<a class="skip" href="#overview">Skip to content</a>
+<header class="topbar"><div class="nav-wrap">
+  <a class="brand" href="#top" aria-label="ReaLVR home"><span class="brand-symbol" aria-hidden="true">R</span>ReaLVR</a>
+  <nav aria-label="Page navigation"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#results">Results</a><a href="#citation">Citation</a></nav>
+  <a class="author-home" href="https://xixiaouab.github.io/">Xi Xiao <span aria-hidden="true">↗</span></a>
+</div></header>
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-meta"><span class="eyebrow">LATENT VISUAL REASONING</span><span class="meta-divider"></span><span class="preprint">Research project · 2026</span></div>
+  <p class="project-name">Rea<span>LVR</span><span class="wordmark-dot">.</span></p>
+  <h1>Rethinking Latent Visual Reasoning:<br><span>Grounding Latent Reasoning<br class="wide-break"> in Visual Evidence</span></h1>
+  <div class="authors">
+    <a href="https://openreview.net/profile?id=~Xi_Xiao2">Xi Xiao<sup>1,2,*</sup></a><a href="https://openreview.net/profile?id=~Tianchen_Zhao1">Tianchen Zhao<sup>2</sup></a><a href="https://openreview.net/profile?id=~Youngeun_Kim1">Youngeun Kim<sup>2</sup></a><a href="https://openreview.net/profile?id=~Zhuowei_Li1">Zhuowei Li<sup>2</sup></a><a href="https://openreview.net/profile?id=~Linghan_Xu3">Linghan Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Jiaye_Wu1">Jiaye Wu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Zheng_Zhang50">Zheng Zhang<sup>2</sup></a><a href="https://openreview.net/profile?id=~Xiang_Xu3">Xiang Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Xuanbai_Chen1">Xuanbai Chen<sup>2</sup></a><a href="https://openreview.net/profile?id=~Farhan_Tejani1">Farhan Tejani<sup>2</sup></a><a href="https://openreview.net/profile?id=~Jakub_Zablocki1">Jakub Zablocki<sup>2</sup></a><a href="https://openreview.net/profile?id=~Julia_Xu2">Julia Xu<sup>2</sup></a><a href="https://openreview.net/profile?id=~Yifan_Xing1">Yifan Xing<sup>2</sup></a>
+  </div>
+  <div class="affiliations"><span><sup>1</sup> University of Alabama at Birmingham</span><span class="amazon-affiliation"><sup>2</sup><img src="assets/amazon.png" width="94" height="32" alt="Amazon"> <span>AGI</span></span></div>
+  <a class="email" href="mailto:xxiao@uab.edu"><svg><use href="#i-mail"/></svg>xxiao@uab.edu</a>
+  <p class="internship">* Work done during an internship at Amazon AGI.</p>
+  <div class="resources" aria-label="Project resources">
+    <a class="resource primary unavailable" data-resource="paper" aria-disabled="true"><svg><use href="#i-paper"/></svg><span>Paper</span><small>Coming soon</small></a>
+    <a class="resource unavailable" data-resource="code" aria-disabled="true"><svg><use href="#i-code"/></svg><span>Code</span><small>Coming soon</small></a>
+    <a class="resource unavailable" data-resource="model" aria-disabled="true"><svg><use href="#i-model"/></svg><span>Model</span><small>Coming soon</small></a>
+    <a class="resource" href="#citation"><svg><use href="#i-quote"/></svg><span>BibTeX</span></a>
+  </div>
+</section>
+<section class="animation-section wrap" aria-labelledby="animation-title">
+  <div class="animation-heading"><div><span class="eyebrow">THE IDEA, IN MOTION</span><h2 id="animation-title">Give latent tokens a visual learning signal.</h2></div><button id="motion-toggle" class="motion-button js-only" aria-pressed="false" disabled><span aria-hidden="true">Ⅱ</span> Pause</button></div>
+  <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg" type="image/svg+xml" aria-label="Conceptual animation: visual evidence and answer contrast supervise one differentiable latent trajectory"><img src="assets/evidence-credit.gif" alt="Visual evidence and answer contrast supervise one differentiable latent trajectory."></object></div><p class="mobile-hint">Swipe the diagram to explore the full training flow →</p>
+  <div class="animation-caption"><p>Visual contrast defines <strong>what</strong> to preserve. Answer contrast determines <strong>where</strong> to supervise.</p><a href="assets/evidence-credit.gif" download><svg><use href="#i-download"/></svg>Download GIF</a></div>
+  <div class="signal-strip"><span><i class="dot teal"></i>Direct visual supervision</span><span><i class="dot violet"></i>Answer-conditioned credit</span><span><i class="dot gray"></i>Unchanged inference</span></div>
+</section>
+<section id="overview" class="overview wrap section">
+  <div class="section-label"><span>01</span> OVERVIEW</div>
+  <div class="editorial-grid"><h2>Reasoning in latent space.<br><em>Grounded in the image.</em></h2><div class="prose"><p>Continuous latent tokens offer a compact way for multimodal models to reason. But a correct final answer provides little guidance on which visual details those tokens should preserve.</p><p>We identify a <strong>latent evidence-credit gap</strong>: latent tokens respond only weakly to image perturbations that change the correct answer. <strong>ReaLVR</strong> brings explicit visual supervision to the model’s own free-running latent trajectory, with no change to its architecture or inference procedure.</p></div></div>
+  <div class="stats"><div><strong>63.7<span>%</span></strong><span>Five-task mean · Qwen2.5-VL-7B</span></div><div><strong>+3.3<span> pp</span></strong><span>Compared with LVR-RL · same 7B backbone</span></div><div><strong>6<span> backbones</span></strong><span>Three model families · up to 235B total parameters</span></div></div>
+  <figure class="paper-figure"><img src="assets/teaser.webp" width="1800" height="747" alt="Paper teaser: real-world visual question, training supervision, and fixed-context latent token replacement diagnostic." loading="lazy"><figcaption><span>FROM THE PAPER</span> What visual details do latent tokens preserve—and does the answer actually depend on them?</figcaption></figure>
+</section>
+<section id="method" class="method section"><div class="wrap">
+  <div class="section-label"><span>02</span> METHOD</div>
+  <div class="section-heading"><h2>One trajectory.<br><em>Two complementary contrasts.</em></h2><p>A training objective that makes visual evidence matter inside latent reasoning.</p></div>
+  <div class="method-steps">
+    <article><span class="step-number">01 / TRAJECTORY</span><h3>Learn on the model’s<br>own latent rollout.</h3><p>Regenerate one autoregressive latent span with the current model. Keep gradients through the recurrence, before any answer tokens are supplied.</p></article>
+    <article><span class="step-number">02 / WHAT</span><h3>Preserve relevant<br>visual evidence.</h3><p>A cosine margin aligns the trajectory with a relevant visual prototype and separates it from the hardest mismatched prototype. Use a region annotation when available; otherwise, pool the image.</p></article>
+    <article><span class="step-number">03 / WHERE</span><h3>Assign credit through<br>answer contrast.</h3><p>Read the same latent span with correct and model-generated wrong answers. Their positive attention difference, plus a uniform baseline, allocates detached supervision weights.</p></article>
+  </div>
+  <figure class="paper-figure"><img src="assets/method.webp" width="1800" height="955" alt="ReaLVR method: relevant and mismatched visual evidence define a margin loss, while correct and wrong answer readout supplies detached weights to train the free-running latent rollout." loading="lazy"><figcaption><span>TRAINING ONLY</span> The visual loss trains latent generation alongside unchanged GRPO rewards and advantages. Both supervision branches are absent at inference.</figcaption></figure>
+</div></section>
+<section id="results" class="results wrap section">
+  <div class="section-label"><span>03</span> RESULTS</div>
+  <div class="section-heading"><h2>Better visual reasoning.<br><em>Across models and scales.</em></h2><p>ReaLVR improves the average performance across the evaluated latent reasoning baselines.</p></div>
+  <div class="results-layout"><div class="mean-chart"><span class="eyebrow">FIVE-TASK AVERAGE · QWEN2.5-VL-7B</span><h3>Accuracy (%)</h3><div class="chart-row"><span>LVR-RL</span><div class="bar-track"><div style="--value:60.4%" class="bar baseline"></div></div><strong>60.4</strong></div><div class="chart-row"><span>Monet-RL</span><div class="bar-track"><div style="--value:62.2%" class="bar comparison"></div></div><strong>62.2</strong></div><div class="chart-row"><span>ILVR-Stage2</span><div class="bar-track"><div style="--value:62.9%" class="bar comparison"></div></div><strong>62.9</strong></div><div class="chart-row ours"><span>ReaLVR</span><div class="bar-track"><div style="--value:63.7%" class="bar"></div></div><strong>63.7</strong></div><div class="chart-axis"><span>0</span><span>100%</span></div><p class="note">Mean ± standard deviation for ReaLVR: 63.7 ± 0.2%, across three seeds. Bars show the unweighted five-task mean.</p></div><div class="result-callout"><span class="eyebrow">SCALING TO 235B</span><h3>Visual supervision<br>at frontier scale.</h3><p>On Qwen3-VL-235B-A22B, ReaLVR improves all three evaluated benchmarks over LVR-SFT.</p><dl><div><dt>MMVP</dt><dd>80.9 <span>→</span> <strong>81.9</strong></dd></div><div><dt>BLINK</dt><dd>74.2 <span>→</span> <strong>75.4</strong></dd></div><div><dt>MME-RealWorld</dt><dd>70.4 <span>→</span> <strong>71.0</strong></dd></div></dl><p class="note">235B total / 22B active parameters. This evaluation covers three tasks; no five-task mean is reported.</p></div></div>
+  <div class="table-heading"><h3>A closer look at the five benchmarks</h3><p>Qwen2.5-VL-7B · accuracy (%) · three-seed mean</p></div>
+  <div class="table-scroll" role="region" aria-label="Benchmark comparison table, scroll horizontally on small screens" tabindex="0"><table><thead><tr><th scope="col">Method</th><th scope="col">MMVP</th><th scope="col">BLINK</th><th scope="col">HRBench-4K</th><th scope="col">HRBench-8K</th><th scope="col">MME-RealWorld</th><th scope="col">Mean</th></tr></thead><tbody>
+  <tr><th scope="row">LVR-RL</th><td>64.2</td><td>53.6</td><td>69.6</td><td>64.4</td><td>50.1</td><td>60.4</td></tr><tr><th scope="row">Monet-RL</th><td>69.9</td><td>52.4</td><td>71.3</td><td>66.0</td><td>51.5</td><td>62.2</td></tr><tr><th scope="row">ILVR-Stage2</th><td>69.4</td><td><strong>56.8</strong></td><td>71.0</td><td><strong>66.9</strong></td><td>50.3</td><td>62.9</td></tr><tr class="ours"><th scope="row">ReaLVR</th><td><strong>72.0</strong></td><td>55.8</td><td><strong>71.8</strong></td><td>66.6</td><td><strong>52.2</strong></td><td><strong>63.7</strong></td></tr></tbody></table></div><p class="note table-note">Selected latent reasoning baselines from Table 1. Bold indicates the best value in each column among the displayed methods.</p>
+</section>
+<section class="diagnostic section"><div class="wrap"><div class="section-label"><span>04</span> LOOKING INSIDE</div><div class="editorial-grid"><h2>Do the latent tokens<br><em>carry visual evidence?</em></h2><div class="prose"><p>Accuracy is only part of the story. We also probe whether latent representations respond to answer-changing visual evidence and whether answers depend on the selected tokens.</p><p>In a fixed-context diagnostic, replacing the eight most attended latent tokens reduces correct-answer probability by <strong>4 percentage points for LVR</strong> and <strong>11 points for ReaLVR</strong>. This measures local dependence with the remaining states held fixed.</p></div></div><div class="diagnostic-bars"><div><span>LVR · correct-answer probability</span><strong>67% <i>→</i> 63%</strong><span class="drop">−4 pp</span></div><div class="ours"><span>ReaLVR · correct-answer probability</span><strong>70% <i>→</i> 59%</strong><span class="drop">−11 pp</span></div></div><figure class="paper-figure"><img src="assets/counterfactual.webp" width="1800" height="1017" alt="Answer-changing image perturbations test whether latent token trajectories respond to visual evidence." loading="lazy"><figcaption><span>EVIDENCE SENSITIVITY</span> Controlled image changes reveal how latent trajectories react when the correct answer changes.</figcaption></figure></div></section>
+<section class="scope wrap"><h3>Scope &amp; open questions</h3><p>Fixed-context interventions measure local dependence, rather than a fully rerolled reasoning process or proof of faithful reasoning. Visual targets are less spatially specific without region annotations, and inference still uses a prescribed latent-token budget.</p></section>
+<section id="citation" class="citation wrap section"><div class="section-label"><span>05</span> CITATION</div><div class="citation-heading"><h2>Cite ReaLVR</h2><button id="copy-citation" class="copy-button js-only">Copy BibTeX</button></div><pre><code id="bibtex">@misc{xiao2026realvr,
+  title={Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence},
+  author={Xi Xiao and Tianchen Zhao and Youngeun Kim and Zhuowei Li and Linghan Xu and Jiaye Wu and Zheng Zhang and Xiang Xu and Xuanbai Chen and Farhan Tejani and Jakub Zablocki and Julia Xu and Yifan Xing},
+  year={2026},
+  note={Preprint}
+}</code></pre><span id="copy-status" class="sr-only" role="status"></span></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="#top">ReaLVR<span class="wordmark-dot">.</span></a><span>Grounding latent reasoning in visual evidence.</span><a href="mailto:xxiao@uab.edu">Contact <span aria-hidden="true">↗</span></a></div></footer>
+</body></html>
