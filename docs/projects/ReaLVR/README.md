@@ -14,7 +14,7 @@ Run `python3 -m http.server 8765` in this folder and open http://localhost:8765/
 
 ## Design
 
-Monochrome publication layout with dark resource pills and a custom ReaLVR head, visual-evidence, and latent-token mark. Original scientific figures keep their native colors.
+Neutral black-and-white page layout with dark resource pills. The Amazon logo keeps its original colors; the custom ReaLVR mark uses muted illustration colors, and author links retain the reference page’s blue. Original scientific figures keep their native colors.
 
 ## Assets
 

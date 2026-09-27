@@ -22,11 +22,10 @@ h1{font-size:40px;line-height:45px;letter-spacing:normal}.authors{font-size:20px
 .animation-links{display:flex;gap:18px;align-items:center;flex-shrink:0}.animation-caption p{max-width:680px}.animation-frame{border-color:#e4e4e4}
 @media(max-width:640px){.animation-links{gap:24px}}
 
-/* Monochrome publication identity and reference-style resource pills. */
-.header-amazon{filter:grayscale(1)}
+/* Neutral page styling with native brand and illustration colors. */
 .publication-title .title-lead{display:inline;white-space:nowrap}
 .publication-mark{display:inline-block;width:64px;height:68px;object-fit:contain;vertical-align:-.28em;margin-right:11px}
-.authors a{color:#363636}.authors a:hover{color:#111;text-decoration:underline;text-underline-offset:3px}
+.authors a{color:#485fc7}.authors a:hover{color:#3448a5;text-decoration:underline;text-underline-offset:3px}
 .resources{gap:12px;margin-top:25px}
 .resource,.resource.primary,.resource.unavailable,.resource.primary.unavailable{background:#363636;border-color:#363636;color:#fff;font-family:var(--sans);font-size:20px;font-weight:400;line-height:1.4;padding:10px 22px;min-height:48px;border-radius:999px;gap:9px}
 .resource svg{width:21px;height:21px;flex-shrink:0;stroke-width:1.8}
@@ -37,6 +36,6 @@ h1{font-size:40px;line-height:45px;letter-spacing:normal}.authors{font-size:20px
 
 /* A concise statement of the visual grounding idea. */
 .publication-title{margin-bottom:14px}
-.publication-slogan{font-family:var(--heading);font-size:22px;line-height:1.45;font-weight:400;color:#363636;margin:0 auto 24px;max-width:900px;letter-spacing:.05px}
-.publication-slogan span{color:#666}
-@media(max-width:640px){.publication-slogan{font-size:19px;line-height:1.5;max-width:460px;margin-bottom:23px}}
+.publication-slogan{display:inline-block;font-family:var(--heading);font-size:28px;line-height:1.45;font-weight:500;font-style:italic;color:#254d7c;background:#e9f2ff;border:1px solid #d7e6fb;border-radius:8px;padding:12px 24px;margin:4px auto 26px;max-width:900px;letter-spacing:.05px}
+.publication-slogan span{color:inherit}
+@media(max-width:640px){.publication-slogan{font-size:23px;line-height:1.45;max-width:460px;padding:12px 15px;margin-bottom:23px}}
