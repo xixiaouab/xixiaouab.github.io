@@ -5,9 +5,9 @@
   <title>ReaLVR — Grounding Latent Reasoning in Visual Evidence</title>
   <meta name="description" content="ReaLVR grounds multimodal latent reasoning in visual evidence through visual contrast and answer-conditioned credit assignment.">
   <meta name="theme-color" content="#ff9900">
-  <link rel="icon" href="assets/favicon.svg?v=20260927-story-v4" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.svg?v=20260927-tokens-v1" type="image/svg+xml">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
-  <link rel="stylesheet" href="style.css?v=20260927-story-v4">
+  <link rel="stylesheet" href="style.css?v=20260927-tokens-v1">
   <script src="links.js" defer></script><script src="script.js" defer></script>
 </head>
 <body>
@@ -57,9 +57,9 @@
 </section>
 <section class="animation-section wrap" aria-labelledby="animation-title">
   <div class="animation-heading"><div><span class="eyebrow">THE IDEA, IN MOTION</span><h2 id="animation-title">Give latent tokens a visual learning signal.</h2></div><button id="motion-toggle" class="motion-button js-only" aria-pressed="false" disabled><span aria-hidden="true">Ⅱ</span> Pause</button></div>
-  <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg?v=20260927-story-v4" type="image/svg+xml" aria-label="Conceptual animation: visual evidence and answer contrast supervise one differentiable latent trajectory"><img src="assets/evidence-credit.gif?v=20260927-story-v4" alt="Visual evidence and answer contrast supervise one differentiable latent trajectory."></object></div><p class="mobile-hint">Swipe the diagram to explore the full training flow →</p>
-  <div class="animation-caption"><p>Visual contrast defines <strong>what</strong> to preserve. Answer contrast determines <strong>where</strong> to supervise.</p><a href="assets/evidence-credit.gif?v=20260927-story-v4" download><svg><use href="#i-download"/></svg>Download GIF</a></div>
-  <div class="signal-strip"><span><i class="dot orange"></i>Direct visual supervision</span><span><i class="dot gold"></i>Answer-conditioned credit</span><span><i class="dot gray"></i>Unchanged inference</span></div>
+  <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg?v=20260927-tokens-v1" type="image/svg+xml" aria-label="Conceptual token animation: answer contrast highlights latent tokens that receive stronger visual supervision"><img src="assets/evidence-credit.gif?v=20260927-tokens-v1" alt="Selected latent positions are highlighted for stronger visual supervision after a shared free-running rollout."></object></div>
+  <div class="animation-caption"><p>Highlighted tokens receive <strong>stronger visual supervision</strong>. Every position keeps a uniform baseline weight.</p><a href="assets/evidence-credit.gif?v=20260927-tokens-v1" download><svg><use href="#i-download"/></svg>Download GIF</a></div>
+  <p class="animation-note">Training only · Original inference unchanged · Token highlights are illustrative.</p>
 </section>
 <section id="overview" class="overview wrap section">
   <div class="section-label"><span>01</span> OVERVIEW</div>
