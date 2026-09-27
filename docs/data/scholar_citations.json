@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 727,
+    "total_citations": 728,
     "h_index": 15,
-    "i10_index": 27,
-    "paper_count": 60,
-    "updated": "2026-09-26",
-    "updated_at_utc": "2026-09-26T14:58:44+00:00",
+    "i10_index": 28,
+    "paper_count": 58,
+    "updated": "2026-09-27",
+    "updated_at_utc": "2026-09-27T15:39:55+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -334,6 +334,10 @@
     {
       "date": "2026-09-26",
       "total_citations": 727
+    },
+    {
+      "date": "2026-09-27",
+      "total_citations": 728
     }
   ],
   "all_papers": [
@@ -355,7 +359,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 50,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -415,6 +419,20 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
     },
     {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "year": "2026",
+      "venue": "ACL Findings 2026, 2026",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
+    },
+    {
       "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
       "year": "2025",
       "venue": "🏆 SC 2025 (Best Paper Award), 2025",
@@ -429,25 +447,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
-    },
-    {
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
       "year": "2025",
       "venue": "ICASSP 2025, 2025",
       "citations": 15,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
-    },
-    {
-      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
-      "year": "2026",
-      "venue": "ACL Findings 2026, 2026",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
@@ -490,6 +494,13 @@
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
@@ -560,20 +571,6 @@
       "venue": "arXiv preprint arXiv:2405.17905, 2024",
       "citations": 9,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
-    },
-    {
-      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
-    },
-    {
-      "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism",
-      "year": "2026",
-      "venue": "The 1st Workshop on Scaling Post-training for LLMs, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1yQoGdGgb4wC"
     },
     {
       "title": "Focus: Fused observation of channels for unveiling spectra",
@@ -749,13 +746,6 @@
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:UxriW0iASnsC"
-    },
-    {
-      "title": "Dispersing Embeddings in Transformer Layers Improves Generalization of Language Models",
-      "year": "",
-      "venue": "Topology, Algebra, and Geometry in Data Science, 0",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:u9iWguZQMMsC"
     }
   ],
   "top_papers": [
@@ -777,7 +767,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 50,
+      "citations": 52,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
