@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">ReaLVR</title>
+  <desc id="desc">A thoughtful profile holding a visual scene and three reasoning tokens, with one token selected.</desc>
+  <g stroke="#292929" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 101c0-7-.8-13-4-16l-9 .5c-6 .3-9-3.1-8.3-8.4l.7-7.3-5.8-2.2c-2.4-.9-2.8-2.5-1.3-4.9l9-14.2C23.3 27.6 36.9 11 56.8 9.3 79.5 7.4 95.2 20.9 95.2 42c0 15-8.4 22.5-11.6 33-2.3 7.8-.2 16.8 4.1 26H45Z" fill="#F4F4F4"/>
+    <path d="M29 55.5h4.8"/>
+    <path d="M29.5 73.5c5.2-.3 8.9-3.5 10.8-7.8"/>
+    <rect x="40" y="25" width="43" height="31" rx="5" fill="#FFF"/>
+    <path d="m43.8 49 10.1-10.1 9.3 9.3 8.5-11.5 7.5 10.7"/>
+    <circle cx="50.5" cy="33.5" r="2.3" fill="#292929" stroke="none"/>
+    <rect x="43" y="65" width="9" height="13" rx="2" fill="#FFF" stroke-width="2.5"/>
+    <rect x="56" y="65" width="9" height="13" rx="2" fill="#292929" stroke-width="2.5"/>
+    <rect x="69" y="65" width="9" height="13" rx="2" fill="#FFF" stroke-width="2.5"/>
+    <path d="m58.2 71.6 1.6 1.6 3.1-3.4" stroke="#FFF" stroke-width="1.6"/>
+  </g>
+</svg>

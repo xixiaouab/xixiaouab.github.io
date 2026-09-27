@@ -6,11 +6,15 @@ Public location: https://xixiaouab.github.io/projects/ReaLVR/
 
 ## Update resource links
 
-Edit `links.js` and fill the `paper`, `code`, and `model` HTTPS URLs. The resource buttons enable automatically. Empty URLs show “Coming soon”.
+Edit `links.js` and fill the `paper`, `code`, and `model` HTTPS URLs. The resource buttons enable automatically. Empty URLs remain disabled and expose “Coming soon” in the tooltip and accessible label.
 
 ## Preview
 
 Run `python3 -m http.server 8765` in this folder and open http://localhost:8765/.
+
+## Design
+
+Monochrome publication layout with dark resource pills and a custom ReaLVR head, visual-evidence, and latent-token mark. Original scientific figures keep their native colors.
 
 ## Assets
 

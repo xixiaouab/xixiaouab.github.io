@@ -6,6 +6,8 @@
     link.href = url;
     link.classList.remove('unavailable');
     link.removeAttribute('aria-disabled');
+    link.removeAttribute('aria-label');
+    link.removeAttribute('title');
     link.querySelector('small')?.remove();
   });
   const object = document.getElementById('mechanism');
