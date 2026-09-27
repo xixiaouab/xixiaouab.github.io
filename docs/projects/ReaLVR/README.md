@@ -14,7 +14,7 @@ Run `python3 -m http.server 8765` in this folder and open http://localhost:8765/
 
 ## Design
 
-Neutral black-and-white page layout with dark resource pills. The Amazon logo keeps its original colors. The custom ReaLVR mark connects a selected image region to two highlighted latent tokens, using muted blue and peach. Author links retain the reference page’s blue. Original scientific figures keep their native colors.
+Neutral black-and-white page layout with dark resource pills. The Amazon logo keeps its original colors. The title icon and favicon use the original blue-and-white robot holding a magnifying glass from the paper's main figure. Author links retain the reference page’s blue. Original scientific figures keep their native colors.
 
 ## Assets
 
