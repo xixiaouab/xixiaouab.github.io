@@ -16,7 +16,8 @@ Run `python3 -m http.server 8765` in this folder and open http://localhost:8765/
 
 - `evidence-credit.svg`: self-contained conceptual mechanism animation; pause/play and reduced motion supported.
 - `evidence-credit.gif`: downloadable token animation.
-- The flat illustration follows the manuscript main figure: rectangular latent tokens, simple arrows, and orange outlines for positions with higher supervision weights. Every latent position retains a uniform baseline weight.
+- The animation uses the original method artwork from slide 8, exported September 25, 2026. The vector artwork is preserved, with gentle camera focus and overlays on its existing token and supervision paths. Every latent position retains a uniform baseline weight.
+- `evidence-credit-still.svg` opens the complete original figure. Pause/play and reduced motion are supported.
 - Paper figures are taken from the author's ReaLVR manuscript.
 - The animation is a conceptual schematic, not a measured attention trace.
 

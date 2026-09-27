@@ -11,9 +11,13 @@ body{font-size:16px;line-height:1.5}.wrap{max-width:1100px}.nav-wrap{max-width:n
 @media(max-width:640px){.nav-wrap{padding:0 20px;height:56px}.header-amazon{width:94px}.hero{padding-top:32px;padding-bottom:28px}.project-name{font-size:20px;margin-bottom:13px}h1{font-size:40px;line-height:45px;letter-spacing:normal;margin-bottom:24px}.authors{font-size:20px;line-height:30px}.authors a{margin-right:0}.affiliations{font-size:15px;gap:4px;margin-top:16px}.email{font-size:14px}.internship{font-size:11px}.resource{font-size:13px;padding:9px 12px}.resource small{font-size:9px}.section{padding-top:38px;padding-bottom:38px}h2{font-size:26px}.section-heading>p,.prose p{font-size:15px;line-height:1.6}.paper-figure img{padding:9px}.animation-heading h2{font-size:18px}.scope{display:block}.result-callout h3{font-size:25px}}
 
 /* Keep publication typography identical to LM-Dispersion at every viewport. */
-h1{font-size:40px;line-height:45px;letter-spacing:normal}.authors{font-size:20px;line-height:30px}.animation-frame object{aspect-ratio:1000/440}
+h1{font-size:40px;line-height:45px;letter-spacing:normal}.authors{font-size:20px;line-height:30px}.animation-frame object{aspect-ratio:1200/724}
 @media(max-width:640px){.animation-frame object{min-width:0;height:auto}.hero{padding-top:36px}}
 
 /* Flat token illustration: readable labels and no horizontal panning. */
-.animation-frame{background:#fff;border-radius:5px}.animation-frame object{min-width:0;height:auto;aspect-ratio:1000/440}.animation-caption{font-size:16px;line-height:1.5}.animation-caption p{max-width:790px}.animation-note{font-size:14px;color:var(--muted);text-align:center;margin:18px 0 0;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.animation-frame{background:#fff;border-radius:5px}.animation-frame object{min-width:0;height:auto;aspect-ratio:1200/724}.animation-caption{font-size:16px;line-height:1.5}.animation-caption p{max-width:790px}.animation-note{font-size:14px;color:var(--muted);text-align:center;margin:18px 0 0;padding-bottom:28px;border-bottom:1px solid var(--line)}
 @media(max-width:640px){.animation-frame{overflow:hidden}.animation-frame object{min-width:0;height:auto}.animation-caption{font-size:14px}.animation-note{font-size:12px}}
+
+/* Original method artwork with focused animation and a full-figure view. */
+.animation-links{display:flex;gap:18px;align-items:center;flex-shrink:0}.animation-caption p{max-width:680px}.animation-frame{border-color:#e4e4e4}
+@media(max-width:640px){.animation-links{gap:24px}}
