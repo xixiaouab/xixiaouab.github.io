@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FORGE — Form-Optimal Routing of Grounded Evidence</title>
+<meta name="description" content="FORGE adapts frozen LLM agents by jointly choosing what evidence to provide and how much to reason, with a lightweight 269K-parameter router.">
+<meta name="theme-color" content="#ffffff"><meta property="og:title" content="FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents"><meta property="og:description" content="Choose the evidence. Set the reasoning. Keep the model frozen."><meta property="og:image" content="https://xixiaouab.github.io/projects/FORGE/assets/teaser.webp"><meta property="og:type" content="website">
+<link rel="canonical" href="https://xixiaouab.github.io/projects/FORGE/"><link rel="icon" href="assets/forge-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Noto+Sans:400,500,600,700">
+<link rel="stylesheet" href="style.css"><script src="links.js" defer></script><script src="script.js" defer></script>
+</head>
+<body>
+<svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-paper" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8Zm0 0v5h5M8 12h8M8 16h6"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M3 5h7v7c0 5-2 7-6 7v-3c2 0 3-1 3-3H3V5Zm11 0h7v7c0 5-2 7-6 7v-3c2 0 3-1 3-3h-4V5Z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+</defs></svg>
+<a href="#overview" class="skip">Skip to content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="#top"><img src="assets/forge-mark.svg" width="30" height="30" alt="">FORGE</a><nav aria-label="Page navigation"><a href="#overview">Overview</a><a href="#method">Method</a><a href="#results">Results</a></nav><a class="home-link" href="https://xixiaouab.github.io/">Xi Xiao <span aria-hidden="true">↗</span></a></div></header>
+<main id="top">
+<section class="hero wrap">
+<div class="hero-meta"><span class="tiny-square" aria-hidden="true"></span> FROZEN AGENTS. ADAPTIVE INPUTS. <span class="meta-year">PREPRINT · 2026</span></div>
+<h1><span class="title-name"><img src="assets/forge-mark.svg" width="57" height="57" alt="">FORGE:</span> Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents</h1>
+<p class="slogan">“Choose the evidence. Set the reasoning.<br class="slogan-break"> Keep the model frozen.”</p>
+<div class="authors" aria-label="Authors"><div class="author-row">
+<span><a href="https://openreview.net/profile?id=~Xi_Xiao2">Xi Xiao</a><sup>1</sup></span>
+<span><a href="https://openreview.net/profile?id=~Yunbei_Zhang1">Yunbei Zhang</a><sup>2</sup></span>
+<span><a href="https://openreview.net/profile?id=~Chen_Liu9">Chen Liu</a><sup>3</sup></span>
+<span><a href="https://openreview.net/profile?id=~Lin_Zhao7">Lin Zhao</a><sup>4</sup></span>
+<span><a href="https://openreview.net/profile?id=~Jialin_Chen2">Jialin Chen</a><sup>3</sup></span></div><div class="author-row">
+<span><a href="https://openreview.net/profile?id=~Tianchen_Zhao1">Tianchen Zhao</a><sup>5</sup></span>
+<span><a href="https://openreview.net/profile?id=~Xiang_Xu3">Xiang Xu</a><sup>5</sup></span>
+<span><a href="https://openreview.net/profile?id=~Youngeun_Kim1">Youngeun Kim</a><sup>6</sup></span>
+<span><a href="https://openreview.net/profile?id=~Tianyang_Wang1">Tianyang Wang</a><sup>1</sup></span>
+<span><a href="https://openreview.net/profile?id=~Min_Xu4">Min Xu</a><sup>7</sup></span></div>
+</div>
+<div class="affiliations"><span><sup>1</sup> University of Alabama at Birmingham</span><span><sup>2</sup> Tulane University</span><span><sup>3</sup> Yale University</span><span><sup>4</sup> Northeastern University</span><span><sup>5</sup> Amazon AGI</span><span><sup>6</sup> Korea University</span><span><sup>7</sup> Carnegie Mellon University</span></div>
+<a class="email" href="mailto:xxiao@uab.edu"><svg><use href="#i-mail"/></svg>xxiao@uab.edu</a>
+<div class="resources" aria-label="Project resources"><a class="resource" data-resource="paper" href="assets/FORGE.pdf"><svg><use href="#i-paper"/></svg>Paper</a><a class="resource unavailable" data-resource="code" aria-disabled="true" title="Code coming soon"><svg><use href="#i-code"/></svg>Code <span class="soon">soon</span></a><a class="resource" href="#citation"><svg><use href="#i-quote"/></svg>BibTeX</a></div>
+</section>
+<section class="film wrap" aria-labelledby="film-title">
+<div class="film-heading"><div><span class="eyebrow">THE IDEA, IN MOTION</span><h2 id="film-title">A different question. A different route.</h2></div><a class="text-link" href="#method">Explore the method <span aria-hidden="true">↘</span></a></div>
+<div class="film-frame"><iframe src="motion.html" title="Animated explanation of FORGE joint evidence and reasoning routing" loading="eager"></iframe></div>
+<p class="figure-note">An illustrative walkthrough of one joint decision before the frozen host answers.</p>
+</section>
+<section id="overview" class="section wrap">
+<div class="section-kicker"><span>01</span> THE QUESTION</div>
+<div class="editorial"><h2>How much evidence?<br>How much reasoning?</h2><div class="prose"><p>A frozen language model can still adapt through what we put around it. But always retrieving full passages—or always thinking longer—can waste tokens and sometimes hurt accuracy.</p><p><strong>FORGE makes the two choices together.</strong> A small router selects an evidence form and a reasoning depth for each query, balancing answer quality against input and output token cost. The host’s weights stay frozen.</p></div></div>
+<div class="stats"><div><strong>269<span>K</span></strong><p>parameters · six-action router</p></div><div><strong>42–45<span>%</span></strong><p>fewer cached answer tokens</p></div><div><strong>8</strong><p>frozen backbones · 5 benchmarks</p></div></div>
+<p class="stats-note">Token savings: FORGE vs. Always-Raw on the two main hosts, with precomputed features (Table 1). Fresh Online costs are reported below.</p>
+<figure class="paper-figure"><a href="assets/teaser.webp" target="_blank" rel="noopener" aria-label="Open the original overview figure"><img src="assets/teaser.webp" width="2000" height="842" alt="Original FORGE overview: fixed no-retrieval and fixed retrieval workflows compared with dynamically selected evidence for a frozen language model." loading="lazy"></a><figcaption><span>FIGURE 1</span> From a fixed support form to a query-specific choice. <a href="assets/teaser.webp" target="_blank" rel="noopener">View full figure ↗</a></figcaption></figure>
+</section>
+<section id="method" class="method section"><div class="wrap">
+<div class="section-kicker"><span>02</span> THE METHOD</div>
+<div class="section-heading"><h2>Two decisions.<br>One lightweight policy.</h2><p>Select the support form <i>μ</i> and the thinking depth <i>θ</i> together, before generating the answer.</p></div>
+<div class="choice-layout"><div class="choice-axis"><div class="axis-label"><span class="axis-symbol">μ</span><h3>What evidence to provide</h3></div><div class="support-options"><div><svg><use href="#i-arrow"/></svg><strong>Direct</strong><span>No retrieved evidence</span></div><div><svg><use href="#i-paper"/></svg><strong>Summary</strong><span>A query-aware extract</span></div><div><svg><use href="#i-paper"/></svg><strong>Raw</strong><span>Full top-k passages</span></div></div></div><div class="choice-axis thinking-axis"><div class="axis-label"><span class="axis-symbol">θ</span><h3>How much to reason</h3></div><div class="thinking-options"><span>NoThink</span><span>CoT-Prompt</span><span>Think-Low</span><span>Think-High</span></div><p>6 joint actions on non-thinking hosts.<br>12 where thinking controls are available.</p></div></div>
+<div class="frozen-line"><svg><use href="#i-lock"/></svg><span>Adapt the inputs and inference procedure. <strong>Keep the host weights frozen.</strong></span></div>
+<figure class="paper-figure"><a href="assets/router.webp" target="_blank" rel="noopener" aria-label="Open the complete router architecture figure"><img src="assets/router.webp" width="1900" height="1051" alt="FORGE router architecture: query features enter a shared MLP; a support-form head and a conditioned thinking-depth head select joint action tokens for the frozen host." loading="lazy"></a><figcaption><span>ROUTER ARCHITECTURE</span> Shared features, two factorized heads, one joint action. <a href="assets/router.webp" target="_blank" rel="noopener">View full figure ↗</a></figcaption></figure>
+<div class="training-heading"><h3>Learn around the frozen host.</h3><p>One cost-aware objective connects all three training stages.</p></div>
+<ol class="training-steps"><li><span class="stage">STAGE 0</span><h4>Enumerate</h4><p>Evaluate Direct, Summary, and Raw with NoThink on 1,500 training queries. Record answer F1 and token cost.</p></li><li><span class="stage">STAGE 1</span><h4>Distill</h4><p>Fit the warm-start policy to a closed-form Boltzmann target through KL distillation.</p></li><li><span class="stage">STAGE 2</span><h4>Refine</h4><p>Expand to the full joint action space, then refine with GRPO host feedback and a KL anchor.</p></li></ol>
+<details class="figure-details"><summary>See the three-stage training diagram <span aria-hidden="true">+</span></summary><figure><img src="assets/training.webp" width="1314" height="1400" alt="Three stages of FORGE training: offline arm enumeration, Boltzmann KL distillation, and GRPO refinement around a frozen host." loading="lazy"><figcaption>The router learns; the host stays frozen throughout.</figcaption></figure></details>
+</div></section>
+<section id="results" class="section wrap">
+<div class="section-kicker"><span>03</span> THE EVIDENCE</div>
+<div class="section-heading"><h2>Better answers.<br>More selective token use.</h2><p>Five-task macro F1 on Qwen3-8B and Mistral-7B. Explore both evaluation protocols.</p></div>
+<div class="result-controls js-only"><div class="segmented" role="group" aria-label="Evaluation protocol"><button type="button" data-protocol="cached" aria-pressed="true">Cached</button><button type="button" data-protocol="online" aria-pressed="false">Fresh Online</button></div><div class="segmented small" role="group" aria-label="Language model host"><button type="button" data-host="qwen" aria-pressed="true">Qwen3-8B</button><button type="button" data-host="mistral" aria-pressed="false">Mistral-7B</button></div></div>
+<div class="result-caption"><h3 id="result-title">Cached · Qwen3-8B</h3><p id="protocol-description">Features are precomputed. Token cost counts the selected answer only; it excludes fresh feature probes.</p></div>
+<div class="result-board" aria-live="polite" aria-atomic="true"><div class="metric-chart"><div class="chart-heading"><h4>Answer quality</h4><span>Macro F1 (%) · higher is better</span></div><div id="quality-bars" class="bar-list"><div class="bar-row"><span>Always-Raw</span><div class="track"><div style="width:57.1%"></div></div><strong>57.1</strong></div><div class="bar-row ours"><span>FORGE</span><div class="track"><div style="width:59.5%"></div></div><strong>59.5</strong></div></div><div class="chart-scale"><span>0</span><span>100</span></div></div><div class="metric-chart"><div class="chart-heading"><h4>Token cost</h4><span>k tokens / query · lower is better</span></div><div id="cost-bars" class="bar-list"><div class="bar-row"><span>Always-Raw</span><div class="track"><div style="width:86%"></div></div><strong>0.430</strong></div><div class="bar-row ours"><span>FORGE</span><div class="track"><div style="width:47.2%"></div></div><strong>0.236</strong></div></div><div class="chart-scale"><span>0</span><span>0.5k</span></div></div></div>
+<div id="result-insight" class="result-insight"><strong>+2.4 F1 points</strong><span>with 45% fewer cached answer tokens than Always-Raw.</span></div>
+<p class="table-note">Cached values: Table 1. Fresh Online values: Table 2, batch size 1, including every host call and input/output token. Bars share fixed zero-based scales.</p>
+<noscript><div class="no-js-data"><h3>Fresh Online · Qwen3-8B</h3><p>Always-Raw: 57.1 F1 / 0.430k tokens / 1 call. FORGE-Lite: 58.7 / 0.242k / 1 call. Full FORGE: 59.4 / 0.384k / 5 calls.</p><h3>Mistral-7B</h3><p>Cached: Always-Raw 47.2 F1 / 0.428k; FORGE 50.1 / 0.249k. Fresh Online: Always-Raw 47.2 / 0.428k / 1 call; Lite 49.1 / 0.256k / 1 call; Full 50.0 / 0.400k / 5 calls.</p></div></noscript>
+<div class="transfer"><div><span class="eyebrow">CROSS-HOST TRANSFER</span><h3>Train on one host.<br>Route for others.</h3><p>A Qwen-trained Full router transfers without target-host Stage 2. It matches or exceeds Always-Raw F1 in 11 of 15 task–host cells.</p><p class="note">Zero-shot Cached protocol. Cost excludes fresh feature probes.</p></div><div class="table-scroll" tabindex="0" role="region" aria-label="Zero-shot transfer results"><table><caption>Five-task macro averages · Table 8</caption><thead><tr><th scope="col">Target host</th><th scope="col">F1<br><span>Raw → FORGE</span></th><th scope="col">Tokens (k)<br><span>Raw → FORGE</span></th></tr></thead><tbody><tr><th scope="row">Llama-3.3-70B</th><td>58.5 → <strong>61.2</strong></td><td>0.318 → <strong>0.205</strong></td></tr><tr><th scope="row">DeepSeek-V3.2</th><td>63.4 → <strong>63.4</strong></td><td>0.287 → <strong>0.176</strong></td></tr><tr><th scope="row">Qwen3.5-397B</th><td>63.1 → <strong>65.6</strong></td><td>0.305 → <strong>0.198</strong></td></tr></tbody></table></div></div>
+<aside class="scope-note"><h3>Choosing a deployment variant</h3><p><strong>FORGE-Lite</strong> uses one final-answer call, with no pre-route host probes. <strong>Full FORGE</strong> uses four parallel feature calls before answering and trades more latency for higher accuracy. Fixed Summary remains strong on FEVER; the best operating point depends on the task.</p></aside>
+</section>
+<section id="abstract" class="abstract-section section"><div class="wrap narrow"><div class="section-kicker"><span>04</span> ABSTRACT</div><h2>Form-optimal routing,<br>around a frozen model.</h2><p>In agentic AI systems, frozen foundation models are increasingly deployed as closed-weight API endpoints, making downstream adaptation possible only through the inputs and inference procedures surrounding the model. For each query, FORGE jointly selects what evidence to provide and how much reasoning budget to allocate. Under an entropy-regularized, cost-aware utility objective, we derive a closed-form Boltzmann routing target and instantiate it as a lightweight 269K-parameter factorized router. Offline arm enumeration, supervised KL distillation, and GRPO refinement train the policy around the frozen host without weight access. Across five knowledge-intensive benchmarks and eight frozen backbones, FORGE improves the quality–cost trade-off, transfers across hosts, and composes with intrinsic thinking controls where available.</p><a class="text-link" href="assets/FORGE.pdf">Read the paper <span aria-hidden="true">↗</span></a></div></section>
+<section id="citation" class="section wrap citation"><div class="section-kicker"><span>05</span> CITATION</div><div class="citation-heading"><h2>Build on FORGE.</h2><button class="copy-button js-only" id="copy-citation" type="button">Copy BibTeX</button></div><pre><code id="bibtex">@misc{xiao2026forge,
+  title={FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents},
+  author={Xi Xiao and Yunbei Zhang and Chen Liu and Lin Zhao and Jialin Chen and Tianchen Zhao and Xiang Xu and Youngeun Kim and Tianyang Wang and Min Xu},
+  year={2026},
+  note={Preprint},
+  url={https://xixiaouab.github.io/projects/FORGE/}
+}</code></pre><p id="copy-status" role="status" class="copy-status"></p></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="#top"><img src="assets/forge-mark.svg" width="27" height="27" alt="">FORGE</a><span>Choose the evidence. Set the reasoning.</span><a href="mailto:xxiao@uab.edu">Contact ↗</a></div></footer>
+</body></html>
