@@ -2,5 +2,5 @@
 window.FORGE_LINKS = {
   paper: 'assets/FORGE.pdf',
   arxiv: '',
-  code: ''
+  code: 'https://github.com/xixiaouab/FORGE-code'
 };
