@@ -609,6 +609,10 @@ hr {
   display: none;
 }
 
+.preprints-list {
+  margin-bottom: 40px;
+}
+
 .selected-publications > .pub-year {
   color: var(--ink);
   font-size: 1.25rem;
