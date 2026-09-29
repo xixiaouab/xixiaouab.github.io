@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 735,
+    "total_citations": 736,
     "h_index": 15,
     "i10_index": 28,
     "paper_count": 58,
-    "updated": "2026-09-28",
-    "updated_at_utc": "2026-09-28T18:36:07+00:00",
+    "updated": "2026-09-29",
+    "updated_at_utc": "2026-09-29T16:53:40+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -342,6 +342,10 @@
     {
       "date": "2026-09-28",
       "total_citations": 735
+    },
+    {
+      "date": "2026-09-29",
+      "total_citations": 736
     }
   ],
   "all_papers": [
@@ -612,18 +616,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
+      "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
+      "year": "2026",
+      "venue": "ICML 2026, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
+    },
+    {
       "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2505.19352, 2025",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
-      "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
-      "year": "2026",
-      "venue": "ICML 2026, 2026",
-      "citations": 4,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
     },
     {
       "title": "Leveraging Latent Visual Reasoning in Silence",
