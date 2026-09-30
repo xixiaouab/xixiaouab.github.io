@@ -9,9 +9,9 @@
     "total_citations": 736,
     "h_index": 15,
     "i10_index": 28,
-    "paper_count": 58,
-    "updated": "2026-09-29",
-    "updated_at_utc": "2026-09-29T16:53:40+00:00",
+    "paper_count": 59,
+    "updated": "2026-09-30",
+    "updated_at_utc": "2026-09-30T16:49:30+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -345,6 +345,10 @@
     },
     {
       "date": "2026-09-29",
+      "total_citations": 736
+    },
+    {
+      "date": "2026-09-30",
       "total_citations": 736
     }
   ],
@@ -712,6 +716,13 @@
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
+      "title": "TempFinRAG: Multimodal Temporal Retrieval-Augmented Generation for Point-in-Time Financial Question Answering",
+      "year": "2026",
+      "venue": "Symmetry 18 (9), 1498, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:W5xh706n7nkC"
     },
     {
       "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
