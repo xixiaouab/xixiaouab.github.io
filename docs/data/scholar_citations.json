@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 736,
-    "h_index": 15,
+    "total_citations": 746,
+    "h_index": 16,
     "i10_index": 28,
     "paper_count": 58,
-    "updated": "2026-10-01",
-    "updated_at_utc": "2026-10-01T17:22:51+00:00",
+    "updated": "2026-10-02",
+    "updated_at_utc": "2026-10-02T16:38:35+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -354,6 +354,10 @@
     {
       "date": "2026-10-01",
       "total_citations": 736
+    },
+    {
+      "date": "2026-10-02",
+      "total_citations": 746
     }
   ],
   "all_papers": [
@@ -375,7 +379,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 52,
+      "citations": 53,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -400,18 +404,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
+      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
+      "year": "2024",
+      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
-      "year": "2024",
-      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
@@ -424,7 +428,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 23,
+      "citations": 25,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -433,6 +437,13 @@
       "venue": "2024 IEEE 36th International Conference on Tools with Artificial …, 2024",
       "citations": 20,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
+    },
+    {
+      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "year": "2025",
+      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
+      "citations": 17,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
     },
     {
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
@@ -449,11 +460,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
-      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
       "year": "2025",
-      "venue": "🏆 SC 2025 (Best Paper Award), 2025",
+      "venue": "ICASSP 2025, 2025",
       "citations": 16,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
       "title": "Visual Variational Autoencoder Prompt Tuning",
@@ -461,13 +472,6 @@
       "venue": "CVPR 2025 Workshop on FGVC, 2025",
       "citations": 16,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
-    },
-    {
-      "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
-      "year": "2025",
-      "venue": "ICASSP 2025, 2025",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
@@ -599,8 +603,15 @@
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
-      "citations": 6,
+      "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
+    },
+    {
+      "title": "Stochastic interpolants via conditional dependent coupling",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
     },
     {
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
@@ -608,13 +619,6 @@
       "venue": "ECCV 2026, 2026",
       "citations": 6,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
-    },
-    {
-      "title": "Stochastic interpolants via conditional dependent coupling",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
     },
     {
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
@@ -694,6 +698,20 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
     },
     {
+      "title": "Drift Flow Matching",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
+    },
+    {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
       "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2605.28277, 2026",
@@ -708,25 +726,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
-      "title": "Drift Flow Matching",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
-    },
-    {
       "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
       "year": "2026",
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
-    },
-    {
-      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2608.14945, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
       "title": "Adapting Vision Foundation Models with Cascaded Semantics",
@@ -783,7 +787,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 52,
+      "citations": 53,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -808,18 +812,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
+      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
+      "year": "2024",
+      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
-      "year": "2024",
-      "venue": "International Conference on Neural Information Processing, 340-354, 2024",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     }
   ]
 }
