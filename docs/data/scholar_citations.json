@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 746,
+    "total_citations": 747,
     "h_index": 16,
-    "i10_index": 28,
-    "paper_count": 58,
-    "updated": "2026-10-02",
-    "updated_at_utc": "2026-10-02T16:38:35+00:00",
+    "i10_index": 29,
+    "paper_count": 60,
+    "updated": "2026-10-03",
+    "updated_at_utc": "2026-10-03T15:08:40+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -358,6 +358,10 @@
     {
       "date": "2026-10-02",
       "total_citations": 746
+    },
+    {
+      "date": "2026-10-03",
+      "total_citations": 747
     }
   ],
   "all_papers": [
@@ -544,6 +548,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+      "year": "2026",
+      "venue": "AAAI 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
+    },
+    {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
       "year": "2025",
       "venue": "Scientific Reports 15 (1), 10790, 2025",
@@ -563,13 +574,6 @@
       "venue": "🏆 ICASSP 2026 (Oral), 2026",
       "citations": 9,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
-    },
-    {
-      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
-      "year": "2026",
-      "venue": "AAAI 2026, 2026",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
@@ -731,6 +735,20 @@
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
+      "title": "FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.34358, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NJ774b8OgUMC"
+    },
+    {
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.34563, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
       "title": "Adapting Vision Foundation Models with Cascaded Semantics",
