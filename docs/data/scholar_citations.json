@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 752,
+    "total_citations": 757,
     "h_index": 15,
     "i10_index": 29,
-    "paper_count": 60,
-    "updated": "2026-10-04",
-    "updated_at_utc": "2026-10-04T15:48:13+00:00",
+    "paper_count": 61,
+    "updated": "2026-10-05",
+    "updated_at_utc": "2026-10-05T19:47:34+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -366,6 +366,10 @@
     {
       "date": "2026-10-04",
       "total_citations": 752
+    },
+    {
+      "date": "2026-10-05",
+      "total_citations": 757
     }
   ],
   "all_papers": [
@@ -482,6 +486,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
+      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
+      "year": "2025",
+      "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -510,13 +521,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
-      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
-      "year": "2025",
-      "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
-    },
-    {
       "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
       "year": "2025",
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
@@ -529,6 +533,13 @@
       "venue": "CVPR 2026, 2026",
       "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+      "year": "2026",
+      "venue": "AAAI 2026, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
@@ -550,13 +561,6 @@
       "venue": "CVPR 2026, 2026",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
-    },
-    {
-      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
-      "year": "2026",
-      "venue": "AAAI 2026, 2026",
-      "citations": 10,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
@@ -608,6 +612,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 7,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -629,13 +640,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
     },
     {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
-    },
-    {
       "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
       "year": "2026",
       "venue": "ICML 2026, 2026",
@@ -650,18 +654,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
     },
     {
+      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
+      "year": "2026",
+      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
+    },
+    {
       "title": "Leveraging Latent Visual Reasoning in Silence",
       "year": "2026",
       "venue": "NeurIPS 2026, 2026",
       "citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
-    },
-    {
-      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
-      "year": "2026",
-      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
-      "citations": 3,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
       "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
@@ -739,6 +743,13 @@
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
+      "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.39920, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:7T2F9Uy0os0C"
     },
     {
       "title": "FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents",
