@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 757,
+    "total_citations": 768,
     "h_index": 15,
     "i10_index": 29,
     "paper_count": 61,
-    "updated": "2026-10-07",
-    "updated_at_utc": "2026-10-07T17:49:19+00:00",
+    "updated": "2026-10-08",
+    "updated_at_utc": "2026-10-08T17:52:50+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -378,6 +378,10 @@
     {
       "date": "2026-10-07",
       "total_citations": 757
+    },
+    {
+      "date": "2026-10-08",
+      "total_citations": 768
     }
   ],
   "all_papers": [
@@ -392,7 +396,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 56,
+      "citations": 58,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -417,6 +421,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
+    },
+    {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
@@ -431,17 +442,10 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 27,
+      "citations": 28,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -459,18 +463,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
     },
     {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 18,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
       "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
       "year": "2025",
       "venue": "🏆 SC 2025 (Best Paper Award), 2025",
       "citations": 17,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
-    },
-    {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 16,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
       "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
@@ -494,6 +498,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "year": "2026",
+      "venue": "NeurIPS 2025, 2026",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
+    },
+    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
@@ -506,13 +517,6 @@
       "venue": "CVPR 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
-    },
-    {
-      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
-      "year": "2026",
-      "venue": "NeurIPS 2025, 2026",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
       "title": "Self-supervised visual prompting for cross-domain road damage detection",
@@ -543,6 +547,20 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
+    },
+    {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 11,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
       "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
       "year": "2026",
       "venue": "AAAI 2026, 2026",
@@ -555,20 +573,6 @@
       "venue": "WACV 2026, 2026",
       "citations": 11,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 10,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
-    },
-    {
-      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 10,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
@@ -655,18 +659,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
     },
     {
+      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
+      "year": "2026",
+      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
+    },
+    {
       "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2505.19352, 2025",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
-      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
-      "year": "2026",
-      "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
-      "citations": 4,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
       "title": "Leveraging Latent Visual Reasoning in Silence",
@@ -732,6 +736,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
+      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
+      "year": "2026",
+      "venue": "TMLR 2026, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
+    },
+    {
       "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2605.28277, 2026",
@@ -774,13 +785,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
-      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
-      "year": "2026",
-      "venue": "TMLR 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
-    },
-    {
       "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -821,7 +825,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 56,
+      "citations": 58,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -846,6 +850,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 30,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
+    },
+    {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
@@ -858,13 +869,6 @@
       "venue": "International Conference on Neural Information Processing, 340-354, 2024",
       "citations": 30,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 29,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     }
   ]
 }
