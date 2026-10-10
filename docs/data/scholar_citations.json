@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 768,
+    "total_citations": 772,
     "h_index": 15,
     "i10_index": 29,
     "paper_count": 61,
-    "updated": "2026-10-09",
-    "updated_at_utc": "2026-10-09T17:26:40+00:00",
+    "updated": "2026-10-10",
+    "updated_at_utc": "2026-10-10T16:14:28+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -386,6 +386,10 @@
     {
       "date": "2026-10-09",
       "total_citations": 768
+    },
+    {
+      "date": "2026-10-10",
+      "total_citations": 772
     }
   ],
   "all_papers": [
@@ -407,7 +411,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 54,
+      "citations": 55,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -425,18 +429,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "year": "2025",
+      "venue": "EMNLP Findings 2025, 2025",
+      "citations": 31,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 30,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
-      "year": "2025",
-      "venue": "EMNLP Findings 2025, 2025",
-      "citations": 30,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
@@ -449,7 +453,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 28,
+      "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -754,6 +758,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:V3AGJWp-ZtQC"
     },
     {
+      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
+      "year": "2026",
+      "venue": "Geo-spatial Information Science, 1-24, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
+    },
+    {
       "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2509.24311, 2025",
@@ -803,13 +814,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SP6oXDckpogC"
     },
     {
-      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
-      "year": "2026",
-      "venue": "Geo-spatial Information Science, 1-24, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
-    },
-    {
       "title": "Boosting Active Learning with Knowledge Transfer",
       "year": "2025",
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
@@ -836,7 +840,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 54,
+      "citations": 55,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -854,18 +858,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "year": "2025",
+      "venue": "EMNLP Findings 2025, 2025",
+      "citations": 31,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
+    },
+    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
       "citations": 30,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
-    },
-    {
-      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
-      "year": "2025",
-      "venue": "EMNLP Findings 2025, 2025",
-      "citations": 30,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
       "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
