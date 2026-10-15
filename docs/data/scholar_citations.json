@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 776,
+    "total_citations": 780,
     "h_index": 15,
     "i10_index": 29,
     "paper_count": 61,
-    "updated": "2026-10-14",
-    "updated_at_utc": "2026-10-14T15:49:38+00:00",
+    "updated": "2026-10-15",
+    "updated_at_utc": "2026-10-15T15:35:41+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -406,6 +406,10 @@
     {
       "date": "2026-10-14",
       "total_citations": 776
+    },
+    {
+      "date": "2026-10-15",
+      "total_citations": 780
     }
   ],
   "all_papers": [
@@ -448,7 +452,7 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 31,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
@@ -469,7 +473,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 29,
+      "citations": 30,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -536,6 +540,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
     },
     {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -562,13 +573,6 @@
       "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
-    },
-    {
-      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
       "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
@@ -641,6 +645,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -660,13 +671,6 @@
       "venue": "NeurIPS 2026, 2026",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
-    },
-    {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
@@ -877,7 +881,7 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 31,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
