@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 782,
+    "total_citations": 796,
     "h_index": 15,
     "i10_index": 29,
-    "paper_count": 61,
-    "updated": "2026-10-17",
-    "updated_at_utc": "2026-10-17T14:13:06+00:00",
+    "paper_count": 62,
+    "updated": "2026-10-18",
+    "updated_at_utc": "2026-10-18T14:35:37+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -418,6 +418,10 @@
     {
       "date": "2026-10-17",
       "total_citations": 782
+    },
+    {
+      "date": "2026-10-18",
+      "total_citations": 796
     }
   ],
   "all_papers": [
@@ -450,25 +454,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
-      "title": "Describe Anything in Medical Images",
-      "year": "2025",
-      "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 33,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
-    },
-    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 32,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 31,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "Describe Anything in Medical Images",
+      "year": "2025",
+      "venue": "ICML 2025 Workshop on FM4LS, 2025",
+      "citations": 33,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
@@ -516,7 +520,7 @@
       "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
       "year": "2026",
       "venue": "ACL Findings 2026, 2026",
-      "citations": 16,
+      "citations": 17,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
@@ -548,11 +552,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
     },
     {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
       "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
@@ -576,18 +594,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
-    },
-    {
-      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
       "year": "2026",
-      "venue": "CVPR 2026, 2026",
+      "venue": "AAAI 2026, 2026",
       "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
@@ -595,13 +606,6 @@
       "venue": "ECCV 2026, 2026",
       "citations": 11,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
-    },
-    {
-      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
-      "year": "2026",
-      "venue": "AAAI 2026, 2026",
-      "citations": 11,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
     },
     {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
@@ -653,6 +657,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:g5m5HwL7SMYC"
     },
     {
+      "title": "Stochastic interpolants via conditional dependent coupling",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
+    },
+    {
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
       "year": "2026",
       "venue": "ACM MM 2026, 2026",
@@ -674,18 +685,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
     },
     {
-      "title": "Stochastic interpolants via conditional dependent coupling",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
-    },
-    {
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
       "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
+    },
+    {
+      "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2505.19352, 2025",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
     },
     {
       "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
@@ -702,18 +713,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
-      "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
-      "year": "2025",
-      "venue": "arXiv preprint arXiv:2505.19352, 2025",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
       "title": "Leveraging Latent Visual Reasoning in Silence",
       "year": "2026",
       "venue": "NeurIPS 2026, 2026",
       "citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
+    },
+    {
+      "title": "Transition flow matching",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2603.15689, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
     },
     {
       "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
@@ -730,11 +741,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:mB3voiENLucC"
     },
     {
-      "title": "Transition flow matching",
+      "title": "Drift Flow Matching",
       "year": "2026",
-      "venue": "arXiv preprint arXiv:2603.15689, 2026",
+      "venue": "NeurIPS 2026, 2026",
       "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
+    },
+    {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
       "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
@@ -756,20 +774,6 @@
       "venue": "IFIP International Summer School on Privacy and Identity Management, 78-93, 2024",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
-    },
-    {
-      "title": "Drift Flow Matching",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eflP2zaiRacC"
-    },
-    {
-      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2608.14945, 2026",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
       "title": "Adapting Vision Foundation Models with Cascaded Semantics",
@@ -828,6 +832,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
+      "title": "Posterior Flow Matching",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.13994, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tKAzc9rXhukC"
+    },
+    {
       "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -879,25 +890,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
-      "title": "Describe Anything in Medical Images",
-      "year": "2025",
-      "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 33,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
-    },
-    {
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 32,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 31,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "Describe Anything in Medical Images",
+      "year": "2025",
+      "venue": "ICML 2025 Workshop on FM4LS, 2025",
+      "citations": 33,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
