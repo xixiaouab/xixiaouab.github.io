@@ -9,9 +9,9 @@
     "total_citations": 807,
     "h_index": 15,
     "i10_index": 29,
-    "paper_count": 62,
-    "updated": "2026-10-21",
-    "updated_at_utc": "2026-10-21T15:57:36+00:00",
+    "paper_count": 64,
+    "updated": "2026-10-22",
+    "updated_at_utc": "2026-10-22T15:52:58+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -434,6 +434,10 @@
     {
       "date": "2026-10-21",
       "total_citations": 807
+    },
+    {
+      "date": "2026-10-22",
+      "total_citations": 807
     }
   ],
   "all_papers": [
@@ -821,6 +825,20 @@
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
+      "title": "When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.23469, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_Re3VWB3Y0AC"
+    },
+    {
+      "title": "MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning",
+      "year": "2026",
+      "venue": "WACV 2027, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ZfRJV9d4-WMC"
     },
     {
       "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
