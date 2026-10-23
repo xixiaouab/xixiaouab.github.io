@@ -4,6 +4,24 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>ReaLVR — Grounding Latent Reasoning in Visual Evidence</title>
   <meta name="description" content="ReaLVR grounds multimodal latent reasoning in visual evidence through visual contrast and answer-conditioned credit assignment.">
+  <meta name="citation_title" content="Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence">
+  <meta name="citation_author" content="Xiao, Xi">
+  <meta name="citation_author" content="Zhao, Tianchen">
+  <meta name="citation_author" content="Kim, Youngeun">
+  <meta name="citation_author" content="Li, Zhuowei">
+  <meta name="citation_author" content="Xu, Linghan">
+  <meta name="citation_author" content="Wu, Jiaye">
+  <meta name="citation_author" content="Zhang, Zheng">
+  <meta name="citation_author" content="Xu, Xiang">
+  <meta name="citation_author" content="Chen, Xuanbai">
+  <meta name="citation_author" content="Tejani, Farhan">
+  <meta name="citation_author" content="Zablocki, Jakub">
+  <meta name="citation_author" content="Xu, Julia">
+  <meta name="citation_author" content="Xing, Yifan">
+  <meta name="citation_publication_date" content="2026/09/28">
+  <meta name="citation_doi" content="10.48550/arXiv.2609.34563">
+  <meta name="citation_abstract_html_url" content="https://xixiaouab.github.io/projects/ReaLVR/">
+  <link rel="canonical" href="https://xixiaouab.github.io/projects/ReaLVR/">
   <meta name="theme-color" content="#363636">
   <link rel="icon" href="assets/realvr-robot-original.png?v=20260927-robot-v1" type="image/png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
@@ -56,6 +74,11 @@
     <a class="resource" href="#citation"><svg><use href="#i-quote"/></svg><span>BibTeX</span></a>
   </div>
 </section>
+<section id="abstract" class="overview wrap section" aria-labelledby="abstract-heading">
+  <h2 id="abstract-heading">Abstract</h2>
+  <div class="prose"><p>Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words. However, unlike textual CoT, latent reasoning is not directly observable, making it difficult to supervise what latent tokens learn. In this work, we first conduct a thorough analysis of latent-token behavior and identify a latent evidence-credit gap: latent tokens respond only weakly to image perturbations that alter the correct answer. We hypothesize that this issue stems from the lack of explicit supervision during GRPO training. These findings suggest that a final-answer reward provides too little guidance on what visual evidence to preserve or how credit should be assigned across latent tokens. To bridge this gap, we propose ReaLVR, which brings visual-evidence supervision to the model&#x27;s own free-running latent trajectories. ReaLVR contrasts correct and model-generated wrong answers to determine where stronger supervision is needed, and relevant and mismatched visual evidence to specify what to preserve. Across three model families, ReaLVR consistently outperforms evaluated LVR baselines, achieving the highest five-task average of 63.7% on Qwen2.5-VL-7B. Crucially, we are the first to scale visual reasoning in latent space, showing that our framework continues to deliver robust improvements at frontier model scales up to 235B. Further analyses show more question-sensitive latent-token positions, stronger alignment with relevant visual regions, and greater fixed-context dependence on the most attended latent tokens.</p>
+  <p><a href="https://arxiv.org/pdf/2609.34563v1">Author preprint PDF on arXiv</a> · <a href="https://arxiv.org/html/2609.34563v1">Full-text HTML on arXiv</a> · <a href="https://arxiv.org/abs/2609.34563v1">arXiv:2609.34563v1, 2026/09/28</a></p></div>
+</section>
 <section class="animation-section wrap" aria-labelledby="animation-title">
   <div class="animation-heading"><div><span class="eyebrow">THE IDEA, IN MOTION</span><h2 id="animation-title">From what we see to how we reason.</h2></div><div class="motion-actions js-only"><button id="motion-replay" class="motion-button" disabled aria-label="Replay animation from the beginning">↺ Replay</button><button id="motion-toggle" class="motion-button" aria-pressed="false" disabled><span aria-hidden="true">Ⅱ</span> Pause</button></div></div>
   <div class="animation-frame"><object id="mechanism" data="assets/evidence-credit.svg?v=20260927-comic-v5" type="image/svg+xml" aria-label="ReaLVR animated walkthrough: image and question become tokens, enter the model, form a latent reasoning trajectory, then receive training supervision"><img src="assets/evidence-credit-still.svg?v=20260927-slide8-v1" alt="The original ReaLVR method diagram, showing latent rollout, answer contrast, and visual supervision."></object></div>
@@ -96,6 +119,11 @@
   title={Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence},
   author={Xi Xiao and Tianchen Zhao and Youngeun Kim and Zhuowei Li and Linghan Xu and Jiaye Wu and Zheng Zhang and Xiang Xu and Xuanbai Chen and Farhan Tejani and Jakub Zablocki and Julia Xu and Yifan Xing},
   year={2026},
+  eprint={2609.34563},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  doi={10.48550/arXiv.2609.34563},
+  url={https://arxiv.org/abs/2609.34563},
   note={Preprint}
 }</code></pre><span id="copy-status" class="sr-only" role="status"></span></section>
 </main>
