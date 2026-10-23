@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 807,
+    "total_citations": 809,
     "h_index": 15,
     "i10_index": 29,
     "paper_count": 64,
-    "updated": "2026-10-22",
-    "updated_at_utc": "2026-10-22T15:52:58+00:00",
+    "updated": "2026-10-23",
+    "updated_at_utc": "2026-10-23T15:44:51+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -438,6 +438,10 @@
     {
       "date": "2026-10-22",
       "total_citations": 807
+    },
+    {
+      "date": "2026-10-23",
+      "total_citations": 809
     }
   ],
   "all_papers": [
@@ -445,7 +449,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 70,
+      "citations": 71,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -645,6 +649,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
       "year": "2026",
       "venue": "🏆 ICASSP 2026 (Oral), 2026",
@@ -678,13 +689,6 @@
       "venue": "NeurIPS 2026, 2026",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
-    },
-    {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
@@ -895,7 +899,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 70,
+      "citations": 71,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
