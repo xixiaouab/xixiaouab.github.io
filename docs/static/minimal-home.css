@@ -936,6 +936,17 @@ hr {
 .service-block > :nth-child(5) { grid-column: 3; grid-row: 1; }
 .service-block > :nth-child(6) { grid-column: 3; grid-row: 2; }
 
+.service-block > :nth-child(7) {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  margin-top: 28px;
+}
+
+.service-block > :nth-child(8) {
+  grid-column: 1 / -1;
+  grid-row: 4;
+}
+
 .service-note {
   color: var(--link-dark);
   display: inline;
