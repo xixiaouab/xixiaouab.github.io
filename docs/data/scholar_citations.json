@@ -10,8 +10,8 @@
     "h_index": 15,
     "i10_index": 30,
     "paper_count": 66,
-    "updated": "2026-10-24",
-    "updated_at_utc": "2026-10-24T14:34:09+00:00",
+    "updated": "2026-10-25",
+    "updated_at_utc": "2026-10-25T14:57:27+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -446,6 +446,10 @@
     {
       "date": "2026-10-24",
       "total_citations": 811
+    },
+    {
+      "date": "2026-10-25",
+      "total_citations": 811
     }
   ],
   "all_papers": [
@@ -828,18 +832,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
-      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
-      "year": "2026",
-      "venue": "EMNLP Findings 2026, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
-    },
-    {
       "title": "UtoMe: Observation-Uncertainty-Guided Token Merging for Weather Foundation Models",
       "year": "2026",
       "venue": "NeurIPS 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:2KloaMYe4IUC"
+    },
+    {
+      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
+      "year": "2026",
+      "venue": "EMNLP Findings 2026, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
     },
     {
       "title": "Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation",
