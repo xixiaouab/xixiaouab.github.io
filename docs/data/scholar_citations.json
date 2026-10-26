@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 811,
+    "total_citations": 816,
     "h_index": 15,
     "i10_index": 30,
     "paper_count": 66,
-    "updated": "2026-10-25",
-    "updated_at_utc": "2026-10-25T14:57:27+00:00",
+    "updated": "2026-10-26",
+    "updated_at_utc": "2026-10-26T17:23:33+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -450,6 +450,10 @@
     {
       "date": "2026-10-25",
       "total_citations": 811
+    },
+    {
+      "date": "2026-10-26",
+      "total_citations": 816
     }
   ],
   "all_papers": [
@@ -464,7 +468,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 58,
+      "citations": 59,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -482,18 +486,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 36,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
+    },
+    {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
       "citations": 36,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 35,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
@@ -506,7 +510,7 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 31,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     },
     {
@@ -534,7 +538,7 @@
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
-      "citations": 18,
+      "citations": 19,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
@@ -622,18 +626,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
     },
     {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 12,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
+    },
+    {
       "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
       "year": "2026",
       "venue": "AAAI 2026, 2026",
       "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5awf1xo2G04C"
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 11,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
@@ -928,7 +932,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 58,
+      "citations": 59,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -946,18 +950,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
     },
     {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 36,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
+    },
+    {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
       "citations": 36,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 35,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
@@ -970,7 +974,7 @@
       "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
       "year": "2025",
       "venue": "EMNLP Findings 2025, 2025",
-      "citations": 31,
+      "citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:8AbLer7MMksC"
     }
   ]
