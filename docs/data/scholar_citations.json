@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 816,
+    "total_citations": 824,
     "h_index": 15,
-    "i10_index": 30,
+    "i10_index": 31,
     "paper_count": 66,
-    "updated": "2026-10-27",
-    "updated_at_utc": "2026-10-27T16:40:58+00:00",
+    "updated": "2026-10-28",
+    "updated_at_utc": "2026-10-28T17:10:20+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -458,6 +458,10 @@
     {
       "date": "2026-10-27",
       "total_citations": 816
+    },
+    {
+      "date": "2026-10-28",
+      "total_citations": 824
     }
   ],
   "all_papers": [
@@ -472,7 +476,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 59,
+      "citations": 60,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -486,22 +490,22 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 44,
+      "citations": 45,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 36,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 36,
+      "citations": 39,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 37,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
@@ -567,6 +571,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 15,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
       "title": "Visual Variational Autoencoder Prompt Tuning",
       "year": "2025",
       "venue": "CVPR 2025 Workshop on FGVC, 2025",
@@ -586,13 +597,6 @@
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
       "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
-    },
-    {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 14,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
@@ -651,6 +655,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
     },
     {
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "ACM MM 2026, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
+    },
+    {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
       "year": "2025",
       "venue": "Scientific Reports 15 (1), 10790, 2025",
@@ -670,13 +681,6 @@
       "venue": "2022 5th International Conference on Pattern Recognition and Artificial …, 2022",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
-    },
-    {
-      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
-      "year": "2026",
-      "venue": "ACM MM 2026, 2026",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
       "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
@@ -936,7 +940,7 @@
       "title": "Visual instance-aware prompt tuning",
       "year": "2025",
       "venue": "ACM MM 2025, 2025",
-      "citations": 59,
+      "citations": 60,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:4fKUyHm3Qg0C"
     },
     {
@@ -950,22 +954,22 @@
       "title": "Prompt-based adaptation in large-scale vision models: A survey",
       "year": "2026",
       "venue": "TMLR 2026, 2026",
-      "citations": 44,
+      "citations": 45,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:70eg2SAEIzsC"
-    },
-    {
-      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
-      "year": "2026",
-      "venue": "ACL 2026, 2026",
-      "citations": 36,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 36,
+      "citations": 39,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
+    },
+    {
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "year": "2026",
+      "venue": "ACL 2026, 2026",
+      "citations": 37,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
