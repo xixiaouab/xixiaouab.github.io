@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 824,
-    "h_index": 15,
+    "total_citations": 830,
+    "h_index": 16,
     "i10_index": 31,
     "paper_count": 66,
-    "updated": "2026-10-29",
-    "updated_at_utc": "2026-10-29T17:26:24+00:00",
+    "updated": "2026-10-30",
+    "updated_at_utc": "2026-10-30T17:00:58+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -466,6 +466,10 @@
     {
       "date": "2026-10-29",
       "total_citations": 824
+    },
+    {
+      "date": "2026-10-30",
+      "total_citations": 830
     }
   ],
   "all_papers": [
@@ -508,7 +512,7 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 37,
+      "citations": 38,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
@@ -540,18 +544,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
     },
     {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 21,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
       "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
       "year": "2024",
       "venue": "2024 IEEE 36th International Conference on Tools with Artificial …, 2024",
       "citations": 20,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:KxtntwgDAa4C"
-    },
-    {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 19,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
       "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
@@ -568,18 +572,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eq2jaN3J8jMC"
     },
     {
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "year": "2025",
+      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
+    },
+    {
       "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
       "year": "2025",
       "venue": "ICASSP 2025, 2025",
       "citations": 16,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
-    },
-    {
-      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
-      "year": "2025",
-      "venue": "Computers, Materials & Continua 84 (3), 5613-5635, 2025",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Visual Variational Autoencoder Prompt Tuning",
@@ -601,6 +605,13 @@
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
       "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1sJd4Hv_s6UC"
+    },
+    {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 13,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
       "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
@@ -636,13 +647,6 @@
       "venue": "WACV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 12,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
       "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
@@ -750,6 +754,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
     },
     {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 5,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
       "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
       "year": "2026",
       "venue": "ICML 2026, 2026",
@@ -762,13 +773,6 @@
       "venue": "NeurIPS 2026, 2026",
       "citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
-    },
-    {
-      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2608.14945, 2026",
-      "citations": 4,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
       "title": "Drift Flow Matching",
@@ -972,7 +976,7 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 37,
+      "citations": 38,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
