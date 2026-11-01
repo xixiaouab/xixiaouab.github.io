@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 830,
+    "total_citations": 832,
     "h_index": 16,
-    "i10_index": 31,
+    "i10_index": 32,
     "paper_count": 66,
-    "updated": "2026-10-31",
-    "updated_at_utc": "2026-10-31T16:06:27+00:00",
+    "updated": "2026-11-01",
+    "updated_at_utc": "2026-11-01T17:07:25+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -474,6 +474,10 @@
     {
       "date": "2026-10-31",
       "total_citations": 830
+    },
+    {
+      "date": "2026-11-01",
+      "total_citations": 832
     }
   ],
   "all_papers": [
@@ -604,6 +608,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
+      "title": "Self-supervised visual prompting for cross-domain road damage detection",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
+    },
+    {
       "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
       "year": "2025",
       "venue": "International Conference on Artificial Neural Networks, 247-259, 2025",
@@ -639,13 +650,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:738O_yMBCRsC"
     },
     {
-      "title": "Self-supervised visual prompting for cross-domain road damage detection",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
-    },
-    {
       "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -674,6 +678,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
+      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
+      "year": "2026",
+      "venue": "🏆 ICASSP 2026 (Oral), 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
+    },
+    {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
       "year": "2025",
       "venue": "Scientific Reports 15 (1), 10790, 2025",
@@ -693,13 +704,6 @@
       "venue": "2022 5th International Conference on Pattern Recognition and Artificial …, 2022",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
-    },
-    {
-      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
-      "year": "2026",
-      "venue": "🏆 ICASSP 2026 (Oral), 2026",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
     },
     {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
