@@ -8,8 +8,8 @@
 	<title>Xi Xiao</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-	<link rel="stylesheet" href="../static/minimal-home.css?v=20261102-publications">
-	<script src="../js/main.js?v=20260910-publication-figures"></script>
+	<link rel="stylesheet" href="../static/minimal-home.css?v=20261102-news-labels">
+	<script src="../js/main.js?v=20261102-news-scroll"></script>
 	<script src="../js/scroll.js"></script>
 </head>
 
@@ -148,8 +148,9 @@
   <!-- News -->
 		<section class="container news-section section-block">
 			<h2 id="News">News</h2><hr>
+			<p class="news-scroll-hint" id="news-scroll-hint">Scroll for earlier updates</p>
 			<div class="news-panel">
-				<div class="news-scroll" aria-label="News updates">
+				<div class="news-scroll" role="region" tabindex="0" aria-labelledby="News" aria-describedby="news-scroll-hint" data-news-limit="10">
 					<div class="news-group">
 						<div class="news-year">2026</div>
 						<ul class="news-list">
@@ -257,7 +258,7 @@
 					</a>
 				</div>
 				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">Latent Visual Reasoning | Visual Grounding | RL</p>
+					<p class="pub-keywords">MLLM Reasoning | Scaling Law | Post-training</p>
 					<h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence</a></h3>
 					<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Tianchen Zhao, Youngeun Kim, Zhuowei Li, Linghan Xu, Jiaye Wu, Zheng Zhang, Xiang Xu, Xuanbai Chen, Farhan Tejani, Jakub Zablocki, Julia Xu, Yifan Xing</div>
 					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/ReaLVR/">Project</a></div>
@@ -274,7 +275,7 @@
 					</a>
 				</div>
 				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">Agentic AI | Evidence Routing | Adaptive Reasoning</p>
+					<p class="pub-keywords">Agentic Reasoning | Adaptive Reasoning | Agentic Routing</p>
 					<h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents</a></h3>
 					<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Chen Liu, Lin Zhao, Jialin Chen, Tianchen Zhao, Xiang Xu, Youngeun Kim, Tianyang Wang, Min Xu</div>
 					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/FORGE/">Project</a></div>
@@ -303,7 +304,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Visual Prompt Tuning | Semantic Priors | Model Adaptation</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
 						<h3 class="pub-title"><a href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank" rel="noopener noreferrer">Adapting Vision Foundation Models with Cascaded Semantics</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Cheng Han, Tianyang Wang, Lin Zhao, Yunbei Zhang, Guosheng Hu, Runmin Jiang, Xi Li, Xiao Wang, Min Xu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Cascaded-Semantics/" target="_blank">Project</a></div>
@@ -319,7 +320,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">MLLM Post-Training | Visual Grounding | Preference Optimization</p>
+						<p class="pub-keywords">Post-Training | MLLM Reasoning | Visual Alignment</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26387" target="_blank" rel="noopener noreferrer">Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26387" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/VIGIL/" target="_blank">Project</a></div>
@@ -335,7 +336,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Visual Prompt Tuning | Differentiable Search | Model Adaptation</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26379" target="_blank" rel="noopener noreferrer">Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26379" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Prompt-Fusion-Discovery/" target="_blank">Project</a></div>
@@ -351,7 +352,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">LoRA | Information Bottleneck | Model Adaptation</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/abs/2603.14228" target="_blank" rel="noopener noreferrer">Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://2026.aclweb.org/" target="_blank">ACL 2026</a><a class="pub-link" href="https://arxiv.org/abs/2603.14228" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/StructLoRA/" target="_blank">Project</a></div>
@@ -367,7 +368,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Visual Prompt Tuning | Information Bottleneck | Robust Adaptation</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/abs/2607.21973" target="_blank" rel="noopener noreferrer">Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation</a></h3>
 						<div class="pub-authors">Yuqi Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang, Lin Zhao, Yu Li, Aiden Zhao, Tianyang Wang, Hao Xu, Yingli Tian</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a><a class="pub-link" href="https://arxiv.org/abs/2607.21973" target="_blank">Paper</a></div>
@@ -383,7 +384,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Language Models | Representation Geometry | Generalization</p>
+						<p class="pub-keywords">Language Model Pretraining | Representation Learning</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2602.00217" target="_blank" rel="noopener noreferrer">Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models</a></h3>
 						<div class="pub-authors">Chen Liu*, Xingzhi Sun*, <strong><u>Xi Xiao*</u></strong>, Alexandre Van Tassel*, Ke Xu, Kristof Reimann, Danqi Liao, Mark Gerstein, Tianyang Wang, Xiao Wang, Smita Krishnaswamy</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2602.00217" target="_blank">Paper</a><a class="pub-link" href="https://chenliu-1996.github.io/projects/LM-Dispersion/" target="_blank">Project</a></div>
@@ -399,7 +400,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Visual Prompting | Parameter-Efficient Adaptation | Survey</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation | Survey</p>
 						<h3 class="pub-title"><a href="https://arxiv.org/abs/2510.13219" target="_blank" rel="noopener noreferrer">Prompt-based Adaptation in Large-scale Vision Models: A Survey</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, Xiaoying Liao, Zheda Mai, Xingjian Li, Xiao Wang, Hao Xu, Jihun Hamm, Xue Lin, Min Xu, Qifan Wang, Tianyang Wang, Cheng Han</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://arxiv.org/abs/2510.13219" target="_blank">Paper</a><a class="pub-link" href="https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/" target="_blank">Project</a></div>
@@ -417,7 +418,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Visual Prompt Tuning | Instance-Aware Adaptation</p>
+						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
 						<h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank" rel="noopener noreferrer">Visual Instance-aware Prompt Tuning</a></h3>
 						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://acmmm2025.org/" target="_blank">ACM MM 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">Paper</a><a class="pub-link" href="https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning" target="_blank">Project</a></div>
@@ -433,7 +434,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Video Customization | Preference Optimization | Identity Preservation</p>
+						<p class="pub-keywords">Post-training | Personalized Video Generation</p>
 						<h3 class="pub-title"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank" rel="noopener noreferrer">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</a></h3>
 						<div class="pub-authors">Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a><a class="pub-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">Paper</a><a class="pub-link" href="https://echopluto.github.io/MagicID-project/" target="_blank">Project</a></div>
@@ -449,7 +450,7 @@
 						</a>
 					</div>
 					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">AI for Science | Exascale Pretraining | Climate Downscaling</p>
+						<p class="pub-keywords">AI for Science | Exascale Pretraining | Foundation Model</p>
 						<h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank" rel="noopener noreferrer">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</a></h3>
 						<div class="pub-authors">Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu</div>
 						<div class="pub-meta"><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">Paper</a><a class="pub-link" href="https://github.com/XiaoWang-Github" target="_blank">Project</a></div>

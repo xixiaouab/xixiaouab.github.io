@@ -1,6 +1,39 @@
 // Optional: publication filter (showPubs) - template may call showPubs(1)
 function showPubs(n) { return true; }
 
+function initNewsScroll() {
+  var panel = document.querySelector(".news-scroll[data-news-limit]");
+  if (!panel) {
+    return;
+  }
+
+  var items = Array.from(panel.querySelectorAll(".news-list > li"));
+  var limit = Math.max(1, parseInt(panel.dataset.newsLimit, 10) || 10);
+
+  function updateHeight() {
+    if (items.length <= limit) {
+      panel.style.setProperty("--news-max-height", "none");
+      return;
+    }
+
+    // Shorter older updates must also stay within the ten-item limit.
+    var rows = items.map(function (item) { return item.getBoundingClientRect(); });
+    var height = Infinity;
+    for (var i = 0; i <= rows.length - limit; i += 1) {
+      height = Math.min(height, rows[i + limit - 1].bottom - rows[i].top);
+    }
+    if (height > 0 && Number.isFinite(height)) {
+      panel.style.setProperty("--news-max-height", Math.floor(height) + "px");
+    }
+  }
+
+  updateHeight();
+  window.addEventListener("resize", updateHeight);
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(updateHeight);
+  }
+}
+
 function initPublicationFigures() {
   var dialog = document.getElementById("pub-figure-dialog");
   if (!dialog || typeof dialog.showModal !== "function") {
@@ -263,6 +296,7 @@ function initScholarCitationTracker() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  initNewsScroll();
   initPublicationFigures();
   initIdentityTyping();
   initScholarCitationTracker();
