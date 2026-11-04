@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="ob-title ob-desc">
+  <title id="ob-title">ORBIT-2: scalable climate downscaling</title>
+  <desc id="ob-desc">Coarse weather fields flow into a vision foundation model. Tiles light up in sequence, and an animated residual path rejoins the decoder to produce a finer weather field. The weather maps are schematic.</desc>
+  <style>
+    .ob-bg{fill:#f8fafc}.ob-panel{fill:#fff;stroke:#d9e2ec;stroke-width:2}.ob-text{font-family:Arial,sans-serif;fill:#243b53}.ob-title{font-size:24px;font-weight:700}.ob-label{font-size:20px}.ob-small{font-size:18px}.ob-line{fill:none;stroke:#a8b7c7;stroke-width:3;stroke-linecap:round}.ob-flow{fill:none;stroke:#4479b5;stroke-width:5;stroke-linecap:round;stroke-dasharray:12 65;animation:ob-flow 8s linear infinite}.ob-residual{fill:none;stroke:#de9862;stroke-width:4;stroke-linecap:round;stroke-dasharray:8 11;animation:ob-residual 8s linear infinite}.ob-tile{fill:#33998c;opacity:.14;animation:ob-tile 8s infinite}.ob-t2{animation-delay:.7s}.ob-t3{animation-delay:1.4s}.ob-t4{animation-delay:2.1s}.ob-t5{animation-delay:2.8s}.ob-t6{animation-delay:3.5s}.ob-front{fill:none;stroke:#fff;stroke-width:3;opacity:.65;stroke-dasharray:6 8;animation:ob-front 8s linear infinite}.ob-fine{fill:none;stroke:#fff;stroke-width:1.5;opacity:.65}
+    @keyframes ob-flow{to{stroke-dashoffset:-154}}@keyframes ob-residual{to{stroke-dashoffset:-152}}@keyframes ob-tile{0%,12%,85%,100%{opacity:.14}25%,55%{opacity:.9}}@keyframes ob-front{to{stroke-dashoffset:-84}}
+    @media(prefers-reduced-motion:reduce){.ob-flow,.ob-residual,.ob-tile,.ob-front{animation:none}.ob-tile{opacity:.6}}
+  </style>
+  <defs><marker id="ob-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1L9 5 1 9" fill="none" stroke="#a8b7c7" stroke-width="2"/></marker><linearGradient id="ob-weather" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#4479b5"/><stop offset=".46" stop-color="#7dbdb6"/><stop offset=".65" stop-color="#edc297"/><stop offset="1" stop-color="#de9862"/></linearGradient><clipPath id="ob-map-left"><rect x="39" y="128" width="128" height="104" rx="9"/></clipPath><clipPath id="ob-map-right"><rect x="473" y="128" width="128" height="104" rx="9"/></clipPath></defs>
+  <rect class="ob-bg" width="640" height="400" rx="16"/>
+  <text class="ob-text ob-title" x="28" y="37">ORBIT-2</text>
+  <text class="ob-text ob-label" x="28" y="66">Weather and climate at finer resolution</text>
+  <rect class="ob-panel" x="26" y="100" width="154" height="175" rx="15"/>
+  <text class="ob-text ob-label" x="103" y="126" text-anchor="middle">Coarse fields</text>
+  <g clip-path="url(#ob-map-left)"><rect x="39" y="137" width="128" height="95" fill="url(#ob-weather)"/><path d="M39 163H167M39 197H167M81 137V232M124 137V232" stroke="#fff" stroke-width="2" opacity=".7"/><path class="ob-front" d="M39 192Q75 148 101 180T170 168"/></g>
+  <text class="ob-text ob-small" x="103" y="254" text-anchor="middle">Weather input</text>
+  <path class="ob-line" d="M184 180H225" marker-end="url(#ob-arrow)"/><path class="ob-flow" d="M184 180H225"/>
+  <rect class="ob-panel" x="237" y="100" width="166" height="175" rx="15"/>
+  <text class="ob-text ob-label" x="320" y="128" text-anchor="middle">Vision model</text>
+  <rect x="257" y="144" width="126" height="74" rx="9" fill="#e8eff8"/>
+  <rect class="ob-tile" x="264" y="151" width="35" height="26" rx="4"/><rect class="ob-tile ob-t2" x="303" y="151" width="35" height="26" rx="4"/><rect class="ob-tile ob-t3" x="342" y="151" width="34" height="26" rx="4"/>
+  <rect class="ob-tile ob-t4" x="264" y="183" width="35" height="26" rx="4"/><rect class="ob-tile ob-t5" x="303" y="183" width="35" height="26" rx="4"/><rect class="ob-tile ob-t6" x="342" y="183" width="34" height="26" rx="4"/>
+  <text class="ob-text ob-small" x="320" y="254" text-anchor="middle">Tile-wise processing</text>
+  <path class="ob-line" d="M407 180H449" marker-end="url(#ob-arrow)"/><path class="ob-flow" d="M407 180H449"/>
+  <rect class="ob-panel" x="460" y="100" width="154" height="175" rx="15"/>
+  <text class="ob-text ob-label" x="537" y="126" text-anchor="middle">Fine fields</text>
+  <g clip-path="url(#ob-map-right)"><rect x="473" y="137" width="128" height="95" fill="url(#ob-weather)"/><path class="ob-fine" d="M473 153H601M473 169H601M473 185H601M473 201H601M473 217H601M489 137V232M505 137V232M521 137V232M537 137V232M553 137V232M569 137V232M585 137V232"/><path class="ob-front" d="M473 192Q509 148 535 180T604 168"/></g>
+  <text class="ob-text ob-small" x="537" y="254" text-anchor="middle">Downscaled output</text>
+  <path class="ob-residual" d="M103 278V307H537V278"/>
+  <rect x="185" y="290" width="270" height="35" rx="9" fill="#f8fafc"/>
+  <text class="ob-text ob-small" x="320" y="314" text-anchor="middle">Residual prediction path</text>
+  <rect x="117" y="343" width="406" height="35" rx="10" fill="#eee9f5"/>
+  <text class="ob-text ob-label" x="320" y="367" text-anchor="middle">Scalable exascale downscaling</text>
+</svg>

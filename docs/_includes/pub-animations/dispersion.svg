@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="dl-title dl-desc" id="dl-root">
+  <title id="dl-title">Dispersion loss preserves embedding diversity</title>
+  <desc id="dl-desc">On the left, token embedding directions condense into a narrow cone. On the right, colored token embeddings repeatedly spread into distinct directions under dispersion loss. The arrows represent conceptual directions rather than measured embedding coordinates.</desc>
+  <style>
+    #dl-root text{font-family:Arial,sans-serif;fill:#243b53}.dl-heading{font-size:24px;font-weight:700}.dl-subtitle{font-size:20px}.dl-label{font-size:20px;font-weight:700}.dl-small{font-size:18px}
+    .dl-panel{fill:white;stroke:#d5dfe8;stroke-width:2}.dl-ray{stroke:#33998c;stroke-width:2;stroke-linecap:round;opacity:.32;animation:dl-rays 7.4s ease-in-out infinite}.dl-dot{stroke:white;stroke-width:2;animation:dl-spread 7.4s ease-in-out infinite}.dl-cone{animation:dl-cone 7.4s ease-in-out infinite}
+    @keyframes dl-spread{0%,10%{transform:translate(var(--dl-sx),var(--dl-sy));opacity:0}18%{opacity:1}58%,85%{transform:translate(var(--dl-x),var(--dl-y));opacity:1}96%,100%{transform:translate(var(--dl-x),var(--dl-y));opacity:0}}
+    @keyframes dl-rays{0%,14%{opacity:.1}58%,85%{opacity:.6}100%{opacity:.1}}
+    @keyframes dl-cone{0%,100%{fill-opacity:.12}35%,65%{fill-opacity:.25}}
+    @media(prefers-reduced-motion:reduce){.dl-dot,.dl-ray,.dl-cone{animation:none!important}.dl-dot{opacity:1}.dl-ray{opacity:.45}}
+  </style>
+  <defs><marker id="dl-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#de9862" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+  <rect width="640" height="400" rx="22" fill="#f8fafc"/>
+  <text x="320" y="36" text-anchor="middle" class="dl-heading">Preserve embedding diversity</text>
+  <text x="320" y="65" text-anchor="middle" class="dl-subtitle">Dispersion loss during pretraining</text>
+  <rect x="24" y="91" width="260" height="238" rx="18" class="dl-panel"/><rect x="356" y="91" width="260" height="238" rx="18" class="dl-panel"/>
+  <text x="154" y="123" text-anchor="middle" class="dl-label">Condensed directions</text><text x="486" y="123" text-anchor="middle" class="dl-label">Dispersed directions</text>
+  <circle cx="154" cy="222" r="75" fill="#f8fafc" stroke="#d5dfe8" stroke-width="2"/>
+  <path d="M154 222 133 150Q154 139 177 151Z" fill="#de9862" fill-opacity=".18" class="dl-cone"/>
+  <g stroke="#4479b5" stroke-width="2" opacity=".7"><path d="M154 222 139 155M154 222 145 159M154 222 154 150M154 222 162 157M154 222 173 154M154 222 167 166M154 222 153 164"/></g>
+  <g fill="#4479b5" stroke="white" stroke-width="1.5"><circle cx="139" cy="155" r="7"/><circle cx="145" cy="159" r="7"/><circle cx="154" cy="150" r="7"/><circle cx="162" cy="157" r="7"/><circle cx="173" cy="154" r="7"/><circle cx="167" cy="166" r="7"/><circle cx="153" cy="164" r="7"/></g>
+  <circle cx="154" cy="222" r="6" fill="#243b53"/><text x="154" y="312" text-anchor="middle" class="dl-small">Narrow cone</text>
+  <text x="320" y="177" text-anchor="middle" class="dl-small">+ loss</text><path d="M299 211H340" fill="none" stroke="#de9862" stroke-width="3" marker-end="url(#dl-arrow)"/>
+  <circle cx="486" cy="222" r="75" fill="#f8fafc" stroke="#d5dfe8" stroke-width="2"/>
+  <g class="dl-ray"><path d="M486 222 486 151M486 222 537 171M486 222 558 222M486 222 537 273M486 222 486 293M486 222 435 273M486 222 414 222M486 222 435 171"/></g>
+  <g opacity=".25"><circle cx="486" cy="151" r="8" fill="#33998c"/><circle cx="537" cy="171" r="8" fill="#4479b5"/><circle cx="558" cy="222" r="8" fill="#927bb4"/><circle cx="537" cy="273" r="8" fill="#de9862"/><circle cx="486" cy="293" r="8" fill="#33998c"/><circle cx="435" cy="273" r="8" fill="#4479b5"/><circle cx="414" cy="222" r="8" fill="#927bb4"/><circle cx="435" cy="171" r="8" fill="#de9862"/></g>
+  <g transform="translate(486 222)">
+    <circle r="8" fill="#33998c" transform="translate(0 -71)" class="dl-dot" style="--dl-sx:-9px;--dl-sy:-66px;--dl-x:0px;--dl-y:-71px"/>
+    <circle r="8" fill="#4479b5" transform="translate(51 -51)" class="dl-dot" style="--dl-sx:-4px;--dl-sy:-62px;--dl-x:51px;--dl-y:-51px"/>
+    <circle r="8" fill="#927bb4" transform="translate(72 0)" class="dl-dot" style="--dl-sx:2px;--dl-sy:-70px;--dl-x:72px;--dl-y:0px"/>
+    <circle r="8" fill="#de9862" transform="translate(51 51)" class="dl-dot" style="--dl-sx:8px;--dl-sy:-64px;--dl-x:51px;--dl-y:51px"/>
+    <circle r="8" fill="#33998c" transform="translate(0 71)" class="dl-dot" style="--dl-sx:14px;--dl-sy:-67px;--dl-x:0px;--dl-y:71px"/>
+    <circle r="8" fill="#4479b5" transform="translate(-51 51)" class="dl-dot" style="--dl-sx:9px;--dl-sy:-57px;--dl-x:-51px;--dl-y:51px"/>
+    <circle r="8" fill="#927bb4" transform="translate(-72 0)" class="dl-dot" style="--dl-sx:-1px;--dl-sy:-58px;--dl-x:-72px;--dl-y:0px"/>
+    <circle r="8" fill="#de9862" transform="translate(-51 -51)" class="dl-dot" style="--dl-sx:-12px;--dl-sy:-59px;--dl-x:-51px;--dl-y:-51px"/>
+  </g>
+  <circle cx="486" cy="222" r="6" fill="#243b53"/><text x="486" y="312" text-anchor="middle" class="dl-small">Distinct representations</text>
+  <text x="320" y="369" text-anchor="middle" class="dl-subtitle">Keep token representations diverse</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="rv-title rv-desc">
+  <title id="rv-title">ReaLVR: grounding latent reasoning in visual evidence</title>
+  <desc id="rv-desc">An image region is highlighted, followed by three latent reasoning tokens and an evidence-grounded answer. A second animated path represents visual supervision supplied during training.</desc>
+  <style>
+    .rv-bg{fill:#f8fafc}.rv-panel{fill:#fff;stroke:#d9e2ec;stroke-width:2}.rv-text{font-family:Arial,sans-serif;fill:#243b53}.rv-title{font-size:24px;font-weight:700}.rv-label{font-size:20px}.rv-small{font-size:18px}.rv-line{fill:none;stroke:#a8b7c7;stroke-width:3;stroke-linecap:round}.rv-flow{fill:none;stroke:#4479b5;stroke-width:5;stroke-linecap:round;stroke-dasharray:12 95;animation:rv-flow 7s linear infinite}.rv-credit{fill:none;stroke:#927bb4;stroke-width:4;stroke-linecap:round;stroke-dasharray:7 9;animation:rv-credit 7s linear infinite}.rv-focus{fill:#de9862;fill-opacity:.08;stroke:#de9862;stroke-width:4;animation:rv-focus 7s ease-in-out infinite}.rv-token{fill:#e5edf8;stroke:#4479b5;stroke-width:2}.rv-on{fill:#4479b5;opacity:.18;animation:rv-token 7s ease-in-out infinite}.rv-on2{animation-delay:1s}.rv-on3{animation-delay:2s}.rv-check{fill:none;stroke:#33998c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:42;stroke-dashoffset:0;animation:rv-check 7s ease-in-out infinite}
+    @keyframes rv-flow{to{stroke-dashoffset:-214}}@keyframes rv-credit{to{stroke-dashoffset:-112}}@keyframes rv-focus{0%,100%{stroke-opacity:.45;fill-opacity:.03}15%,55%{stroke-opacity:1;fill-opacity:.16}75%{stroke-opacity:.45;fill-opacity:.03}}@keyframes rv-token{0%,12%,78%,100%{opacity:.18}25%,55%{opacity:1}}@keyframes rv-check{0%,55%{stroke-dashoffset:42;opacity:.3}75%,100%{stroke-dashoffset:0;opacity:1}}
+    @media(prefers-reduced-motion:reduce){.rv-flow,.rv-credit,.rv-focus,.rv-on,.rv-check{animation:none}.rv-on{opacity:.8}.rv-check{stroke-dashoffset:0;opacity:1}}
+  </style>
+  <defs><marker id="rv-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M1 1L9 5 1 9" fill="none" stroke="#a8b7c7" stroke-width="2"/></marker><marker id="rv-purple-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1L9 5 1 9" fill="none" stroke="#927bb4" stroke-width="2"/></marker></defs>
+  <rect class="rv-bg" width="640" height="400" rx="16"/>
+  <text class="rv-text rv-title" x="28" y="37">ReaLVR</text>
+  <text class="rv-text rv-label" x="28" y="66">Visual evidence → latent reasoning</text>
+  <rect class="rv-panel" x="26" y="100" width="160" height="169" rx="16"/>
+  <rect x="42" y="116" width="128" height="104" rx="9" fill="#edf3f8"/>
+  <path d="M48 205L83 156 121 205Z" fill="#a9c2de"/>
+  <path d="M101 205L131 164 163 205Z" fill="#789ecb"/>
+  <circle cx="137" cy="142" r="15" fill="#de9862"/>
+  <rect class="rv-focus" x="112" y="117" width="50" height="50" rx="8"/>
+  <text class="rv-text rv-label" x="106" y="251" text-anchor="middle">Image evidence</text>
+  <path class="rv-line" d="M190 182H230" marker-end="url(#rv-arrow)"/>
+  <path class="rv-flow" d="M190 182H230"/>
+  <rect class="rv-panel" x="241" y="112" width="155" height="151" rx="16"/>
+  <text class="rv-text rv-label" x="318" y="145" text-anchor="middle">Latent steps</text>
+  <path class="rv-line" d="M264 190H372"/>
+  <circle class="rv-token" cx="268" cy="190" r="16"/><circle class="rv-token" cx="318" cy="190" r="16"/><circle class="rv-token" cx="368" cy="190" r="16"/>
+  <circle class="rv-on" cx="268" cy="190" r="15"/><circle class="rv-on rv-on2" cx="318" cy="190" r="15"/><circle class="rv-on rv-on3" cx="368" cy="190" r="15"/>
+  <text class="rv-text rv-small" x="318" y="239" text-anchor="middle">Visual grounding</text>
+  <path class="rv-line" d="M401 182H441" marker-end="url(#rv-arrow)"/>
+  <path class="rv-flow" d="M401 182H441"/>
+  <rect class="rv-panel" x="452" y="126" width="162" height="132" rx="16"/>
+  <circle cx="533" cy="166" r="23" fill="#e6f3ef"/>
+  <path class="rv-check" d="M520 166L530 176 548 155"/>
+  <text class="rv-text rv-label" x="533" y="213" text-anchor="middle">Grounded</text>
+  <text class="rv-text rv-label" x="533" y="239" text-anchor="middle">answer</text>
+  <path class="rv-credit" d="M106 272V303H318V266" marker-end="url(#rv-purple-arrow)"/>
+  <rect x="88" y="324" width="464" height="49" rx="12" fill="#eee9f5"/>
+  <text class="rv-text rv-label" x="320" y="355" text-anchor="middle">Visual supervision during training</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="vig-title vig-desc">
+  <title id="vig-title">VIGIL: counterfactual visual alignment</title>
+  <desc id="vig-desc">Two responses to the same question are compared: one with image evidence and one with vision masked. Moving visual tokens enter the seeing branch, while the blind branch is marked as masked. Counterfactual alignment encourages image-grounded responses.</desc>
+  <defs><marker id="vig-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker></defs>
+  <style>
+    .vig-text{font-family:Arial,sans-serif;fill:#243b53}.vig-title{font-size:24px;font-weight:700}.vig-label{font-size:20px;font-weight:600}.vig-small{font-size:18px}.vig-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#vig-arrow)}
+    .vig-visual-token{animation:vig-visual-flow 7s linear infinite}.vig-visual-token-two{animation-delay:-3.5s}.vig-blind-token{animation:vig-blind-flow 7s linear infinite}.vig-comparison{animation:vig-compare-flow 7s linear infinite;stroke:#33998c;stroke-dasharray:7 7}.vig-comparison-blind{stroke:#de9862}.vig-seeing{animation:vig-grounding 7s ease-in-out infinite}
+    @keyframes vig-visual-flow{0%{transform:translateX(0);opacity:0}8%{opacity:1}35%{transform:translateX(65px);opacity:1}42%{transform:translateX(65px);opacity:0}50%{transform:translateX(220px);opacity:0}58%{transform:translateX(220px);opacity:1}90%{transform:translateX(275px);opacity:1}100%{transform:translateX(275px);opacity:0}}
+    @keyframes vig-blind-flow{0%,22%{transform:translateX(0);opacity:0}30%{opacity:.7}75%{opacity:.7}100%{transform:translateX(53px);opacity:0}}
+    @keyframes vig-compare-flow{to{stroke-dashoffset:-98}}
+    @keyframes vig-grounding{0%,32%,100%{stroke:#4479b5;fill:#edf3fa}50%,78%{stroke:#33998c;fill:#e0f1eb}}
+    @media(prefers-reduced-motion:reduce){.vig-visual-token,.vig-blind-token,.vig-comparison,.vig-seeing{animation:none!important}}
+  </style>
+  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
+  <text class="vig-text vig-title" x="28" y="39">VIGIL: use visual evidence</text>
+  <rect x="24" y="65" width="592" height="267" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
+  <text class="vig-text vig-small" x="320" y="94" text-anchor="middle">Same question · two visual conditions</text>
+  <text class="vig-text vig-small" x="41" y="124">Seeing</text>
+  <rect x="40" y="135" width="91" height="61" rx="9" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/>
+  <circle cx="61" cy="157" r="7" fill="#de9862"/><path d="m49 186 21-20 15 13 16-26 20 33Z" fill="#c8dfd3" stroke="#33998c" stroke-width="2"/>
+  <text class="vig-text vig-small" x="41" y="226">Blind</text>
+  <rect x="40" y="237" width="91" height="61" rx="9" fill="#f1f3f5" stroke="#b5c1cb" stroke-width="2"/>
+  <path d="m52 249 67 37m0-37-67 37" stroke="#a8b5c0" stroke-width="3" stroke-linecap="round"/><text class="vig-text vig-small" x="86" y="319" text-anchor="middle">Masked</text>
+  <path class="vig-line" d="M133 165H224M133 267H224"/>
+  <rect x="226" y="135" width="132" height="61" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/>
+  <rect x="226" y="237" width="132" height="61" rx="12" fill="#f1f3f5" stroke="#a8b5c0" stroke-width="2"/>
+  <text class="vig-text vig-label" x="292" y="173" text-anchor="middle">MLLM</text><text class="vig-text vig-label" x="292" y="275" text-anchor="middle">MLLM</text>
+  <path class="vig-line" d="M360 165H432M360 267H432"/>
+  <rect class="vig-seeing" x="435" y="132" width="161" height="67" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
+  <text class="vig-text vig-small" x="515" y="159" text-anchor="middle">Seeing</text><text class="vig-text vig-label" x="515" y="183" text-anchor="middle">response</text>
+  <rect x="435" y="234" width="161" height="67" rx="12" fill="#f9eee5" stroke="#de9862" stroke-width="2"/>
+  <text class="vig-text vig-small" x="515" y="261" text-anchor="middle">Blind</text><text class="vig-text vig-label" x="515" y="285" text-anchor="middle">response</text>
+  <circle class="vig-visual-token" cx="149" cy="165" r="7" fill="#33998c" stroke="white" stroke-width="2"/><circle class="vig-visual-token vig-visual-token-two" cx="149" cy="165" r="7" fill="#33998c" stroke="white" stroke-width="2"/>
+  <circle class="vig-blind-token" cx="371" cy="267" r="6" fill="#de9862" stroke="white" stroke-width="2"/>
+  <path class="vig-line vig-comparison" d="M608 165V346H480" stroke="#33998c"/>
+  <path class="vig-line vig-comparison vig-comparison-blind" d="M515 302V346H480"/>
+  <rect x="160" y="336" width="317" height="40" rx="11" fill="#e0f1eb" stroke="#33998c" stroke-width="2"/>
+  <text class="vig-text vig-label" x="318" y="362" text-anchor="middle">Counterfactual alignment</text>
+</svg>

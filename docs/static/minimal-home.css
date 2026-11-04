@@ -701,6 +701,85 @@ hr {
   width: 100%;
 }
 
+.pub-section-heading {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.publications-section .pub-section-heading h2 {
+  margin: 0 !important;
+}
+
+.pub-animation-toggle {
+  background: var(--page);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  padding: 7px 10px;
+}
+
+.pub-animation-toggle:hover {
+  border-color: var(--link);
+  color: var(--link-dark);
+}
+
+.pub-animation-toggle:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 3px;
+}
+
+.pub-animation-toggle[hidden] {
+  display: none;
+}
+
+.pub-animation {
+  aspect-ratio: 8 / 5;
+  background: #f8fafc;
+  border: 1px solid #e4eaf0;
+  border-radius: 9px;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.pub-motion-ready .pub-animation {
+  display: block;
+}
+
+.pub-animation svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.publications-section.pub-motion-ready .pub-animation + .pub-thumb {
+  display: none;
+}
+
+.pub-animation * {
+  animation-play-state: paused !important;
+}
+
+.pub-motion-playing .is-animation-visible .pub-animation * {
+  animation-play-state: running !important;
+}
+
+.pub-motion-reduced .pub-animation {
+  display: none;
+}
+
+.publications-section.pub-motion-reduced .pub-animation + .pub-thumb {
+  display: block;
+}
+
 .publications-section .pub-figure-zoom {
   align-items: center;
   background: rgba(255, 255, 255, 0.94);

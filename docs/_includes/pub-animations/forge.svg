@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="fg-title fg-desc">
+  <title id="fg-title">FORGE: query-adaptive evidence routing for frozen LLM agents</title>
+  <desc id="fg-desc">A query enters a lightweight router. The animation cycles through direct answering, summarized evidence, and raw evidence before passing the chosen support to a frozen language model. The lower row indicates that reasoning depth is selected as well.</desc>
+  <style>
+    .fg-bg{fill:#f8fafc}.fg-panel{fill:#fff;stroke:#d9e2ec;stroke-width:2}.fg-text{font-family:Arial,sans-serif;fill:#243b53}.fg-title{font-size:24px;font-weight:700}.fg-label{font-size:20px}.fg-small{font-size:18px}.fg-line{fill:none;stroke:#b7c5d3;stroke-width:3;stroke-linecap:round}.fg-flow{fill:none;stroke:#4479b5;stroke-width:5;stroke-dasharray:10 50;stroke-linecap:round;animation:fg-flow 7.5s linear infinite}.fg-route{fill:none;stroke:#33998c;stroke-width:4;stroke-linecap:round;stroke-dasharray:8 10;opacity:.18;animation:fg-choice 7.5s infinite}.fg-route2{animation-delay:2.5s}.fg-route3{animation-delay:5s}.fg-choice{fill:#33998c;opacity:.06;animation:fg-glow 7.5s infinite}.fg-choice2{animation-delay:2.5s}.fg-choice3{animation-delay:5s}.fg-depth{fill:#927bb4;opacity:.15;animation:fg-depth 7.5s infinite}.fg-depth2{animation-delay:1s}.fg-depth3{animation-delay:2s}
+    @keyframes fg-flow{to{stroke-dashoffset:-120}}@keyframes fg-choice{0%,28%{opacity:1;stroke-dashoffset:0}33%,94%{opacity:.12}100%{opacity:1;stroke-dashoffset:-36}}@keyframes fg-glow{0%,28%{opacity:.18}33%,94%{opacity:.02}100%{opacity:.18}}@keyframes fg-depth{0%,100%{opacity:.2}25%,55%{opacity:.85}}
+    @media(prefers-reduced-motion:reduce){.fg-flow,.fg-route,.fg-choice,.fg-depth{animation:none}.fg-route{opacity:.6}.fg-choice{opacity:.1}.fg-depth{opacity:.65}}
+  </style>
+  <defs><marker id="fg-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1L9 5 1 9" fill="none" stroke="#b7c5d3" stroke-width="2"/></marker></defs>
+  <rect class="fg-bg" width="640" height="400" rx="16"/>
+  <text class="fg-text fg-title" x="28" y="37">FORGE</text>
+  <text class="fg-text fg-label" x="28" y="66">Choose the evidence, query by query</text>
+  <rect class="fg-panel" x="26" y="166" width="108" height="66" rx="14"/>
+  <text class="fg-text fg-label" x="80" y="206" text-anchor="middle">Query</text>
+  <path class="fg-line" d="M138 199H163" marker-end="url(#fg-arrow)"/>
+  <path class="fg-flow" d="M138 199H163"/>
+  <rect x="174" y="145" width="126" height="108" rx="17" fill="#e8eff8" stroke="#4479b5" stroke-width="2"/>
+  <path d="M218 177H252M235 177V195M235 195H216V211M235 195H254V211" fill="none" stroke="#4479b5" stroke-width="4" stroke-linecap="round"/>
+  <text class="fg-text fg-label" x="237" y="237" text-anchor="middle">Router</text>
+  <path class="fg-line" d="M301 199H319V122H337M301 199H337M319 199V276H337"/>
+  <path class="fg-route" d="M301 199H319V122H337"/>
+  <path class="fg-route fg-route2" d="M301 199H337"/>
+  <path class="fg-route fg-route3" d="M301 199H319V276H337"/>
+  <rect class="fg-panel" x="339" y="93" width="126" height="58" rx="12"/>
+  <rect class="fg-choice" x="339" y="93" width="126" height="58" rx="12"/>
+  <text class="fg-text fg-label" x="402" y="129" text-anchor="middle">Direct</text>
+  <rect class="fg-panel" x="339" y="170" width="126" height="58" rx="12"/>
+  <rect class="fg-choice fg-choice2" x="339" y="170" width="126" height="58" rx="12"/>
+  <text class="fg-text fg-label" x="402" y="206" text-anchor="middle">Summary</text>
+  <rect class="fg-panel" x="339" y="247" width="126" height="58" rx="12"/>
+  <rect class="fg-choice fg-choice3" x="339" y="247" width="126" height="58" rx="12"/>
+  <text class="fg-text fg-label" x="402" y="283" text-anchor="middle">Raw</text>
+  <path class="fg-line" d="M468 122H485V199H506M468 199H506M468 276H485V199" marker-end="url(#fg-arrow)"/>
+  <path class="fg-route" d="M468 122H485V199H506"/><path class="fg-route fg-route2" d="M468 199H506"/><path class="fg-route fg-route3" d="M468 276H485V199H506"/>
+  <rect class="fg-panel" x="516" y="145" width="98" height="108" rx="15"/>
+  <path d="M555 175V168A10 10 0 0 1 575 168V175" fill="none" stroke="#927bb4" stroke-width="3"/>
+  <rect x="551" y="175" width="28" height="20" rx="5" fill="#eee9f5" stroke="#927bb4" stroke-width="2"/>
+  <text class="fg-text fg-small" x="565" y="219" text-anchor="middle">Frozen</text>
+  <text class="fg-text fg-label" x="565" y="242" text-anchor="middle">LLM</text>
+  <rect x="117" y="332" width="406" height="47" rx="12" fill="#eee9f5"/>
+  <text class="fg-text fg-small" x="137" y="362">Adaptive reasoning depth</text>
+  <rect class="fg-depth" x="377" y="347" width="28" height="17" rx="4"/><rect class="fg-depth fg-depth2" x="416" y="347" width="28" height="17" rx="4"/><rect class="fg-depth fg-depth3" x="455" y="347" width="28" height="17" rx="4"/>
+</svg>

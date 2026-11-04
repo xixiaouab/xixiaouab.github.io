@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="sl-title sl-desc">
+  <title id="sl-title">StructLoRA: structured, task-aware low-rank adaptation</title>
+  <desc id="sl-desc">An information-bottleneck filter removes task-irrelevant low-rank directions. Retained directions travel to a training-only graph that coordinates layer updates. The final update is merged into pretrained weights, adding no inference overhead.</desc>
+  <defs><marker id="sl-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker></defs>
+  <style>
+    .sl-text{font-family:Arial,sans-serif;fill:#243b53}.sl-title{font-size:24px;font-weight:700}.sl-label{font-size:20px;font-weight:600}.sl-small{font-size:18px}.sl-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#sl-arrow)}
+    .sl-retained{animation:sl-retain-flow 7s linear infinite}.sl-retained-two{animation-delay:-3.5s}.sl-discarded{animation:sl-filter-flow 7s ease-in-out infinite}.sl-discarded-two{animation-delay:-3.5s}.sl-graph-flow{animation:sl-coordinate 7s linear infinite;stroke-dasharray:6 8}.sl-merge-token{animation:sl-merge 7s ease-in-out infinite}.sl-filter{animation:sl-filter-highlight 7s ease-in-out infinite}
+    @keyframes sl-retain-flow{0%{transform:translate(0,0);opacity:0}8%{opacity:1}32%{transform:translate(55px,0);opacity:1}40%{transform:translate(55px,0);opacity:0}54%{transform:translate(190px,0);opacity:0}62%{transform:translate(190px,0);opacity:1}90%{transform:translate(235px,0);opacity:1}100%{transform:translate(235px,0);opacity:0}}
+    @keyframes sl-filter-flow{0%{transform:translate(0,0);opacity:0}10%{opacity:1}45%{transform:translate(112px,0);opacity:1}70%,100%{transform:translate(128px,75px);opacity:0}}
+    @keyframes sl-coordinate{to{stroke-dashoffset:-98}}
+    @keyframes sl-merge{0%,40%{transform:translateX(0);opacity:0}50%{opacity:1}88%{opacity:1}100%{transform:translateX(129px);opacity:0}}
+    @keyframes sl-filter-highlight{0%,70%,100%{fill:#f9eee5}25%,50%{fill:#f3d9c4}}
+    @media(prefers-reduced-motion:reduce){.sl-retained,.sl-discarded,.sl-graph-flow,.sl-merge-token,.sl-filter{animation:none!important}}
+  </style>
+  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
+  <text class="sl-text sl-title" x="28" y="39">StructLoRA: keep useful directions</text>
+  <rect x="24" y="65" width="592" height="241" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
+  <text class="sl-text sl-label" x="115" y="96" text-anchor="middle">Low-rank</text><text class="sl-text sl-small" x="115" y="120" text-anchor="middle">directions</text>
+  <text class="sl-text sl-label" x="300" y="96" text-anchor="middle">IB filtering</text>
+  <text class="sl-text sl-label" x="508" y="96" text-anchor="middle">Layer graph</text><text class="sl-text sl-small" x="508" y="120" text-anchor="middle">training only</text>
+  <path d="M54 188 163 145M54 188H163M54 188 163 231" fill="none" stroke="#4479b5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M54 188 163 165M54 188 163 211" fill="none" stroke="#de9862" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="188" r="9" fill="#4479b5"/>
+  <path class="sl-line" d="M166 188H232M364 188H422"/>
+  <path class="sl-filter" d="M235 137H363L333 238H265Z" fill="#f9eee5" stroke="#de9862" stroke-width="2.5"/>
+  <text class="sl-text" x="299" y="185" text-anchor="middle" font-size="28" font-weight="700">IB</text>
+  <text class="sl-text sl-small" x="299" y="212" text-anchor="middle">filter</text>
+  <path class="sl-line" d="M429 224 506 153 584 224" marker-end="none" stroke="#33998c"/>
+  <path class="sl-graph-flow" d="M429 224H584L506 153Z" fill="none" stroke="#33998c" stroke-width="3"/>
+  <g fill="#dff0ec" stroke="#33998c" stroke-width="2.5"><circle cx="506" cy="153" r="24"/><circle cx="429" cy="224" r="24"/><circle cx="584" cy="224" r="24"/></g>
+  <text class="sl-text sl-small" x="506" y="159" text-anchor="middle">L1</text><text class="sl-text sl-small" x="429" y="230" text-anchor="middle">L2</text><text class="sl-text sl-small" x="584" y="230" text-anchor="middle">L3</text>
+  <circle class="sl-retained" cx="177" cy="188" r="6" fill="#4479b5" stroke="white" stroke-width="2"/><circle class="sl-retained sl-retained-two" cx="177" cy="188" r="6" fill="#4479b5" stroke="white" stroke-width="2"/>
+  <circle class="sl-discarded" cx="143" cy="165" r="6" fill="#de9862" stroke="white" stroke-width="2"/><circle class="sl-discarded sl-discarded-two" cx="143" cy="211" r="6" fill="#de9862" stroke="white" stroke-width="2"/>
+  <circle cx="54" cy="277" r="6" fill="#4479b5"/><text class="sl-text sl-small" x="68" y="283">Task-relevant</text>
+  <circle cx="267" cy="277" r="6" fill="#de9862"/><text class="sl-text sl-small" x="281" y="283">Filtered out</text>
+  <path class="sl-line" d="M506 249V312H286V323"/>
+  <rect x="24" y="325" width="151" height="49" rx="11" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/><text class="sl-text sl-label" x="99" y="356" text-anchor="middle">Pretrained W</text>
+  <text class="sl-text" x="195" y="358" text-anchor="middle" font-size="28">+</text>
+  <rect x="215" y="325" width="142" height="49" rx="11" fill="#dff0ec" stroke="#33998c" stroke-width="2"/><text class="sl-text sl-label" x="286" y="356" text-anchor="middle">Merged ΔW</text>
+  <path class="sl-line" d="M359 349H410"/>
+  <circle class="sl-merge-token" cx="369" cy="349" r="6" fill="#33998c" stroke="white" stroke-width="2"/>
+  <rect x="414" y="329" width="201" height="41" rx="11" fill="white" stroke="#d8e2eb" stroke-width="2"/><text class="sl-text sl-small" x="515" y="355" text-anchor="middle">Same inference path</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="cs-title cs-desc">
+  <title id="cs-title">Cascaded Semantics</title>
+  <desc id="cs-desc">Color, texture, and shape priors initialize visual prompts. Attention-derived semantic prompts guide successive frozen transformer layers. Blue image tokens and colored prompt tokens flow through the layers.</desc>
+  <defs>
+    <marker id="cs-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker>
+  </defs>
+  <style>
+    .cs-text{font-family:Arial,sans-serif;fill:#243b53}.cs-title{font-size:24px;font-weight:700}.cs-label{font-size:20px;font-weight:600}.cs-small{font-size:18px}.cs-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#cs-arrow)}
+    .cs-image-token{animation:cs-image-flow 7s linear infinite}.cs-image-token-two{animation-delay:-3.5s}.cs-prompt-one{animation:cs-prompt-flow 7s ease-in-out infinite}.cs-prompt-two{animation:cs-prompt-flow 7s ease-in-out -2.3s infinite}.cs-prompt-three{animation:cs-prompt-flow 7s ease-in-out -4.6s infinite}.cs-attention{animation:cs-attention-flow 7s linear infinite;stroke:#927bb4;stroke-dasharray:6 8}.cs-attention-teal{stroke:#33998c}.cs-layer-one{animation:cs-layer-glow 7s ease-in-out infinite}.cs-layer-two{animation:cs-layer-glow 7s ease-in-out -2.3s infinite}.cs-layer-three{animation:cs-layer-glow 7s ease-in-out -4.6s infinite}
+    @keyframes cs-image-flow{0%{transform:translateX(0);opacity:0}8%{opacity:1}88%{opacity:1}100%{transform:translateX(462px);opacity:0}}
+    @keyframes cs-prompt-flow{0%,15%{transform:translateY(0);opacity:1}48%{transform:translateY(55px);opacity:1}62%,100%{transform:translateY(55px);opacity:0}}
+    @keyframes cs-attention-flow{to{stroke-dashoffset:-98}}
+    @keyframes cs-layer-glow{0%,65%,100%{fill:#edf3fa}25%,45%{fill:#d5e5f5}}
+    @media(prefers-reduced-motion:reduce){.cs-image-token,.cs-prompt-one,.cs-prompt-two,.cs-prompt-three,.cs-attention,.cs-layer-one,.cs-layer-two,.cs-layer-three{animation:none!important}}
+  </style>
+  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
+  <text class="cs-text cs-title" x="28" y="39">Cascaded Semantics</text>
+  <rect x="24" y="65" width="592" height="58" rx="14" fill="white" stroke="#d8e2eb" stroke-width="2"/>
+  <circle cx="48" cy="94" r="7" fill="#de9862"/><text class="cs-text cs-small" x="63" y="101">Color · texture · shape</text>
+  <path d="M304 80v28" stroke="#d8e2eb" stroke-width="2"/>
+  <circle cx="332" cy="94" r="7" fill="#927bb4"/><text class="cs-text cs-small" x="347" y="101">Attention-derived priors</text>
+  <rect x="24" y="139" width="592" height="202" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
+  <path class="cs-line" d="M167 123V174"/>
+  <path class="cs-line cs-attention" d="M480 123V151H359V174" stroke="#927bb4"/>
+  <path class="cs-line cs-attention" d="M480 151H517V174" stroke="#927bb4"/>
+  <rect x="123" y="177" width="91" height="34" rx="9" fill="#f5dfce" stroke="#de9862" stroke-width="2"/><text class="cs-text cs-small" x="168" y="200" text-anchor="middle">Prompt</text>
+  <rect x="311" y="177" width="94" height="34" rx="9" fill="#eae4f2" stroke="#927bb4" stroke-width="2"/><text class="cs-text cs-small" x="358" y="200" text-anchor="middle">Prompt</text>
+  <rect x="469" y="177" width="94" height="34" rx="9" fill="#dff0ec" stroke="#33998c" stroke-width="2"/><text class="cs-text cs-small" x="516" y="200" text-anchor="middle">Prompt</text>
+  <path class="cs-line" d="M168 211V235M358 211V235M516 211V235"/>
+  <g stroke="#4479b5" stroke-width="1.5"><rect x="40" y="249" width="21" height="21" rx="4" fill="#cfe0f2"/><rect x="65" y="249" width="21" height="21" rx="4" fill="#a8c5e3"/><rect x="40" y="274" width="21" height="21" rx="4" fill="#e7eff8"/><rect x="65" y="274" width="21" height="21" rx="4" fill="#cfe0f2"/></g>
+  <text class="cs-text cs-small" x="64" y="325" text-anchor="middle">Image</text>
+  <path class="cs-line" d="M92 271H123M215 271H310M406 271H469M563 271H602"/>
+  <rect class="cs-layer-one" x="124" y="239" width="90" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
+  <rect class="cs-layer-two" x="311" y="239" width="94" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
+  <rect class="cs-layer-three" x="470" y="239" width="94" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
+  <text class="cs-text cs-label" x="169" y="264" text-anchor="middle">Layer 1</text><text class="cs-text cs-small" x="169" y="288" text-anchor="middle">frozen</text>
+  <text class="cs-text cs-label" x="358" y="264" text-anchor="middle">Layer 2</text><text class="cs-text cs-small" x="358" y="288" text-anchor="middle">frozen</text>
+  <text class="cs-text cs-label" x="517" y="264" text-anchor="middle">Layer 3</text><text class="cs-text cs-small" x="517" y="288" text-anchor="middle">frozen</text>
+  <path class="cs-line cs-attention" d="M215 250C267 250 259 194 309 194" stroke="#927bb4"/>
+  <path class="cs-line cs-attention cs-attention-teal" d="M406 250C440 250 437 194 467 194"/>
+  <circle class="cs-image-token" cx="108" cy="271" r="6" fill="#4479b5" stroke="white" stroke-width="2"/><circle class="cs-image-token cs-image-token-two" cx="108" cy="271" r="6" fill="#4479b5" stroke="white" stroke-width="2"/>
+  <circle class="cs-prompt-one" cx="168" cy="217" r="6" fill="#de9862" stroke="white" stroke-width="2"/><circle class="cs-prompt-two" cx="358" cy="217" r="6" fill="#927bb4" stroke="white" stroke-width="2"/><circle class="cs-prompt-three" cx="516" cy="217" r="6" fill="#33998c" stroke="white" stroke-width="2"/>
+  <text class="cs-text cs-label" x="320" y="377" text-anchor="middle">Image priors → attention-guided prompts</text>
+</svg>

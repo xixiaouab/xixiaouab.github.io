@@ -86,6 +86,55 @@ function initPublicationFigures() {
   });
 }
 
+function initPublicationAnimations() {
+  var section = document.querySelector(".publications-section");
+  if (!section) {
+    return;
+  }
+
+  var figures = section.querySelectorAll("[data-pub-animation]");
+  var toggle = section.querySelector("[data-pub-motion-toggle]");
+  if (!figures.length || !toggle) {
+    return;
+  }
+
+  var preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+  var paused = false;
+
+  function updatePlayback() {
+    section.classList.add("pub-motion-ready");
+    section.classList.toggle("pub-motion-playing", !paused && !preference.matches && !document.hidden);
+    section.classList.toggle("pub-motion-reduced", preference.matches);
+    toggle.hidden = preference.matches;
+    toggle.setAttribute("aria-pressed", String(paused));
+    toggle.textContent = paused ? "Play figure animations" : "Pause figure animations";
+  }
+
+  toggle.addEventListener("click", function () {
+    paused = !paused;
+    updatePlayback();
+  });
+  document.addEventListener("visibilitychange", updatePlayback);
+  if (preference.addEventListener) {
+    preference.addEventListener("change", updatePlayback);
+  } else if (preference.addListener) {
+    preference.addListener(updatePlayback);
+  }
+
+  if ("IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        entry.target.classList.toggle("is-animation-visible", entry.isIntersecting);
+      });
+    }, { threshold: 0.15 });
+    figures.forEach(function (figure) { observer.observe(figure); });
+  } else {
+    figures.forEach(function (figure) { figure.classList.add("is-animation-visible"); });
+  }
+
+  updatePlayback();
+}
+
 function initIdentityTyping() {
   var target = document.querySelector(".intro-identity-dynamic");
   if (!target) {
@@ -298,6 +347,7 @@ function initScholarCitationTracker() {
 document.addEventListener("DOMContentLoaded", function () {
   initNewsScroll();
   initPublicationFigures();
+  initPublicationAnimations();
   initIdentityTyping();
   initScholarCitationTracker();
 

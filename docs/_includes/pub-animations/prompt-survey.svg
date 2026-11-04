@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="ps-title ps-desc" id="ps-root">
+  <title id="ps-title">A unified view of pixel-level and token-level visual prompting</title>
+  <desc id="ps-desc">Two routes adapt a frozen vision model. Pixel-level visual prompting modifies the image input, shown with an orange prompt border. Token-level prompt tuning inserts learned purple tokens beside blue image tokens. Animated packets trace each route to the model and task output.</desc>
+  <style>
+    #ps-root text{font-family:Arial,sans-serif;fill:#243b53}.ps-heading{font-size:24px;font-weight:700}.ps-subtitle{font-size:20px}.ps-label{font-size:20px;font-weight:700}.ps-small{font-size:18px}.ps-panel{fill:white;stroke:#d5dfe8;stroke-width:2}.ps-wire{fill:none;stroke:#a4b4c4;stroke-width:3;stroke-linecap:round}
+    .ps-pixel{stroke:#de9862;stroke-width:8;fill:none;animation:ps-pixel 7.2s ease-in-out infinite}.ps-top-packet{fill:#de9862;stroke:white;stroke-width:2;opacity:0;animation:ps-pixels-flow 7.2s linear infinite}.ps-bottom-packet{fill:#927bb4;stroke:white;stroke-width:2;opacity:0;animation:ps-tokens-flow 7.2s linear infinite}.ps-learned{animation:ps-learned 7.2s ease-in-out infinite}.ps-top-model{animation:ps-top-model 7.2s ease-in-out infinite}.ps-bottom-model{animation:ps-bottom-model 7.2s ease-in-out infinite}
+    @keyframes ps-pixel{0%,100%{stroke-opacity:.35}12%,34%{stroke-opacity:1}52%,90%{stroke-opacity:.35}}
+    @keyframes ps-pixels-flow{0%,10%{transform:translateX(0);opacity:0}14%{opacity:1}36%{transform:translateX(124px);opacity:1}43%,100%{transform:translateX(124px);opacity:0}}
+    @keyframes ps-tokens-flow{0%,53%{transform:translateX(0);opacity:0}58%{opacity:1}78%{transform:translateX(75px);opacity:1}86%,100%{transform:translateX(75px);opacity:0}}
+    @keyframes ps-learned{0%,44%,100%{fill-opacity:.5}57%,79%{fill-opacity:1}}
+    @keyframes ps-top-model{0%,25%,51%,100%{stroke:#a4b4c4}32%,42%{stroke:#de9862}}
+    @keyframes ps-bottom-model{0%,65%,100%{stroke:#a4b4c4}74%,85%{stroke:#927bb4}}
+    @media(prefers-reduced-motion:reduce){.ps-pixel,.ps-top-packet,.ps-bottom-packet,.ps-learned,.ps-top-model,.ps-bottom-model{animation:none!important}.ps-top-packet,.ps-bottom-packet{opacity:0}}
+  </style>
+  <defs><marker id="ps-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#a4b4c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+  <rect width="640" height="400" rx="22" fill="#f8fafc"/>
+  <text x="320" y="36" text-anchor="middle" class="ps-heading">Two routes to visual adaptation</text><text x="320" y="64" text-anchor="middle" class="ps-subtitle">A unified framework for prompting</text>
+  <rect x="24" y="84" width="592" height="139" rx="18" class="ps-panel"/><rect x="24" y="240" width="592" height="139" rx="18" class="ps-panel"/>
+  <text x="43" y="113" class="ps-label">Pixel-level visual prompting</text>
+  <rect x="57" y="139" width="113" height="58" rx="5" fill="#e8f0f6"/>
+  <path d="m62 188 29-32 22 20 20-13 32 25" fill="#a6cec5"/><circle cx="143" cy="151" r="7" fill="#de9862"/>
+  <rect x="53" y="135" width="121" height="66" rx="7" class="ps-pixel"/>
+  <text x="114" y="217" text-anchor="middle" class="ps-small">Prompted pixels</text>
+  <path d="M191 168H331" class="ps-wire" marker-end="url(#ps-arrow)"/>
+  <rect x="344" y="141" width="151" height="55" rx="12" fill="#edf3f8" stroke="#a4b4c4" stroke-width="2.5" class="ps-top-model"/>
+  <text x="419" y="174" text-anchor="middle" class="ps-small">Frozen model</text>
+  <path d="M506 168H535" class="ps-wire" marker-end="url(#ps-arrow)"/>
+  <g fill="#33998c"><rect x="548" y="145" width="13" height="13" rx="3"/><rect x="568" y="160" width="13" height="13" rx="3"/><rect x="548" y="175" width="13" height="13" rx="3"/></g>
+  <text x="564" y="213" text-anchor="middle" class="ps-small">Task</text>
+  <rect x="195" y="160" width="16" height="16" rx="4" class="ps-top-packet"/>
+  <text x="43" y="269" class="ps-label">Token-level prompt tuning</text>
+  <g fill="#4479b5"><rect x="49" y="295" width="26" height="37" rx="5"/><rect x="83" y="295" width="26" height="37" rx="5"/><rect x="117" y="295" width="26" height="37" rx="5"/></g>
+  <g fill="#927bb4" class="ps-learned"><rect x="178" y="295" width="26" height="37" rx="5"/><rect x="212" y="295" width="26" height="37" rx="5"/></g>
+  <text x="96" y="361" text-anchor="middle" class="ps-small">Image tokens</text><text x="208" y="361" text-anchor="middle" class="ps-small">Prompts</text>
+  <path d="M252 314H331" class="ps-wire" marker-end="url(#ps-arrow)"/>
+  <rect x="344" y="287" width="151" height="55" rx="12" fill="#edf3f8" stroke="#a4b4c4" stroke-width="2.5" class="ps-bottom-model"/>
+  <text x="419" y="320" text-anchor="middle" class="ps-small">Frozen model</text>
+  <path d="M506 314H535" class="ps-wire" marker-end="url(#ps-arrow)"/>
+  <g fill="#33998c"><rect x="548" y="291" width="13" height="13" rx="3"/><rect x="568" y="306" width="13" height="13" rx="3"/><rect x="548" y="321" width="13" height="13" rx="3"/></g>
+  <text x="564" y="359" text-anchor="middle" class="ps-small">Task</text>
+  <rect x="247" y="306" width="16" height="16" rx="4" class="ps-bottom-packet"/>
+</svg>
