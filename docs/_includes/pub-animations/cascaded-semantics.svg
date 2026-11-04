@@ -1,44 +1,384 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="cs-title cs-desc">
-  <title id="cs-title">Cascaded Semantics</title>
-  <desc id="cs-desc">Color, texture, and shape priors initialize visual prompts. Attention-derived semantic prompts guide successive frozen transformer layers. Blue image tokens and colored prompt tokens flow through the layers.</desc>
-  <defs>
-    <marker id="cs-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker>
-  </defs>
-  <style>
-    .cs-text{font-family:Arial,sans-serif;fill:#243b53}.cs-title{font-size:24px;font-weight:700}.cs-label{font-size:20px;font-weight:600}.cs-small{font-size:18px}.cs-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#cs-arrow)}
-    .cs-image-token{animation:cs-image-flow 7s linear infinite}.cs-image-token-two{animation-delay:-3.5s}.cs-prompt-one{animation:cs-prompt-flow 7s ease-in-out infinite}.cs-prompt-two{animation:cs-prompt-flow 7s ease-in-out -2.3s infinite}.cs-prompt-three{animation:cs-prompt-flow 7s ease-in-out -4.6s infinite}.cs-attention{animation:cs-attention-flow 7s linear infinite;stroke:#927bb4;stroke-dasharray:6 8}.cs-attention-teal{stroke:#33998c}.cs-layer-one{animation:cs-layer-glow 7s ease-in-out infinite}.cs-layer-two{animation:cs-layer-glow 7s ease-in-out -2.3s infinite}.cs-layer-three{animation:cs-layer-glow 7s ease-in-out -4.6s infinite}
-    @keyframes cs-image-flow{0%{transform:translateX(0);opacity:0}8%{opacity:1}88%{opacity:1}100%{transform:translateX(462px);opacity:0}}
-    @keyframes cs-prompt-flow{0%,15%{transform:translateY(0);opacity:1}48%{transform:translateY(55px);opacity:1}62%,100%{transform:translateY(55px);opacity:0}}
-    @keyframes cs-attention-flow{to{stroke-dashoffset:-98}}
-    @keyframes cs-layer-glow{0%,65%,100%{fill:#edf3fa}25%,45%{fill:#d5e5f5}}
-    @media(prefers-reduced-motion:reduce){.cs-image-token,.cs-prompt-one,.cs-prompt-two,.cs-prompt-three,.cs-attention,.cs-layer-one,.cs-layer-two,.cs-layer-three{animation:none!important}}
-  </style>
-  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
-  <text class="cs-text cs-title" x="28" y="39">Cascaded Semantics</text>
-  <rect x="24" y="65" width="592" height="58" rx="14" fill="white" stroke="#d8e2eb" stroke-width="2"/>
-  <circle cx="48" cy="94" r="7" fill="#de9862"/><text class="cs-text cs-small" x="63" y="101">Color · texture · shape</text>
-  <path d="M304 80v28" stroke="#d8e2eb" stroke-width="2"/>
-  <circle cx="332" cy="94" r="7" fill="#927bb4"/><text class="cs-text cs-small" x="347" y="101">Attention-derived priors</text>
-  <rect x="24" y="139" width="592" height="202" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
-  <path class="cs-line" d="M167 123V174"/>
-  <path class="cs-line cs-attention" d="M480 123V151H359V174" stroke="#927bb4"/>
-  <path class="cs-line cs-attention" d="M480 151H517V174" stroke="#927bb4"/>
-  <rect x="123" y="177" width="91" height="34" rx="9" fill="#f5dfce" stroke="#de9862" stroke-width="2"/><text class="cs-text cs-small" x="168" y="200" text-anchor="middle">Prompt</text>
-  <rect x="311" y="177" width="94" height="34" rx="9" fill="#eae4f2" stroke="#927bb4" stroke-width="2"/><text class="cs-text cs-small" x="358" y="200" text-anchor="middle">Prompt</text>
-  <rect x="469" y="177" width="94" height="34" rx="9" fill="#dff0ec" stroke="#33998c" stroke-width="2"/><text class="cs-text cs-small" x="516" y="200" text-anchor="middle">Prompt</text>
-  <path class="cs-line" d="M168 211V235M358 211V235M516 211V235"/>
-  <g stroke="#4479b5" stroke-width="1.5"><rect x="40" y="249" width="21" height="21" rx="4" fill="#cfe0f2"/><rect x="65" y="249" width="21" height="21" rx="4" fill="#a8c5e3"/><rect x="40" y="274" width="21" height="21" rx="4" fill="#e7eff8"/><rect x="65" y="274" width="21" height="21" rx="4" fill="#cfe0f2"/></g>
-  <text class="cs-text cs-small" x="64" y="325" text-anchor="middle">Image</text>
-  <path class="cs-line" d="M92 271H123M215 271H310M406 271H469M563 271H602"/>
-  <rect class="cs-layer-one" x="124" y="239" width="90" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
-  <rect class="cs-layer-two" x="311" y="239" width="94" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
-  <rect class="cs-layer-three" x="470" y="239" width="94" height="65" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
-  <text class="cs-text cs-label" x="169" y="264" text-anchor="middle">Layer 1</text><text class="cs-text cs-small" x="169" y="288" text-anchor="middle">frozen</text>
-  <text class="cs-text cs-label" x="358" y="264" text-anchor="middle">Layer 2</text><text class="cs-text cs-small" x="358" y="288" text-anchor="middle">frozen</text>
-  <text class="cs-text cs-label" x="517" y="264" text-anchor="middle">Layer 3</text><text class="cs-text cs-small" x="517" y="288" text-anchor="middle">frozen</text>
-  <path class="cs-line cs-attention" d="M215 250C267 250 259 194 309 194" stroke="#927bb4"/>
-  <path class="cs-line cs-attention cs-attention-teal" d="M406 250C440 250 437 194 467 194"/>
-  <circle class="cs-image-token" cx="108" cy="271" r="6" fill="#4479b5" stroke="white" stroke-width="2"/><circle class="cs-image-token cs-image-token-two" cx="108" cy="271" r="6" fill="#4479b5" stroke="white" stroke-width="2"/>
-  <circle class="cs-prompt-one" cx="168" cy="217" r="6" fill="#de9862" stroke="white" stroke-width="2"/><circle class="cs-prompt-two" cx="358" cy="217" r="6" fill="#927bb4" stroke="white" stroke-width="2"/><circle class="cs-prompt-three" cx="516" cy="217" r="6" fill="#33998c" stroke="white" stroke-width="2"/>
-  <text class="cs-text cs-label" x="320" y="377" text-anchor="middle">Image priors → attention-guided prompts</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2280 1010" role="img" aria-labelledby="cascaded-semantics-title cascaded-semantics-desc">
+<title id="cascaded-semantics-title">Cascaded Semantics — published method figure</title><desc id="cascaded-semantics-desc">Redraw of Figure 2, paper page 5: fundamental image-prior construction, frozen backbone with prompt and attention skip-cascade, and FC–Softmax–FC re-weighting adapter. Panel letters follow the drawing, whose caption has b/c interchanged.</desc>
+<style>.cascaded-semantics-flow{fill:none;stroke:#DC8D50;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 34;opacity:.15;animation:cascaded-semantics-travel 2.2s linear infinite,cascaded-semantics-active 12s ease-in-out infinite;pointer-events:none}.cascaded-semantics-pulse{fill:none;stroke:#D78348;stroke-width:3.8;opacity:.25;animation:cascaded-semantics-pulse 12s ease-in-out infinite;pointer-events:none}@keyframes cascaded-semantics-travel{to{stroke-dashoffset:-88}}@keyframes cascaded-semantics-active{0%,100%{opacity:.05}8%,22%{opacity:1}35%,96%{opacity:.05}}@keyframes cascaded-semantics-pulse{0%,100%{opacity:.12}10%,23%{opacity:.9}38%,92%{opacity:.12}}@media(prefers-reduced-motion:reduce){.cascaded-semantics-flow,.cascaded-semantics-pulse{animation:none;opacity:.15}}</style>
+<defs>
+<marker id="cascaded-semantics-arrow-042433" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#042433"/></marker>
+<marker id="cascaded-semantics-arrow-729953" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#729953"/></marker>
+<marker id="cascaded-semantics-arrow-C6A543" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#C6A543"/></marker>
+<marker id="cascaded-semantics-arrow-C76E58" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#C76E58"/></marker>
+</defs><rect width="100%" height="100%" fill="white"/>
+<rect x="20" y="20" width="900" height="285" rx="12" fill="#FFF4E9" stroke="#B6C2C9" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="38" y="52" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="26" font-weight="700" text-anchor="start">
+<tspan x="38" dy="0">Fundamental Image Prior Visual Prompt</tspan>
+</text>
+<text x="38" y="126" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="38" dy="0">Shape</tspan>
+</text>
+<rect x="165" y="104" width="32" height="32" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="197" y="104" width="32" height="32" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="229" y="104" width="32" height="32" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<polygon points="165,104 173,95 205,95 197,104" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<polygon points="197,104 205,95 237,95 229,104" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<polygon points="229,104 237,95 269,95 261,104" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<path d="M159.0,91.0 L177.0,91.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M163.5,83.20577136594005 L172.5,98.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M172.5,83.20577136594005 L163.5,98.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M270,121 L298,121" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M270,121 L298,121" class="cascaded-semantics-flow" style="animation-delay:-0s,0s"/>
+<text x="38" y="185" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="38" dy="0">Texture</tspan>
+</text>
+<rect x="165" y="163" width="32" height="32" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="197" y="163" width="32" height="32" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="229" y="163" width="32" height="32" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<polygon points="165,163 173,154 205,154 197,163" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="197,163 205,154 237,154 229,163" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="229,163 237,154 269,154 261,163" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<path d="M159.0,150.0 L177.0,150.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M163.5,142.20577136594005 L172.5,157.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M172.5,142.20577136594005 L163.5,157.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M270,180 L298,180" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M270,180 L298,180" class="cascaded-semantics-flow" style="animation-delay:-0s,0s"/>
+<text x="38" y="244" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="38" dy="0">Color</tspan>
+<tspan x="38" dy="28.16">Histogram</tspan>
+</text>
+<rect x="165" y="222" width="32" height="32" rx="3" fill="#EEDAEC" stroke="#042433" stroke-width="2"/>
+<rect x="197" y="222" width="32" height="32" rx="3" fill="#EEDAEC" stroke="#042433" stroke-width="2"/>
+<rect x="229" y="222" width="32" height="32" rx="3" fill="#EEDAEC" stroke="#042433" stroke-width="2"/>
+<polygon points="165,222 173,213 205,213 197,222" fill="#EEDAEC" stroke="#042433" stroke-width="1.3"/>
+<polygon points="197,222 205,213 237,213 229,222" fill="#EEDAEC" stroke="#042433" stroke-width="1.3"/>
+<polygon points="229,222 237,213 269,213 261,222" fill="#EEDAEC" stroke="#042433" stroke-width="1.3"/>
+<path d="M159.0,209.0 L177.0,209.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M163.5,201.20577136594005 L172.5,216.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M172.5,201.20577136594005 L163.5,216.79422863405995" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M270,239 L298,239" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M270,239 L298,239" class="cascaded-semantics-flow" style="animation-delay:-0s,0s"/>
+<rect x="300" y="92" width="75" height="178" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="300" y="92" width="75" height="178" rx="8" class="cascaded-semantics-pulse" style="animation-delay:1.5s"/>
+<text x="337.5" y="175.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="337.5" dy="0">FC</tspan>
+<tspan x="337.5" dy="25.6">Layer</tspan>
+</text>
+<polygon points="337,263.6 342.85,271.4 340.9,277.25 344.15,274.65 341.55,283.1 333.75,284.4 329.2,277.25 331.15,271.4 333.1,275.95" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="337,272.7 340.25,278.55 337.65,282.45 333.75,280.5" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+<ellipse cx="418" cy="181" rx="22" ry="22" fill="white" stroke="#042433" stroke-width="2.5"/>
+<path d="M404.36,167.36 L431.64,194.64" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M404.36,194.64 L431.64,167.36" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M377,181 L393,181" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M377,181 L393,181" class="cascaded-semantics-flow" style="animation-delay:-0.3s,1.5s"/>
+<rect x="400" y="89" width="32" height="32" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="400" y="89" width="32" height="32" rx="3" class="cascaded-semantics-pulse" style="animation-delay:1.5s"/>
+<rect x="432" y="89" width="32" height="32" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="432" y="89" width="32" height="32" rx="3" class="cascaded-semantics-pulse" style="animation-delay:1.5s"/>
+<rect x="464" y="89" width="32" height="32" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="464" y="89" width="32" height="32" rx="3" class="cascaded-semantics-pulse" style="animation-delay:1.5s"/>
+<polygon points="400,89 408,80 440,80 432,89" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="432,89 440,80 472,80 464,89" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="464,89 472,80 504,80 496,89" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<text x="532" y="111" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="532" dy="0">Learnable prompt</tspan>
+</text>
+<path d="M418,131 L418,155" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M418,131 L418,155" class="cascaded-semantics-flow" style="animation-delay:-0.3s,1.5s"/>
+<path d="M442,181 L482,181" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M442,181 L482,181" class="cascaded-semantics-flow" style="animation-delay:-0.6s,3s"/>
+<rect x="486" y="161" width="43" height="43" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="486" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="529" y="161" width="43" height="43" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="529" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="572" y="161" width="43" height="43" rx="3" fill="#F8F3EF" stroke="#042433" stroke-width="2"/>
+<rect x="572" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="615" y="161" width="43" height="43" rx="3" fill="#F8F3EF" stroke="#042433" stroke-width="2"/>
+<rect x="615" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="658" y="161" width="43" height="43" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="658" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="701" y="161" width="43" height="43" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="701" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="744" y="161" width="43" height="43" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="744" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="787" y="161" width="43" height="43" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="787" y="161" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<polygon points="486,161 494,152 537,152 529,161" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="529,161 537,152 580,152 572,161" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="572,161 580,152 623,152 615,161" fill="#F8F3EF" stroke="#042433" stroke-width="1.3"/>
+<polygon points="615,161 623,152 666,152 658,161" fill="#F8F3EF" stroke="#042433" stroke-width="1.3"/>
+<polygon points="658,161 666,152 709,152 701,161" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="701,161 709,152 752,152 744,161" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="744,161 752,152 795,152 787,161" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<polygon points="787,161 795,152 838,152 830,161" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<text x="660" y="241.1" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+<tspan x="660" dy="0">Fundamental Image</tspan>
+<tspan x="660" dy="29.44">Prior Visual Prompt</tspan>
+</text>
+<text x="445" y="328" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="445" dy="0">(a)</tspan>
+</text>
+<rect x="25" y="380" width="300" height="240" rx="20" fill="white" stroke="#042433" stroke-width="2" stroke-dasharray="9 6"/>
+<ellipse cx="65" cy="425" rx="20" ry="20" fill="white" stroke="#042433" stroke-width="2.5"/>
+<path d="M52.6,412.6 L77.4,437.4" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M52.6,437.4 L77.4,412.6" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="105" y="434" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="start">
+<tspan x="105" dy="0">Concat</tspan>
+</text>
+<ellipse cx="65" cy="490" rx="20" ry="20" fill="white" stroke="#BC5559" stroke-width="2.5"/>
+<path d="M52.4,490 L77.6,490" fill="none" stroke="#BC5559" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M65,477.4 L65,502.6" fill="none" stroke="#BC5559" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="105" y="486" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="start">
+<tspan x="105" dy="0">Channel-wise</tspan>
+<tspan x="105" dy="30.72">Sum</tspan>
+</text>
+<path d="M42,574 L96,574" fill="none" stroke="#729953" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-729953)"/>
+<path d="M42,574 L96,574" class="cascaded-semantics-flow" style="animation-delay:-0.6s,3s"/>
+<text x="115" y="568" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="400" text-anchor="start">
+<tspan x="115" dy="0">Attention Map</tspan>
+<tspan x="115" dy="29.44">Computing</tspan>
+</text>
+<rect x="1000" y="265" width="640" height="515" rx="12" fill="#F4EEF6" stroke="#B6C2C9" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1018" y="297" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="26" font-weight="700" text-anchor="start">
+<tspan x="1018" dy="0">Semantic Prompt</tspan>
+</text>
+<text x="1030" y="346" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="start">
+<tspan x="1030" dy="0">(b)</tspan>
+</text>
+<rect x="1620" y="20" width="630" height="285" rx="12" fill="#FFF8E5" stroke="#B6C2C9" stroke-width="1.8" stroke-dasharray="9 6"/>
+<text x="1638" y="52" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="26" font-weight="700" text-anchor="start">
+<tspan x="1638" dy="0">Re-weighting Adapter</tspan>
+</text>
+<rect x="1647" y="103" width="25" height="125" rx="0" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1710" y="94" width="88" height="144" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="1710" y="94" width="88" height="144" rx="8" class="cascaded-semantics-pulse" style="animation-delay:9s"/>
+<text x="1754.0" y="160.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="1754.0" dy="0">FC</tspan>
+<tspan x="1754.0" dy="25.6">Layer</tspan>
+</text>
+<rect x="1845" y="94" width="88" height="144" rx="8" fill="#EDEDED" stroke="#042433" stroke-width="2"/>
+<rect x="1845" y="94" width="88" height="144" rx="8" class="cascaded-semantics-pulse" style="animation-delay:9s"/>
+<text x="1889.0" y="172.8" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="1889.0" dy="0">Softmax</tspan>
+</text>
+<rect x="1980" y="94" width="88" height="144" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="1980" y="94" width="88" height="144" rx="8" class="cascaded-semantics-pulse" style="animation-delay:9s"/>
+<text x="2024.0" y="160.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="2024.0" dy="0">FC</tspan>
+<tspan x="2024.0" dy="25.6">Layer</tspan>
+</text>
+<path d="M1675,165 L1705,165" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1675,165 L1705,165" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<path d="M1800,165 L1840,165" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1800,165 L1840,165" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<path d="M1935,165 L1975,165" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1935,165 L1975,165" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<ellipse cx="2134" cy="165" rx="23" ry="23" fill="white" stroke="#BC5559" stroke-width="2.5"/>
+<path d="M2119.51,165 L2148.49,165" fill="none" stroke="#BC5559" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M2134,150.51 L2134,179.49" fill="none" stroke="#BC5559" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M2070,165 L2106,165" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M2070,165 L2106,165" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<rect x="2200" y="103" width="25" height="125" rx="0" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<path d="M2160,165 L2195,165" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M2160,165 L2195,165" class="cascaded-semantics-flow" style="animation-delay:-2.1s,10.5s"/>
+<polygon points="1754,248.8 1760.3,257.2 1758.2,263.5 1761.7,260.7 1758.9,269.8 1750.5,271.2 1745.6,263.5 1747.7,257.2 1749.8,262.1" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="1754,258.6 1757.5,264.9 1754.7,269.1 1750.5,267.0" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+<polygon points="2024,248.8 2030.3,257.2 2028.2,263.5 2031.7,260.7 2028.9,269.8 2020.5,271.2 2015.6,263.5 2017.7,257.2 2019.8,262.1" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="2024,258.6 2027.5,264.9 2024.7,269.1 2020.5,267.0" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+<text x="1935" y="329" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="1935" dy="0">(c)</tspan>
+</text>
+<text x="216" y="750" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="29" font-weight="700" text-anchor="middle">
+<tspan x="216" dy="0">Input Image</tspan>
+</text>
+<image x="150" y="780" width="132" height="132" preserveAspectRatio="xMidYMid meet" href="data:image/jpeg;base64,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"/>
+<polygon points="592,810 612,789 612,910 592,930" fill="#D0E7C7" stroke="#96B67B" stroke-width="2"/>
+<polygon points="616,798 636,777 636,898 616,918" fill="#D0E7C7" stroke="#96B67B" stroke-width="2"/>
+<polygon points="640,786 660,765 660,886 640,906" fill="#D0E7C7" stroke="#96B67B" stroke-width="2"/>
+<text x="635" y="973" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="29" font-weight="700" text-anchor="middle">
+<tspan x="635" dy="0">Image Feature</tspan>
+</text>
+<path d="M294,845 L570,845" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M294,845 L570,845" class="cascaded-semantics-flow" style="animation-delay:-0s,0s"/>
+<rect x="454" y="430" width="385" height="82" rx="8" fill="#FFF4E9" stroke="#D3935D" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="470" y="448" width="43" height="43" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="470" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="513" y="448" width="43" height="43" rx="3" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="513" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="556" y="448" width="43" height="43" rx="3" fill="#F8F3EF" stroke="#042433" stroke-width="2"/>
+<rect x="556" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="599" y="448" width="43" height="43" rx="3" fill="#F8F3EF" stroke="#042433" stroke-width="2"/>
+<rect x="599" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="642" y="448" width="43" height="43" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="642" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="685" y="448" width="43" height="43" rx="3" fill="#FFE9B6" stroke="#042433" stroke-width="2"/>
+<rect x="685" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="728" y="448" width="43" height="43" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="728" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<rect x="771" y="448" width="43" height="43" rx="3" fill="#DCEAF7" stroke="#042433" stroke-width="2"/>
+<rect x="771" y="448" width="43" height="43" rx="3" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<polygon points="470,448 478,439 521,439 513,448" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="513,448 521,439 564,439 556,448" fill="#F2C39A" stroke="#042433" stroke-width="1.3"/>
+<polygon points="556,448 564,439 607,439 599,448" fill="#F8F3EF" stroke="#042433" stroke-width="1.3"/>
+<polygon points="599,448 607,439 650,439 642,448" fill="#F8F3EF" stroke="#042433" stroke-width="1.3"/>
+<polygon points="642,448 650,439 693,439 685,448" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="685,448 693,439 736,439 728,448" fill="#FFE9B6" stroke="#042433" stroke-width="1.3"/>
+<polygon points="728,448 736,439 779,439 771,448" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<polygon points="771,448 779,439 822,439 814,448" fill="#DCEAF7" stroke="#042433" stroke-width="1.3"/>
+<text x="645" y="556.9" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="27" font-weight="700" text-anchor="middle">
+<tspan x="645" dy="0">Fundamental Image Prior</tspan>
+<tspan x="645" dy="34.56">Visual Prompt</tspan>
+</text>
+<path d="M841,479 L890,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M841,479 L890,479" class="cascaded-semantics-flow" style="animation-delay:-0.6s,3s"/>
+<ellipse cx="813" cy="825" rx="23" ry="23" fill="white" stroke="#042433" stroke-width="2.5"/>
+<path d="M798.74,810.74 L827.26,839.26" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M798.74,839.26 L827.26,810.74" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M813,512 L813,797" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M813,512 L813,797" class="cascaded-semantics-flow" style="animation-delay:-0.6s,3s"/>
+<path d="M690,825 L785,825" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M690,825 L785,825" class="cascaded-semantics-flow" style="animation-delay:-0s,0s"/>
+<path d="M840,825 L890,825" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M840,825 L890,825" class="cascaded-semantics-flow" style="animation-delay:-0.6s,3s"/>
+<rect x="895" y="430" width="90" height="480" rx="8" fill="#BCD2E8" stroke="#8AA6C4" stroke-width="2"/>
+<rect x="895" y="430" width="90" height="480" rx="8" class="cascaded-semantics-pulse" style="animation-delay:3s"/>
+<text x="940" y="474" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="700" text-anchor="middle">
+<tspan x="940" dy="0">L1</tspan>
+</text>
+<path d="M921.0,875.0 L959.0,875.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M930.5,858.5455173280957 L949.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M949.5,858.5455173280957 L930.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="1250" y="430" width="90" height="480" rx="8" fill="#BCD2E8" stroke="#8AA6C4" stroke-width="2"/>
+<rect x="1250" y="430" width="90" height="480" rx="8" class="cascaded-semantics-pulse" style="animation-delay:6s"/>
+<text x="1295" y="474" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="700" text-anchor="middle">
+<tspan x="1295" dy="0">L2</tspan>
+</text>
+<path d="M1276.0,875.0 L1314.0,875.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1285.5,858.5455173280957 L1304.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1304.5,858.5455173280957 L1285.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="1675" y="430" width="90" height="480" rx="8" fill="#BCD2E8" stroke="#8AA6C4" stroke-width="2"/>
+<rect x="1675" y="430" width="90" height="480" rx="8" class="cascaded-semantics-pulse" style="animation-delay:7.5s"/>
+<text x="1720" y="474" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="700" text-anchor="middle">
+<tspan x="1720" dy="0">L3</tspan>
+</text>
+<path d="M1701.0,875.0 L1739.0,875.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1710.5,858.5455173280957 L1729.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1729.5,858.5455173280957 L1710.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="1825" y="430" width="90" height="480" rx="8" fill="#BCD2E8" stroke="#8AA6C4" stroke-width="2"/>
+<rect x="1825" y="430" width="90" height="480" rx="8" class="cascaded-semantics-pulse" style="animation-delay:9s"/>
+<text x="1870" y="474" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="700" text-anchor="middle">
+<tspan x="1870" dy="0">LN</tspan>
+</text>
+<path d="M1851.0,875.0 L1889.0,875.0" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1860.5,858.5455173280957 L1879.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1879.5,858.5455173280957 L1860.5,891.4544826719043" fill="none" stroke="#568DB7" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1795" cy="632" rx="5" ry="5" fill="#042433" stroke="#042433" stroke-width="2"/>
+<ellipse cx="1795" cy="663" rx="5" ry="5" fill="#042433" stroke="#042433" stroke-width="2"/>
+<ellipse cx="1795" cy="694" rx="5" ry="5" fill="#042433" stroke="#042433" stroke-width="2"/>
+<rect x="1010" y="446" width="150" height="65" rx="8" fill="#FFF0DA" stroke="#D9B85C" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1010" y="446" width="150" height="65" rx="8" class="cascaded-semantics-pulse" style="animation-delay:4.5s"/>
+<text x="1085.0" y="487.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="middle">
+<tspan x="1085.0" dy="0">Prompt 1</tspan>
+</text>
+<rect x="1400" y="446" width="150" height="65" rx="8" fill="#FFF0DA" stroke="#D9B85C" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1400" y="446" width="150" height="65" rx="8" class="cascaded-semantics-pulse" style="animation-delay:6s"/>
+<text x="1475.0" y="487.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="middle">
+<tspan x="1475.0" dy="0">Prompt 2</tspan>
+</text>
+<path d="M986,479 L1005,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M986,479 L1005,479" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1165,479 L1245,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1165,479 L1245,479" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1342,479 L1395,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1342,479 L1395,479" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<rect x="1010" y="794" width="150" height="65" rx="8" fill="#D0E7C7" stroke="#A7BA79" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1010" y="794" width="150" height="65" rx="8" class="cascaded-semantics-pulse" style="animation-delay:4.5s"/>
+<text x="1085.0" y="835.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="middle">
+<tspan x="1085.0" dy="0">Feature 1</tspan>
+</text>
+<rect x="1400" y="794" width="150" height="65" rx="8" fill="#D0E7C7" stroke="#A7BA79" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1400" y="794" width="150" height="65" rx="8" class="cascaded-semantics-pulse" style="animation-delay:6s"/>
+<text x="1475.0" y="835.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="middle">
+<tspan x="1475.0" dy="0">Feature 2</tspan>
+</text>
+<path d="M986,826 L1005,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M986,826 L1005,826" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1165,826 L1245,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1165,826 L1245,826" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1342,826 L1395,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1342,826 L1395,826" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1556,826 L1670,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1556,826 L1670,826" class="cascaded-semantics-flow" style="animation-delay:-1.5s,7.5s"/>
+<rect x="1010" y="675" width="150" height="68" rx="8" fill="#EDEDED" stroke="#D47966" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1010" y="675" width="150" height="68" rx="8" class="cascaded-semantics-pulse" style="animation-delay:4.5s"/>
+<text x="1085.0" y="701.8" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+<tspan x="1085.0" dy="0">Attention</tspan>
+<tspan x="1085.0" dy="30.72">Map 1</tspan>
+</text>
+<path d="M1085,790 L1085,748" fill="none" stroke="#729953" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-729953)"/>
+<path d="M1085,790 L1085,748" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<rect x="1400" y="675" width="150" height="68" rx="8" fill="#EDEDED" stroke="#D47966" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="1400" y="675" width="150" height="68" rx="8" class="cascaded-semantics-pulse" style="animation-delay:6s"/>
+<text x="1475.0" y="701.8" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+<tspan x="1475.0" dy="0">Attention</tspan>
+<tspan x="1475.0" dy="30.72">Map 2</tspan>
+</text>
+<path d="M1475,790 L1475,748" fill="none" stroke="#729953" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-729953)"/>
+<path d="M1475,790 L1475,748" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<rect x="1180" y="565" width="62" height="150" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="1180" y="565" width="62" height="150" rx="8" class="cascaded-semantics-pulse" style="animation-delay:6s"/>
+<text x="1211.0" y="634.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="1211.0" dy="0">FC</tspan>
+<tspan x="1211.0" dy="25.6">Layer</tspan>
+</text>
+<rect x="1565" y="565" width="62" height="150" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="1565" y="565" width="62" height="150" rx="8" class="cascaded-semantics-pulse" style="animation-delay:7.5s"/>
+<text x="1596.0" y="634.0" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="1596.0" dy="0">FC</tspan>
+<tspan x="1596.0" dy="25.6">Layer</tspan>
+</text>
+<polygon points="1166,627.8 1172.3,636.2 1170.2,642.5 1173.7,639.7 1170.9,648.8 1162.5,650.2 1157.6,642.5 1159.7,636.2 1161.8,641.1" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="1166,637.6 1169.5,643.9 1166.7,648.1 1162.5,646.0" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+<polygon points="1550,627.8 1556.3,636.2 1554.2,642.5 1557.7,639.7 1554.9,648.8 1546.5,650.2 1541.6,642.5 1543.7,636.2 1545.8,641.1" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="1550,637.6 1553.5,643.9 1550.7,648.1 1546.5,646.0" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+<path d="M1165,710 L1170,710 L1170,750 L1211,750 L1211,720" fill="none" stroke="#C76E58" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-C76E58)"/>
+<path d="M1165,710 L1170,710 L1170,750 L1211,750 L1211,720" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1555,710 L1560,710 L1560,750 L1596,750 L1596,720" fill="none" stroke="#C76E58" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-C76E58)"/>
+<path d="M1555,710 L1560,710 L1560,750 L1596,750 L1596,720" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1211,563 L1211,367 L1635,367 L1635,451" fill="none" stroke="#C76E58" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-C76E58)"/>
+<path d="M1211,563 L1211,367 L1635,367 L1635,451" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1085,444 L1085,322 L1610,322 L1610,455" fill="none" stroke="#C6A543" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-C6A543)"/>
+<path d="M1085,444 L1085,322 L1610,322 L1610,455" class="cascaded-semantics-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M1596,563 L1596,535 L1635,535 L1635,507" fill="none" stroke="#C76E58" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="9 6" marker-end="url(#cascaded-semantics-arrow-C76E58)"/>
+<path d="M1596,563 L1596,535 L1635,535 L1635,507" class="cascaded-semantics-flow" style="animation-delay:-1.5s,7.5s"/>
+<rect x="1197" y="459" width="29" height="34" rx="0" fill="#F4EEF6" stroke="none" stroke-width="2"/>
+<path d="M1196,479 L1203,468 L1211,465 L1219,468 L1227,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round"/>
+<ellipse cx="1635" cy="479" rx="26" ry="26" fill="white" stroke="#042433" stroke-width="2.5"/>
+<path d="M1618.88,462.88 L1651.12,495.12" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1618.88,495.12 L1651.12,462.88" fill="none" stroke="#042433" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1555,479 L1603,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1555,479 L1603,479" class="cascaded-semantics-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1664,479 L1670,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1664,479 L1670,479" class="cascaded-semantics-flow" style="animation-delay:-1.5s,7.5s"/>
+<path d="M1768,479 L1820,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1768,479 L1820,479" class="cascaded-semantics-flow" style="animation-delay:-1.5s,7.5s"/>
+<path d="M1918,479 L2005,479" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1918,479 L2005,479" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<path d="M1768,826 L1820,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1768,826 L1820,826" class="cascaded-semantics-flow" style="animation-delay:-1.5s,7.5s"/>
+<path d="M1918,826 L2005,826" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M1918,826 L2005,826" class="cascaded-semantics-flow" style="animation-delay:-1.8s,9s"/>
+<rect x="2010" y="425" width="110" height="490" rx="8" fill="#FFF8DD" stroke="#AA9B63" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="2010" y="425" width="110" height="490" rx="8" class="cascaded-semantics-pulse" style="animation-delay:9s"/>
+<text x="2065.0" y="651.1999999999999" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+<tspan x="2065.0" dy="0">Re-</tspan>
+<tspan x="2065.0" dy="25.6">weighting</tspan>
+<tspan x="2065.0" dy="25.6">Adapter</tspan>
+</text>
+<rect x="2180" y="612" width="75" height="200" rx="8" fill="#F2C39A" stroke="#042433" stroke-width="2"/>
+<rect x="2180" y="612" width="75" height="200" rx="8" class="cascaded-semantics-pulse" style="animation-delay:10.5s"/>
+<text x="2217.5" y="721.52" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+<tspan x="2217.5" dy="0">Head</tspan>
+</text>
+<path d="M2124,712 L2175,712" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#cascaded-semantics-arrow-042433)"/>
+<path d="M2124,712 L2175,712" class="cascaded-semantics-flow" style="animation-delay:-2.1s,10.5s"/>
+<polygon points="2220,829.6 2228.1,840.4 2225.4,848.5 2229.9,844.9 2226.3,856.6 2215.5,858.4 2209.2,848.5 2211.9,840.4 2214.6,846.7" fill="#DC8D50" stroke="#DC8D50" stroke-width="1"/>
+<polygon points="2220,842.2 2224.5,850.3 2220.9,855.7 2215.5,853.0" fill="#FFE9B6" stroke="#FFE9B6" stroke-width="1"/>
+{% if include.static %}<style>.cascaded-semantics-flow,.cascaded-semantics-pulse{display:none!important}</style>{% endif %}
 </svg>

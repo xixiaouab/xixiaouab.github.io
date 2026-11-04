@@ -1,43 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="sl-title sl-desc">
-  <title id="sl-title">StructLoRA: structured, task-aware low-rank adaptation</title>
-  <desc id="sl-desc">An information-bottleneck filter removes task-irrelevant low-rank directions. Retained directions travel to a training-only graph that coordinates layer updates. The final update is merged into pretrained weights, adding no inference overhead.</desc>
-  <defs><marker id="sl-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker></defs>
-  <style>
-    .sl-text{font-family:Arial,sans-serif;fill:#243b53}.sl-title{font-size:24px;font-weight:700}.sl-label{font-size:20px;font-weight:600}.sl-small{font-size:18px}.sl-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#sl-arrow)}
-    .sl-retained{animation:sl-retain-flow 7s linear infinite}.sl-retained-two{animation-delay:-3.5s}.sl-discarded{animation:sl-filter-flow 7s ease-in-out infinite}.sl-discarded-two{animation-delay:-3.5s}.sl-graph-flow{animation:sl-coordinate 7s linear infinite;stroke-dasharray:6 8}.sl-merge-token{animation:sl-merge 7s ease-in-out infinite}.sl-filter{animation:sl-filter-highlight 7s ease-in-out infinite}
-    @keyframes sl-retain-flow{0%{transform:translate(0,0);opacity:0}8%{opacity:1}32%{transform:translate(55px,0);opacity:1}40%{transform:translate(55px,0);opacity:0}54%{transform:translate(190px,0);opacity:0}62%{transform:translate(190px,0);opacity:1}90%{transform:translate(235px,0);opacity:1}100%{transform:translate(235px,0);opacity:0}}
-    @keyframes sl-filter-flow{0%{transform:translate(0,0);opacity:0}10%{opacity:1}45%{transform:translate(112px,0);opacity:1}70%,100%{transform:translate(128px,75px);opacity:0}}
-    @keyframes sl-coordinate{to{stroke-dashoffset:-98}}
-    @keyframes sl-merge{0%,40%{transform:translateX(0);opacity:0}50%{opacity:1}88%{opacity:1}100%{transform:translateX(129px);opacity:0}}
-    @keyframes sl-filter-highlight{0%,70%,100%{fill:#f9eee5}25%,50%{fill:#f3d9c4}}
-    @media(prefers-reduced-motion:reduce){.sl-retained,.sl-discarded,.sl-graph-flow,.sl-merge-token,.sl-filter{animation:none!important}}
-  </style>
-  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
-  <text class="sl-text sl-title" x="28" y="39">StructLoRA: keep useful directions</text>
-  <rect x="24" y="65" width="592" height="241" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
-  <text class="sl-text sl-label" x="115" y="96" text-anchor="middle">Low-rank</text><text class="sl-text sl-small" x="115" y="120" text-anchor="middle">directions</text>
-  <text class="sl-text sl-label" x="300" y="96" text-anchor="middle">IB filtering</text>
-  <text class="sl-text sl-label" x="508" y="96" text-anchor="middle">Layer graph</text><text class="sl-text sl-small" x="508" y="120" text-anchor="middle">training only</text>
-  <path d="M54 188 163 145M54 188H163M54 188 163 231" fill="none" stroke="#4479b5" stroke-width="3" stroke-linecap="round"/>
-  <path d="M54 188 163 165M54 188 163 211" fill="none" stroke="#de9862" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="54" cy="188" r="9" fill="#4479b5"/>
-  <path class="sl-line" d="M166 188H232M364 188H422"/>
-  <path class="sl-filter" d="M235 137H363L333 238H265Z" fill="#f9eee5" stroke="#de9862" stroke-width="2.5"/>
-  <text class="sl-text" x="299" y="185" text-anchor="middle" font-size="28" font-weight="700">IB</text>
-  <text class="sl-text sl-small" x="299" y="212" text-anchor="middle">filter</text>
-  <path class="sl-line" d="M429 224 506 153 584 224" marker-end="none" stroke="#33998c"/>
-  <path class="sl-graph-flow" d="M429 224H584L506 153Z" fill="none" stroke="#33998c" stroke-width="3"/>
-  <g fill="#dff0ec" stroke="#33998c" stroke-width="2.5"><circle cx="506" cy="153" r="24"/><circle cx="429" cy="224" r="24"/><circle cx="584" cy="224" r="24"/></g>
-  <text class="sl-text sl-small" x="506" y="159" text-anchor="middle">L1</text><text class="sl-text sl-small" x="429" y="230" text-anchor="middle">L2</text><text class="sl-text sl-small" x="584" y="230" text-anchor="middle">L3</text>
-  <circle class="sl-retained" cx="177" cy="188" r="6" fill="#4479b5" stroke="white" stroke-width="2"/><circle class="sl-retained sl-retained-two" cx="177" cy="188" r="6" fill="#4479b5" stroke="white" stroke-width="2"/>
-  <circle class="sl-discarded" cx="143" cy="165" r="6" fill="#de9862" stroke="white" stroke-width="2"/><circle class="sl-discarded sl-discarded-two" cx="143" cy="211" r="6" fill="#de9862" stroke="white" stroke-width="2"/>
-  <circle cx="54" cy="277" r="6" fill="#4479b5"/><text class="sl-text sl-small" x="68" y="283">Task-relevant</text>
-  <circle cx="267" cy="277" r="6" fill="#de9862"/><text class="sl-text sl-small" x="281" y="283">Filtered out</text>
-  <path class="sl-line" d="M506 249V312H286V323"/>
-  <rect x="24" y="325" width="151" height="49" rx="11" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/><text class="sl-text sl-label" x="99" y="356" text-anchor="middle">Pretrained W</text>
-  <text class="sl-text" x="195" y="358" text-anchor="middle" font-size="28">+</text>
-  <rect x="215" y="325" width="142" height="49" rx="11" fill="#dff0ec" stroke="#33998c" stroke-width="2"/><text class="sl-text sl-label" x="286" y="356" text-anchor="middle">Merged ΔW</text>
-  <path class="sl-line" d="M359 349H410"/>
-  <circle class="sl-merge-token" cx="369" cy="349" r="6" fill="#33998c" stroke="white" stroke-width="2"/>
-  <rect x="414" y="329" width="201" height="41" rx="11" fill="white" stroke="#d8e2eb" stroke-width="2"/><text class="sl-text sl-small" x="515" y="355" text-anchor="middle">Same inference path</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2050 1060" role="img" aria-labelledby="structlora-title structlora-desc">
+<title id="structlora-title">StructLoRA — faithful architecture comparison</title><desc id="structlora-desc">Figure 1, paper page 1: standard LoRA and StructLoRA with x/h bars, pretrained W, A and B low-rank factors, rank/dimension braces, gating vector m, Stage 1 IB Filter, Stage 2 graph coordination and the merged output return path. Filter and graph are training-only.</desc>
+<style>.structlora-flow{fill:none;stroke:#DC8D50;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 34;opacity:.15;animation:structlora-travel 2.2s linear infinite,structlora-active 12s ease-in-out infinite;pointer-events:none}.structlora-pulse{fill:none;stroke:#D78348;stroke-width:3.8;opacity:.25;animation:structlora-pulse 12s ease-in-out infinite;pointer-events:none}@keyframes structlora-travel{to{stroke-dashoffset:-88}}@keyframes structlora-active{0%,100%{opacity:.05}8%,22%{opacity:1}35%,96%{opacity:.05}}@keyframes structlora-pulse{0%,100%{opacity:.12}10%,23%{opacity:.9}38%,92%{opacity:.12}}@media(prefers-reduced-motion:reduce){.structlora-flow,.structlora-pulse{animation:none;opacity:.15}}</style>
+<defs>
+<marker id="structlora-arrow-042433" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#042433"/></marker>
+</defs><rect width="100%" height="100%" fill="white"/>
+<text x="400" y="65" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="48" font-weight="700" text-anchor="middle">
+<tspan x="400" dy="0">LoRA</tspan>
+</text>
+<text x="1360" y="65" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="48" font-weight="700" text-anchor="middle">
+<tspan x="1360" dy="0">StructLoRA</tspan>
+</text>
+<path d="M790,100 L790,1010" fill="none" stroke="#042433" stroke-width="2.3" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<rect x="85" y="146" width="610" height="58" rx="0" fill="#EDEDED" stroke="#042433" stroke-width="2.5"/>
+<text x="60" y="185" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="400" text-anchor="start">
+<tspan x="60" dy="0">h</tspan>
+</text>
+<rect x="85" y="915" width="610" height="58" rx="0" fill="#EDEDED" stroke="#042433" stroke-width="2.5"/>
+<text x="60" y="956" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="400" text-anchor="start">
+<tspan x="60" dy="0">x</tspan>
+</text>
+<rect x="70" y="348" width="310" height="390" rx="8" fill="#C3D0E8" stroke="#042433" stroke-width="2.5"/>
+<text x="225" y="429.8" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="34" font-weight="700" text-anchor="middle">
+<tspan x="225" dy="0">Pretrained</tspan>
+<tspan x="225" dy="43.52">Weights</tspan>
+</text>
+<text x="225" y="660" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="36" font-weight="400" text-anchor="middle">
+<tspan x="225" dy="0">W ∈ R^(d×d)</tspan>
+</text>
+<polygon points="440,348 710,348 658,500 492,500" fill="#F2C39A" stroke="#042433" stroke-width="2.5"/>
+<polygon points="440,348 710,348 658,500 492,500" class="structlora-pulse" style="animation-delay:4.5s"/>
+<text x="575" y="432" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="37" font-weight="400" text-anchor="middle">
+<tspan x="575" dy="0">B = 0</tspan>
+</text>
+<polygon points="492,632 658,632 710,783 440,783" fill="#F2C39A" stroke="#042433" stroke-width="2.5"/>
+<polygon points="492,632 658,632 710,783 440,783" class="structlora-pulse" style="animation-delay:1.5s"/>
+<text x="575" y="728" fill="#042433" font-family="Times New Roman,sans-serif" font-size="34" font-weight="400" text-anchor="middle">
+<tspan x="575" dy="0">A ~ N(0, σ²)</tspan>
+</text>
+<path d="M238,908 L238,744" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M238,908 L238,744" class="structlora-flow" style="animation-delay:-0s,0s"/>
+<path d="M575,908 L575,790" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M575,908 L575,790" class="structlora-flow" style="animation-delay:-0s,0s"/>
+<path d="M238,340 L238,211" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M238,340 L238,211" class="structlora-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M575,340 L575,211" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M575,340 L575,211" class="structlora-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M454,815 L454,829 L695,829 L695,815" fill="none" stroke="#6B9BC1" stroke-width="2" stroke-linejoin="round"/>
+<text x="620" y="865" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="620" dy="0">d</tspan>
+</text>
+<path d="M495,601 L495,588 L655,588 L655,601" fill="none" stroke="#6B9BC1" stroke-width="2" stroke-linejoin="round"/>
+<text x="620" y="572" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="620" dy="0">r</tspan>
+</text>
+<rect x="890" y="146" width="610" height="58" rx="0" fill="#EDEDED" stroke="#042433" stroke-width="2.5"/>
+<text x="865" y="185" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="400" text-anchor="start">
+<tspan x="865" dy="0">h</tspan>
+</text>
+<rect x="890" y="915" width="610" height="58" rx="0" fill="#EDEDED" stroke="#042433" stroke-width="2.5"/>
+<text x="865" y="956" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="400" text-anchor="start">
+<tspan x="865" dy="0">x</tspan>
+</text>
+<rect x="875" y="348" width="310" height="390" rx="8" fill="#C3D0E8" stroke="#042433" stroke-width="2.5"/>
+<text x="1030" y="429.8" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="34" font-weight="700" text-anchor="middle">
+<tspan x="1030" dy="0">Pretrained</tspan>
+<tspan x="1030" dy="43.52">Weights</tspan>
+</text>
+<text x="1030" y="660" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="36" font-weight="400" text-anchor="middle">
+<tspan x="1030" dy="0">W ∈ R^(d×d)</tspan>
+</text>
+<polygon points="1245,348 1515,348 1463,500 1297,500" fill="#F2C39A" stroke="#042433" stroke-width="2.5"/>
+<polygon points="1245,348 1515,348 1463,500 1297,500" class="structlora-pulse" style="animation-delay:4.5s"/>
+<text x="1380" y="432" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="37" font-weight="400" text-anchor="middle">
+<tspan x="1380" dy="0">B = 0</tspan>
+</text>
+<polygon points="1297,632 1463,632 1515,783 1245,783" fill="#F2C39A" stroke="#042433" stroke-width="2.5"/>
+<polygon points="1297,632 1463,632 1515,783 1245,783" class="structlora-pulse" style="animation-delay:1.5s"/>
+<text x="1380" y="728" fill="#042433" font-family="Times New Roman,sans-serif" font-size="34" font-weight="400" text-anchor="middle">
+<tspan x="1380" dy="0">A ~ N(0, σ²)</tspan>
+</text>
+<path d="M1043,908 L1043,744" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1043,908 L1043,744" class="structlora-flow" style="animation-delay:-0s,0s"/>
+<path d="M1380,908 L1380,790" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1380,908 L1380,790" class="structlora-flow" style="animation-delay:-0s,0s"/>
+<path d="M1043,340 L1043,211" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1043,340 L1043,211" class="structlora-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1380,340 L1380,211" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1380,340 L1380,211" class="structlora-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1259,815 L1259,829 L1500,829 L1500,815" fill="none" stroke="#6B9BC1" stroke-width="2" stroke-linejoin="round"/>
+<text x="1425" y="865" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="1425" dy="0">d</tspan>
+</text>
+<path d="M575,627 L575,508" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M575,627 L575,508" class="structlora-flow" style="animation-delay:-0.6s,3s"/>
+<rect x="1335" y="526" width="90" height="74" rx="8" fill="#D0E7C7" stroke="#042433" stroke-width="2.5"/>
+<rect x="1335" y="526" width="90" height="74" rx="8" class="structlora-pulse" style="animation-delay:3s"/>
+<text x="1380.0" y="576.26" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="39" font-weight="400" text-anchor="middle">
+<tspan x="1380.0" dy="0">m</tspan>
+</text>
+<path d="M1380,627 L1380,606" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1380,627 L1380,606" class="structlora-flow" style="animation-delay:-0.3s,1.5s"/>
+<path d="M1380,520 L1380,508" fill="none" stroke="#042433" stroke-width="4" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1380,520 L1380,508" class="structlora-flow" style="animation-delay:-0.9s,4.5s"/>
+<text x="1190" y="531" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="start">
+<tspan x="1190" dy="0">Gating</tspan>
+<tspan x="1190" dy="30.72">Vector</tspan>
+</text>
+<text x="1190" y="611" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="22" font-weight="400" text-anchor="start">
+<tspan x="1190" dy="0">m ∈ [0,1]^r</tspan>
+</text>
+<path d="M1315,526 L1305,526 L1305,600 L1315,600" fill="none" stroke="#6B9BC1" stroke-width="2" stroke-linejoin="round"/>
+<text x="1270" y="577" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="start">
+<tspan x="1270" dy="0">r</tspan>
+</text>
+<rect x="1550" y="315" width="425" height="183" rx="0" fill="#F5FAEF" stroke="#A8C58E" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1938" y="347" fill="#BC5559" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="700" text-anchor="end">
+<tspan x="1938" dy="0">Stage 1</tspan>
+</text>
+<rect x="1600" y="370" width="315" height="92" rx="8" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1600" y="370" width="315" height="92" rx="8" class="structlora-pulse" style="animation-delay:6s"/>
+<text x="1757.5" y="427.22" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="33" font-weight="700" text-anchor="middle">
+<tspan x="1757.5" dy="0">IB Filter</tspan>
+</text>
+<path d="M1430,563 L1515,563 L1515,416 L1592,416" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1430,563 L1515,563 L1515,416 L1592,416" class="structlora-flow" style="animation-delay:-0.9s,4.5s"/>
+<rect x="1550" y="530" width="425" height="336" rx="0" fill="#FFF9E5" stroke="#D8BD6B" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1938" y="563" fill="#BC5559" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="700" text-anchor="end">
+<tspan x="1938" dy="0">Stage 2</tspan>
+</text>
+<path d="M1757,468 L1757,582" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1757,468 L1757,582" class="structlora-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M1757,620 L1635,735" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M1757,620 L1635,735" class="structlora-flow" style="animation-delay:-1.5s,7.5s"/>
+<path d="M1757,620 L1872,735" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M1757,620 L1872,735" class="structlora-flow" style="animation-delay:-1.5s,7.5s"/>
+<path d="M1635,735 L1872,735" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M1635,735 L1872,735" class="structlora-flow" style="animation-delay:-1.5s,7.5s"/>
+<ellipse cx="1757" cy="620" rx="53" ry="53" fill="#FFF3D1" stroke="#042433" stroke-width="2"/>
+<ellipse cx="1757" cy="620" rx="53" ry="53" class="structlora-pulse" style="animation-delay:7.5s"/>
+<text x="1757" y="630.2" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="400" text-anchor="middle">
+<tspan x="1757" dy="0">ΔW_L</tspan>
+</text>
+<ellipse cx="1635" cy="735" rx="53" ry="53" fill="#FFF3D1" stroke="#042433" stroke-width="2"/>
+<ellipse cx="1635" cy="735" rx="53" ry="53" class="structlora-pulse" style="animation-delay:8.25s"/>
+<text x="1635" y="745.2" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="400" text-anchor="middle">
+<tspan x="1635" dy="0">ΔW_1</tspan>
+</text>
+<ellipse cx="1872" cy="735" rx="53" ry="53" fill="#FFF3D1" stroke="#042433" stroke-width="2"/>
+<ellipse cx="1872" cy="735" rx="53" ry="53" class="structlora-pulse" style="animation-delay:9s"/>
+<text x="1872" y="745.2" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="400" text-anchor="middle">
+<tspan x="1872" dy="0">ΔW_2</tspan>
+</text>
+<text x="1757" y="811.3000000000001" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="29" font-weight="700" text-anchor="middle">
+<tspan x="1757" dy="0">Graph</tspan>
+<tspan x="1757" dy="37.12">Coordination</tspan>
+</text>
+<path d="M1757,870 L1757,911" fill="none" stroke="#042433" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1757,870 L1757,911" class="structlora-flow" style="animation-delay:-1.8s,9s"/>
+<rect x="1620" y="917" width="270" height="58" rx="0" fill="#EDEDED" stroke="#042433" stroke-width="2"/>
+<rect x="1620" y="917" width="270" height="58" rx="0" class="structlora-pulse" style="animation-delay:10.5s"/>
+<text x="1670" y="959" fill="#042433" font-family="Times New Roman,sans-serif" font-size="40" font-weight="400" text-anchor="start">
+<tspan x="1670" dy="0">Δ</tspan>
+</text>
+<text x="1700" y="959" fill="#042433" font-family="Times New Roman,sans-serif" font-size="40" font-weight="400" text-anchor="start">
+<tspan x="1700" dy="0">w</tspan>
+</text>
+<text x="1707" y="933" fill="#042433" font-family="Times New Roman,sans-serif" font-size="33" font-weight="400" text-anchor="start">
+<tspan x="1707" dy="0">~</tspan>
+</text>
+<text x="1730" y="941" fill="#042433" font-family="Times New Roman,sans-serif" font-size="27" font-weight="400" text-anchor="start">
+<tspan x="1730" dy="0">final</tspan>
+</text>
+<path d="M1895,946 L2020,946 L2020,172 L1508,172" fill="none" stroke="#042433" stroke-width="3" stroke-linejoin="round" marker-end="url(#structlora-arrow-042433)"/>
+<path d="M1895,946 L2020,946 L2020,172 L1508,172" class="structlora-flow" style="animation-delay:-2.1s,10.5s"/>
+<text x="1765" y="113.3" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="29" font-weight="400" text-anchor="middle">
+<tspan x="1765" dy="0">Merged output</tspan>
+<tspan x="1765" dy="37.12">(zero inference cost)</tspan>
+</text>
+<text x="1757" y="1024" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="25" font-weight="400" text-anchor="middle">
+<tspan x="1757" dy="0">Training-only filter and graph</tspan>
+</text>
+{% if include.static %}<style>.structlora-flow,.structlora-pulse{display:none!important}</style>{% endif %}
 </svg>

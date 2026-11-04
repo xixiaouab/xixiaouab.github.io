@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% include pub-animations/forge.svg static=true %}

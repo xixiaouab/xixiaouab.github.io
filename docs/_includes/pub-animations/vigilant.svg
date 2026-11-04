@@ -1,39 +1,257 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="vig-title vig-desc">
-  <title id="vig-title">VIGIL: counterfactual visual alignment</title>
-  <desc id="vig-desc">Two responses to the same question are compared: one with image evidence and one with vision masked. Moving visual tokens enter the seeing branch, while the blind branch is marked as masked. Counterfactual alignment encourages image-grounded responses.</desc>
-  <defs><marker id="vig-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 9 5 1 9" fill="none" stroke="#243b53" stroke-width="1.6" stroke-linejoin="round"/></marker></defs>
-  <style>
-    .vig-text{font-family:Arial,sans-serif;fill:#243b53}.vig-title{font-size:24px;font-weight:700}.vig-label{font-size:20px;font-weight:600}.vig-small{font-size:18px}.vig-line{fill:none;stroke:#243b53;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#vig-arrow)}
-    .vig-visual-token{animation:vig-visual-flow 7s linear infinite}.vig-visual-token-two{animation-delay:-3.5s}.vig-blind-token{animation:vig-blind-flow 7s linear infinite}.vig-comparison{animation:vig-compare-flow 7s linear infinite;stroke:#33998c;stroke-dasharray:7 7}.vig-comparison-blind{stroke:#de9862}.vig-seeing{animation:vig-grounding 7s ease-in-out infinite}
-    @keyframes vig-visual-flow{0%{transform:translateX(0);opacity:0}8%{opacity:1}35%{transform:translateX(65px);opacity:1}42%{transform:translateX(65px);opacity:0}50%{transform:translateX(220px);opacity:0}58%{transform:translateX(220px);opacity:1}90%{transform:translateX(275px);opacity:1}100%{transform:translateX(275px);opacity:0}}
-    @keyframes vig-blind-flow{0%,22%{transform:translateX(0);opacity:0}30%{opacity:.7}75%{opacity:.7}100%{transform:translateX(53px);opacity:0}}
-    @keyframes vig-compare-flow{to{stroke-dashoffset:-98}}
-    @keyframes vig-grounding{0%,32%,100%{stroke:#4479b5;fill:#edf3fa}50%,78%{stroke:#33998c;fill:#e0f1eb}}
-    @media(prefers-reduced-motion:reduce){.vig-visual-token,.vig-blind-token,.vig-comparison,.vig-seeing{animation:none!important}}
-  </style>
-  <rect width="640" height="400" rx="18" fill="#f8fafc"/>
-  <text class="vig-text vig-title" x="28" y="39">VIGIL: use visual evidence</text>
-  <rect x="24" y="65" width="592" height="267" rx="16" fill="white" stroke="#d8e2eb" stroke-width="2"/>
-  <text class="vig-text vig-small" x="320" y="94" text-anchor="middle">Same question · two visual conditions</text>
-  <text class="vig-text vig-small" x="41" y="124">Seeing</text>
-  <rect x="40" y="135" width="91" height="61" rx="9" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/>
-  <circle cx="61" cy="157" r="7" fill="#de9862"/><path d="m49 186 21-20 15 13 16-26 20 33Z" fill="#c8dfd3" stroke="#33998c" stroke-width="2"/>
-  <text class="vig-text vig-small" x="41" y="226">Blind</text>
-  <rect x="40" y="237" width="91" height="61" rx="9" fill="#f1f3f5" stroke="#b5c1cb" stroke-width="2"/>
-  <path d="m52 249 67 37m0-37-67 37" stroke="#a8b5c0" stroke-width="3" stroke-linecap="round"/><text class="vig-text vig-small" x="86" y="319" text-anchor="middle">Masked</text>
-  <path class="vig-line" d="M133 165H224M133 267H224"/>
-  <rect x="226" y="135" width="132" height="61" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2"/>
-  <rect x="226" y="237" width="132" height="61" rx="12" fill="#f1f3f5" stroke="#a8b5c0" stroke-width="2"/>
-  <text class="vig-text vig-label" x="292" y="173" text-anchor="middle">MLLM</text><text class="vig-text vig-label" x="292" y="275" text-anchor="middle">MLLM</text>
-  <path class="vig-line" d="M360 165H432M360 267H432"/>
-  <rect class="vig-seeing" x="435" y="132" width="161" height="67" rx="12" fill="#edf3fa" stroke="#4479b5" stroke-width="2.5"/>
-  <text class="vig-text vig-small" x="515" y="159" text-anchor="middle">Seeing</text><text class="vig-text vig-label" x="515" y="183" text-anchor="middle">response</text>
-  <rect x="435" y="234" width="161" height="67" rx="12" fill="#f9eee5" stroke="#de9862" stroke-width="2"/>
-  <text class="vig-text vig-small" x="515" y="261" text-anchor="middle">Blind</text><text class="vig-text vig-label" x="515" y="285" text-anchor="middle">response</text>
-  <circle class="vig-visual-token" cx="149" cy="165" r="7" fill="#33998c" stroke="white" stroke-width="2"/><circle class="vig-visual-token vig-visual-token-two" cx="149" cy="165" r="7" fill="#33998c" stroke="white" stroke-width="2"/>
-  <circle class="vig-blind-token" cx="371" cy="267" r="6" fill="#de9862" stroke="white" stroke-width="2"/>
-  <path class="vig-line vig-comparison" d="M608 165V346H480" stroke="#33998c"/>
-  <path class="vig-line vig-comparison vig-comparison-blind" d="M515 302V346H480"/>
-  <rect x="160" y="336" width="317" height="40" rx="11" fill="#e0f1eb" stroke="#33998c" stroke-width="2"/>
-  <text class="vig-text vig-label" x="318" y="362" text-anchor="middle">Counterfactual alignment</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1100" role="img" aria-labelledby="vigilant-title vigilant-desc">
+<title id="vigilant-title">VIGIL — faithful Figure 3 redraw</title><desc id="vigilant-desc">Figure 3, paper page 6: matched seeing and attention-masked blind forward passes, seeing/blind likelihoods and VIG, and the exact dynamic-gating objective. Identical input tensors are retained; only text-query to visual-key/value attention is blocked.</desc>
+<style>.vigilant-flow{fill:none;stroke:#DC8D50;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 34;opacity:.15;animation:vigilant-travel 2.2s linear infinite,vigilant-active 12s ease-in-out infinite;pointer-events:none}.vigilant-pulse{fill:none;stroke:#D78348;stroke-width:3.8;opacity:.25;animation:vigilant-pulse 12s ease-in-out infinite;pointer-events:none}@keyframes vigilant-travel{to{stroke-dashoffset:-88}}@keyframes vigilant-active{0%,100%{opacity:.05}8%,22%{opacity:1}35%,96%{opacity:.05}}@keyframes vigilant-pulse{0%,100%{opacity:.12}10%,23%{opacity:.9}38%,92%{opacity:.12}}@media(prefers-reduced-motion:reduce){.vigilant-flow,.vigilant-pulse{animation:none;opacity:.15}}</style>
+<defs>
+<marker id="vigilant-arrow-042433" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#042433"/></marker>
+<marker id="vigilant-arrow-BC5559" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9Z" fill="#BC5559"/></marker>
+</defs><rect width="100%" height="100%" fill="white"/>
+<text x="1200" y="58" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="44" font-weight="700" text-anchor="middle">
+<tspan x="1200" dy="0">Visual Information Gain In aLignment</tspan>
+</text>
+<rect x="20" y="100" width="1280" height="810" rx="12" fill="#F4F8FC" stroke="#B6C2C9" stroke-width="1.8"/>
+<text x="45" y="149" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="48" font-weight="700" text-anchor="start">
+<tspan x="45" dy="0">a</tspan>
+</text>
+<rect x="1320" y="100" width="1060" height="810" rx="12" fill="#FFF9E8" stroke="#B6C2C9" stroke-width="1.8"/>
+<text x="1342" y="149" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="48" font-weight="700" text-anchor="start">
+<tspan x="1342" dy="0">b</tspan>
+</text>
+<text x="180" y="300" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="34" font-weight="700" text-anchor="middle">
+<tspan x="180" dy="0">Input</tspan>
+</text>
+<rect x="42" y="330" width="290" height="320" rx="15" fill="white" stroke="#042433" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="186" y="367" fill="#729953" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+<tspan x="186" dy="0">Visual Tokens x_v</tspan>
+</text>
+<rect x="65" y="389" width="47" height="57" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="65" y="389" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="130" y="389" width="47" height="57" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="130" y="389" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="195" y="389" width="47" height="57" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="195" y="389" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="260" y="389" width="47" height="57" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="260" y="389" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="65" y="514" width="47" height="57" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="65" y="514" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="130" y="514" width="47" height="57" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="130" y="514" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="195" y="514" width="47" height="57" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="195" y="514" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<rect x="260" y="514" width="47" height="57" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="260" y="514" width="47" height="57" rx="3" class="vigilant-pulse" style="animation-delay:0s"/>
+<text x="186" y="615" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+<tspan x="186" dy="0">Text Tokens x_t</tspan>
+</text>
+<text x="185" y="707.0799999999999" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="24" font-weight="400" text-anchor="middle">
+<tspan x="185" dy="0">Input unchanged;</tspan>
+<tspan x="185" dy="30.72">only attention mask</tspan>
+<tspan x="185" dy="30.72">differs (no extra</tspan>
+<tspan x="185" dy="30.72">input tensors).</tspan>
+</text>
+<path d="M335,490 L396,490 L396,297 L470,297" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M335,490 L396,490 L396,297 L470,297" class="vigilant-flow" style="animation-delay:-0s,0s"/>
+<path d="M396,490 L396,686 L470,686" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M396,490 L396,686 L470,686" class="vigilant-flow" style="animation-delay:-0s,0s"/>
+<rect x="476" y="170" width="420" height="316" rx="12" fill="#E7F0FB" stroke="#B6C2C9" stroke-width="1.8"/>
+<text x="685" y="217" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="685" dy="0">Seeing Path (x_v, x_t)</tspan>
+</text>
+<rect x="508" y="261" width="355" height="90" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<rect x="508" y="261" width="355" height="90" rx="8" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<text x="685.5" y="316.54" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="31" font-weight="700" text-anchor="middle">
+<tspan x="685.5" dy="0">Transformer Block</tspan>
+</text>
+<text x="686" y="432" fill="#347AA5" font-family="Comic Sans MS,sans-serif" font-size="27" font-weight="400" text-anchor="middle">
+<tspan x="686" dy="0">Multimodal manifold</tspan>
+</text>
+<rect x="936" y="173" width="338" height="313" rx="8" fill="white" stroke="#042433" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="1105" y="211" fill="#729953" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="400" text-anchor="middle">
+<tspan x="1105" dy="0">Visual Tokens x_v</tspan>
+</text>
+<rect x="963" y="230" width="49" height="56" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="963" y="230" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1034" y="230" width="49" height="56" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1034" y="230" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1105" y="230" width="49" height="56" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1105" y="230" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1176" y="230" width="49" height="56" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1176" y="230" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="963" y="368" width="49" height="56" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="963" y="368" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1034" y="368" width="49" height="56" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1034" y="368" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1105" y="368" width="49" height="56" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1105" y="368" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<rect x="1176" y="368" width="49" height="56" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1176" y="368" width="49" height="56" rx="3" class="vigilant-pulse" style="animation-delay:1.5s"/>
+<path d="M988,365 L988,289" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M988,365 L988,289" class="vigilant-flow" style="animation-delay:-0.3s,1.5s"/>
+<path d="M1059,365 L1059,289" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1059,365 L1059,289" class="vigilant-flow" style="animation-delay:-0.3s,1.5s"/>
+<path d="M1130,365 L1130,289" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1130,365 L1130,289" class="vigilant-flow" style="animation-delay:-0.3s,1.5s"/>
+<path d="M1201,365 L1201,289" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1201,365 L1201,289" class="vigilant-flow" style="animation-delay:-0.3s,1.5s"/>
+<rect x="951" y="303" width="307" height="43" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<text x="1104.5" y="332.32" fill="#C37C3F" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+<tspan x="1104.5" dy="0">Text attends to Vision</tspan>
+</text>
+<text x="1105" y="463" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="400" text-anchor="middle">
+<tspan x="1105" dy="0">Text Tokens x_t</tspan>
+</text>
+<path d="M865,262 L936,230" fill="none" stroke="#042433" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<path d="M865,349 L936,424" fill="none" stroke="#042433" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<rect x="476" y="545" width="420" height="316" rx="12" fill="#F1F1F1" stroke="#B6C2C9" stroke-width="1.8"/>
+<text x="685" y="593" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="685" dy="0">Blind Path (x_v∅, x_t)</tspan>
+</text>
+<rect x="508" y="647" width="355" height="90" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<rect x="508" y="647" width="355" height="90" rx="8" class="vigilant-pulse" style="animation-delay:3s"/>
+<text x="685.5" y="702.54" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="31" font-weight="700" text-anchor="middle">
+<tspan x="685.5" dy="0">Transformer Block</tspan>
+</text>
+<text x="686" y="822" fill="#347AA5" font-family="Comic Sans MS,sans-serif" font-size="28" font-weight="400" text-anchor="middle">
+<tspan x="686" dy="0">Textual manifold</tspan>
+</text>
+<rect x="936" y="533" width="338" height="328" rx="8" fill="white" stroke="#042433" stroke-width="2" stroke-dasharray="9 6"/>
+<rect x="961" y="548" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="961" y="548" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1032" y="548" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1032" y="548" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1103" y="548" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1103" y="548" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1174" y="548" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1174" y="548" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="961" y="629" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1032" y="629" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1103" y="629" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="1174" y="629" width="49" height="45" rx="3" fill="#D0E7C7" stroke="#042433" stroke-width="2"/>
+<rect x="961" y="710" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1032" y="710" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1103" y="710" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1174" y="710" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="961" y="791" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="961" y="791" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1032" y="791" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1032" y="791" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1103" y="791" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1103" y="791" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<rect x="1174" y="791" width="49" height="45" rx="3" fill="#CBD5DF" stroke="#042433" stroke-width="2"/>
+<rect x="1174" y="791" width="49" height="45" rx="3" class="vigilant-pulse" style="animation-delay:3s"/>
+<ellipse cx="985" cy="611" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M978,611 L984,617 L994,604" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="985" cy="692" rx="13" ry="13" fill="white" stroke="#BC5559" stroke-width="2"/>
+<path d="M978,685 L992,699" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<path d="M978,699 L992,685" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="985" cy="773" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M978,773 L984,779 L994,766" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1056" cy="611" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1049,611 L1055,617 L1065,604" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1056" cy="692" rx="13" ry="13" fill="white" stroke="#BC5559" stroke-width="2"/>
+<path d="M1049,685 L1063,699" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<path d="M1049,699 L1063,685" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="1056" cy="773" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1049,773 L1055,779 L1065,766" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1127" cy="611" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1120,611 L1126,617 L1136,604" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1127" cy="692" rx="13" ry="13" fill="white" stroke="#BC5559" stroke-width="2"/>
+<path d="M1120,685 L1134,699" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<path d="M1120,699 L1134,685" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="1127" cy="773" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1120,773 L1126,779 L1136,766" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1198" cy="611" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1191,611 L1197,617 L1207,604" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<ellipse cx="1198" cy="692" rx="13" ry="13" fill="white" stroke="#BC5559" stroke-width="2"/>
+<path d="M1191,685 L1205,699" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<path d="M1191,699 L1205,685" fill="none" stroke="#BC5559" stroke-width="2" stroke-linejoin="round"/>
+<ellipse cx="1198" cy="773" rx="13" ry="13" fill="white" stroke="#729953" stroke-width="2"/>
+<path d="M1191,773 L1197,779 L1207,766" fill="none" stroke="#729953" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="1105" y="891" fill="#C37C3F" font-family="Comic Sans MS,sans-serif" font-size="23" font-weight="700" text-anchor="middle">
+<tspan x="1105" dy="0">Mask text-to-vision attention</tspan>
+</text>
+<path d="M865,648 L936,568" fill="none" stroke="#042433" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<path d="M865,735 L936,824" fill="none" stroke="#042433" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<text x="1590" y="165" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="1590" dy="0">Seeing Distribution</tspan>
+</text>
+<path d="M1385,515 L1830,515" fill="none" stroke="#042433" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1385,515 L1385,205" fill="none" stroke="#042433" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<polygon points="1385,515 1385.0,514.8260534046752 1390.5,514.7637871260939 1396.0,514.6813234847905 1401.5,514.5728745785302 1407.0,514.4312523092724 1412.5,514.247610480591 1418.0,514.0111630341603 1423.5,513.7088832528764 1429.0,513.325191329721 1434.5,512.8416406567536 1440.0,512.2366164509455 1445.5,511.4850637794906 1451.0,510.5582655022092 1456.5,509.4236938859052 1462.0,508.04496238923184 1467.5,506.38190605027074 1473.0,504.39081968979076 1478.5,502.0248824222857 1484.0,499.2347944161127 1489.5,495.9696471867548 1495.0,492.17804175293884 1500.5,487.8094596648596 1506.0,482.8158803120068 1511.5,477.1536243009285 1517.0,470.7853875246497 1522.5,463.6824144912246 1528.0,455.8267433941317 1533.5,447.21344030528115 1539.0,437.85272687391455 1544.5,427.7718961836677 1550.0,417.01690607545265 1555.5,405.6535392711431 1561.0,393.7680257884929 1566.5,381.46703585828243 1572.0,368.8769708825177 1577.5,356.14250550188643 1583.0,343.42436469529537 1588.5,330.8963546804531 1594.0,318.7417034828581 1599.5,307.14880433650256 1605.0,296.30649032702183 1610.5,286.3989995997232 1616.0,277.6008148681472 1621.5,270.0715770027479 1627.0,263.9512787302896 1632.5,259.35594008482065 1638.0,256.3739520381923 1643.5,255.06324922596622 1649.0,255.44943809023704 1654.5,257.5249649263269 1660.0,261.2493615935192 1665.5,266.5505577244729 1671.0,273.3271999933496 1676.5,281.45187418235287 1682.0,290.7750869788684 1687.5,301.1298337763472 1693.0,312.33655781124344 1698.5,324.20829565287113 1704.0,336.5558045741616 1709.5,349.19247817593373 1715.0,361.9388766921635 1720.5,374.62672602409236 1726.0,387.10227271302756 1731.5,399.228918525051 1737.0,410.8890957971779 1742.5,421.9853810074327 1748.0,432.440877256023 1753.5,442.19892491745117 1759.0,451.22222251412137 1764.5,459.49145620899753 1770.0,467.00354602080006 1775.5,473.76962015984884 1781.0,479.8128263584807 1786.5,485.1660815990771 1792.0,489.86985028354013 1797.5,493.97002679060455 1803.0,497.5159826847708 1808.5,500.5588226527003 1814.0,503.1498774960949 1819.5,505.3394479761751 1825.0,507.1758005584516 1825,515" fill="#E2EDF5" stroke="none" stroke-width="0"/>
+<path d="M1385.0,514.8260534046752 L1390.5,514.7637871260939 L1396.0,514.6813234847905 L1401.5,514.5728745785302 L1407.0,514.4312523092724 L1412.5,514.247610480591 L1418.0,514.0111630341603 L1423.5,513.7088832528764 L1429.0,513.325191329721 L1434.5,512.8416406567536 L1440.0,512.2366164509455 L1445.5,511.4850637794906 L1451.0,510.5582655022092 L1456.5,509.4236938859052 L1462.0,508.04496238923184 L1467.5,506.38190605027074 L1473.0,504.39081968979076 L1478.5,502.0248824222857 L1484.0,499.2347944161127 L1489.5,495.9696471867548 L1495.0,492.17804175293884 L1500.5,487.8094596648596 L1506.0,482.8158803120068 L1511.5,477.1536243009285 L1517.0,470.7853875246497 L1522.5,463.6824144912246 L1528.0,455.8267433941317 L1533.5,447.21344030528115 L1539.0,437.85272687391455 L1544.5,427.7718961836677 L1550.0,417.01690607545265 L1555.5,405.6535392711431 L1561.0,393.7680257884929 L1566.5,381.46703585828243 L1572.0,368.8769708825177 L1577.5,356.14250550188643 L1583.0,343.42436469529537 L1588.5,330.8963546804531 L1594.0,318.7417034828581 L1599.5,307.14880433650256 L1605.0,296.30649032702183 L1610.5,286.3989995997232 L1616.0,277.6008148681472 L1621.5,270.0715770027479 L1627.0,263.9512787302896 L1632.5,259.35594008482065 L1638.0,256.3739520381923 L1643.5,255.06324922596622 L1649.0,255.44943809023704 L1654.5,257.5249649263269 L1660.0,261.2493615935192 L1665.5,266.5505577244729 L1671.0,273.3271999933496 L1676.5,281.45187418235287 L1682.0,290.7750869788684 L1687.5,301.1298337763472 L1693.0,312.33655781124344 L1698.5,324.20829565287113 L1704.0,336.5558045741616 L1709.5,349.19247817593373 L1715.0,361.9388766921635 L1720.5,374.62672602409236 L1726.0,387.10227271302756 L1731.5,399.228918525051 L1737.0,410.8890957971779 L1742.5,421.9853810074327 L1748.0,432.440877256023 L1753.5,442.19892491745117 L1759.0,451.22222251412137 L1764.5,459.49145620899753 L1770.0,467.00354602080006 L1775.5,473.76962015984884 L1781.0,479.8128263584807 L1786.5,485.1660815990771 L1792.0,489.86985028354013 L1797.5,493.97002679060455 L1803.0,497.5159826847708 L1808.5,500.5588226527003 L1814.0,503.1498774960949 L1819.5,505.3394479761751 L1825.0,507.1758005584516" fill="none" stroke="#3C83AE" stroke-width="4" stroke-linejoin="round"/>
+<path d="M1645,515 L1645,255.0" fill="none" stroke="#70A4C9" stroke-width="2" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<ellipse cx="1645" cy="255.0" rx="6" ry="6" fill="#DC8D50" stroke="#DC8D50" stroke-width="2"/>
+<ellipse cx="1645" cy="255.0" rx="6" ry="6" class="vigilant-pulse" style="animation-delay:6s"/>
+<text x="2095" y="165" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+<tspan x="2095" dy="0">Blind Distribution</tspan>
+</text>
+<path d="M1890,515 L2335,515" fill="none" stroke="#042433" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1890,515 L1890,205" fill="none" stroke="#042433" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<polygon points="1890,515 1890.0,487.6974830230195 1895.5,485.8899216154542 1901.0,484.0043906195146 1906.5,482.04107041820674 1912.0,480.00047638294205 1917.5,477.8834772270185 1923.0,475.6913120620577 1928.5,473.4256059355526 1934.0,471.08838362881835 1939.5,468.6820814982836 1945.0,466.2095571493181 1950.5,463.67409674074037 1956.0,461.07941972982536 1961.5,458.4296808820436 1967.0,455.7294693868846 1972.5,452.98380494086814 1978.0,450.19813068112944 1983.5,447.37830287761943 1989.0,444.5305773188047 1994.5,441.6615923545516 2000.0,438.7783485903692 2005.5,435.88818525906936 2011.0,432.9987533288343 2016.5,430.1179854403159 2022.0,427.2540627993259 2027.5,424.41537918551546 2033.0,421.6105022707645 2038.5,418.84813247337104 2044.0,416.13705960513335 2049.5,413.4861175976091 2055.0,410.90413762081494 2060.5,408.39989993199185 2066.0,405.9820848134361 2071.5,403.659222976435 2077.0,401.43964582274947 2082.5,399.3314359655771 2088.0,397.3423784182997 2093.5,395.4799128613933 2099.0,393.7510873955455 2104.5,392.1625141822255 2110.0,390.720327361697 2115.5,389.4301436228044 2121.0,388.29702577893397 2126.5,387.32544968053276 2132.0,386.5192747666947 2137.5,385.881718526906 2143.0,385.41533510940576 2148.5,385.1219982751811 2154.0,385.0028888567904 2159.5,385.05848683947414 2165.0,385.28856813887114 2170.5,385.6922061056084 2176.0,386.2677777426295 2181.5,387.0129745768864 2187.0,387.92481808348555 2192.5,388.99967951807525 2198.0,390.23330397268643 2203.5,391.62083843187975 2209.0,393.1568635703519 2214.5,394.83542900052055 2220.0,396.6500916494115 2225.5,398.5939569187179 2231.0,400.6597222604619 2236.5,402.83972278345954 2242.0,405.12597849292274 2247.5,407.51024275710665 2253.0,409.984051590961 2258.5,412.53877334722114 2264.0,415.16565841020304 2269.5,417.8558884965786 2275.0,420.6006251804202 2280.5,423.3910572765517 2286.0,426.21844673644296 2291.5,429.0741727342037 2297.0,431.9497736463028 2302.5,434.8369866570753 2308.0,437.72778475247156 2313.5,440.6144108964246 2319.0,443.4894092172377 2324.5,446.3456530650953 2330.0,449.1763698357469 2330,515" fill="#E2EDF5" stroke="none" stroke-width="0"/>
+<path d="M1890.0,487.6974830230195 L1895.5,485.8899216154542 L1901.0,484.0043906195146 L1906.5,482.04107041820674 L1912.0,480.00047638294205 L1917.5,477.8834772270185 L1923.0,475.6913120620577 L1928.5,473.4256059355526 L1934.0,471.08838362881835 L1939.5,468.6820814982836 L1945.0,466.2095571493181 L1950.5,463.67409674074037 L1956.0,461.07941972982536 L1961.5,458.4296808820436 L1967.0,455.7294693868846 L1972.5,452.98380494086814 L1978.0,450.19813068112944 L1983.5,447.37830287761943 L1989.0,444.5305773188047 L1994.5,441.6615923545516 L2000.0,438.7783485903692 L2005.5,435.88818525906936 L2011.0,432.9987533288343 L2016.5,430.1179854403159 L2022.0,427.2540627993259 L2027.5,424.41537918551546 L2033.0,421.6105022707645 L2038.5,418.84813247337104 L2044.0,416.13705960513335 L2049.5,413.4861175976091 L2055.0,410.90413762081494 L2060.5,408.39989993199185 L2066.0,405.9820848134361 L2071.5,403.659222976435 L2077.0,401.43964582274947 L2082.5,399.3314359655771 L2088.0,397.3423784182997 L2093.5,395.4799128613933 L2099.0,393.7510873955455 L2104.5,392.1625141822255 L2110.0,390.720327361697 L2115.5,389.4301436228044 L2121.0,388.29702577893397 L2126.5,387.32544968053276 L2132.0,386.5192747666947 L2137.5,385.881718526906 L2143.0,385.41533510940576 L2148.5,385.1219982751811 L2154.0,385.0028888567904 L2159.5,385.05848683947414 L2165.0,385.28856813887114 L2170.5,385.6922061056084 L2176.0,386.2677777426295 L2181.5,387.0129745768864 L2187.0,387.92481808348555 L2192.5,388.99967951807525 L2198.0,390.23330397268643 L2203.5,391.62083843187975 L2209.0,393.1568635703519 L2214.5,394.83542900052055 L2220.0,396.6500916494115 L2225.5,398.5939569187179 L2231.0,400.6597222604619 L2236.5,402.83972278345954 L2242.0,405.12597849292274 L2247.5,407.51024275710665 L2253.0,409.984051590961 L2258.5,412.53877334722114 L2264.0,415.16565841020304 L2269.5,417.8558884965786 L2275.0,420.6006251804202 L2280.5,423.3910572765517 L2286.0,426.21844673644296 L2291.5,429.0741727342037 L2297.0,431.9497736463028 L2302.5,434.8369866570753 L2308.0,437.72778475247156 L2313.5,440.6144108964246 L2319.0,443.4894092172377 L2324.5,446.3456530650953 L2330.0,449.1763698357469" fill="none" stroke="#3C83AE" stroke-width="4" stroke-linejoin="round"/>
+<path d="M2265,515 L2265,415.65033852770625" fill="none" stroke="#70A4C9" stroke-width="2" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<ellipse cx="2265" cy="415.65033852770625" rx="6" ry="6" fill="#DC8D50" stroke="#DC8D50" stroke-width="2"/>
+<ellipse cx="2265" cy="415.65033852770625" rx="6" ry="6" class="vigilant-pulse" style="animation-delay:6s"/>
+<rect x="1910" y="208" width="380" height="90" rx="8" fill="white" stroke="#BC5559" stroke-width="2"/>
+<rect x="1910" y="208" width="380" height="90" rx="8" class="vigilant-pulse" style="animation-delay:6s"/>
+<text x="2100.0" y="243.7" fill="#BC5559" font-family="Comic Sans MS,sans-serif" font-size="31" font-weight="700" text-anchor="middle">
+<tspan x="2100.0" dy="0">Penalize blind</tspan>
+<tspan x="2100.0" dy="39.68">confidence</tspan>
+</text>
+<path d="M2100,302 L2100,371" fill="none" stroke="#BC5559" stroke-width="5" stroke-linejoin="round" marker-end="url(#vigilant-arrow-BC5559)"/>
+<path d="M2100,302 L2100,371" class="vigilant-flow" style="animation-delay:-1.2s,6s"/>
+<path d="M2265,416 L2325,416" fill="none" stroke="#70A4C9" stroke-width="2" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<path d="M2290,255 L2330,255" fill="none" stroke="#70A4C9" stroke-width="2" stroke-linejoin="round" stroke-dasharray="9 6"/>
+<path d="M2325,260 L2325,411" fill="none" stroke="#042433" stroke-width="2.3" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M2325,411 L2325,260" fill="none" stroke="#042433" stroke-width="2.3" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<text x="2340" y="340" fill="#042433" font-family="Times New Roman,sans-serif" font-size="24" font-weight="400" text-anchor="start">
+<tspan x="2340" dy="0">VIG</tspan>
+</text>
+<rect x="1360" y="548" width="470" height="66" rx="8" fill="#FFF9E8" stroke="#042433" stroke-width="2"/>
+<rect x="1360" y="548" width="470" height="66" rx="8" class="vigilant-pulse" style="animation-delay:4.5s"/>
+<text x="1595" y="590.86" fill="#042433" font-family="Times New Roman,sans-serif" font-size="29" font-weight="400" text-anchor="middle">
+<tspan x="1595" dy="0">log πθ(y_w | x_v, x_t)</tspan>
+</text>
+<rect x="1870" y="548" width="470" height="66" rx="8" fill="#FFF9E8" stroke="#042433" stroke-width="2"/>
+<rect x="1870" y="548" width="470" height="66" rx="8" class="vigilant-pulse" style="animation-delay:4.5s"/>
+<text x="2105" y="590.86" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="29" font-weight="400" text-anchor="middle">
+<tspan x="2105" dy="0">log πθ(y_w | x_v∅, x_t)</tspan>
+</text>
+<path d="M1595,619 L1595,643 L1850,643 L1850,672" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1595,619 L1595,643 L1850,643 L1850,672" class="vigilant-flow" style="animation-delay:-0.9s,4.5s"/>
+<path d="M2105,619 L2105,643 L1850,643" fill="none" stroke="#042433" stroke-width="2.8" stroke-linejoin="round"/>
+<path d="M2105,619 L2105,643 L1850,643" class="vigilant-flow" style="animation-delay:-0.9s,4.5s"/>
+<text x="2100" y="676" fill="#6888CC" font-family="Comic Sans MS,sans-serif" font-size="27" font-weight="400" text-anchor="middle">
+<tspan x="2100" dy="0">Log-gap (VIG)</tspan>
+</text>
+<rect x="1360" y="695" width="980" height="84" rx="8" fill="#FFF9E8" stroke="#042433" stroke-width="2"/>
+<rect x="1360" y="695" width="980" height="84" rx="8" class="vigilant-pulse" style="animation-delay:6s"/>
+<text x="1850" y="746.86" fill="#042433" font-family="Arial Unicode MS,sans-serif" font-size="29" font-weight="400" text-anchor="middle">
+<tspan x="1850" dy="0">VIG(y_w) = log πθ(y_w | x_v, x_t) − log πθ(y_w | x_v∅, x_t)</tspan>
+</text>
+<text x="1850" y="835" fill="#C37C3F" font-family="Arial Unicode MS,sans-serif" font-size="31" font-weight="700" text-anchor="middle">
+<tspan x="1850" dy="0">VIG ≈ 0  ⇒  Language priors dominate</tspan>
+</text>
+<text x="45" y="956" fill="#042433" font-family="Comic Sans MS,sans-serif" font-size="48" font-weight="700" text-anchor="start">
+<tspan x="45" dy="0">c</tspan>
+</text>
+<rect x="95" y="935" width="750" height="100" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<rect x="95" y="935" width="750" height="100" rx="8" class="vigilant-pulse" style="animation-delay:7.5s"/>
+<text x="470" y="996.22" fill="#042433" font-family="Times New Roman,sans-serif" font-size="33" font-weight="400" text-anchor="middle">
+<tspan x="470" dy="0">Δ = |log P_see(y_w) − log P_blind(y_w)|</tspan>
+</text>
+<path d="M855,985 L925,985" fill="none" stroke="#042433" stroke-width="5" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M855,985 L925,985" class="vigilant-flow" style="animation-delay:-1.5s,7.5s"/>
+<rect x="935" y="935" width="465" height="100" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<rect x="935" y="935" width="465" height="100" rx="8" class="vigilant-pulse" style="animation-delay:9s"/>
+<text x="1167" y="997.92" fill="#042433" font-family="Times New Roman,sans-serif" font-size="38" font-weight="400" text-anchor="middle">
+<tspan x="1167" dy="0">α = 1 − tanh(Δ)</tspan>
+</text>
+<path d="M1410,985 L1480,985" fill="none" stroke="#042433" stroke-width="5" stroke-linejoin="round" marker-end="url(#vigilant-arrow-042433)"/>
+<path d="M1410,985 L1480,985" class="vigilant-flow" style="animation-delay:-1.8s,9s"/>
+<rect x="1490" y="935" width="865" height="100" rx="8" fill="white" stroke="#042433" stroke-width="2"/>
+<rect x="1490" y="935" width="865" height="100" rx="8" class="vigilant-pulse" style="animation-delay:10.5s"/>
+<text x="1922" y="998.6" fill="#042433" font-family="Times New Roman,sans-serif" font-size="40" font-weight="400" text-anchor="middle">
+<tspan x="1922" dy="0">L_VIGIL = L_DPO + λ α L_CVD</tspan>
+</text>
+{% if include.static %}<style>.vigilant-flow,.vigilant-pulse{display:none!important}</style>{% endif %}
 </svg>

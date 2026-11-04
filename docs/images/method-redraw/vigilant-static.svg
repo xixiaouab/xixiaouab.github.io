@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% include pub-animations/vigilant.svg static=true %}
