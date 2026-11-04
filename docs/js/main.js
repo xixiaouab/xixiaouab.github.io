@@ -36,149 +36,54 @@ function initNewsScroll() {
 
 function initPublicationFigures() {
   var dialog = document.getElementById("pub-figure-dialog");
-  if (!dialog || typeof dialog.showModal !== "function") return;
+  if (!dialog || typeof dialog.showModal !== "function") {
+    return;
+  }
 
   var title = dialog.querySelector("#pub-figure-title");
   var image = dialog.querySelector("[data-figure-image]");
-  var expanded = dialog.querySelector("[data-figure-animation]");
-  var canvas = dialog.querySelector("[data-figure-canvas]");
-  var stage = dialog.querySelector(".pub-figure-stage");
   var originalLink = dialog.querySelector("[data-figure-original]");
-  var pauseButton = dialog.querySelector("[data-figure-pause]");
-  var preference = window.matchMedia("(prefers-reduced-motion: reduce)");
   var activeLink;
   var previousOverflow;
-  var paused = false;
-  var zoom = 1;
-
-  function updatePlayback() {
-    dialog.classList.toggle("is-motion-paused", paused || preference.matches || document.hidden);
-    pauseButton.hidden = !expanded.firstElementChild || preference.matches;
-    pauseButton.setAttribute("aria-pressed", String(paused));
-    pauseButton.setAttribute("aria-label", paused ? "Play figure animation" : "Pause figure animation");
-    pauseButton.title = paused ? "Play animation" : "Pause animation";
-    pauseButton.textContent = paused ? "▶" : "Ⅱ";
-  }
-
-  function updateZoom() {
-    canvas.style.width = (zoom * 100) + "%";
-    dialog.querySelector("[data-figure-zoom-out]").disabled = zoom <= 1;
-    dialog.querySelector("[data-figure-zoom-in]").disabled = zoom >= 5;
-  }
 
   document.querySelectorAll("[data-pub-figure]").forEach(function (link) {
     link.addEventListener("click", function (event) {
-      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+        return;
+      }
+
       event.preventDefault();
       activeLink = link;
       title.textContent = link.closest(".pub-card").querySelector(".pub-title").textContent;
-      originalLink.href = link.dataset.figureOriginal || link.href;
-      var svg = link.querySelector(".pub-animation svg");
-      expanded.replaceChildren();
-      image.hidden = !!svg;
-      if (svg) {
-        var clone = svg.cloneNode(true);
-        var ids = {};
-        clone.querySelectorAll("[id]").forEach(function (node) {
-          ids[node.id] = "expanded-" + node.id;
-          node.id = ids[node.id];
-        });
-        [clone].concat(Array.from(clone.querySelectorAll("*"))).forEach(function (node) {
-          Array.from(node.attributes).forEach(function (attribute) {
-            var value = attribute.value.replace(/url\(#([^)]*)\)/g, function (match, id) {
-              return ids[id] ? "url(#" + ids[id] + ")" : match;
-            });
-            if (attribute.name === "href" && value.charAt(0) === "#" && ids[value.slice(1)]) value = "#" + ids[value.slice(1)];
-            if (attribute.name === "aria-labelledby") value = value.split(" ").map(function (id) { return ids[id] || id; }).join(" ");
-            if (value !== attribute.value) node.setAttribute(attribute.name, value);
-          });
-        });
-        expanded.appendChild(clone);
-      } else {
-        image.alt = link.querySelector("img").alt;
-        image.src = link.href;
-      }
-      var pageToggle = document.querySelector("[data-pub-motion-toggle]");
-      paused = !!pageToggle && pageToggle.getAttribute("aria-pressed") === "true";
-      zoom = 1;
-      updateZoom();
-      updatePlayback();
+      image.alt = link.querySelector("img").alt;
+      image.src = link.href;
+      originalLink.href = link.href;
       previousOverflow = document.body.style.overflow;
-      document.body.classList.add("pub-figure-open");
       dialog.showModal();
-      stage.scrollTop = 0;
-      stage.scrollLeft = 0;
       document.body.style.overflow = "hidden";
     });
   });
 
-  pauseButton.addEventListener("click", function () { paused = !paused; updatePlayback(); });
-  dialog.querySelector("[data-figure-zoom-in]").addEventListener("click", function () { zoom = Math.min(5, zoom + 0.5); updateZoom(); });
-  dialog.querySelector("[data-figure-zoom-out]").addEventListener("click", function () { zoom = Math.max(1, zoom - 0.5); updateZoom(); });
-  dialog.querySelector("[data-figure-fit]").addEventListener("click", function () { zoom = 1; updateZoom(); stage.scrollTop = 0; stage.scrollLeft = 0; });
-  document.addEventListener("visibilitychange", updatePlayback);
-  if (preference.addEventListener) preference.addEventListener("change", updatePlayback);
-  dialog.querySelector("[data-figure-close]").addEventListener("click", function () { dialog.close(); });
+  dialog.querySelector("[data-figure-close]").addEventListener("click", function () {
+    dialog.close();
+  });
+
   dialog.addEventListener("click", function (event) {
     var bounds = dialog.getBoundingClientRect();
-    if (event.target === dialog && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) dialog.close();
+    if (event.target === dialog &&
+        (event.clientX < bounds.left || event.clientX > bounds.right ||
+         event.clientY < bounds.top || event.clientY > bounds.bottom)) {
+      dialog.close();
+    }
   });
+
   dialog.addEventListener("close", function () {
     document.body.style.overflow = previousOverflow;
-    document.body.classList.remove("pub-figure-open");
-    expanded.replaceChildren();
     image.removeAttribute("src");
-    if (activeLink) activeLink.focus({ preventScroll: true });
+    if (activeLink) {
+      activeLink.focus({ preventScroll: true });
+    }
   });
-}
-
-function initPublicationAnimations() {
-  var section = document.querySelector(".publications-section");
-  if (!section) {
-    return;
-  }
-
-  var figures = section.querySelectorAll("[data-pub-animation]");
-  var toggle = section.querySelector("[data-pub-motion-toggle]");
-  if (!figures.length || !toggle) {
-    return;
-  }
-
-  var preference = window.matchMedia("(prefers-reduced-motion: reduce)");
-  var paused = false;
-
-  function updatePlayback() {
-    section.classList.add("pub-motion-ready");
-    section.classList.toggle("pub-motion-playing", !paused && !preference.matches && !document.hidden);
-    section.classList.toggle("pub-motion-reduced", preference.matches);
-    toggle.hidden = preference.matches;
-    toggle.setAttribute("aria-pressed", String(paused));
-    toggle.textContent = paused ? "Play figure animations" : "Pause figure animations";
-  }
-
-  toggle.addEventListener("click", function () {
-    paused = !paused;
-    updatePlayback();
-  });
-  document.addEventListener("visibilitychange", updatePlayback);
-  if (preference.addEventListener) {
-    preference.addEventListener("change", updatePlayback);
-  } else if (preference.addListener) {
-    preference.addListener(updatePlayback);
-  }
-
-  if ("IntersectionObserver" in window) {
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        entry.target.classList.toggle("is-animation-visible", entry.isIntersecting);
-      });
-    }, { threshold: 0.15 });
-    figures.forEach(function (figure) { observer.observe(figure); });
-  } else {
-    figures.forEach(function (figure) { figure.classList.add("is-animation-visible"); });
-  }
-
-  updatePlayback();
 }
 
 function initIdentityTyping() {
@@ -393,7 +298,6 @@ function initScholarCitationTracker() {
 document.addEventListener("DOMContentLoaded", function () {
   initNewsScroll();
   initPublicationFigures();
-  initPublicationAnimations();
   initIdentityTyping();
   initScholarCitationTracker();
 
