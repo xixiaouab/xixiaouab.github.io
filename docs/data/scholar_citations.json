@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 855,
+    "total_citations": 857,
     "h_index": 16,
     "i10_index": 32,
-    "paper_count": 66,
-    "updated": "2026-11-03",
-    "updated_at_utc": "2026-11-03T18:27:55+00:00",
+    "paper_count": 68,
+    "updated": "2026-11-04",
+    "updated_at_utc": "2026-11-04T18:38:53+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -486,6 +486,10 @@
     {
       "date": "2026-11-03",
       "total_citations": 855
+    },
+    {
+      "date": "2026-11-04",
+      "total_citations": 857
     }
   ],
   "all_papers": [
@@ -616,6 +620,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:M05iB0D1s5AC"
     },
     {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 14,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
       "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -642,13 +653,6 @@
       "venue": "ECCV 2026, 2026",
       "citations": 13,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
-    },
-    {
-      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 13,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
@@ -868,6 +872,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:V3AGJWp-ZtQC"
     },
     {
+      "title": "TempFinRAG: Multimodal Temporal Retrieval-Augmented Generation for Point-in-Time Financial Question Answering",
+      "year": "2026",
+      "venue": "Symmetry 18 (9), 1498, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:W5xh706n7nkC"
+    },
+    {
       "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2509.24311, 2025",
@@ -887,6 +898,13 @@
       "venue": "EMNLP Findings 2026, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
+      "title": "Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.36327, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:35r97b3x0nAC"
     },
     {
       "title": "Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation",
