@@ -6,12 +6,12 @@
     "affiliation": "Oak Ridge National Laboratory | University of Alabama at Birmingham"
   },
   "summary": {
-    "total_citations": 857,
+    "total_citations": 876,
     "h_index": 16,
     "i10_index": 32,
-    "paper_count": 68,
-    "updated": "2026-11-05",
-    "updated_at_utc": "2026-11-05T18:45:44+00:00",
+    "paper_count": 72,
+    "updated": "2026-11-06",
+    "updated_at_utc": "2026-11-06T17:58:19+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -494,6 +494,10 @@
     {
       "date": "2026-11-05",
       "total_citations": 857
+    },
+    {
+      "date": "2026-11-06",
+      "total_citations": 876
     }
   ],
   "all_papers": [
@@ -529,7 +533,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 40,
+      "citations": 42,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -564,14 +568,14 @@
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
       "year": "2025",
       "venue": "ICCV 2025, 2025",
-      "citations": 26,
+      "citations": 27,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
     },
     {
       "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
-      "citations": 23,
+      "citations": 24,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
@@ -610,6 +614,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 15,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
+    },
+    {
       "title": "Self-supervised visual prompting for cross-domain road damage detection",
       "year": "2026",
       "venue": "WACV 2026, 2026",
@@ -629,13 +640,6 @@
       "venue": "CVPR 2026, 2026",
       "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
-    },
-    {
-      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 14,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
       "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
@@ -750,18 +754,32 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
     },
     {
+      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
+    },
+    {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
+      "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism",
+      "year": "2026",
+      "venue": "The 1st Workshop on Scaling Post-training for LLMs, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1yQoGdGgb4wC"
+    },
+    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
-    },
-    {
-      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 7,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1qzjygNMrQYC"
     },
     {
       "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
@@ -778,11 +796,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
     },
     {
-      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "title": "Leveraging Latent Visual Reasoning in Silence",
       "year": "2026",
-      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "venue": "NeurIPS 2026, 2026",
       "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
     },
     {
       "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
@@ -790,13 +808,6 @@
       "venue": "ICML 2026, 2026",
       "citations": 5,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiSMed-E-HIC"
-    },
-    {
-      "title": "Leveraging Latent Visual Reasoning in Silence",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 4,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
     },
     {
       "title": "Drift Flow Matching",
@@ -853,6 +864,13 @@
       "venue": "IFIP International Summer School on Privacy and Identity Management, 78-93, 2024",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
+    },
+    {
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.34563, 2026",
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
       "title": "Adapting Vision Foundation Models with Cascaded Semantics",
@@ -939,18 +957,25 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:7T2F9Uy0os0C"
     },
     {
+      "title": "Graph-Conditioned On-Policy Agent Distillation from Off-the-Shelf Teachers",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2609.37522, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:j8SEvjWlNXcC"
+    },
+    {
+      "title": "ContextTom: Training-Free Video VLM Acceleration with Early Spatial Context",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.32992, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-_dYPAW6P2MC"
+    },
+    {
       "title": "FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2609.34358, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NJ774b8OgUMC"
-    },
-    {
-      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2609.34563, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
       "title": "Posterior Flow Matching",
@@ -972,6 +997,13 @@
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:UxriW0iASnsC"
+    },
+    {
+      "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather",
+      "year": "",
+      "venue": "Computer Vision–ECCV 2026: 19th European Conference, Malmö, Sweden …, 0",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fEOibwPWpKIC"
     }
   ],
   "top_papers": [
@@ -1007,7 +1039,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 40,
+      "citations": 42,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
