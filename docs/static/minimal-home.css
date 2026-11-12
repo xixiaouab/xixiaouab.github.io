@@ -253,24 +253,6 @@ hr {
   margin-bottom: 23px;
 }
 
-.intro-section-label {
-  align-items: center;
-  color: #6b7280;
-  display: flex;
-  font-size: 0.76rem;
-  font-weight: 700;
-  gap: 8px;
-  line-height: 1.5;
-  margin: 20px 0 7px;
-}
-
-.intro-section-label i {
-  color: var(--link);
-  font-size: 0.9rem;
-  text-align: center;
-  width: 16px;
-}
-
 .intro-research,
 .intro-internships {
   color: #374151;
@@ -1535,7 +1517,7 @@ footer p {
     margin: 6px 0 0;
   }
 
-  .intro-section-label:first-of-type {
+  .intro-copy .intro-research {
     margin-top: 26px;
   }
 
