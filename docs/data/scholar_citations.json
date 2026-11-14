@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 928,
+    "total_citations": 920,
     "h_index": 16,
     "i10_index": 32,
-    "paper_count": 72,
-    "updated": "2026-11-13",
-    "updated_at_utc": "2026-11-13T18:30:58+00:00",
+    "paper_count": 71,
+    "updated": "2026-11-14",
+    "updated_at_utc": "2026-11-14T17:08:58+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -526,6 +526,10 @@
     {
       "date": "2026-11-13",
       "total_citations": 928
+    },
+    {
+      "date": "2026-11-14",
+      "total_citations": 920
     }
   ],
   "all_papers": [
@@ -801,13 +805,6 @@
       "venue": "🏆 MICCAI 2026 (Spotlight), 2026",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
-    },
-    {
-      "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism",
-      "year": "2026",
-      "venue": "The 1st Workshop on Scaling Post-training for LLMs, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:1yQoGdGgb4wC"
     },
     {
       "title": "Focus: Fused observation of channels for unveiling spectra",
