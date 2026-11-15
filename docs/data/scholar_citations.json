@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 920,
+    "total_citations": 921,
     "h_index": 16,
-    "i10_index": 32,
+    "i10_index": 33,
     "paper_count": 71,
-    "updated": "2026-11-14",
-    "updated_at_utc": "2026-11-14T17:08:58+00:00",
+    "updated": "2026-11-15",
+    "updated_at_utc": "2026-11-15T17:43:34+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -530,6 +530,10 @@
     {
       "date": "2026-11-14",
       "total_citations": 920
+    },
+    {
+      "date": "2026-11-15",
+      "total_citations": 921
     }
   ],
   "all_papers": [
@@ -737,6 +741,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
     },
     {
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2608.14945, 2026",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
       "year": "2025",
       "venue": "Scientific Reports 15 (1), 10790, 2025",
@@ -756,13 +767,6 @@
       "venue": "2022 5th International Conference on Pattern Recognition and Artificial …, 2022",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
-    },
-    {
-      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2608.14945, 2026",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
     },
     {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
