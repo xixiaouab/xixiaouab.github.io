@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 921,
-    "h_index": 16,
+    "total_citations": 924,
+    "h_index": 17,
     "i10_index": 33,
     "paper_count": 71,
-    "updated": "2026-11-15",
-    "updated_at_utc": "2026-11-15T17:43:34+00:00",
+    "updated": "2026-11-16",
+    "updated_at_utc": "2026-11-16T21:02:24+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -534,6 +534,10 @@
     {
       "date": "2026-11-15",
       "total_citations": 921
+    },
+    {
+      "date": "2026-11-16",
+      "total_citations": 924
     }
   ],
   "all_papers": [
@@ -650,6 +654,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
     },
     {
+      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
+      "year": "2026",
+      "venue": "WACV 2026, 2026",
+      "citations": 17,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
+    },
+    {
       "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -692,13 +703,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
-      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
-      "year": "2026",
-      "venue": "WACV 2026, 2026",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dTyEYWd-f8wC"
-    },
-    {
       "title": "Visual Variational Autoencoder Prompt Tuning",
       "year": "2025",
       "venue": "CVPR 2025 Workshop on FGVC, 2025",
@@ -730,7 +734,7 @@
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
       "year": "2026",
       "venue": "ACM MM 2026, 2026",
-      "citations": 11,
+      "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:JoZmwDi-zQgC"
     },
     {
