@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 924,
+    "total_citations": 925,
     "h_index": 17,
     "i10_index": 33,
     "paper_count": 71,
-    "updated": "2026-11-17",
-    "updated_at_utc": "2026-11-17T19:51:30+00:00",
+    "updated": "2026-11-18",
+    "updated_at_utc": "2026-11-18T19:24:15+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -542,6 +542,10 @@
     {
       "date": "2026-11-17",
       "total_citations": 924
+    },
+    {
+      "date": "2026-11-18",
+      "total_citations": 925
     }
   ],
   "all_papers": [
@@ -868,6 +872,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
     },
     {
+      "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
+      "year": "2025",
+      "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:OU6Ihb5iCvQC"
+    },
+    {
       "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
       "year": "2025",
       "venue": "TMLR 2026, 2025",
@@ -887,13 +898,6 @@
       "venue": "Geo-spatial Information Science, 1-24, 2026",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
-    },
-    {
-      "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
-      "year": "2025",
-      "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:OU6Ihb5iCvQC"
     },
     {
       "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
