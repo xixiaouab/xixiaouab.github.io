@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 925,
+    "total_citations": 927,
     "h_index": 17,
     "i10_index": 33,
-    "paper_count": 71,
-    "updated": "2026-11-18",
-    "updated_at_utc": "2026-11-18T19:24:15+00:00",
+    "paper_count": 72,
+    "updated": "2026-11-19",
+    "updated_at_utc": "2026-11-19T19:29:21+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -546,6 +546,10 @@
     {
       "date": "2026-11-18",
       "total_citations": 925
+    },
+    {
+      "date": "2026-11-19",
+      "total_citations": 927
     }
   ],
   "all_papers": [
@@ -865,6 +869,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:Tiz5es2fbqcC"
     },
     {
+      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
+      "year": "2026",
+      "venue": "EMNLP Findings 2026, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
+    },
+    {
       "title": "Transition flow matching",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2603.15689, 2026",
@@ -912,13 +923,6 @@
       "venue": "IFIP International Summer School on Privacy and Identity Management, 78-93, 2024",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:fQNAKQ3IYiAC"
-    },
-    {
-      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
-      "year": "2026",
-      "venue": "EMNLP Findings 2026, 2026",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:PR6Y55bgFSsC"
     },
     {
       "title": "MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning",
@@ -970,6 +974,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:2KloaMYe4IUC"
     },
     {
+      "title": "Beyond Endpoints: B\\'ezier Paths for Vision Foundation Model Adaptation",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2611.17825, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:z_wVstp3MssC"
+    },
+    {
       "title": "PTQ4SAM3: Semantics-Preserving Post-Training Quantization for Segment Anything Model 3",
       "year": "2026",
       "venue": "WACV 2027, 2026",
@@ -996,13 +1007,6 @@
       "venue": "arXiv preprint arXiv:2610.25034, 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:tzM49s52ZIMC"
-    },
-    {
-      "title": "When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models",
-      "year": "2026",
-      "venue": "arXiv preprint arXiv:2610.23469, 2026",
-      "citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_Re3VWB3Y0AC"
     },
     {
       "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
@@ -1038,6 +1042,13 @@
       "venue": "🏆 ICASSP 2026 (Oral), 2026",
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SP6oXDckpogC"
+    },
+    {
+      "title": "When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2610.23469, 2026",
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_Re3VWB3Y0AC"
     },
     {
       "title": "Boosting Active Learning with Knowledge Transfer",
