@@ -92,8 +92,10 @@
       }),
       loadMetric({
         selector: "[data-inline-github-stars]", file: "github_stats.json",
-        metric: "total_stars", label: "Stars across public repositories owned by xixiaouab",
-        identity: function (data) { return data.profile && data.profile.login === "xixiaouab"; }
+        metric: "total_stars", label: "Stars across my repositories and coauthored paper projects, excluding Agent Harness Engineering",
+        identity: function (data) { return data.profile && data.profile.login === "xixiaouab" &&
+          data.profile.scholar_id === "Q4DnRVgAAAAJ" && data.schema_version === 2 && data.scope &&
+          data.scope.visibility === "public" && data.scope.ownership === "personal_and_coauthored_research"; }
       })
     ]).then(function (results) {
       resolveReady({ scholar: results[0], github: results[1] });

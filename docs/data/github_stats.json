@@ -1,21 +1,643 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "profile": {
     "login": "xixiaouab",
-    "github_url": "https://github.com/xixiaouab"
+    "github_url": "https://github.com/xixiaouab",
+    "scholar_id": "Q4DnRVgAAAAJ"
   },
   "summary": {
-    "total_stars": 65,
-    "public_repository_count": 19,
+    "total_stars": 455,
+    "public_repository_count": 46,
+    "owned_repository_count": 19,
+    "additional_research_repository_count": 27,
     "updated": "2026-11-20",
-    "updated_at_utc": "2026-11-20T06:04:11+00:00",
-    "source": "github_rest_public_repositories"
+    "updated_at_utc": "2026-11-20T06:15:06+00:00",
+    "source": "github_rest_verified_personal_and_coauthored_repositories"
   },
   "scope": {
     "visibility": "public",
-    "ownership": "owner",
+    "ownership": "personal_and_coauthored_research",
     "include_forks": true,
-    "include_archived": true
+    "include_archived": true,
+    "deduplicate_by": "github_repository_id",
+    "excluded_papers": [
+      {
+        "scholar_publication_id": "Q4DnRVgAAAAJ:wbdj-CoPYUoC",
+        "title": "Agent Harness Engineering: A Survey",
+        "repositories": [
+          {
+            "full_name": "Picrew/LLM-Harness"
+          },
+          {
+            "full_name": "Picrew/awesome-agent-harness"
+          }
+        ]
+      }
+    ]
   },
-  "source_url": "https://api.github.com/users/xixiaouab/repos?type=owner&per_page=100"
+  "coverage": {
+    "scholar_paper_count": 72,
+    "audited_paper_count": 72,
+    "excluded_paper_count": 1,
+    "papers_with_verified_repositories": 36,
+    "new_papers_pending_repository_audit": []
+  },
+  "repositories": [
+    {
+      "id": 967744321,
+      "full_name": "ChenLiu-1996/LM-Dispersion",
+      "html_url": "https://github.com/ChenLiu-1996/LM-Dispersion",
+      "stars": 130,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:XiSMed-E-HIC",
+          "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
+          "evidence_url": "https://chenliu-1996.github.io/projects/LM-Dispersion/"
+        }
+      ]
+    },
+    {
+      "id": 992379731,
+      "full_name": "yunbeizhang/Awesome-Visual-Prompt-Tuning",
+      "html_url": "https://github.com/yunbeizhang/Awesome-Visual-Prompt-Tuning",
+      "stars": 117,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:70eg2SAEIzsC",
+          "title": "Prompt-based adaptation in large-scale vision models: A survey",
+          "evidence_url": "https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/"
+        }
+      ]
+    },
+    {
+      "id": 1391988195,
+      "full_name": "xixiaouab/ReaLVR-code",
+      "html_url": "https://github.com/xixiaouab/ReaLVR-code",
+      "stars": 50,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:kzcrU_BdoSEC",
+          "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+          "evidence_url": "https://xixiaouab.github.io/projects/ReaLVR/"
+        }
+      ]
+    },
+    {
+      "id": 950854726,
+      "full_name": "EchoPluto/MagicID",
+      "html_url": "https://github.com/EchoPluto/MagicID",
+      "stars": 34,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:5Ul4iDaHHb8C",
+          "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
+          "evidence_url": "https://github.com/EchoPluto/MagicID-project/blob/main/index.html"
+        }
+      ]
+    },
+    {
+      "id": 1226167086,
+      "full_name": "KrishnaswamyLab/LM-Dispersion",
+      "html_url": "https://github.com/KrishnaswamyLab/LM-Dispersion",
+      "stars": 22,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:XiSMed-E-HIC",
+          "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
+          "evidence_url": "https://arxiv.org/html/2602.00217"
+        }
+      ]
+    },
+    {
+      "id": 1409433099,
+      "full_name": "ornl-utome/UtoMe",
+      "html_url": "https://github.com/ornl-utome/UtoMe",
+      "stars": 22,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:2KloaMYe4IUC",
+          "title": "UtoMe: Observation-Uncertainty-Guided Token Merging for Weather Foundation Models",
+          "evidence_url": "https://ornl-utome.github.io/"
+        }
+      ]
+    },
+    {
+      "id": 1123295112,
+      "full_name": "yuxiangwei0808/fMRI-LM",
+      "html_url": "https://github.com/yuxiangwei0808/fMRI-LM",
+      "stars": 12,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:_xSYboBqXhAC",
+          "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+          "evidence_url": "https://arxiv.org/abs/2511.21760"
+        }
+      ]
+    },
+    {
+      "id": 1074182931,
+      "full_name": "XiaoWang-Github/ORBIT-2",
+      "html_url": "https://github.com/XiaoWang-Github/ORBIT-2",
+      "stars": 11,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:LPZeul_q3PIC",
+          "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+          "evidence_url": "https://github.com/XiaoWang-Github/ORBIT-2"
+        }
+      ]
+    },
+    {
+      "id": 1108130675,
+      "full_name": "merry7cherry/S-VFM",
+      "html_url": "https://github.com/merry7cherry/S-VFM",
+      "stars": 7,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:f2IySw72cVMC",
+          "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+          "evidence_url": "https://merry7cherry.github.io/"
+        }
+      ]
+    },
+    {
+      "id": 986670695,
+      "full_name": "yuxiangwei0808/MoRE-Brain",
+      "html_url": "https://github.com/yuxiangwei0808/MoRE-Brain",
+      "stars": 7,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:9vf0nzSNQJEC",
+          "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+          "evidence_url": "https://arxiv.org/abs/2505.15946"
+        }
+      ]
+    },
+    {
+      "id": 1382577343,
+      "full_name": "Oshikaka/D-HSM",
+      "html_url": "https://github.com/Oshikaka/D-HSM",
+      "stars": 5,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:PR6Y55bgFSsC",
+          "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
+          "evidence_url": "https://lin-zhao-resolve.github.io/"
+        }
+      ]
+    },
+    {
+      "id": 1424673781,
+      "full_name": "Imageomics/RecSAEI",
+      "html_url": "https://github.com/Imageomics/RecSAEI",
+      "stars": 4,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:uJ-U7cs_P_0C",
+          "title": "From Activation to Intervention: Interpreting Sparse Visual Features through Reconstruction",
+          "evidence_url": "https://imageomics.github.io/RecSAEI/"
+        }
+      ]
+    },
+    {
+      "id": 1424022433,
+      "full_name": "Jike338/SPOD",
+      "html_url": "https://github.com/Jike338/SPOD",
+      "stars": 4,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:tzM49s52ZIMC",
+          "title": "Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation",
+          "evidence_url": "https://arxiv.org/abs/2610.25034"
+        }
+      ]
+    },
+    {
+      "id": 1268901785,
+      "full_name": "xixiaouab/VIGIL",
+      "html_url": "https://github.com/xixiaouab/VIGIL",
+      "stars": 4,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:AXPGKjj_ei8C",
+          "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+          "evidence_url": "https://github.com/xixiaouab/VIGIL/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": 1241232218,
+      "full_name": "ddydyd32/silent-lvr",
+      "html_url": "https://github.com/ddydyd32/silent-lvr",
+      "stars": 3,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:BrmTIyaxlBUC",
+          "title": "Leveraging Latent Visual Reasoning in Silence",
+          "evidence_url": "https://arxiv.org/abs/2605.18641"
+        }
+      ]
+    },
+    {
+      "id": 921711428,
+      "full_name": "FazleLabib/et_deepfool",
+      "html_url": "https://github.com/FazleLabib/et_deepfool",
+      "stars": 3,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:ULOm3_A8WrAC",
+          "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11953294/"
+        }
+      ]
+    },
+    {
+      "id": 1095381938,
+      "full_name": "xixiaouab/PROBE",
+      "html_url": "https://github.com/xixiaouab/PROBE",
+      "stars": 3,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:WqliGbK-hY8C",
+          "title": "Self-supervised visual prompting for cross-domain road damage detection",
+          "evidence_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Xiao_Self-Supervised_Visual_Prompting_for_Cross-Domain_Road_Damage_Detection_WACV_2026_paper.pdf"
+        }
+      ]
+    },
+    {
+      "id": 1087994025,
+      "full_name": "xixiaouab/Visual-Instance-aware-Prompt-Tuning",
+      "html_url": "https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning",
+      "stars": 3,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:4fKUyHm3Qg0C",
+          "title": "Visual instance-aware prompt tuning",
+          "evidence_url": "https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": 944802452,
+      "full_name": "merry7cherry/CAD-VAE",
+      "html_url": "https://github.com/merry7cherry/CAD-VAE",
+      "stars": 2,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:5awf1xo2G04C",
+          "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+          "evidence_url": "https://arxiv.org/abs/2503.07938"
+        }
+      ]
+    },
+    {
+      "id": 1174119417,
+      "full_name": "Oshikaka/HIERAMP",
+      "html_url": "https://github.com/Oshikaka/HIERAMP",
+      "stars": 2,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:738O_yMBCRsC",
+          "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+          "evidence_url": "https://arxiv.org/html/2603.06932v1"
+        }
+      ]
+    },
+    {
+      "id": 1268930720,
+      "full_name": "xixiaouab/Prompt-Fusion-Discovery",
+      "html_url": "https://github.com/xixiaouab/Prompt-Fusion-Discovery",
+      "stars": 2,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:eMMeJKvmdy0C",
+          "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+          "evidence_url": "https://github.com/xixiaouab/Prompt-Fusion-Discovery/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": 1211883888,
+      "full_name": "xixiaouab/StructLoRA",
+      "html_url": "https://github.com/xixiaouab/StructLoRA",
+      "stars": 2,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:eJXPG6dFmWUC",
+          "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+          "evidence_url": "https://github.com/xixiaouab/StructLoRA/blob/main/readme.md"
+        }
+      ]
+    },
+    {
+      "id": 1245883774,
+      "full_name": "ClinicaAlpha/DCD-3D-MedSeg",
+      "html_url": "https://github.com/ClinicaAlpha/DCD-3D-MedSeg",
+      "stars": 1,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:q3oQSFYPqjQC",
+          "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
+          "evidence_url": "https://arxiv.org/abs/2605.26382"
+        }
+      ]
+    },
+    {
+      "id": 1404738588,
+      "full_name": "merry7cherry/drift-flow-matching",
+      "html_url": "https://github.com/merry7cherry/drift-flow-matching",
+      "stars": 1,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:eflP2zaiRacC",
+          "title": "Drift Flow Matching",
+          "evidence_url": "https://merry7cherry.github.io/drift-flow-matching/"
+        }
+      ]
+    },
+    {
+      "id": 1406382353,
+      "full_name": "merry7cherry/posterior-flow-matching",
+      "html_url": "https://github.com/merry7cherry/posterior-flow-matching",
+      "stars": 1,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:tKAzc9rXhukC",
+          "title": "Posterior Flow Matching",
+          "evidence_url": "https://merry7cherry.github.io/posterior-flow-matching/"
+        }
+      ]
+    },
+    {
+      "id": 1066890209,
+      "full_name": "merry7cherry/Stochastic-Interpolants-via-Conditional-Dependent-Coupling",
+      "html_url": "https://github.com/merry7cherry/Stochastic-Interpolants-via-Conditional-Dependent-Coupling",
+      "stars": 1,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:ns9cj8rnVeAC",
+          "title": "Stochastic interpolants via conditional dependent coupling",
+          "evidence_url": "https://arxiv.org/html/2509.23122"
+        }
+      ]
+    },
+    {
+      "id": 979941055,
+      "full_name": "runminjiang/CryoCCD",
+      "html_url": "https://github.com/runminjiang/CryoCCD",
+      "stars": 1,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:mB3voiENLucC",
+          "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
+          "evidence_url": "https://github.com/runminjiang/CryoCCD"
+        }
+      ]
+    },
+    {
+      "id": 1391833821,
+      "full_name": "xixiaouab/FORGE-code",
+      "html_url": "https://github.com/xixiaouab/FORGE-code",
+      "stars": 1,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:NJ774b8OgUMC",
+          "title": "FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents",
+          "evidence_url": "https://xixiaouab.github.io/projects/FORGE/"
+        }
+      ]
+    },
+    {
+      "id": 949652569,
+      "full_name": "EchoPluto/MagicID-project",
+      "html_url": "https://github.com/EchoPluto/MagicID-project",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:5Ul4iDaHHb8C",
+          "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
+          "evidence_url": "https://github.com/EchoPluto/MagicID-project/blob/main/index.html"
+        }
+      ]
+    },
+    {
+      "id": 1298627312,
+      "full_name": "itsnotacie/MM-26-PIB",
+      "html_url": "https://github.com/itsnotacie/MM-26-PIB",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:JoZmwDi-zQgC",
+          "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+          "evidence_url": "https://arxiv.org/abs/2607.21973"
+        }
+      ]
+    },
+    {
+      "id": 1281627048,
+      "full_name": "janet-sw/Sparse-Reslim",
+      "html_url": "https://github.com/janet-sw/Sparse-Reslim",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:tkaPQYYpVKoC",
+          "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
+          "evidence_url": "https://arxiv.org/html/2607.02829"
+        }
+      ]
+    },
+    {
+      "id": 1325791816,
+      "full_name": "lanqz7766/Influence-Calibration-for-On-Policy-Self-Distillation-in-Agentic-RL",
+      "html_url": "https://github.com/lanqz7766/Influence-Calibration-for-On-Policy-Self-Distillation-in-Agentic-RL",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:N5tVd3kTz84C",
+          "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+          "evidence_url": "https://arxiv.org/abs/2608.14945"
+        }
+      ]
+    },
+    {
+      "id": 923242823,
+      "full_name": "lijingzhu1/ETT-CKGE",
+      "html_url": "https://github.com/lijingzhu1/ETT-CKGE",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:CHSYGLWDkRkC",
+          "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+          "evidence_url": "https://arxiv.org/abs/2506.08158"
+        }
+      ]
+    },
+    {
+      "id": 1424883037,
+      "full_name": "mengchen-fan/medstp",
+      "html_url": "https://github.com/mengchen-fan/medstp",
+      "stars": 0,
+      "owned": false,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:ZfRJV9d4-WMC",
+          "title": "MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning",
+          "evidence_url": "https://github.com/mengchen-fan/medstp/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": 1456188484,
+      "full_name": "xixiaouab/Beyond-Endpoints",
+      "html_url": "https://github.com/xixiaouab/Beyond-Endpoints",
+      "stars": 0,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:z_wVstp3MssC",
+          "title": "Beyond Endpoints: B\\'ezier Paths for Vision Foundation Model Adaptation",
+          "evidence_url": "https://xixiaouab.github.io/Beyond-Endpoints/"
+        }
+      ]
+    },
+    {
+      "id": 1268930686,
+      "full_name": "xixiaouab/Cascaded-Semantics",
+      "html_url": "https://github.com/xixiaouab/Cascaded-Semantics",
+      "stars": 0,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:ye4kPcJQO24C",
+          "title": "Adapting Vision Foundation Models with Cascaded Semantics",
+          "evidence_url": "https://xixiaouab.github.io/Cascaded-Semantics/"
+        }
+      ]
+    },
+    {
+      "id": 1103257211,
+      "full_name": "xixiaouab/data",
+      "html_url": "https://github.com/xixiaouab/data",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1407493506,
+      "full_name": "xixiaouab/HydroORBIT",
+      "html_url": "https://github.com/xixiaouab/HydroORBIT",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1386929238,
+      "full_name": "xixiaouab/latent-fusion-hydrology",
+      "html_url": "https://github.com/xixiaouab/latent-fusion-hydrology",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1395736582,
+      "full_name": "xixiaouab/MM-26-PIB",
+      "html_url": "https://github.com/xixiaouab/MM-26-PIB",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1268930657,
+      "full_name": "xixiaouab/PTQ4SAM3",
+      "html_url": "https://github.com/xixiaouab/PTQ4SAM3",
+      "stars": 0,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:VLnqNzywnoUC",
+          "title": "PTQ4SAM3: Semantics-Preserving Post-Training Quantization for Segment Anything Model 3",
+          "evidence_url": "https://github.com/xixiaouab/PTQ4SAM3/blob/main/index.html"
+        }
+      ]
+    },
+    {
+      "id": 1391989496,
+      "full_name": "xixiaouab/ReaLVR-model",
+      "html_url": "https://github.com/xixiaouab/ReaLVR-model",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1347766450,
+      "full_name": "xixiaouab/TempFinRAG",
+      "html_url": "https://github.com/xixiaouab/TempFinRAG",
+      "stars": 0,
+      "owned": true,
+      "papers": [
+        {
+          "scholar_publication_id": "Q4DnRVgAAAAJ:W5xh706n7nkC",
+          "title": "TempFinRAG: Multimodal Temporal Retrieval-Augmented Generation for Point-in-Time Financial Question Answering",
+          "evidence_url": "https://github.com/xixiaouab/TempFinRAG/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": 991702238,
+      "full_name": "xixiaouab/Visual-Prompting-Survey",
+      "html_url": "https://github.com/xixiaouab/Visual-Prompting-Survey",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1244975206,
+      "full_name": "xixiaouab/xixiaouab",
+      "html_url": "https://github.com/xixiaouab/xixiaouab",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    },
+    {
+      "id": 1114047229,
+      "full_name": "xixiaouab/xixiaouab.github.io",
+      "html_url": "https://github.com/xixiaouab/xixiaouab.github.io",
+      "stars": 0,
+      "owned": true,
+      "papers": []
+    }
+  ]
 }

@@ -314,32 +314,35 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// Filtering leaves the complete list available when JavaScript is disabled.
+// Each list filters independently; all papers remain available without JavaScript.
 function initPublicationFilters() {
-  var buttons = Array.from(document.querySelectorAll("[data-publication-filter]"));
-  var cards = Array.from(document.querySelectorAll("[data-publication-id]"));
-  var status = document.querySelector("[data-publication-results]");
-  if (!buttons.length || !cards.length || !status) { return; }
+  document.querySelectorAll("[data-publication-widget]").forEach(function (widget) {
+    var buttons = Array.from(widget.querySelectorAll("[data-publication-filter]"));
+    var cards = Array.from(widget.querySelectorAll("[data-publication-card]"));
+    var status = widget.querySelector("[data-publication-results]");
+    var kind = widget.dataset.publicationKind || "papers";
+    if (!buttons.length || !cards.length || !status) { return; }
 
-  function applyFilter(button) {
-    var selected = button.dataset.publicationFilter;
-    var visible = 0;
-    cards.forEach(function (card) {
-      var show = selected === "all" || card.dataset.category === selected ||
-        (selected === "preprint" && card.dataset.status === "preprint");
-      card.hidden = !show;
-      if (show) { visible += 1; }
+    function applyFilter(button) {
+      var selected = button.dataset.publicationFilter;
+      var visible = 0;
+      cards.forEach(function (card) {
+        var show = selected === "all" || card.dataset.category === selected ||
+          (selected === "preprint" && card.dataset.status === "preprint");
+        card.hidden = !show;
+        if (show) { visible += 1; }
+      });
+      buttons.forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
+      var label = button.childNodes[0].textContent.trim();
+      status.textContent = selected === "all" ? "Showing all " + visible + " " + kind :
+        label + " · " + visible + (visible === 1 ? " paper" : " papers");
+    }
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () { applyFilter(button); });
     });
-    buttons.forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
-    var label = button.childNodes[0].textContent.trim();
-    status.textContent = selected === "all" ? "Showing all " + visible + " publications" :
-      label + " · " + visible + (visible === 1 ? " publication" : " publications");
-  }
-  buttons.forEach(function (button) {
-    button.addEventListener("click", function () { applyFilter(button); });
+    if (window.location.hash === "#Preprints") {
+      var preprints = buttons.find(function (button) { return button.dataset.publicationFilter === "preprint"; });
+      if (preprints) { applyFilter(preprints); }
+    }
   });
-  if (window.location.hash === "#Preprints") {
-    var preprints = buttons.find(function (button) { return button.dataset.publicationFilter === "preprint"; });
-    if (preprints) { applyFilter(preprints); }
-  }
 }

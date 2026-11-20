@@ -1998,3 +1998,15 @@ footer p {
 }
 
 .homepage-v2 .publication-tile .pub-figure-link:hover .pub-figure-zoom, .homepage-v2 .publication-tile .pub-figure-link:focus-visible .pub-figure-zoom { opacity: 1; }
+
+/* Complete Selected Work and compact conference publications. */
+.homepage-v2 .conference-scope { color: var(--muted); font-size: .875rem; margin: -4px 0 18px; }
+.homepage-v2 .selected-work-grid { align-items: stretch; }
+.homepage-v2 .conference-grid { align-items: stretch; }
+.homepage-v2 .conference-card .pub-content { padding: 16px; }
+.homepage-v2 .conference-card .pub-title { font-size: .9375rem; margin-bottom: 14px !important; }
+.homepage-v2 .conference-card .pub-author-details { margin-top: 12px; }
+@media (max-width:720px) {
+ .homepage-v2 .conference-card .pub-content { padding: 12px; }
+ .homepage-v2 .conference-card .pub-title { font-size: .875rem; }
+}

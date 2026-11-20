@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "login": "xixiaouab",
+    "scholar_id": "Q4DnRVgAAAAJ"
+  },
+  "audit_date": "2026-11-20",
+  "description": "Public personal repositories plus primary-source-verified projects for coauthored Google Scholar papers. Each GitHub repository ID is counted once.",
+  "excluded_papers": [
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:wbdj-CoPYUoC",
+      "title": "Agent Harness Engineering: A Survey",
+      "repositories": [
+        {
+          "full_name": "Picrew/LLM-Harness"
+        },
+        {
+          "full_name": "Picrew/awesome-agent-harness"
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:p2g8aNsByqUC",
+      "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:4fKUyHm3Qg0C",
+      "title": "Visual instance-aware prompt tuning",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/Visual-Instance-aware-Prompt-Tuning",
+          "evidence_url": "https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning/blob/main/README.md",
+          "reason": "Owned public README gives exact paper title, ACM Multimedia 2025, DOI, and Xi Xiao in citation. Already included in the owned-repository base."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:zA6iFVUQeVQC",
+      "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:70eg2SAEIzsC",
+      "title": "Prompt-based adaptation in large-scale vision models: A survey",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "yunbeizhang/Awesome-Visual-Prompt-Tuning",
+          "evidence_url": "https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/",
+          "reason": "First-party project page gives exact survey title, Xi Xiao as equal-contribution author, arXiv2510.13219 and a GitHub button to this repository. README independently has the same title and author list. This is the actual survey project, distinct from the unrelated Gu et al. survey fork xixiaouab/Visual-Prompting-Survey."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:wbdj-CoPYUoC",
+      "title": "Agent Harness Engineering: A Survey",
+      "status": "excluded_by_author",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:eJXPG6dFmWUC",
+      "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/StructLoRA",
+          "evidence_url": "https://github.com/xixiaouab/StructLoRA/blob/main/readme.md",
+          "reason": "Owned public README names the exact Not All Directions Matter paper and cites Xi Xiao as first author with arXiv2603.14228. Already in owned-repository base."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:HDshCWvjkbEC",
+      "title": "Describe Anything in Medical Images",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:8AbLer7MMksC",
+      "title": "Sensitivity-lora: Low-load sensitivity-based fine-tuning for large language models",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:b0M2c_1WBrUC",
+      "title": "Hgtdp-dta: Hybrid graph-transformer with dynamic prompt for drug-target binding affinity prediction",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:5Ul4iDaHHb8C",
+      "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "EchoPluto/MagicID",
+          "evidence_url": "https://github.com/EchoPluto/MagicID-project/blob/main/index.html",
+          "reason": "First-party project-page source names the exact MagicID title, lists Xi Xiao with the matching Scholar ID Q4DnRVgAAAAJ, and has a Code button explicitly linking EchoPluto/MagicID. Repository README repeats exact title and paper URL."
+        },
+        {
+          "full_name": "EchoPluto/MagicID-project",
+          "evidence_url": "https://github.com/EchoPluto/MagicID-project/blob/main/index.html",
+          "reason": "Separate public GitHub Pages source repository for this exact MagicID paper; index.html contains full title, author Xi Xiao and the matching Scholar crosslink. Include as a paper project repository if counting all project repositories; it is a website repository, not additional model code."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:AXPGKjj_ei8C",
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/VIGIL",
+          "evidence_url": "https://github.com/xixiaouab/VIGIL/blob/main/README.md",
+          "reason": "Owned public README identifies itself as the implementation of this exact ECCV2026 paper, links arXiv2606.26387 and cites Xi Xiao first. Already in owned-repository base."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:KxtntwgDAa4C",
+      "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:eq2jaN3J8jMC",
+      "title": "Hyperadalora: Accelerating lora rank allocation during training via hypernetworks without sacrificing performance",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:LPZeul_q3PIC",
+      "title": "ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "XiaoWang-Github/ORBIT-2",
+          "evidence_url": "https://github.com/XiaoWang-Github/ORBIT-2",
+          "reason": "Public repository About/README and CITATION.cff identify ORBIT-2 and link arXiv2505.04802. The primary arXiv record has the exact Scholar title, Xi Xiao among authors and the matching SC DOI10.1145/3712285.3771989. The ORBIT team model card explicitly identifies this repository as the main source. Do not count the XiaoWang-Github profile root or every repository under that owner."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:f2IySw72cVMC",
+      "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "merry7cherry/S-VFM",
+          "evidence_url": "https://merry7cherry.github.io/",
+          "reason": "First author Chenrui Ma's publication card has exact title, Xi Xiao in authors, arXiv2511.17583 and an explicit Code link to this repository. Public repository About and lowercase readme.md repeat the exact title."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:WqliGbK-hY8C",
+      "title": "Self-supervised visual prompting for cross-domain road damage detection",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/PROBE",
+          "evidence_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Xiao_Self-Supervised_Visual_Prompting_for_Cross-Domain_Road_Damage_Detection_WACV_2026_paper.pdf",
+          "reason": "Published first-party CVF paper has exact title, Xi Xiao first author, and explicitly states source code is publicly available at github.com/xixiaouab/PROBE/tree/main. Already in owned-repository base."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:dTyEYWd-f8wC",
+      "title": "Roadbench: A vision-language foundation model and benchmark for road damage understanding",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:eMMeJKvmdy0C",
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/Prompt-Fusion-Discovery",
+          "evidence_url": "https://github.com/xixiaouab/Prompt-Fusion-Discovery/blob/main/README.md",
+          "reason": "Owned public README gives exact paper title, arXiv2606.26379, project page, and citation with Xi Xiao first. Already in owned-repository base."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:738O_yMBCRsC",
+      "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "Oshikaka/HIERAMP",
+          "evidence_url": "https://arxiv.org/html/2603.06932v1",
+          "reason": "First-party paper HTML links this exact repository; primary abstract and repository citation list Xi Xiao among authors. Public README gives exact HierAmp title, arXiv2603.06932 and CVPR2026. FoundationVision/VAR and lin-zhao-resoLve/D3HR links in this README are dependencies/evaluation references, not additional HIERAMP companion repositories."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:1sJd4Hv_s6UC",
+      "title": "Cibr: Cross-modal information bottleneck regularization for robust clip generalization",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:hMod-77fHWUC",
+      "title": "Mgd-yolo: An enhanced road defect detection algorithm based on multi-scale attention feature fusion",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:geHnlv5EZngC",
+      "title": "Td-rd: A top-down benchmark with real-time framework for road damage detection",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:_xSYboBqXhAC",
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "yuxiangwei0808/fMRI-LM",
+          "evidence_url": "https://arxiv.org/abs/2511.21760",
+          "reason": "Primary arXiv abstract links the exact repository and lists Xi Xiao among authors. Xi's archive links the same paper and Project repository. Public repository About repeats the full paper title; README identifies the official fMRI-LM implementation."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:M05iB0D1s5AC",
+      "title": "Visual Variational Autoencoder Prompt Tuning",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:LjlpjdlvIbIC",
+      "title": "Ctr-lora: Curvature-aware and trust-region guided low-rank adaptation for large language models",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:9vf0nzSNQJEC",
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "yuxiangwei0808/MoRE-Brain",
+          "evidence_url": "https://arxiv.org/abs/2505.15946",
+          "reason": "The primary arXiv abstract explicitly links the project repository and lists Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:5awf1xo2G04C",
+      "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "merry7cherry/CAD-VAE",
+          "evidence_url": "https://arxiv.org/abs/2503.07938",
+          "reason": "The primary arXiv abstract explicitly identifies this source-code repository and lists Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:JoZmwDi-zQgC",
+      "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "itsnotacie/MM-26-PIB",
+          "evidence_url": "https://arxiv.org/abs/2607.21973",
+          "reason": "The primary arXiv abstract says the code is available at this exact repository; its author list includes Xi Xiao."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:SdhP9T11ey4C",
+      "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:N5tVd3kTz84C",
+      "title": "Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "lanqz7766/Influence-Calibration-for-On-Policy-Self-Distillation-in-Agentic-RL",
+          "evidence_url": "https://arxiv.org/abs/2608.14945",
+          "reason": "The primary arXiv record and full text explicitly link this companion repository and list Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:ULOm3_A8WrAC",
+      "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "FazleLabib/et_deepfool",
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11953294/",
+          "reason": "The final Scientific Reports article explicitly identifies this code repository in its abstract and lists Xi Xiao at UAB."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:g5m5HwL7SMYC",
+      "title": "Cycle-yolo: A efficient and robust framework for pavement damage detection",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:0EnyYjriUFMC",
+      "title": "An image data augmentation algorithm based on yolov5s-da for pavement distress detection",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:uWQEDVKXjbEC",
+      "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:CHSYGLWDkRkC",
+      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "lijingzhu1/ETT-CKGE",
+          "evidence_url": "https://arxiv.org/abs/2506.08158",
+          "reason": "The primary arXiv abstract explicitly links this code repository and lists Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:ns9cj8rnVeAC",
+      "title": "Stochastic interpolants via conditional dependent coupling",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "merry7cherry/Stochastic-Interpolants-via-Conditional-Dependent-Coupling",
+          "evidence_url": "https://arxiv.org/html/2509.23122",
+          "reason": "The paper explicitly calls this its project repository. The public README matches the paper abstract; both paper and README state the implementation is not yet released.",
+          "release_status": "public_project_placeholder_implementation_unreleased"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:dQ2og3OwTAUC",
+      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:1qzjygNMrQYC",
+      "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:q3oQSFYPqjQC",
+      "title": "Detail Consistent Stage-Wise Distillation for Efficient 3D MRI Segmentation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "ClinicaAlpha/DCD-3D-MedSeg",
+          "evidence_url": "https://arxiv.org/abs/2605.26382",
+          "reason": "The primary arXiv abstract explicitly identifies this public code and implementation repository and lists Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:iH-uZ7U-co4C",
+      "title": "Focus: Fused observation of channels for unveiling spectra",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:-f6ydRqryjwC",
+      "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:BrmTIyaxlBUC",
+      "title": "Leveraging Latent Visual Reasoning in Silence",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "ddydyd32/silent-lvr",
+          "evidence_url": "https://arxiv.org/abs/2605.18641",
+          "reason": "The primary arXiv record explicitly links this code/model repository and lists Xi Xiao as a coauthor."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:eflP2zaiRacC",
+      "title": "Drift Flow Matching",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "merry7cherry/drift-flow-matching",
+          "evidence_url": "https://merry7cherry.github.io/drift-flow-matching/",
+          "reason": "The author project page names the exact paper and full author list including Xi Xiao, marks NeurIPS 2026, and links this repository as GitHub and implementation."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:XiSMed-E-HIC",
+      "title": "Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "ChenLiu-1996/LM-Dispersion",
+          "evidence_url": "https://chenliu-1996.github.io/projects/LM-Dispersion/",
+          "reason": "The official author project page lists Xi Xiao, exact paper title and ICML 2026, and links this repository under GitHub. Its Readme.md links the same paper."
+        },
+        {
+          "full_name": "KrishnaswamyLab/LM-Dispersion",
+          "evidence_url": "https://arxiv.org/html/2602.00217",
+          "reason": "The primary paper full text explicitly links this lab repository. Its Readme.md links the exact paper and author project page. It is a distinct public non-fork repository ID, not a redirect alias of the author repository."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:Tiz5es2fbqcC",
+      "title": "ComfySearch: Autonomous Exploration and Reasoning for ComfyUI Workflows",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:PR6Y55bgFSsC",
+      "title": "Dynamic Hub-and-Spoke Memory for Streaming Video Understanding",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "Oshikaka/D-HSM",
+          "evidence_url": "https://lin-zhao-resolve.github.io/",
+          "reason": "A coauthor homepage lists the exact paper, Xi Xiao in the author list, and this code link. The paper links the official project page, which independently links the same repository."
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:XiVPGOgt02cC",
+      "title": "Transition flow matching",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:OU6Ihb5iCvQC",
+      "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:mB3voiENLucC",
+      "title": "CryoCCD: Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "runminjiang/CryoCCD",
+          "evidence_url": "https://github.com/runminjiang/CryoCCD",
+          "reason": "The public repository description is the exact distinctive paper subtitle, Conditional Cycle-consistent Diffusion with Biophysical Modeling for Cryo-EM Synthesis. Owner Runmin Jiang is the first author; the primary arXiv author list includes Xi Xiao. This is an empty public project placeholder, not a released implementation.",
+          "release_status": "public_empty_placeholder"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:kzcrU_BdoSEC",
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/ReaLVR-code",
+          "evidence_url": "https://xixiaouab.github.io/projects/ReaLVR/",
+          "reason": "The author project page explicitly labels this repository Code. Its README names the exact paper, links arXiv:2609.34563, and lists Xi Xiao.",
+          "release_status": "training_and_evaluation_code"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:K3LRdlH-MEoC",
+      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:WbkHhVStYXYC",
+      "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:fQNAKQ3IYiAC",
+      "title": "TWIG: Two-Step Image Generation Using Segmentation Masks as an Intermediary in Diffusion Models to Prevent Copyright Infringement",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:ZfRJV9d4-WMC",
+      "title": "MedSTP: Preserving Subspace and Transition Evidence for Medical VQA Token Pruning",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "mengchen-fan/medstp",
+          "evidence_url": "https://github.com/mengchen-fan/medstp/blob/main/README.md",
+          "reason": "README explicitly names the exact MedSTP paper, links arXiv:2610.22751, and cites Xi Xiao among its authors. The release is a standalone token selector rather than the complete experimental system.",
+          "release_status": "standalone_selector"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:ye4kPcJQO24C",
+      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/Cascaded-Semantics",
+          "evidence_url": "https://xixiaouab.github.io/Cascaded-Semantics/",
+          "reason": "Author project page lists Xi Xiao and explicitly links this repository as Code; the README repeats the exact title, OpenReview/arXiv links, and Xi Xiao citation.",
+          "release_status": "research_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:tkaPQYYpVKoC",
+      "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "janet-sw/Sparse-Reslim",
+          "evidence_url": "https://arxiv.org/html/2607.02829",
+          "reason": "The paper explicitly says Code is available at this repository; README identifies it as the official ECCV 2026 implementation and its citation includes Xi Xiao.",
+          "release_status": "official_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:V3AGJWp-ZtQC",
+      "title": "Do LLMs Build World Models From Text? A Multilingual Diagnostic of Spatial Reasoning",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:W5xh706n7nkC",
+      "title": "TempFinRAG: Multimodal Temporal Retrieval-Augmented Generation for Point-in-Time Financial Question Answering",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/TempFinRAG",
+          "evidence_url": "https://github.com/xixiaouab/TempFinRAG/blob/main/README.md",
+          "reason": "README identifies this repository as the runnable reference implementation for the exact TempFinRAG title. The primary MDPI article lists Xi Xiao; the README expressly distinguishes the reference release from exact manuscript-result reproduction.",
+          "release_status": "reference_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:NaGl4SEjCO4C",
+      "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:2KloaMYe4IUC",
+      "title": "UtoMe: Observation-Uncertainty-Guided Token Merging for Weather Foundation Models",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "ornl-utome/UtoMe",
+          "evidence_url": "https://ornl-utome.github.io/",
+          "reason": "The paper project page explicitly links this repository as Code and lists Xi Xiao. The public repository README repeats the exact UtoMe title and author list.",
+          "release_status": "research_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:z_wVstp3MssC",
+      "title": "Beyond Endpoints: B\\'ezier Paths for Vision Foundation Model Adaptation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/Beyond-Endpoints",
+          "evidence_url": "https://xixiaouab.github.io/Beyond-Endpoints/",
+          "reason": "The paper project page lists Xi Xiao as equal-contribution/corresponding author and explicitly links Project on GitHub to this repository. README confirms it contains the project website and paper assets only, not the research implementation.",
+          "release_status": "project_website_and_paper_assets_only"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:VLnqNzywnoUC",
+      "title": "PTQ4SAM3: Semantics-Preserving Post-Training Quantization for Segment Anything Model 3",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/PTQ4SAM3",
+          "evidence_url": "https://github.com/xixiaouab/PTQ4SAM3/blob/main/index.html",
+          "reason": "The repository website source has the exact PTQ4SAM3 title, citation_author Xiao, Xi, a complete author citation, and an explicit link to this repository. README describes the paper-specific project website and says model code/checkpoints are not released.",
+          "release_status": "project_website_only"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:uJ-U7cs_P_0C",
+      "title": "From Activation to Intervention: Interpreting Sparse Visual Features through Reconstruction",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "Imageomics/RecSAEI",
+          "evidence_url": "https://imageomics.github.io/RecSAEI/",
+          "reason": "The author project page for From Activation to Intervention links this exact repository as Code and names Xi Xiao. README cites arXiv:2611.05522 with Xiao, Xi in the authors; bundled/upstream saev and RAEv2 are dependencies and are not included.",
+          "release_status": "research_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:35r97b3x0nAC",
+      "title": "Training-Free Inference Acceleration for Video Large Language Models: Methods, Trade-offs, and Evaluation",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:tzM49s52ZIMC",
+      "title": "Beyond the Teacher: Understanding and Preserving Distillation Overshoot in Agentic On-Policy Distillation",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "Jike338/SPOD",
+          "evidence_url": "https://arxiv.org/abs/2610.25034",
+          "reason": "The primary paper abstract directly links this repository as Code and lists Xi Xiao as coauthor. README identifies itself as the source code for the exact Beyond the Teacher paper and links the same arXiv ID.",
+          "release_status": "research_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:7T2F9Uy0os0C",
+      "title": "MCD: Causal Distillation of Multimodal In-Context Learning in Large Vision-Language Models",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:-_dYPAW6P2MC",
+      "title": "ContextTom: Training-Free Video VLM Acceleration with Early Spatial Context",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:NJ774b8OgUMC",
+      "title": "FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "xixiaouab/FORGE-code",
+          "evidence_url": "https://xixiaouab.github.io/projects/FORGE/",
+          "reason": "The author project page explicitly labels this repository Code and lists Xi Xiao. README names the exact FORGE paper, lists Xi Xiao, and links arXiv:2609.34358.",
+          "release_status": "training_inference_and_evaluation_code"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:tKAzc9rXhukC",
+      "title": "Posterior Flow Matching",
+      "status": "verified_public_project",
+      "repositories": [
+        {
+          "full_name": "merry7cherry/posterior-flow-matching",
+          "evidence_url": "https://merry7cherry.github.io/posterior-flow-matching/",
+          "reason": "The author project page lists Xi Xiao and explicitly links Code on GitHub to this repository. README repeats the author list and provides the four paper applications as directories inside one repository; count the repository once.",
+          "release_status": "research_implementation"
+        }
+      ]
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:SP6oXDckpogC",
+      "title": "KG-SAM: Injecting Anatomical Knowledge into Segment Anything Models via Conditional Random Fields",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:_Re3VWB3Y0AC",
+      "title": "When Evidence Vanishes: Distilling Visual-Evidence Dependency in Medical Vision-Language Models",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    },
+    {
+      "scholar_publication_id": "Q4DnRVgAAAAJ:UxriW0iASnsC",
+      "title": "Boosting Active Learning with Knowledge Transfer",
+      "status": "no_verified_public_repository",
+      "repositories": []
+    }
+  ]
+}
