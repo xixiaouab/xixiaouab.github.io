@@ -44,8 +44,8 @@ hr { display:none; }
 .wechat-qr-card small { display:block; text-align:center; font-size:12px; margin-top:5px; }
 .wechat-link-wrap:hover .wechat-qr-card,.wechat-link-wrap:focus-within .wechat-qr-card { opacity:1; visibility:visible; pointer-events:auto; }
 .news { list-style:none; padding:0; margin:0; }
-.news li { display:grid; grid-template-columns:52px minmax(0,1fr); gap:12px; padding:4px 0; font-size:15px; }
-.date { color:var(--faint); font-size:15px; line-height:24px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.news li { display:grid; grid-template-columns:64px minmax(0,1fr); gap:12px; padding:4px 0; font-size:15px; }
+.date { color:var(--faint); font-size:14px; line-height:24px; font-variant-numeric:tabular-nums; white-space:nowrap; }
 .more summary { display:block; width:fit-content; cursor:pointer; list-style:none; margin-top:8px; color:var(--muted); font-size:14px; text-decoration:underline; text-decoration-color:var(--rule); text-underline-offset:3px; }
 .more summary:hover { color:var(--accent); }
 .more summary::-webkit-details-marker { display:none; }
@@ -120,8 +120,8 @@ hr { display:none; }
  .wrap { padding-top:40px; }
  .intro { display:block; }
  .avatar-frame { width:100px; height:100px; margin-bottom:20px; }
- .news li { grid-template-columns:44px minmax(0,1fr); gap:10px; }
- .date { font-size:15px; }
+ .news li { grid-template-columns:64px minmax(0,1fr); gap:10px; }
+ .date { font-size:14px; }
  .cv-entry { grid-template-columns:minmax(0,1fr); gap:4px; }
  .service { grid-template-columns:minmax(0,1fr); row-gap:2px; }
  .service dd { margin-bottom:12px; }
