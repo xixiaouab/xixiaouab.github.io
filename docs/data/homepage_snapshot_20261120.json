@@ -1,0 +1,25 @@
+{
+  "created_on": "2026-11-20",
+  "source_commit": "2db6088f0c10da7196ff363f06f738c518212e82",
+  "backup_branch": "backup/homepage-before-teng-20261120",
+  "archived_entry": "https://xixiaouab.github.io/homepage-20261120.html",
+  "source_file_sha256": {
+    "docs/_layouts/index.html": "58e5d9cd88240c6f63d7b3d03a68cb6599d68477cd6bde209d9d0d52f61026f1",
+    "docs/data/github_stats.json": "38eaca4e5fb5bcab200c0adb4a37c03ab7500859fad1e132bf5d4975cd334350",
+    "docs/data/scholar_citations.json": "72cfde66e979c70fb9be3d6ea8a05f5a7d540e5421ac02cb284acb2d162f12fc",
+    "docs/js/main.js": "1cb61a69db7aa5c629c8629d613d7b625f5ff997d894cd0192a197558fc7b07a",
+    "docs/js/news-autoscroll.js": "66ee0da59476744e6a5651d8df7d16ac7b6bd5790ae0d971ce6156d3bf08a0b9",
+    "docs/js/profile-stats.js": "f942516be02648440e0e16fbdbcecdcd0a48cda44c9c29e3ec6b25841290da60",
+    "docs/other-publications.html": "dabfd4c4e98a4835b0d3522ddd4f152066611313270b03632d61f41042f0d176",
+    "docs/static/minimal-home.css": "ad5c299b0a6b9514d858816df4198fa94f8002b5497ec5f073343d686601e5e7"
+  },
+  "records": {
+    "news": 38,
+    "selected_work": 14,
+    "conference_publications": 24,
+    "paper_figures": 38,
+    "github_stars": 455,
+    "scholar_citations": 927
+  },
+  "note": "The backup branch pins the complete original repository, including source, assets, scripts, CV, and cached statistics. The standalone old-version entry retains its original source and stylesheet."
+}
