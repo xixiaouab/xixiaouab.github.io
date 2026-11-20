@@ -257,13 +257,19 @@ function initScholarCitationTracker() {
     return;
   }
 
-  fetch("data/scholar_citations.json", { cache: "no-cache" })
-    .then(function (response) {
-      if (!response.ok) {
-        throw new Error("Citation data unavailable");
-      }
-      return response.json();
-    })
+  // Share the verified cache used by the social counter. On archive pages
+  // without that enhancement, keep the existing same-origin data path.
+  var snapshot = window.profileStatsReady
+    ? window.profileStatsReady.then(function (stats) {
+        if (!stats.scholar) { throw new Error("Citation data unavailable"); }
+        return stats.scholar;
+      })
+    : fetch("data/scholar_citations.json", { cache: "no-cache" }).then(function (response) {
+        if (!response.ok) { throw new Error("Citation data unavailable"); }
+        return response.json();
+      });
+
+  snapshot
     .then(function (data) {
       var summary = data.summary || {};
       var profile = data.profile || {};
@@ -300,8 +306,40 @@ document.addEventListener("DOMContentLoaded", function () {
   initPublicationFigures();
   initIdentityTyping();
   initScholarCitationTracker();
+  initPublicationFilters();
 
   document.querySelectorAll('a[target="_blank"]').forEach(function (link) {
     link.rel = "noopener noreferrer";
   });
 });
+
+
+// Filtering leaves the complete list available when JavaScript is disabled.
+function initPublicationFilters() {
+  var buttons = Array.from(document.querySelectorAll("[data-publication-filter]"));
+  var cards = Array.from(document.querySelectorAll("[data-publication-id]"));
+  var status = document.querySelector("[data-publication-results]");
+  if (!buttons.length || !cards.length || !status) { return; }
+
+  function applyFilter(button) {
+    var selected = button.dataset.publicationFilter;
+    var visible = 0;
+    cards.forEach(function (card) {
+      var show = selected === "all" || card.dataset.category === selected ||
+        (selected === "preprint" && card.dataset.status === "preprint");
+      card.hidden = !show;
+      if (show) { visible += 1; }
+    });
+    buttons.forEach(function (item) { item.setAttribute("aria-pressed", String(item === button)); });
+    var label = button.childNodes[0].textContent.trim();
+    status.textContent = selected === "all" ? "Showing all " + visible + " publications" :
+      label + " · " + visible + (visible === 1 ? " publication" : " publications");
+  }
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () { applyFilter(button); });
+  });
+  if (window.location.hash === "#Preprints") {
+    var preprints = buttons.find(function (button) { return button.dataset.publicationFilter === "preprint"; });
+    if (preprints) { applyFilter(preprints); }
+  }
+}

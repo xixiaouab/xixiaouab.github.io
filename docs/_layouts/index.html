@@ -8,404 +8,250 @@
 	<title>Xi Xiao</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-	<link rel="stylesheet" href="../static/minimal-home.css?v=20261111-research-scale">
-	<script src="../js/main.js?v=20261104-static-restored"></script>
-	<script src="../js/scroll.js"></script>
+	<link rel="stylesheet" href="../static/minimal-home.css?v=20261119-homepage-v2">
+	<script src="../js/profile-stats.js?v=20261119" defer></script>
+	<script src="../js/main.js?v=20261119-homepage-v2" defer></script>
+	<script src="../js/news-autoscroll.js?v=20261119" defer></script>
 </head>
 
-<body class="minimal-home">
+<body class="minimal-home homepage-v2">
 	<header class="site-header" id="Home">
 		<div class="container header-inner">
-			<a class="site-name" href="#Home">Xi Xiao</a>
+			<a class="site-name" href="#About">Xi Xiao</a>
 			<nav class="site-nav" aria-label="Primary navigation">
+				<a href="#About">About</a>
 				<a href="#News">News</a>
+				<a href="#SelectedWork">Selected Work</a>
 				<a href="#Publications">Publications</a>
 				<a href="other-publications.html" aria-label="Other Publications"><span class="nav-label-long">Other Publications</span><span class="nav-label-short" aria-hidden="true">Other Pubs</span></a>
-				<a href="#CV">Background</a>
+				<a href="#CV">Experience</a>
 			</nav>
 		</div>
 	</header>
 	<main>
 
-	<section class="container intro-panel" id="About">
-		<div class="hero-grid">
-			<div class="profile-column">
-				<img class="profile-photo" src="images/profile-harvard-2026.jpg" alt="Xi Xiao at Harvard University">
-			</div>
-
-			<div class="intro-copy">
-			<div class="intro-heading">
-				<h1>Xi Xiao</h1>
-				<p class="intro-role">Final-year Ph.D. Candidate</p>
-			</div>
-			<p class="intro-affiliation"><a href="https://www.uab.edu/cas/computerscience/" target="_blank">Computer Science · University of Alabama at Birmingham</a></p>
-			<p class="intro-research" id="Research">I study how <strong>post-training</strong> shapes the intelligence and behavior of foundation models. My current research focuses on <strong>multimodal reasoning</strong> and <strong>agentic AI</strong>, using reinforcement learning (RL) and other post-training techniques to improve model and agent capabilities. I am particularly interested in agent memory, harness engineering, recursive self-improvement (RSI), and reasoning.</p>
-			<p class="intro-internships">I am currently a Research Scientist Intern at <a class="intro-org intro-org-ornl" href="https://www.ornl.gov/" target="_blank"><img src="images/ornl_logo.png" alt="" aria-hidden="true">Oak Ridge National Laboratory</a>, where I <strong>design and train an AI4Weather foundation model</strong> for the <a href="https://www.ornl.gov/genesis" target="_blank">Genesis Mission</a>. Previously, I was an Applied Scientist Intern at <a class="intro-org intro-org-amazon" href="https://labs.amazon.science/" target="_blank"><img src="images/amazon_wordmark.svg" alt="" aria-hidden="true">Amazon AGI Foundations</a>, where I post-trained a <strong>200B-parameter frontier multimodal large language model (MLLM)</strong> for multimodal and agentic reasoning using <strong>supervised fine-tuning (SFT) and reinforcement learning (RL)</strong> across <strong>more than 100 compute nodes</strong>.</p>
-			<div class="availability-note">
+<div class="container opening-grid"><section class="intro-panel" id="About" aria-labelledby="profile-name">
+  <div class="profile-introduction">
+    <img class="profile-photo" src="images/profile-harvard-2026.jpg" width="130" height="162" alt="Xi Xiao at Harvard University">
+    <div class="intro-heading"><h1 id="profile-name">Xi Xiao</h1><p class="intro-role">Final-year Ph.D. Candidate</p><p class="intro-affiliation"><a href="https://www.uab.edu/cas/computerscience/" target="_blank" rel="noopener noreferrer">Computer Science · University of Alabama at Birmingham</a></p><a class="profile-email" href="mailto:xxiao@uab.edu">xxiao [at] uab (dot) edu</a></div>
+  </div>
+  <div class="profile-links" aria-label="Profile and contact links">
+    <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" title="Google Scholar citations; last successful update 2026-11-19"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar <span class="social-count" data-inline-scholar-citations>927</span></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/xixiaouab" title="Stars across public repositories owned by xixiaouab; last successful update 2026-11-19"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="social-count" data-inline-github-stars>65</span></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/xi-xiao-4800272a5"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://x.com/markshawww99"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+    <a target="_blank" rel="noopener noreferrer" href="files/Xi_Xiao_CV.pdf?v=20261028-phd-candidate"><i class="far fa-file-pdf" aria-hidden="true"></i> CV</a>
+    <span class="wechat-link-wrap"><a class="wechat-link" target="_blank" rel="noopener noreferrer" href="images/wechat-qr.jpg"><i class="fab fa-weixin" aria-hidden="true"></i> WeChat</a><span class="wechat-qr-card" aria-hidden="true"><img src="images/wechat-qr.jpg" alt="WeChat QR code"><small>Scan to connect on WeChat</small></span></span>
+  </div>
+  <div class="intro-copy"><p class="intro-research" id="Research">I study how <strong>post-training</strong> shapes the intelligence and behavior of foundation models. My current research focuses on <strong>multimodal reasoning</strong> and <strong>agentic AI</strong>, using reinforcement learning (RL) and other post-training techniques to improve model and agent capabilities. I am particularly interested in agent memory, harness engineering, recursive self-improvement (RSI), and reasoning.</p><p class="intro-internships">I am currently a Research Scientist Intern at <a class="intro-org intro-org-ornl" href="https://www.ornl.gov/" target="_blank"><img src="images/ornl_logo.png" alt="" aria-hidden="true">Oak Ridge National Laboratory</a>, where I <strong>design and train an AI4Weather foundation model</strong> for the <a href="https://www.ornl.gov/genesis" target="_blank">Genesis Mission</a>. Previously, I was an Applied Scientist Intern at <a class="intro-org intro-org-amazon" href="https://labs.amazon.science/" target="_blank"><img src="images/amazon_wordmark.svg" alt="" aria-hidden="true">Amazon AGI Foundations</a>, where I post-trained a <strong>200B-parameter frontier multimodal large language model (MLLM)</strong> for multimodal and agentic reasoning using <strong>supervised fine-tuning (SFT) and reinforcement learning (RL)</strong> across <strong>more than 100 compute nodes</strong>.</p><div class="availability-note">
 				<!-- <span class="availability-lead">I am seeking full-time Research Scientist / Applied Scientist opportunities in industry starting from Fall 2027.</span> -->
 				<span class="availability-lead">I am actively seeking Research Internship opportunities in Summer 2027.</span>
 				If your team is hiring researchers in MLLM / Agentic post-training-related areas, or if you know of relevant opportunities, please feel free to reach out. Thank you!
-			</div>
-			<p class="profile-links">
-				<a target="_blank" rel="noopener noreferrer" href="files/Xi_Xiao_CV.pdf?v=20261028-phd-candidate"><i class="far fa-file-pdf fa-lg" aria-hidden="true"></i> CV (PDF)</a>
-				<a target="_blank" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en"><i class="ai ai-google-scholar ai-lg"></i> Scholar</a>
-				<a target="_blank" href="https://github.com/xixiaouab"><i class="fab fa-github fa-lg"></i> GitHub</a>
-				<a target="_blank" href="https://www.linkedin.com/in/xi-xiao-4800272a5"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-				<span class="wechat-link-wrap">
-					<a class="wechat-link" target="_blank" href="images/wechat-qr.jpg"><i class="fab fa-weixin fa-lg"></i> WeChat</a>
-					<span class="wechat-qr-card" aria-hidden="true">
-						<img src="images/wechat-qr.jpg" alt="WeChat QR code">
-						<small>Scan to connect on WeChat</small>
-					</span>
-				</span>
-				<span class="email-link">xxiao [at] uab (dot) edu</span>
-			</p>
-
-			</div>
-		</div>
-	</section>
-
-  <!-- News -->
-		<section class="container news-section section-block">
-			<h2 id="News">News</h2><hr>
-			<p class="news-scroll-hint" id="news-scroll-hint">Scroll for earlier updates</p>
-			<div class="news-panel">
-				<div class="news-scroll" role="region" tabindex="0" aria-labelledby="News" aria-describedby="news-scroll-hint" data-news-limit="10">
-					<div class="news-group">
-						<div class="news-year">2026</div>
-						<ul class="news-list">
-							<li><tt>[11]</tt> One paper accepted to <b>EACL 2027 Findings</b>!</li>
-							<li><tt>[10]</tt> Recognized as a <b>CVPR 2026 Outstanding Reviewer</b>.</li>
-							<li><tt>[10]</tt> Two papers accepted by <b>WACV 2027</b>! See you in Orlando!</li>
-							<li><tt>[09]</tt> Four papers accepted by <b>NeurIPS 2026</b>! See you in Atlanta!</li>
-							<li><tt>[09]</tt> One paper accepted by <b>TMLR</b>!</li>
-							<li><tt>[08]</tt> We are organizing <a href="https://chenliu-1996.github.io/LVR-WACV2027/" target="_blank"><b>the 1st Latent Visual Reasoning (LVR) Workshop</b></a> at <b>WACV 2027</b>. See you in Orlando!</li>
-							<li><tt>[08]</tt> Two papers accepted by <b>EMNLP 2026 Findings</b>!</li>
-							<li><tt>[08]</tt> Join <a class="news-org" href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a> as a Research Scientist Intern again!</li>
-							<li><tt>[08]</tt> We are organizing the <a href="https://sites.google.com/view/scale-to-see-workshop/home" target="_blank"><b>Scale to See: Scalable AI for Scientific Imaging and Spatiotemporal Data Workshop</b></a> at <b>SC 2026</b>!</li>
-							<li><tt>[07]</tt> One paper accepted by <b>TMLR</b>!</li>
-							<li><tt>[07]</tt> One paper accepted by <b>ACM MM 2026</b>!</li>
-							<li><tt>[06]</tt> Five papers accepted by <b>ECCV 2026</b>!</li>
-							<li><tt>[05]</tt> New preprint is out: <a href="https://picrew.github.io/LLM-Harness/" target="_blank"><b>Agent Harness Engineering: A Survey</b></a>.</li>
-							<li><tt>[05]</tt> Recognized as an <b>ICML 2026 Silver Reviewer</b>.</li>
-							<li><tt>[05]</tt> One paper accepted by <b>MICCAI 2026</b> <span style="color:#d00;"><b>Spotlight 🏆</b></span>!</li>
-							<li><tt>[05]</tt> Join <a class="news-org" href="https://labs.amazon.science/" target="_blank">Amazon AGI</a> as an Applied Scientist Intern!</li>
-							<li><tt>[04]</tt> One paper accepted by <b>ICML 2026</b>!</li>
-							<li><tt>[04]</tt> Two papers accepted by <b>ACL 2026</b> (one Main conference, one Findings)! See you in San Diego!</li>
-							<li><tt>[03]</tt> One paper accepted by <b>ICME 2026</b>!</li>
-							<li><tt>[02]</tt> Three papers accepted by <b>CVPR 2026</b>! See you in Denver!</li>
-							<li><tt>[01]</tt> One paper accepted by <b>TMLR</b>!</li>
-							<li><tt>[01]</tt> Two papers accepted by <b>ICASSP 2026</b> <span style="color:#d00;"><b>Oral 🏆</b></span>!</li>
-						</ul>
-					</div>
-					<div class="news-group">
-						<div class="news-year">2025</div>
-						<ul class="news-list">
-							<li><tt>[12]</tt> 🎉 Received a <b>Tinker Research Grant ($5,000)</b> from <a href="https://thinkingmachines.ai/" target="_blank">Thinking Machines Lab</a> to support my post-training related research!</li>
-							<li><tt>[11]</tt> One paper accepted by <span style="color:#d00;"><b>SC 2025 — Best Paper Award 🏆</b></span> Deeply honored to be the only student author.</li>
-							<li><tt>[11]</tt> 🎉 <b>Big News: Our Work Was Featured by AMD!</b> <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">Read the story</a></li>
-							<li><tt>[11]</tt> Two papers accepted by <b>WACV 2026</b>!</li>
-							<li><tt>[11]</tt> One paper accepted by <b>AAAI 2026</b>!</li>
-							<li><tt>[09]</tt> One paper accepted by <b>NeurIPS 2025</b>! See you in San Diego!</li>
-							<li><tt>[09]</tt> One paper accepted by <b>WACV 2026</b>! <span style="color:#d00;"><b>Round 1 Acceptance (85/1329 ≈ 6.4%)</b></span></li>
-							<li><tt>[08]</tt> One paper accepted by <b>EMNLP 2025</b> (Findings)!</li>
-							<li><tt>[07]</tt> Our work selected as a finalist for the <span style="color:#d00;"><b>ACM Gordon Bell Prize 🏆</b></span></li>
-							<li><tt>[07]</tt> One paper accepted by <b>COLM 2025</b>!</li>
-							<li><tt>[07]</tt> One paper accepted by <b>ACM MM 2025</b>!</li>
-							<li><tt>[06]</tt> One paper accepted by <b>ICCV 2025</b>!</li>
-							<li><tt>[05]</tt> One paper accepted by <b>ECML-PKDD 2025</b>!</li>
-						<li><tt>[05]</tt> Join <a class="news-org" href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a> as a Research Scientist Intern!</li>
-						</ul>
-					</div>
-					<div class="news-group">
-						<div class="news-year">2024</div>
-						<ul class="news-list">
-							<li><tt>[12]</tt> One paper accepted by <b>ICASSP 2025</b>!</li>
-							<li><tt>[01]</tt> Started Ph.D. in Computer Science at the <b>University of Alabama at Birmingham</b>!</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
+			</div></div>
+</section><aside class="news-section" data-news-widget aria-labelledby="News">
+  <div class="news-heading"><h2 id="News">News</h2><button type="button" class="news-toggle" data-news-toggle aria-controls="news-updates" hidden>Pause auto-scroll</button></div>
+  <p class="news-scroll-hint" id="news-scroll-hint">Scroll to browse all updates.</p>
+  <div class="news-panel"><div class="news-scroll" id="news-updates" role="region" tabindex="0" aria-labelledby="News" aria-describedby="news-scroll-hint" data-news-limit="10" data-news-autoscroll><ul class="news-list"><li><time datetime="2026-11">Nov 2026</time><div class="news-update">One paper accepted to <b>EACL 2027 Findings</b>!</div></li><li><time datetime="2026-10">Oct 2026</time><div class="news-update">Recognized as a <b>CVPR 2026 Outstanding Reviewer</b>.</div></li><li><time datetime="2026-10">Oct 2026</time><div class="news-update">Two papers accepted by <b>WACV 2027</b>! See you in Orlando!</div></li><li><time datetime="2026-09">Sep 2026</time><div class="news-update">Four papers accepted by <b>NeurIPS 2026</b>! See you in Atlanta!</div></li><li><time datetime="2026-09">Sep 2026</time><div class="news-update">One paper accepted by <b>TMLR</b>!</div></li><li><time datetime="2026-08">Aug 2026</time><div class="news-update">We are organizing <a href="https://chenliu-1996.github.io/LVR-WACV2027/" target="_blank"><b>the 1st Latent Visual Reasoning (LVR) Workshop</b></a> at <b>WACV 2027</b>. See you in Orlando!</div></li><li><time datetime="2026-08">Aug 2026</time><div class="news-update">Two papers accepted by <b>EMNLP 2026 Findings</b>!</div></li><li><time datetime="2026-08">Aug 2026</time><div class="news-update">Join <a class="news-org" href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a> as a Research Scientist Intern again!</div></li><li><time datetime="2026-08">Aug 2026</time><div class="news-update">We are organizing the <a href="https://sites.google.com/view/scale-to-see-workshop/home" target="_blank"><b>Scale to See: Scalable AI for Scientific Imaging and Spatiotemporal Data Workshop</b></a> at <b>SC 2026</b>!</div></li><li><time datetime="2026-07">Jul 2026</time><div class="news-update">One paper accepted by <b>TMLR</b>!</div></li><li><time datetime="2026-07">Jul 2026</time><div class="news-update">One paper accepted by <b>ACM MM 2026</b>!</div></li><li><time datetime="2026-06">Jun 2026</time><div class="news-update">Five papers accepted by <b>ECCV 2026</b>!</div></li><li><time datetime="2026-05">May 2026</time><div class="news-update">New preprint is out: <a href="https://picrew.github.io/LLM-Harness/" target="_blank"><b>Agent Harness Engineering: A Survey</b></a>.</div></li><li><time datetime="2026-05">May 2026</time><div class="news-update">Recognized as an <b>ICML 2026 Silver Reviewer</b>.</div></li><li><time datetime="2026-05">May 2026</time><div class="news-update">One paper accepted by <b>MICCAI 2026</b> <span style="color:#d00;"><b>Spotlight 🏆</b></span>!</div></li><li><time datetime="2026-05">May 2026</time><div class="news-update">Join <a class="news-org" href="https://labs.amazon.science/" target="_blank">Amazon AGI</a> as an Applied Scientist Intern!</div></li><li><time datetime="2026-04">Apr 2026</time><div class="news-update">One paper accepted by <b>ICML 2026</b>!</div></li><li><time datetime="2026-04">Apr 2026</time><div class="news-update">Two papers accepted by <b>ACL 2026</b> (one Main conference, one Findings)! See you in San Diego!</div></li><li><time datetime="2026-03">Mar 2026</time><div class="news-update">One paper accepted by <b>ICME 2026</b>!</div></li><li><time datetime="2026-02">Feb 2026</time><div class="news-update">Three papers accepted by <b>CVPR 2026</b>! See you in Denver!</div></li><li><time datetime="2026-01">Jan 2026</time><div class="news-update">One paper accepted by <b>TMLR</b>!</div></li><li><time datetime="2026-01">Jan 2026</time><div class="news-update">Two papers accepted by <b>ICASSP 2026</b> <span style="color:#d00;"><b>Oral 🏆</b></span>!</div></li><li><time datetime="2025-12">Dec 2025</time><div class="news-update">🎉 Received a <b>Tinker Research Grant ($5,000)</b> from <a href="https://thinkingmachines.ai/" target="_blank">Thinking Machines Lab</a> to support my post-training related research!</div></li><li><time datetime="2025-11">Nov 2025</time><div class="news-update">One paper accepted by <span style="color:#d00;"><b>SC 2025 — Best Paper Award 🏆</b></span> Deeply honored to be the only student author.</div></li><li><time datetime="2025-11">Nov 2025</time><div class="news-update">🎉 <b>Big News: Our Work Was Featured by AMD!</b> <a href="https://www.amd.com/en/blogs/2025/earth-system-modeling-with-orbit-2.html" target="_blank">Read the story</a></div></li><li><time datetime="2025-11">Nov 2025</time><div class="news-update">Two papers accepted by <b>WACV 2026</b>!</div></li><li><time datetime="2025-11">Nov 2025</time><div class="news-update">One paper accepted by <b>AAAI 2026</b>!</div></li><li><time datetime="2025-09">Sep 2025</time><div class="news-update">One paper accepted by <b>NeurIPS 2025</b>! See you in San Diego!</div></li><li><time datetime="2025-09">Sep 2025</time><div class="news-update">One paper accepted by <b>WACV 2026</b>! <span style="color:#d00;"><b>Round 1 Acceptance (85/1329 ≈ 6.4%)</b></span></div></li><li><time datetime="2025-08">Aug 2025</time><div class="news-update">One paper accepted by <b>EMNLP 2025</b> (Findings)!</div></li><li><time datetime="2025-07">Jul 2025</time><div class="news-update">Our work selected as a finalist for the <span style="color:#d00;"><b>ACM Gordon Bell Prize 🏆</b></span></div></li><li><time datetime="2025-07">Jul 2025</time><div class="news-update">One paper accepted by <b>COLM 2025</b>!</div></li><li><time datetime="2025-07">Jul 2025</time><div class="news-update">One paper accepted by <b>ACM MM 2025</b>!</div></li><li><time datetime="2025-06">Jun 2025</time><div class="news-update">One paper accepted by <b>ICCV 2025</b>!</div></li><li><time datetime="2025-05">May 2025</time><div class="news-update">One paper accepted by <b>ECML-PKDD 2025</b>!</div></li><li><time datetime="2025-05">May 2025</time><div class="news-update">Join <a class="news-org" href="https://www.ornl.gov/" target="_blank">Oak Ridge National Laboratory</a> as a Research Scientist Intern!</div></li><li><time datetime="2024-12">Dec 2024</time><div class="news-update">One paper accepted by <b>ICASSP 2025</b>!</div></li><li><time datetime="2024-01">Jan 2024</time><div class="news-update">Started Ph.D. in Computer Science at the <b>University of Alabama at Birmingham</b>!</div></li></ul></div></div>
+</aside></div>
 
 	<!-- Publications -->
-	<section class="container publications-section section-block" id="Publications">
-		<!-- PREPRINTS-HIDDEN-START 2026-06-19: remove this opening comment and the PREPRINTS-HIDDEN-END marker below to restore the Preprints section.
-		<h3 id="Preprints" style="padding-top: 70px; margin-top: -80px;">
-			Preprints
-			<small><small> (<i>* indicates equal contribution</i>)</small></small><br>
-		</h3>
+<section class="container featured-section section-block" id="SelectedWork" aria-labelledby="selected-work-heading">
+  <div class="section-heading"><h2 id="selected-work-heading">Selected Work</h2><a class="section-more" href="#Publications">All publications</a></div>
+  <div class="featured-grid"><article class="pub-card publication-tile featured-tile" data-featured-id="realvr" data-category="reasoning-agents" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="projects/ReaLVR/assets/evidence-credit-still.svg?v=20260927-slide8-v1" target="_blank" rel="noopener noreferrer" aria-label="View figure: ReaLVR" title="View larger figure"><img class="img-fluid pub-thumb" src="projects/ReaLVR/assets/method.webp" width="1800" height="955" alt="ReaLVR: visual grounding and differential token credit for latent reasoning" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence</a></h3>
+        <p class="pub-keywords">MLLM Reasoning | Scaling Law | Post-training</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/ReaLVR/">Project</a></div>
+        <div class="pub-notes">Work done during an internship at Amazon AGI.</div><div class="pub-notes">Ranked #1 on Hugging Face Daily Papers.</div>
+        <details class="pub-author-details"><summary aria-label="Authors of Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong><sup><a href="mailto:xxiao@uab.edu" aria-label="Xi Xiao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Tianchen Zhao<sup><a href="mailto:tianchz@amazon.com" aria-label="Tianchen Zhao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Youngeun Kim, Zhuowei Li, Linghan Xu, Jiaye Wu, Zheng Zhang, Xiang Xu, Xuanbai Chen, Farhan Tejani, Jakub Zablocki, Julia Xu, Yifan Xing</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile featured-tile" data-featured-id="forge" data-category="reasoning-agents" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/forge-teaser.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: FORGE" title="View larger figure"><img class="img-fluid pub-thumb" src="images/forge-teaser.png" width="3102" height="1306" alt="FORGE selects the support form for each query around a frozen language model" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents</a></h3>
+        <p class="pub-keywords">Agentic Reasoning | Adaptive Reasoning | Agentic Routing</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/FORGE/">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Chen Liu, Lin Zhao, Jialin Chen, Tianchen Zhao, Xiang Xu, Youngeun Kim, Tianyang Wang, Min Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile featured-tile" data-featured-id="orbit2" data-category="pretraining-ai-for-science" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/orbit2.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: ORBIT-2 climate foundation model" title="View larger figure"><img class="img-fluid pub-thumb" src="images/orbit2.jpg" alt="ORBIT-2 climate foundation model" width="1606" height="512" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a></div>
+        <h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank" rel="noopener noreferrer">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</a></h3>
+        <p class="pub-keywords">AI for Science | Exascale Pretraining | Foundation Model</p>
+        <div class="pub-meta"><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">Paper</a><a class="pub-link" href="https://github.com/XiaoWang-Github" target="_blank">Project</a></div>
+        <div class="pub-notes">Best Paper Award, Gordon Bell Prize Finalist<br>Work conducted during an internship at ORNL<br>In collaboration with ORNL, RIKEN, AMD, and NVIDIA</div>
+        <details class="pub-author-details"><summary aria-label="Authors of ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling">Authors</summary><div class="pub-authors">Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu</div></details>
+      </div>
+    </article></div>
+</section>
+<section class="container publications-section section-block" id="Publications" aria-labelledby="publications-heading">
+  <div class="section-heading"><h2 id="publications-heading">Publications</h2><a class="section-more" href="other-publications.html">Other publications</a></div>
+  <div class="publication-filters" role="group" aria-label="Filter publications"><button type="button" class="publication-filter" data-publication-filter="all" aria-pressed="true" aria-controls="publication-grid">All <span>14</span></button><button type="button" class="publication-filter" id="Preprints" data-publication-filter="preprint" aria-pressed="false" aria-controls="publication-grid">Preprints <span>4</span></button><button type="button" class="publication-filter" data-publication-filter="reasoning-agents" aria-pressed="false" aria-controls="publication-grid">Multimodal Reasoning &amp; Agents <span>4</span></button><button type="button" class="publication-filter" data-publication-filter="foundation-model-adaptation" aria-pressed="false" aria-controls="publication-grid">Foundation Model Adaptation <span>7</span></button><button type="button" class="publication-filter" data-publication-filter="pretraining-ai-for-science" aria-pressed="false" aria-controls="publication-grid">Pretraining &amp; AI for Science <span>2</span></button><button type="button" class="publication-filter" data-publication-filter="personalized-video-generation" aria-pressed="false" aria-controls="publication-grid">Personalized Video Generation <span>1</span></button></div>
+  <p class="publication-results" data-publication-results aria-live="polite" aria-atomic="true">Showing all 14 publications</p>
+  <div class="publication-grid" id="publication-grid"><article class="pub-card publication-tile" data-publication-id="realvr" data-category="reasoning-agents" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="projects/ReaLVR/assets/evidence-credit-still.svg?v=20260927-slide8-v1" target="_blank" rel="noopener noreferrer" aria-label="View figure: ReaLVR" title="View larger figure"><img class="img-fluid pub-thumb" src="projects/ReaLVR/assets/method.webp" width="1800" height="955" alt="ReaLVR: visual grounding and differential token credit for latent reasoning" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence</a></h3>
+        <p class="pub-keywords">MLLM Reasoning | Scaling Law | Post-training</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/ReaLVR/">Project</a></div>
+        <div class="pub-notes">Work done during an internship at Amazon AGI.</div><div class="pub-notes">Ranked #1 on Hugging Face Daily Papers.</div>
+        <details class="pub-author-details"><summary aria-label="Authors of Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong><sup><a href="mailto:xxiao@uab.edu" aria-label="Xi Xiao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Tianchen Zhao<sup><a href="mailto:tianchz@amazon.com" aria-label="Tianchen Zhao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Youngeun Kim, Zhuowei Li, Linghan Xu, Jiaye Wu, Zheng Zhang, Xiang Xu, Xuanbai Chen, Farhan Tejani, Jakub Zablocki, Julia Xu, Yifan Xing</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="forge" data-category="reasoning-agents" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/forge-teaser.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: FORGE" title="View larger figure"><img class="img-fluid pub-thumb" src="images/forge-teaser.png" width="3102" height="1306" alt="FORGE selects the support form for each query around a frozen language model" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents</a></h3>
+        <p class="pub-keywords">Agentic Reasoning | Adaptive Reasoning | Agentic Routing</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/FORGE/">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Chen Liu, Lin Zhao, Jialin Chen, Tianchen Zhao, Xiang Xu, Youngeun Kim, Tianyang Wang, Min Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="beyond-endpoints" data-category="foundation-model-adaptation" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="https://xixiaouab.github.io/Beyond-Endpoints/assets/method.png" target="_blank" rel="noopener noreferrer" aria-label="View figure 2: Beyond Endpoints" title="View larger figure"><img class="img-fluid pub-thumb" src="https://xixiaouab.github.io/Beyond-Endpoints/assets/method.png" width="1800" height="647" alt="Geometry-guided prompt interpolation: shared-attention geometry and learned Bézier paths in a frozen vision transformer" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://xixiaouab.github.io/Beyond-Endpoints/assets/paper.pdf" target="_blank" rel="noopener noreferrer">Beyond Endpoints: Bézier Paths for Vision Foundation Model Adaptation</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://xixiaouab.github.io/Beyond-Endpoints/assets/paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Beyond-Endpoints/" target="_blank" rel="noopener noreferrer">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Beyond Endpoints: Bézier Paths for Vision Foundation Model Adaptation">Authors</summary><div class="pub-authors">Chenzhi Zheng*, <strong><u>Xi Xiao*</u></strong><sup><a href="mailto:xxiao@uab.edu" aria-label="Xi Xiao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Chih-Ting Liao, Qizhen Lan, Jingwen Lin, Tianyang Wang, Hao Xu, Xin Cao</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="icsd" data-category="reasoning-agents" data-status="preprint">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="https://arxiv.org/html/2608.14945v1/Figures/fig_icsd_method_overview.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: ICSD" title="View larger figure"><img class="img-fluid pub-thumb" src="images/icsd-method.webp" width="1800" height="801" alt="ICSD pipeline for allocating self-distillation weights using token-level influence on the RL objective" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><span class="pub-venue">Preprint 2026</span></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2608.14945" target="_blank" rel="noopener noreferrer">Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL</a></h3>
+        <p class="pub-keywords">Post-training | Agentic RL | On-Policy Self-Distillation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2608.14945" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="https://github.com/lanqz7766/Influence-Calibration-for-On-Policy-Self-Distillation-in-Agentic-RL" target="_blank" rel="noopener noreferrer">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL">Authors</summary><div class="pub-authors">Qizhen Lan*, <strong><u>Xi Xiao*</u></strong>, Xiangchen Guan*, Mengchen Fan, Moule Lin, Jung Im Choi, Lijing Zhu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="cascaded-semantics" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/cascaded-semantics.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Cascaded Semantics" title="View larger figure"><img class="img-fluid pub-thumb" src="images/cascaded-semantics.webp" alt="Cascaded Semantics" width="1824" height="788" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a></div>
+        <h3 class="pub-title"><a href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank" rel="noopener noreferrer">Adapting Vision Foundation Models with Cascaded Semantics</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Cascaded-Semantics/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Adapting Vision Foundation Models with Cascaded Semantics">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Cheng Han, Tianyang Wang, Lin Zhao, Yunbei Zhang, Guosheng Hu, Runmin Jiang, Xi Li, Xiao Wang, Min Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="vigil" data-category="reasoning-agents" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/staying-vigilant.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Staying VIGILant" title="View larger figure"><img class="img-fluid pub-thumb" src="images/staying-vigilant.webp" alt="Staying VIGILant" width="1800" height="821" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26387" target="_blank" rel="noopener noreferrer">Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs</a></h3>
+        <p class="pub-keywords">Post-Training | MLLM Reasoning | Visual Alignment</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/pdf/2606.26387" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/VIGIL/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="prompt-fusion" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/layer-specific-prompt-fusion.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Layer-specific prompt fusion" title="View larger figure"><img class="img-fluid pub-thumb" src="images/layer-specific-prompt-fusion.webp" alt="Layer-specific prompt fusion" width="1194" height="696" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26379" target="_blank" rel="noopener noreferrer">Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/pdf/2606.26379" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Prompt-Fusion-Discovery/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="structlora" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/loramain.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: StructLoRA overview" title="View larger figure"><img class="img-fluid pub-thumb" src="images/loramain.png" alt="StructLoRA overview" width="1660" height="814" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://2026.aclweb.org/" target="_blank">ACL 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2603.14228" target="_blank" rel="noopener noreferrer">Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2603.14228" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/StructLoRA/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="layer-information" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/layer-wise-information-allocation.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: Layer-wise information allocation for vision foundation model adaptation" title="View larger figure"><img class="img-fluid pub-thumb" src="images/layer-wise-information-allocation.png" alt="Layer-wise information allocation for vision foundation model adaptation" width="2468" height="838" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2607.21973" target="_blank" rel="noopener noreferrer">Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2607.21973" target="_blank">Paper</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation">Authors</summary><div class="pub-authors">Yuqi Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang, Lin Zhao, Yu Li, Aiden Zhao, Tianyang Wang, Hao Xu, Yingli Tian</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="dispersion" data-category="pretraining-ai-for-science" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/motivation.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: Dispersion Loss overview" title="View larger figure"><img class="img-fluid pub-thumb" src="images/motivation.png" alt="Dispersion Loss overview" width="4400" height="1507" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/pdf/2602.00217" target="_blank" rel="noopener noreferrer">Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models</a></h3>
+        <p class="pub-keywords">Language Model Pretraining | Representation Learning</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/pdf/2602.00217" target="_blank">Paper</a><a class="pub-link" href="https://chenliu-1996.github.io/projects/LM-Dispersion/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models">Authors</summary><div class="pub-authors">Chen Liu*, Xingzhi Sun*, <strong><u>Xi Xiao*</u></strong>, Alexandre Van Tassel*, Ke Xu, Kristof Reimann, Danqi Liao, Mark Gerstein, Tianyang Wang, Xiao Wang, Smita Krishnaswamy</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="prompt-survey" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/prompt_survey.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Prompt-based adaptation survey" title="View larger figure"><img class="img-fluid pub-thumb" src="images/prompt_survey.jpg" alt="Prompt-based adaptation survey" width="2030" height="762" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a></div>
+        <h3 class="pub-title"><a href="https://arxiv.org/abs/2510.13219" target="_blank" rel="noopener noreferrer">Prompt-based Adaptation in Large-scale Vision Models: A Survey</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation | Survey</p>
+        <div class="pub-meta"><a class="pub-link" href="https://arxiv.org/abs/2510.13219" target="_blank">Paper</a><a class="pub-link" href="https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Prompt-based Adaptation in Large-scale Vision Models: A Survey">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, Xiaoying Liao, Zheda Mai, Xingjian Li, Xiao Wang, Hao Xu, Jihun Hamm, Xue Lin, Min Xu, Qifan Wang, Tianyang Wang, Cheng Han</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="vipt" data-category="foundation-model-adaptation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/vipt.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Visual Instance-aware Prompt Tuning" title="View larger figure"><img class="img-fluid pub-thumb" src="images/vipt.jpg" alt="Visual Instance-aware Prompt Tuning" width="2160" height="906" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://acmmm2025.org/" target="_blank">ACM MM 2025</a></div>
+        <h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank" rel="noopener noreferrer">Visual Instance-aware Prompt Tuning</a></h3>
+        <p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">Paper</a><a class="pub-link" href="https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of Visual Instance-aware Prompt Tuning">Authors</summary><div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="magicid" data-category="personalized-video-generation" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/magicid.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: MagicID project" title="View larger figure"><img class="img-fluid pub-thumb" src="images/magicid.jpg" alt="MagicID project" width="1330" height="898" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></div>
+        <h3 class="pub-title"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank" rel="noopener noreferrer">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</a></h3>
+        <p class="pub-keywords">Post-training | Personalized Video Generation</p>
+        <div class="pub-meta"><a class="pub-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">Paper</a><a class="pub-link" href="https://echopluto.github.io/MagicID-project/" target="_blank">Project</a></div>
+        
+        <details class="pub-author-details"><summary aria-label="Authors of MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization">Authors</summary><div class="pub-authors">Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai</div></details>
+      </div>
+    </article>
+<article class="pub-card publication-tile" data-publication-id="orbit2" data-category="pretraining-ai-for-science" data-status="published">
+      <div class="pub-image-col"><a class="pub-figure-link" data-pub-figure="" href="images/orbit2.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: ORBIT-2 climate foundation model" title="View larger figure"><img class="img-fluid pub-thumb" src="images/orbit2.jpg" alt="ORBIT-2 climate foundation model" width="1606" height="512" loading="lazy" decoding="async"><span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span></a></div>
+      <div class="pub-content">
+        <div class="pub-card-topline"><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a></div>
+        <h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank" rel="noopener noreferrer">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</a></h3>
+        <p class="pub-keywords">AI for Science | Exascale Pretraining | Foundation Model</p>
+        <div class="pub-meta"><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">Paper</a><a class="pub-link" href="https://github.com/XiaoWang-Github" target="_blank">Project</a></div>
+        <div class="pub-notes">Best Paper Award, Gordon Bell Prize Finalist<br>Work conducted during an internship at ORNL<br>In collaboration with ORNL, RIKEN, AMD, and NVIDIA</div>
+        <details class="pub-author-details"><summary aria-label="Authors of ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling">Authors</summary><div class="pub-authors">Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu</div></details>
+      </div>
+    </article></div>
+  <p class="contribution-note">* Equal contribution. <span aria-label="Envelope">✉&#xfe0e;</span> Corresponding author. Author lists are available on each card.</p>
+</section>
 
-		<div id="pubs_preprints" class="selected-publications" language="text">
-			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/agent-harness-timeline.jpg" alt="Agent Harness Engineering preprint">
-				</div>
-				<div class="col-md-9 pub-content">
-					Junjie Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang*, Chen Liu*, Lin Zhao, Xiaoying Liao, Yingrui Ji, Janet Wang, Jianyang Gu, Yingqiang Ge, Weijie Xu, Xi Fang, Xiang Xu, Tianchen Zhao, Youngeun Kim, Tianyang Wang, Jihun Hamm, Smita Krishnaswamy, Jun Huan, Chandan Reddy<br>
-					<b><font color="black">Agent Harness Engineering: A Survey</font></b><br>
-					<b><a class="pub-venue" href="https://openreview.net/forum?id=3hXEPbG0dh" target="_blank">Preprint 2026</a></b>
-					<small><a href="https://openreview.net/forum?id=3hXEPbG0dh" target="_blank">[Paper]</a></small>
-					<small><a href="https://picrew.github.io/LLM-Harness/" target="_blank">[Project]</a></small><br>
-				</div>
-			</div><hr>
-
-			<div class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<img class="img-fluid pub-thumb" src="images/ptq4sam3.jpg" alt="PTQ4SAM3 preprint">
-				</div>
-				<div class="col-md-9 pub-content">
-					<strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Janet Wang, Yanshu Li, Chenrui Ma, Pan Wang, Yuqi Li, Fuchen Li, Tianyang Wang, Xiao Wang<br>
-					<b><font color="black">PTQ4SAM3: Semantics-Preserving Post-Training Quantization for Segment Anything Model 3</font></b><br>
-					<b><span class="pub-venue">Preprint 2026</span></b>
-					<small><a href="https://xixiaouab.github.io/PTQ4SAM3/" target="_blank">[Project]</a></small><br>
-					<font color="firebrick"><b>Work conducted during an internship at ORNL</b></font><br>
-					<font color="firebrick"><b>In collaboration with ORNL</b></font><br>
-				</div>
-			</div><hr>
-
-			</div><br><br>
-			PREPRINTS-HIDDEN-END -->
-
-		<h2 id="Preprints">Preprints</h2>
-		<div id="pubs_preprints" class="selected-publications preprints-list">
-			<article class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<a class="pub-figure-link" data-pub-figure href="projects/ReaLVR/assets/evidence-credit-still.svg?v=20260927-slide8-v1" target="_blank" rel="noopener noreferrer" aria-label="View figure: ReaLVR" title="View larger figure">
-						<img class="img-fluid pub-thumb" src="projects/ReaLVR/assets/method.webp" width="1800" height="955" alt="ReaLVR: visual grounding and differential token credit for latent reasoning" loading="lazy" decoding="async">
-						<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-					</a>
-				</div>
-				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">MLLM Reasoning | Scaling Law | Post-training</p>
-					<h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence</a></h3>
-					<div class="pub-authors"><strong><u>Xi Xiao</u></strong><sup><a href="mailto:xxiao@uab.edu" aria-label="Xi Xiao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Tianchen Zhao<sup><a href="mailto:tianchz@amazon.com" aria-label="Tianchen Zhao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Youngeun Kim, Zhuowei Li, Linghan Xu, Jiaye Wu, Zheng Zhang, Xiang Xu, Xuanbai Chen, Farhan Tejani, Jakub Zablocki, Julia Xu, Yifan Xing</div>
-					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://arxiv.org/abs/2609.34563" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/ReaLVR/">Project</a></div>
-					<div class="pub-notes">Work done during an internship at Amazon AGI.</div>
-					<div class="pub-notes">Ranked #1 on Hugging Face Daily Papers.</div>
-				</div>
-			</article>
-			<article class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<a class="pub-figure-link" data-pub-figure href="images/forge-teaser.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: FORGE" title="View larger figure">
-						<img class="img-fluid pub-thumb" src="images/forge-teaser.png" width="3102" height="1306" alt="FORGE selects the support form for each query around a frozen language model" loading="lazy" decoding="async">
-						<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-					</a>
-				</div>
-				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">Agentic Reasoning | Adaptive Reasoning | Agentic Routing</p>
-					<h3 class="pub-title"><a href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">FORGE: Form-Optimal Routing of Grounded Evidence for Frozen LLM Agents</a></h3>
-					<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Chen Liu, Lin Zhao, Jialin Chen, Tianchen Zhao, Xiang Xu, Youngeun Kim, Tianyang Wang, Min Xu</div>
-					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://arxiv.org/abs/2609.34358" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="projects/FORGE/">Project</a></div>
-				</div>
-			</article>
-			<article class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<a class="pub-figure-link" data-pub-figure href="https://xixiaouab.github.io/Beyond-Endpoints/assets/method.png" target="_blank" rel="noopener noreferrer" aria-label="View figure 2: Beyond Endpoints" title="View larger figure">
-						<img class="img-fluid pub-thumb" src="https://xixiaouab.github.io/Beyond-Endpoints/assets/method.png" width="1800" height="647" alt="Geometry-guided prompt interpolation: shared-attention geometry and learned Bézier paths in a frozen vision transformer" loading="lazy" decoding="async">
-						<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-					</a>
-				</div>
-				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-					<h3 class="pub-title"><a href="https://xixiaouab.github.io/Beyond-Endpoints/assets/paper.pdf" target="_blank" rel="noopener noreferrer">Beyond Endpoints: Bézier Paths for Vision Foundation Model Adaptation</a></h3>
-					<div class="pub-authors">Chenzhi Zheng*, <strong><u>Xi Xiao*</u></strong><sup><a href="mailto:xxiao@uab.edu" aria-label="Xi Xiao, corresponding author" title="Corresponding author">✉&#xfe0e;</a></sup>, Chih-Ting Liao, Qizhen Lan, Jingwen Lin, Tianyang Wang, Hao Xu, Xin Cao</div>
-					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://xixiaouab.github.io/Beyond-Endpoints/assets/paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Beyond-Endpoints/" target="_blank" rel="noopener noreferrer">Project</a></div>
-				</div>
-			</article>
-			<article class="row pub-card">
-				<div class="col-md-3 pub-image-col">
-					<a class="pub-figure-link" data-pub-figure href="https://arxiv.org/html/2608.14945v1/Figures/fig_icsd_method_overview.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: ICSD" title="View larger figure">
-						<img class="img-fluid pub-thumb" src="images/icsd-method.webp" width="1800" height="801" alt="ICSD pipeline for allocating self-distillation weights using token-level influence on the RL objective" loading="lazy" decoding="async">
-						<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-					</a>
-				</div>
-				<div class="col-md-9 pub-content">
-					<p class="pub-keywords">Post-training | Agentic RL | On-Policy Self-Distillation</p>
-					<h3 class="pub-title"><a href="https://arxiv.org/abs/2608.14945" target="_blank" rel="noopener noreferrer">Trust Is Not Enough: Influence Calibration for On-Policy Self-Distillation in Agentic RL</a></h3>
-					<div class="pub-authors">Qizhen Lan*, <strong><u>Xi Xiao*</u></strong>, Xiangchen Guan*, Mengchen Fan, Moule Lin, Jung Im Choi, Lijing Zhu</div>
-					<div class="pub-meta"><span class="pub-venue">Preprint 2026</span><a class="pub-link" href="https://arxiv.org/abs/2608.14945" target="_blank" rel="noopener noreferrer">Paper</a><a class="pub-link" href="https://github.com/lanqz7766/Influence-Calibration-for-On-Policy-Self-Distillation-in-Agentic-RL" target="_blank" rel="noopener noreferrer">Project</a></div>
-				</div>
-			</article>
-		</div>
-
-			<h2 id="SelectedPublications">
-				Selected Publications
-				<small>Selected work; see the <a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank">full list on Google Scholar</a>. * indicates equal contribution.</small>
-			</h2>
-			<hr>
-
-		<div id="pubs"></div>
-
-		<!-- <script id="pubs_selected" language="text"> -->
-		<div id="pubs_selected" class="selected-publications" language="text">
-				<div class="pub-year">2026</div>
-
-				<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/cascaded-semantics.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Cascaded Semantics" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/cascaded-semantics.webp" alt="Cascaded Semantics" width="1824" height="788" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-						<h3 class="pub-title"><a href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank" rel="noopener noreferrer">Adapting Vision Foundation Models with Cascaded Semantics</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Cheng Han, Tianyang Wang, Lin Zhao, Yunbei Zhang, Guosheng Hu, Runmin Jiang, Xi Li, Xiao Wang, Min Xu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://openreview.net/forum?id=SSsobNZJPO" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Cascaded-Semantics/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/staying-vigilant.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Staying VIGILant" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/staying-vigilant.webp" alt="Staying VIGILant" width="1800" height="821" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-Training | MLLM Reasoning | Visual Alignment</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26387" target="_blank" rel="noopener noreferrer">Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chen Liu, Chih-Ting Liao, Yunbei Zhang, Qizhen Lan, Yuxiang Wei, Lin Zhao, Janet Wang, Jianyang Gu, Muchao Ye, Tianyang Wang, Hao Xu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26387" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/VIGIL/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/layer-specific-prompt-fusion.webp" target="_blank" rel="noopener noreferrer" aria-label="View figure: Layer-specific prompt fusion" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/layer-specific-prompt-fusion.webp" alt="Layer-specific prompt fusion" width="1194" height="696" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2606.26379" target="_blank" rel="noopener noreferrer">Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Xingjian Li, Yunbei Zhang, Cheng Han, Tianming Liu, Tianyang Wang, Runmin Jiang, Jihun Hamm, Xiao Wang, Min Xu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://eccv.ecva.net/Conferences/2026" target="_blank">ECCV 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2606.26379" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/Prompt-Fusion-Discovery/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/loramain.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: StructLoRA overview" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/loramain.png" alt="StructLoRA overview" width="1660" height="814" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/abs/2603.14228" target="_blank" rel="noopener noreferrer">Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Chenrui Ma, Yunbei Zhang, Chen Liu, Yanshu Li, Lin Zhao, Guosheng Hu, Tianyang Wang, Hao Xu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://2026.aclweb.org/" target="_blank">ACL 2026</a><a class="pub-link" href="https://arxiv.org/abs/2603.14228" target="_blank">Paper</a><a class="pub-link" href="https://xixiaouab.github.io/StructLoRA/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/layer-wise-information-allocation.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: Layer-wise information allocation for vision foundation model adaptation" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/layer-wise-information-allocation.png" alt="Layer-wise information allocation for vision foundation model adaptation" width="2468" height="838" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/abs/2607.21973" target="_blank" rel="noopener noreferrer">Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation</a></h3>
-						<div class="pub-authors">Yuqi Li*, <strong><u>Xi Xiao*</u></strong>, Yunbei Zhang, Lin Zhao, Yu Li, Aiden Zhao, Tianyang Wang, Hao Xu, Yingli Tian</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://2026.acmmm.org/" target="_blank">ACM MM 2026</a><a class="pub-link" href="https://arxiv.org/abs/2607.21973" target="_blank">Paper</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/motivation.png" target="_blank" rel="noopener noreferrer" aria-label="View figure: Dispersion Loss overview" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/motivation.png" alt="Dispersion Loss overview" width="4400" height="1507" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Language Model Pretraining | Representation Learning</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/pdf/2602.00217" target="_blank" rel="noopener noreferrer">Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models</a></h3>
-						<div class="pub-authors">Chen Liu*, Xingzhi Sun*, <strong><u>Xi Xiao*</u></strong>, Alexandre Van Tassel*, Ke Xu, Kristof Reimann, Danqi Liao, Mark Gerstein, Tianyang Wang, Xiao Wang, Smita Krishnaswamy</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://icml.cc/Conferences/2026" target="_blank">ICML 2026</a><a class="pub-link" href="https://arxiv.org/pdf/2602.00217" target="_blank">Paper</a><a class="pub-link" href="https://chenliu-1996.github.io/projects/LM-Dispersion/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/prompt_survey.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Prompt-based adaptation survey" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/prompt_survey.jpg" alt="Prompt-based adaptation survey" width="2030" height="762" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation | Survey</p>
-						<h3 class="pub-title"><a href="https://arxiv.org/abs/2510.13219" target="_blank" rel="noopener noreferrer">Prompt-based Adaptation in Large-scale Vision Models: A Survey</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Lin Zhao, Yiyang Liu, Xiaoying Liao, Zheda Mai, Xingjian Li, Xiao Wang, Hao Xu, Jihun Hamm, Xue Lin, Min Xu, Qifan Wang, Tianyang Wang, Cheng Han</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://jmlr.org/tmlr/" target="_blank">TMLR 2026</a><a class="pub-link" href="https://arxiv.org/abs/2510.13219" target="_blank">Paper</a><a class="pub-link" href="https://yunbeizhang.github.io/Awesome-Visual-Prompt-Tuning/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-				<div class="pub-year">2025</div>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/vipt.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: Visual Instance-aware Prompt Tuning" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/vipt.jpg" alt="Visual Instance-aware Prompt Tuning" width="2160" height="906" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Foundation Model Adaptation</p>
-						<h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank" rel="noopener noreferrer">Visual Instance-aware Prompt Tuning</a></h3>
-						<div class="pub-authors"><strong><u>Xi Xiao</u></strong>, Yunbei Zhang, Xingjian Li, Tianyang Wang, Xiao Wang, Yuxiang Wei, Jihun Hamm, Min Xu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://acmmm2025.org/" target="_blank">ACM MM 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3746027.3754858" target="_blank">Paper</a><a class="pub-link" href="https://github.com/xixiaouab/Visual-Instance-aware-Prompt-Tuning" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/magicid.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: MagicID project" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/magicid.jpg" alt="MagicID project" width="1330" height="898" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">Post-training | Personalized Video Generation</p>
-						<h3 class="pub-title"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank" rel="noopener noreferrer">MagicID: Hybrid Preference Optimization for ID-Consistent and Dynamic-Preserved Video Customization</a></h3>
-						<div class="pub-authors">Hengjia Li*, Lifan Jiang*, <strong><u>Xi Xiao*</u></strong>, Tianyang Wang, Hongwei Yi, Boxi Wu, Deng Cai</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a><a class="pub-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf" target="_blank">Paper</a><a class="pub-link" href="https://echopluto.github.io/MagicID-project/" target="_blank">Project</a></div>
-					</div>
-				</div><hr>
-
-			<div class="row pub-card">
-					<div class="col-md-3 pub-image-col">
-						<a class="pub-figure-link" data-pub-figure href="images/orbit2.jpg" target="_blank" rel="noopener noreferrer" aria-label="View figure: ORBIT-2 climate foundation model" title="View larger figure">
-							<img class="img-fluid pub-thumb" src="images/orbit2.jpg" alt="ORBIT-2 climate foundation model" width="1606" height="512" loading="lazy" decoding="async">
-							<span class="pub-figure-zoom" aria-hidden="true"><i class="fas fa-search-plus"></i></span>
-						</a>
-					</div>
-					<div class="col-md-9 pub-content">
-						<p class="pub-keywords">AI for Science | Exascale Pretraining | Foundation Model</p>
-						<h3 class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank" rel="noopener noreferrer">ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling</a></h3>
-						<div class="pub-authors">Xiao Wang, Jong-Youl Choi, Takuya Kurihaya, Isaac Lyngaas, Hong-Jun Yoon, <strong><u>Xi Xiao</u></strong>, David Pugmire, Ming Fan, Nasik M. Nafi, Aristeidis Tsaris, Ashwin M. Aji, Maliha Hossain, Mohamed Wahib, Dali Wang, Peter Thornton, Prasanna Balaprakash, Moetasim Ashfaq, Dan Lu</div>
-						<div class="pub-meta"><a class="pub-venue" href="https://sc25.supercomputing.org/" target="_blank">SC 2025</a><a class="pub-link" href="https://dl.acm.org/doi/10.1145/3712285.3771989" target="_blank">Paper</a><a class="pub-link" href="https://github.com/XiaoWang-Github" target="_blank">Project</a></div>
-						<div class="pub-notes">Best Paper Award, Gordon Bell Prize Finalist<br>Work conducted during an internship at ORNL<br>In collaboration with ORNL, RIKEN, AMD, and NVIDIA</div>
-					</div>
-				</div><hr>
-
-
-		</div>
-			<div class="publication-more-link">
-				<a href="other-publications.html">View all publications</a>
-			</div>
-		</section>
-
-
-
-	<!-- Background -->
 	<section class="container cv-overview section-block" id="CV" aria-labelledby="Experience Education">
 		<div class="cv-grid">
 			<div class="cv-panel">
@@ -571,23 +417,23 @@
 				<div class="citation-tracker-panel" data-scholar-tracker>
 					<div class="citation-tracker-topline">
 						<span>Updated daily</span>
-						<span data-scholar-updated>Loading</span>
+						<span data-scholar-updated>Nov 19, 2026</span>
 					</div>
 					<div class="citation-tracker-total">
-						<span data-scholar-total>--</span>
+						<span data-scholar-total>927</span>
 						<small>Total citations</small>
 					</div>
 					<div class="citation-stat-grid">
 						<div>
-							<strong data-scholar-hindex>--</strong>
+							<strong data-scholar-hindex>17</strong>
 							<span>h-index</span>
 						</div>
 						<div>
-							<strong data-scholar-i10>--</strong>
+							<strong data-scholar-i10>33</strong>
 							<span>i10-index</span>
 						</div>
 						<div>
-							<strong data-scholar-papers>--</strong>
+							<strong data-scholar-papers>72</strong>
 							<span>Indexed papers</span>
 						</div>
 					</div>
@@ -596,7 +442,7 @@
 					</div>
 					<a class="citation-top-paper" href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" data-scholar-top-paper>
 						<span>Top cited paper</span>
-						<strong>Loading Scholar data</strong>
+						<strong>Open the live Google Scholar profile</strong>
 					</a>
 					<div class="citation-tracker-actions">
 						<a href="https://scholar.google.com/citations?user=Q4DnRVgAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
@@ -607,7 +453,7 @@
 		</div>
 
 			<footer>
-				<p>&copy; Xi Xiao 2026. Website adapted from <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron's template</a>. Last update: August 18, 2026.</p>
+				<p>&copy; Xi Xiao 2026. Design inspired by <a href="https://yunbeizhang.github.io/" target="_blank">Yunbei Zhang</a> and <a href="https://github.com/jonbarron/jonbarron_website" target="_blank">Jon Barron</a>. Last update: November 20, 2026.</p>
 			</footer>
 	</section>
 	</main>
@@ -623,9 +469,8 @@
 		<div class="pub-figure-stage"><img data-figure-image alt=""></div>
 	</dialog>
 
-		<script>showPubs(1);</script>
-		<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
 </body>
 
 </html>
+
 

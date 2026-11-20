@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "login": "xixiaouab",
+    "github_url": "https://github.com/xixiaouab"
+  },
+  "summary": {
+    "total_stars": 65,
+    "public_repository_count": 19,
+    "updated": "2026-11-20",
+    "updated_at_utc": "2026-11-20T05:55:34+00:00",
+    "source": "github_rest_public_repositories"
+  },
+  "scope": {
+    "visibility": "public",
+    "ownership": "owner",
+    "include_forks": true,
+    "include_archived": true
+  },
+  "source_url": "https://api.github.com/users/xixiaouab/repos?type=owner&per_page=100"
+}

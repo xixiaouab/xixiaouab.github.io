@@ -1,4 +1,4 @@
-name: Update Scholar Citations
+name: Update Profile Statistics
 
 on:
   schedule:
@@ -8,12 +8,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-profile-statistics
+  cancel-in-progress: false
+
 jobs:
   update:
+    if: github.repository == 'xixiaouab/xixiaouab.github.io'
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,18 +30,23 @@ jobs:
 
       - name: Update citation data
         env:
+          # Reuses the existing optional secret; no new secret is introduced.
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           SCHOLAR_AUTHOR_ID: Q4DnRVgAAAAJ
         run: python scripts/update_scholar_citations.py --soft-fail
 
-      - name: Commit updated citation data
+      - name: Update GitHub star data
+        run: python scripts/update_github_stats.py --soft-fail
+
+      - name: Commit successful snapshots
         run: |
-          if git diff --quiet -- docs/data/scholar_citations.json; then
-            echo "Citation data is already up to date."
+          if git diff --quiet -- docs/data/scholar_citations.json docs/data/github_stats.json && [ -z "$(git ls-files --others --exclude-standard docs/data/github_stats.json)" ]; then
+            echo "Profile data is already up to date."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/scholar_citations.json
-          git commit -m "Update Scholar citation data"
-          git push
+          git add docs/data/scholar_citations.json docs/data/github_stats.json
+          git commit -m "Update profile statistics"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
