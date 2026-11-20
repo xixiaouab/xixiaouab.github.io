@@ -1,0 +1,263 @@
+{
+  "updated": "2026-11-20",
+  "description": "Original paper figures, displayed in full and available for larger viewing. WebP files are lossless, pixel-identical conversions of the sourced originals.",
+  "figures": [
+    {
+      "id": "hyperadalora",
+      "web_path": "images/publications/hyperadalora.webp",
+      "width": 1342,
+      "height": 467,
+      "alt": "Original HyperAdaLoRA framework comparing LoRA, AdaLoRA, and hypernetwork-generated low-rank components.",
+      "source_url": "https://arxiv.org/pdf/2510.02630",
+      "evidence_url": "https://arxiv.org/html/2510.02630v2#S1.F1",
+      "figure_number": "Figure 1",
+      "reason": "The paper’s original three-panel framework comparison directly illustrates the proposed hypernetwork rank-adaptation method. Extracted complete figure from PDF page 2, preserving all labels and arrows."
+    },
+    {
+      "id": "straight-flows",
+      "web_path": "images/publications/straight-flows.webp",
+      "width": 2059,
+      "height": 455,
+      "alt": "Original five-panel comparison of generation trajectories, ending with Straight Variational Flow Matching.",
+      "source_url": "https://arxiv.org/pdf/2511.17583",
+      "evidence_url": "https://arxiv.org/html/2511.17583v1#S4.F1",
+      "figure_number": "Figure 1",
+      "reason": "This theory-led paper has no separate architecture or teaser. Its main Figure 1 is the method’s canonical trajectory visualization, illustrating straight generation paths rather than a metric or unrelated result plot. Complete figure and all five subfigure labels extracted from PDF page 5."
+    },
+    {
+      "id": "hieramp",
+      "web_path": "images/publications/hieramp.webp",
+      "width": 682,
+      "height": 336,
+      "alt": "Original HIERAMP method figure showing a scale-restricted training mask and coarse-to-fine semantic amplification.",
+      "source_url": "https://arxiv.org/html/2603.06932v1/method.png",
+      "evidence_url": "https://arxiv.org/html/2603.06932v1#S2.F2",
+      "figure_number": "Figure 2",
+      "reason": "Official arXiv method overview, downloaded byte-for-byte. Its two colored panels show the attention-mask and amplification mechanisms clearly."
+    },
+    {
+      "id": "cad-vae",
+      "web_path": "images/publications/cad-vae.webp",
+      "width": 595,
+      "height": 337,
+      "alt": "Original CAD-VAE data-flow diagram separating target, sensitive, shared, and irrelevant latent factors.",
+      "source_url": "https://arxiv.org/html/2503.07938v2/figs/casual.png",
+      "evidence_url": "https://arxiv.org/html/2503.07938v2#Sx4.F1",
+      "figure_number": "Figure 1",
+      "reason": "The original central method diagram directly shows encoder, four latent codes, prediction heads, and shared target-sensitive information. Downloaded byte-for-byte; transparent background should be displayed on white. Also verified against PDF page 3."
+    },
+    {
+      "id": "stochastic-interpolants",
+      "web_path": "images/publications/stochastic-interpolants.webp",
+      "width": 1667,
+      "height": 430,
+      "alt": "Original conditional-dependent-coupling diagram showing data-distribution learning and transition across two conceptual panels.",
+      "source_url": "https://arxiv.org/pdf/2509.23122",
+      "evidence_url": "https://arxiv.org/html/2509.23122v2#S3.F1",
+      "figure_number": "Figure 1",
+      "reason": "The paper’s main conceptual method figure combines distributions, conditional trajectories, and image examples. The complete two-panel figure was extracted from PDF page 6, rather than selecting a metric chart."
+    },
+    {
+      "id": "drift-flow-matching",
+      "web_path": "images/publications/drift-flow-matching.webp",
+      "width": 1824,
+      "height": 1968,
+      "alt": "Original method comparison showing Drift Flow Matching between multi-step Flow Matching and a one-step Drift Model.",
+      "source_url": "https://arxiv.org/html/2605.17244v1/method_comparison.png",
+      "evidence_url": "https://arxiv.org/html/2605.17244v1#A2.F5",
+      "figure_number": "Figure 5",
+      "reason": "Official conceptual overview links the proposed method to its two limiting cases, with original distributions, arrows, equations, and labels. Downloaded byte-for-byte; full tall figure preserved."
+    },
+    {
+      "id": "fmri-lm",
+      "web_path": "images/publications/fmri-lm.webp",
+      "width": 1125,
+      "height": 567,
+      "alt": "fMRI-LM framework: fMRI-text descriptor construction, text-aligned tokenizer training, LLM fine-tuning and downstream instruction tuning.",
+      "source_url": "https://arxiv.org/html/2511.21760v4/framework.png",
+      "evidence_url": "https://arxiv.org/html/2511.21760v4#S3.F4",
+      "figure_number": "4",
+      "reason": "The complete original training overview covers the paper's three stages and multimodal components; it is more representative than its performance radar plot."
+    },
+    {
+      "id": "more-brain",
+      "web_path": "images/publications/more-brain.webp",
+      "width": 1316,
+      "height": 761,
+      "alt": "MoRE-Brain framework with fMRI mixture-of-experts encoder, CLIP alignment, time and space routers, and brain-guided diffusion image generation.",
+      "source_url": "https://arxiv.org/html/2505.15946v3/framework.png",
+      "evidence_url": "https://arxiv.org/html/2505.15946v3#S2.F1",
+      "figure_number": "1",
+      "reason": "The original overview combines a visual example and the full fMRI-to-image architecture, including the paper's distinctive expert routing."
+    },
+    {
+      "id": "spamem",
+      "web_path": "images/publications/spamem.webp",
+      "width": 1205,
+      "height": 591,
+      "alt": "SpaMEM benchmark overview showing synchronized scene changes and three levels of perception and spatio-temporal memory evaluation.",
+      "source_url": "https://arxiv.org/html/2604.22409v3/benchmark.png",
+      "evidence_url": "https://arxiv.org/html/2604.22409v3#S1.F1",
+      "figure_number": "1",
+      "reason": "The original benchmark overview includes actual rendered scene examples, spawn/place/remove transitions, and the three evaluation levels; it communicates the contribution without relying on a results plot."
+    },
+    {
+      "id": "personalize-vlm",
+      "web_path": "images/publications/personalize-vlm.webp",
+      "width": 2048,
+      "height": 725,
+      "alt": "ICPT teaser comparing single-concept and multi-concept personalization with multi-image in-context prompt tuning.",
+      "source_url": "https://arxiv.org/html/2605.31513v2/teaser.png",
+      "evidence_url": "https://arxiv.org/html/2605.31513v2#S1.F1",
+      "figure_number": "1",
+      "reason": "The original teaser uses visual personalization examples and recognizable prompt/token structure to explain the contribution; its identity and caption match the ICPT paper."
+    },
+    {
+      "id": "silent-lvr",
+      "web_path": "images/publications/silent-lvr.webp",
+      "width": 1220,
+      "height": 549,
+      "alt": "Silent-LVR teaser comparing normal, random and removed latent visual tokens, with evidence that attention-based training improves visual reasoning.",
+      "source_url": "https://arxiv.org/html/2605.18641v2/teaser.png",
+      "evidence_url": "https://arxiv.org/html/2605.18641v2#S0.F1",
+      "figure_number": "1",
+      "reason": "The original teaser combines a clear token-level conceptual illustration with the paper's motivating evidence; it is the same teaser named in the official repository README."
+    },
+    {
+      "id": "m2iv",
+      "web_path": "images/publications/m2iv.webp",
+      "width": 2031,
+      "height": 862,
+      "alt": "M²IV teaser contrasting token-heavy multimodal in-context demonstrations with learned vectors injected into a frozen vision-language model.",
+      "source_url": "https://arxiv.org/html/2504.04633v3/teaser.png",
+      "evidence_url": "https://arxiv.org/html/2504.04633v3#S1.F1",
+      "figure_number": "1",
+      "reason": "The original teaser directly contrasts vanilla multimodal ICL and the proposed representation-engineering approach using a visual question-answering example, without substituting a newly drawn diagram."
+    },
+    {
+      "id": "comfysearch",
+      "web_path": "images/publications/comfysearch.webp",
+      "width": 6928,
+      "height": 2452,
+      "alt": "ComfySearch method overview showing query-workflow data construction, validated workflow edits, uncertainty-triggered branching, and policy optimization.",
+      "source_url": "https://arxiv.org/html/2601.04060v1/main999.png",
+      "evidence_url": "https://arxiv.org/html/2601.04060v1",
+      "figure_number": 2,
+      "reason": "Original high-resolution paper method figure. The complete data-construction and learning panels, trajectories, validation legend, and arrows are retained."
+    },
+    {
+      "id": "dhsm",
+      "web_path": "images/publications/dhsm.webp",
+      "width": 1951,
+      "height": 857,
+      "alt": "D-HSM converts video history into structured hub-and-spoke memory, then retrieves relevant evidence and recent frames for a frozen VLM.",
+      "source_url": "https://oshikaka.github.io/DHSM/static/images/method.png",
+      "evidence_url": "https://arxiv.org/html/2608.30294v1",
+      "figure_number": 2,
+      "reason": "Official project method image, independently matched to paper Figure 2. The video-frame examples and both memory/retrieval panels remain complete and sharp."
+    },
+    {
+      "id": "sparse-reslim",
+      "web_path": "images/publications/sparse-reslim.webp",
+      "width": 1600,
+      "height": 816,
+      "alt": "Sparse-Reslim routes weather tokens through dense early, sparse middle, and dense late stages, with deterministic ViT and generative EDM variants.",
+      "source_url": "https://arxiv.org/html/2607.02829v1/sparse_reslim.png",
+      "evidence_url": "https://arxiv.org/html/2607.02829v1",
+      "figure_number": 1,
+      "reason": "Original paper overview with intact three-stage routing, token legend, and deterministic/generative subpanels; large labels and weather maps provide a clear publication thumbnail."
+    },
+    {
+      "id": "utome",
+      "web_path": "images/publications/utome.webp",
+      "width": 2200,
+      "height": 1508,
+      "alt": "UtoMe combines weather-state saliency and observation uncertainty to preserve anchors and merge redundant tokens, with three uncertainty-availability variants.",
+      "source_url": "https://ornl-utome.github.io/assets/overview.png",
+      "evidence_url": "https://arxiv.org/html/2610.25001v1",
+      "figure_number": 1,
+      "reason": "Official project supplies a higher-resolution copy of paper Figure 1, visually matched against arXiv main.png. Full weather maps, token-merging schematic, forecaster, and three variants are preserved."
+    },
+    {
+      "id": "sensitivity-lora",
+      "web_path": "images/publications/sensitivity-lora.webp",
+      "width": 2240,
+      "height": 1090,
+      "alt": "Sensitivity-LoRA uses Hessian-based global and local weight sensitivity to allocate ranks to trainable low-rank matrices around frozen pretrained weights.",
+      "source_url": "https://aclanthology.org/2025.findings-emnlp.709.pdf",
+      "evidence_url": "https://aclanthology.org/2025.findings-emnlp.709/",
+      "figure_number": 1,
+      "reason": "Original published ACL paper Figure 1 on PDF page 2. High-resolution rendering retains all method panels, matrices, formulas, rank-allocation details, and arrows without redrawing."
+    },
+    {
+      "id": "vigil",
+      "web_path": "images/staying-vigilant.webp",
+      "width": 1800,
+      "height": 821,
+      "alt": "Staying VIGILant",
+      "source_url": "https://xixiaouab.github.io/images/staying-vigilant.webp",
+      "evidence_url": "https://arxiv.org/pdf/2606.26387",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "prompt-fusion",
+      "web_path": "images/layer-specific-prompt-fusion.webp",
+      "width": 1194,
+      "height": 696,
+      "alt": "Layer-specific prompt fusion",
+      "source_url": "https://xixiaouab.github.io/images/layer-specific-prompt-fusion.webp",
+      "evidence_url": "https://arxiv.org/pdf/2606.26379",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "structlora",
+      "web_path": "images/loramain.png",
+      "width": 1660,
+      "height": 814,
+      "alt": "StructLoRA overview",
+      "source_url": "https://xixiaouab.github.io/images/loramain.png",
+      "evidence_url": "https://arxiv.org/abs/2603.14228",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "layer-information",
+      "web_path": "images/layer-wise-information-allocation.png",
+      "width": 2468,
+      "height": 838,
+      "alt": "Layer-wise information allocation for vision foundation model adaptation",
+      "source_url": "https://xixiaouab.github.io/images/layer-wise-information-allocation.png",
+      "evidence_url": "https://arxiv.org/abs/2607.21973",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "dispersion",
+      "web_path": "images/motivation.png",
+      "width": 4400,
+      "height": 1507,
+      "alt": "Dispersion Loss overview",
+      "source_url": "https://xixiaouab.github.io/images/motivation.png",
+      "evidence_url": "https://arxiv.org/pdf/2602.00217",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "vipt",
+      "web_path": "images/vipt.jpg",
+      "width": 2160,
+      "height": 906,
+      "alt": "Visual Instance-aware Prompt Tuning",
+      "source_url": "https://xixiaouab.github.io/images/vipt.jpg",
+      "evidence_url": "https://dl.acm.org/doi/10.1145/3746027.3754858",
+      "reason": "Reuse the original verified figure from Selected Work."
+    },
+    {
+      "id": "magicid",
+      "web_path": "images/magicid.jpg",
+      "width": 1330,
+      "height": 898,
+      "alt": "MagicID project",
+      "source_url": "https://xixiaouab.github.io/images/magicid.jpg",
+      "evidence_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_MagicID_Hybrid_Preference_Optimization_for_ID-Consistent_and_Dynamic-Preserved_Video_Customization_ICCV_2025_paper.pdf",
+      "reason": "Reuse the original verified figure from Selected Work."
+    }
+  ]
+}

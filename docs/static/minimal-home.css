@@ -2010,3 +2010,39 @@ footer p {
  .homepage-v2 .conference-card .pub-content { padding: 12px; }
  .homepage-v2 .conference-card .pub-title { font-size: .875rem; }
 }
+
+/* Real, complete paper figures in the conference publication cards. */
+.homepage-v2 .conference-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.homepage-v2 .conference-card .pub-image-col { max-width: none; width: 100%; align-self: stretch; }
+.homepage-v2 .conference-card .pub-figure-link { aspect-ratio: 16 / 10; padding: 14px; background: #fff; }
+.homepage-v2 .conference-card .pub-thumb { object-fit: contain; }
+.homepage-v2 .conference-card .pub-content { padding: 17px 18px 15px; }
+.homepage-v2 .conference-card .pub-title { font-size: 1rem; line-height: 1.45; }
+.homepage-v2 .conference-card .pub-link { text-decoration: none; }
+/* Keep the actual portrait; show the face at 2.5 times its former display size. */
+.homepage-v2 .profile-photo-frame {
+ --avatar-width: 130px; --avatar-height: 162px;
+ display: block; position: relative; overflow: hidden; line-height: 0;
+ width: var(--avatar-width); height: var(--avatar-height);
+ flex: 0 0 var(--avatar-width); border-radius: 5px;
+}
+.homepage-v2 .profile-photo-frame .profile-photo {
+ position: absolute; max-width: none; width: 250%; height: 250%;
+ left: -75%; top: -92%; object-fit: cover; border-radius: 0;
+}
+@media (max-width:1100px) {
+ .homepage-v2 .profile-photo-frame { --avatar-width:112px; --avatar-height:140px; }
+}
+@media (max-width:960px) {
+ .homepage-v2 .conference-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap:20px; }
+ .homepage-v2 .profile-photo-frame { --avatar-width:120px; --avatar-height:150px; }
+}
+@media (max-width:720px) {
+ .homepage-v2 .conference-grid { grid-template-columns:minmax(0,1fr); gap:22px; }
+ .homepage-v2 .conference-card .pub-content { padding:16px 17px; }
+ .homepage-v2 .conference-card .pub-title { font-size:1rem; }
+ .homepage-v2 .profile-photo-frame { --avatar-width:96px; --avatar-height:120px; }
+}
+@media (max-width:360px) {
+ .homepage-v2 .profile-photo-frame { --avatar-width:82px; --avatar-height:103px; }
+}
