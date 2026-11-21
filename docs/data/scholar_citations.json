@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 927,
+    "total_citations": 935,
     "h_index": 17,
-    "i10_index": 33,
+    "i10_index": 34,
     "paper_count": 72,
-    "updated": "2026-11-20",
-    "updated_at_utc": "2026-11-20T19:06:50+00:00",
+    "updated": "2026-11-21",
+    "updated_at_utc": "2026-11-21T17:58:11+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -554,6 +554,10 @@
     {
       "date": "2026-11-20",
       "total_citations": 927
+    },
+    {
+      "date": "2026-11-21",
+      "total_citations": 935
     }
   ],
   "all_papers": [
@@ -561,7 +565,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 84,
+      "citations": 85,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -589,7 +593,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 46,
+      "citations": 47,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {
@@ -684,6 +688,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
     },
     {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 16,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -710,13 +721,6 @@
       "venue": "ICASSP 2025, 2025",
       "citations": 16,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
-    },
-    {
-      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 15,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
       "title": "Visual Variational Autoencoder Prompt Tuning",
@@ -757,7 +761,7 @@
       "title": "4D multimodal co-attention fusion network with latent contrastive alignment for alzheimer’s diagnosis",
       "year": "2026",
       "venue": "WACV 2026, 2026",
-      "citations": 11,
+      "citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:SdhP9T11ey4C"
     },
     {
@@ -766,6 +770,13 @@
       "venue": "arXiv preprint arXiv:2608.14945, 2026",
       "citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:N5tVd3kTz84C"
+    },
+    {
+      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
+      "year": "2025",
+      "venue": "ECML PKDD 2025, 2025",
+      "citations": 10,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
     },
     {
       "title": "Tailoring adversarial attacks on deep neural networks for targeted class manipulation using DeepFool algorithm",
@@ -789,6 +800,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:0EnyYjriUFMC"
     },
     {
+      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 9,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
+    },
+    {
       "title": "Geometric multi-instance learning for weakly supervised gastric cancer segmentation",
       "year": "2026",
       "venue": "npj Digital Medicine, 2026",
@@ -796,25 +814,11 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:uWQEDVKXjbEC"
     },
     {
-      "title": "ETT-CKGE: Efficient Task-Driven Tokens for Continual Knowledge Graph Embedding",
-      "year": "2025",
-      "venue": "ECML PKDD 2025, 2025",
-      "citations": 9,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:CHSYGLWDkRkC"
-    },
-    {
       "title": "Stochastic interpolants via conditional dependent coupling",
       "year": "2026",
       "venue": "NeurIPS 2026, 2026",
       "citations": 8,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ns9cj8rnVeAC"
-    },
-    {
-      "title": "SpaMEM: Benchmarking Dynamic Spatial Reasoning via Perception–Memory Integration in Embodied Environments",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 8,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:dQ2og3OwTAUC"
     },
     {
       "title": "Personalize Your Large Vision-language Models With In-context Prompt Tuning",
@@ -838,18 +842,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:iH-uZ7U-co4C"
     },
     {
+      "title": "Leveraging Latent Visual Reasoning in Silence",
+      "year": "2026",
+      "venue": "NeurIPS 2026, 2026",
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
+    },
+    {
       "title": "Beyond editing pairs: Fine-grained instructional image editing via multi-scale learnable regions",
       "year": "2025",
       "venue": "arXiv preprint arXiv:2505.19352, 2025",
       "citations": 6,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
-      "title": "Leveraging Latent Visual Reasoning in Silence",
-      "year": "2026",
-      "venue": "NeurIPS 2026, 2026",
-      "citations": 5,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:BrmTIyaxlBUC"
     },
     {
       "title": "Drift Flow Matching",
@@ -887,6 +891,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XiVPGOgt02cC"
     },
     {
+      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
+      "year": "2026",
+      "venue": "Geo-spatial Information Science, 1-24, 2026",
+      "citations": 3,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
+    },
+    {
       "title": "TASAM: Terrain-and-Aware Segment Anything Model for Temporal-Scale Remote Sensing Segmentation",
       "year": "2025",
       "venue": "2025 IEEE 37th International Conference on Tools with Artificial …, 2025",
@@ -906,13 +917,6 @@
       "venue": "arXiv preprint arXiv:2609.34563, 2026",
       "citations": 2,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
-    },
-    {
-      "title": "GeoPriorclip: a foundational remote sensing vision-language model enhanced with cascaded geographic information priors",
-      "year": "2026",
-      "venue": "Geo-spatial Information Science, 1-24, 2026",
-      "citations": 2,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:K3LRdlH-MEoC"
     },
     {
       "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
@@ -1067,7 +1071,7 @@
       "title": "Information-theoretic graph fusion with vision-language-action model for policy reasoning and dual robotic control",
       "year": "2026",
       "venue": "Information Fusion, 104193, 2026",
-      "citations": 84,
+      "citations": 85,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:p2g8aNsByqUC"
     },
     {
@@ -1095,7 +1099,7 @@
       "title": "Agent Harness Engineering: A Survey",
       "year": "2026",
       "venue": "OpenReview preprint, 2026",
-      "citations": 46,
+      "citations": 47,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:wbdj-CoPYUoC"
     },
     {

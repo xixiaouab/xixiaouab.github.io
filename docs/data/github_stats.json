@@ -6,12 +6,12 @@
     "scholar_id": "Q4DnRVgAAAAJ"
   },
   "summary": {
-    "total_stars": 455,
+    "total_stars": 456,
     "public_repository_count": 46,
     "owned_repository_count": 19,
     "additional_research_repository_count": 27,
-    "updated": "2026-11-20",
-    "updated_at_utc": "2026-11-20T19:06:53+00:00",
+    "updated": "2026-11-21",
+    "updated_at_utc": "2026-11-21T17:58:14+00:00",
     "source": "github_rest_verified_personal_and_coauthored_repositories"
   },
   "scope": {
@@ -75,7 +75,7 @@
       "id": 1391988195,
       "full_name": "xixiaouab/ReaLVR-code",
       "html_url": "https://github.com/xixiaouab/ReaLVR-code",
-      "stars": 50,
+      "stars": 51,
       "owned": true,
       "papers": [
         {
