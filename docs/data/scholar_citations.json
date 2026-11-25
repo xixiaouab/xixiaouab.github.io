@@ -10,8 +10,8 @@
     "h_index": 17,
     "i10_index": 34,
     "paper_count": 72,
-    "updated": "2026-11-24",
-    "updated_at_utc": "2026-11-24T21:13:03+00:00",
+    "updated": "2026-11-25",
+    "updated_at_utc": "2026-11-25T20:28:54+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -570,6 +570,10 @@
     {
       "date": "2026-11-24",
       "total_citations": 943
+    },
+    {
+      "date": "2026-11-25",
+      "total_citations": 943
     }
   ],
   "all_papers": [
@@ -924,7 +928,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:mB3voiENLucC"
     },
     {
-      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "title": "Rethinking latent visual reasoning: Grounding latent reasoning in visual evidence",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2609.34563, 2026",
       "citations": 2,

@@ -10,8 +10,8 @@
     "public_repository_count": 46,
     "owned_repository_count": 19,
     "additional_research_repository_count": 27,
-    "updated": "2026-11-24",
-    "updated_at_utc": "2026-11-24T21:13:06+00:00",
+    "updated": "2026-11-25",
+    "updated_at_utc": "2026-11-25T20:28:57+00:00",
     "source": "github_rest_verified_personal_and_coauthored_repositories"
   },
   "scope": {
@@ -80,7 +80,7 @@
       "papers": [
         {
           "scholar_publication_id": "Q4DnRVgAAAAJ:kzcrU_BdoSEC",
-          "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+          "title": "Rethinking latent visual reasoning: Grounding latent reasoning in visual evidence",
           "evidence_url": "https://xixiaouab.github.io/projects/ReaLVR/"
         }
       ]
