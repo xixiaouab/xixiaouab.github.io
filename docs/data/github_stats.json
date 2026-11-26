@@ -10,8 +10,8 @@
     "public_repository_count": 46,
     "owned_repository_count": 19,
     "additional_research_repository_count": 27,
-    "updated": "2026-11-25",
-    "updated_at_utc": "2026-11-25T20:28:57+00:00",
+    "updated": "2026-11-26",
+    "updated_at_utc": "2026-11-26T20:11:28+00:00",
     "source": "github_rest_verified_personal_and_coauthored_repositories"
   },
   "scope": {
@@ -36,11 +36,20 @@
     ]
   },
   "coverage": {
-    "scholar_paper_count": 72,
+    "scholar_paper_count": 74,
     "audited_paper_count": 72,
     "excluded_paper_count": 1,
     "papers_with_verified_repositories": 36,
-    "new_papers_pending_repository_audit": []
+    "new_papers_pending_repository_audit": [
+      {
+        "scholar_publication_id": "Q4DnRVgAAAAJ:t7zJ5fGR-2UC",
+        "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism"
+      },
+      {
+        "scholar_publication_id": "Q4DnRVgAAAAJ:XD-gHx7UXLsC",
+        "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment"
+      }
+    ]
   },
   "repositories": [
     {
@@ -388,7 +397,7 @@
       "papers": [
         {
           "scholar_publication_id": "Q4DnRVgAAAAJ:tKAzc9rXhukC",
-          "title": "Posterior Flow Matching",
+          "title": "Posterior flow matching",
           "evidence_url": "https://merry7cherry.github.io/posterior-flow-matching/"
         }
       ]

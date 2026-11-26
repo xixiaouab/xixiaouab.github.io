@@ -6,12 +6,12 @@
     "affiliation": "ORNL | UAB"
   },
   "summary": {
-    "total_citations": 943,
+    "total_citations": 963,
     "h_index": 17,
     "i10_index": 34,
-    "paper_count": 72,
-    "updated": "2026-11-25",
-    "updated_at_utc": "2026-11-25T20:28:54+00:00",
+    "paper_count": 74,
+    "updated": "2026-11-26",
+    "updated_at_utc": "2026-11-26T20:11:25+00:00",
     "source": "serpapi"
   },
   "history": [
@@ -574,6 +574,10 @@
     {
       "date": "2026-11-25",
       "total_citations": 943
+    },
+    {
+      "date": "2026-11-26",
+      "total_citations": 963
     }
   ],
   "all_papers": [
@@ -595,7 +599,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 56,
+      "citations": 57,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -616,14 +620,14 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 42,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 33,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -641,18 +645,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:b0M2c_1WBrUC"
     },
     {
+      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 29,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
+    },
+    {
       "title": "Magicid: Hybrid preference optimization for id-consistent and dynamic-preserved video customization",
       "year": "2025",
       "venue": "ICCV 2025, 2025",
       "citations": 29,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:5Ul4iDaHHb8C"
-    },
-    {
-      "title": "Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 28,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:AXPGKjj_ei8C"
     },
     {
       "title": "Multi-dimension transformer with attention-based filtering for medical image segmentation",
@@ -683,6 +687,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LPZeul_q3PIC"
     },
     {
+      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
+      "year": "2026",
+      "venue": "CVPR 2026, 2026",
+      "citations": 18,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
+    },
+    {
       "title": "Learning Straight Flows: Variational Flow Matching for Efficient Generation",
       "year": "2026",
       "venue": "CVPR 2026, 2026",
@@ -690,25 +701,18 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:f2IySw72cVMC"
     },
     {
+      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
+      "year": "2026",
+      "venue": "ECCV 2026, 2026",
+      "citations": 17,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
+    },
+    {
       "title": "Self-supervised visual prompting for cross-domain road damage detection",
       "year": "2026",
       "venue": "WACV 2026, 2026",
       "citations": 17,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:WqliGbK-hY8C"
-    },
-    {
-      "title": "Layer-Specific Prompt Fusion Discovery via Differentiable Search in Vision Foundation Models",
-      "year": "2026",
-      "venue": "ECCV 2026, 2026",
-      "citations": 16,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eMMeJKvmdy0C"
-    },
-    {
-      "title": "fMRI-LM: Towards a Universal Foundation Model for Language-Aligned fMRI Understanding",
-      "year": "2026",
-      "venue": "CVPR 2026, 2026",
-      "citations": 16,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:_xSYboBqXhAC"
     },
     {
       "title": "HIERAMP: Coarse-to-Fine Autoregressive Amplification for Generative Dataset Distillation",
@@ -739,6 +743,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:geHnlv5EZngC"
     },
     {
+      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
+      "year": "2026",
+      "venue": "NeurIPS 2025, 2026",
+      "citations": 15,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
+    },
+    {
       "title": "CAD-VAE: Leveraging correlation-aware latents for comprehensive fair disentanglement",
       "year": "2026",
       "venue": "AAAI 2026, 2026",
@@ -758,13 +769,6 @@
       "venue": "🏆 ICASSP 2026 (Oral), 2026",
       "citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:LjlpjdlvIbIC"
-    },
-    {
-      "title": "More-brain: Routed mixture of experts for interpretable and generalizable cross-subject fmri visual decoding",
-      "year": "2026",
-      "venue": "NeurIPS 2025, 2026",
-      "citations": 14,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:9vf0nzSNQJEC"
     },
     {
       "title": "Rethinking Layer-Wise Information Allocation for Vision Foundation Model Adaptation",
@@ -851,6 +855,13 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:q3oQSFYPqjQC"
     },
     {
+      "title": "RL-VLA: Reinforcement Learning VLA Accelerating via Full Asynchronism",
+      "year": "2026",
+      "venue": "The 1st Workshop on Scaling Post-training for LLMs, 2026",
+      "citations": 8,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:t7zJ5fGR-2UC"
+    },
+    {
       "title": "Focus: Fused observation of channels for unveiling spectra",
       "year": "2025",
       "venue": "ICME 2026, 2025",
@@ -935,6 +946,27 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:kzcrU_BdoSEC"
     },
     {
+      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
+      "year": "2026",
+      "venue": "TMLR 2026, 2026",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
+    },
+    {
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "year": "2026",
+      "venue": "arXiv preprint arXiv:2607.27081, 2026",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:XD-gHx7UXLsC"
+    },
+    {
+      "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
+      "year": "2025",
+      "venue": "arXiv preprint arXiv:2509.24311, 2025",
+      "citations": 2,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
+    },
+    {
       "title": "E2CB2former: Effecitve and Explainable Transformer for CB2 Receptor Ligand Activity Prediction",
       "year": "2025",
       "venue": "2025 International Joint Conference on Neural Networks (IJCNN), 1-10, 2025",
@@ -956,13 +988,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ZfRJV9d4-WMC"
     },
     {
-      "title": "Adapting Vision Foundation Models with Cascaded Semantics",
-      "year": "2026",
-      "venue": "TMLR 2026, 2026",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:ye4kPcJQO24C"
-    },
-    {
       "title": "Less Tokens, Better Forecasts: Sparse Residual Routing for Efficient Weather Prediction",
       "year": "2026",
       "venue": "ECCV 2026, 2026",
@@ -982,13 +1007,6 @@
       "venue": "Symmetry 18 (9), 1498, 2026",
       "citations": 1,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:W5xh706n7nkC"
-    },
-    {
-      "title": "Towards Foundation Models for Cryo-ET Subtomogram Analysis",
-      "year": "2025",
-      "venue": "arXiv preprint arXiv:2509.24311, 2025",
-      "citations": 1,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NaGl4SEjCO4C"
     },
     {
       "title": "UtoMe: Observation-Uncertainty-Guided Token Merging for Weather Foundation Models",
@@ -1054,7 +1072,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:NJ774b8OgUMC"
     },
     {
-      "title": "Posterior Flow Matching",
+      "title": "Posterior flow matching",
       "year": "2026",
       "venue": "arXiv preprint arXiv:2610.13994, 2026",
       "citations": 0,
@@ -1101,7 +1119,7 @@
       "title": "M²IV: Towards efficient and fine-grained multimodal in-context learning via representation engineering",
       "year": "2025",
       "venue": "COLM 2025, 2025",
-      "citations": 56,
+      "citations": 57,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:zA6iFVUQeVQC"
     },
     {
@@ -1122,14 +1140,14 @@
       "title": "Not All Directions Matter: Towards Structured and Task-Aware Low-Rank Model Adaptation",
       "year": "2026",
       "venue": "ACL 2026, 2026",
-      "citations": 42,
+      "citations": 43,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:eJXPG6dFmWUC"
     },
     {
       "title": "Describe Anything in Medical Images",
       "year": "2025",
       "venue": "ICML 2025 Workshop on FM4LS, 2025",
-      "citations": 33,
+      "citations": 34,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Q4DnRVgAAAAJ&pagesize=100&citation_for_view=Q4DnRVgAAAAJ:HDshCWvjkbEC"
     },
     {
